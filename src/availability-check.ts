@@ -27,30 +27,13 @@ const projectId = process.env.GCP_PROJECT_ID;
 
 let clientOptions = { projectId };
 
-const credentialsPathLocal = "avid-infinity-370500-d9f7e84d26a4.txt";
+const credentialsPathLocal = "avid-infinity-370500-d9f7e84d26a4.json";
 
 if (isCloudRun || isProduction) {
-  const credentialsJson = process.env.GOOGLE_APPLICATION_CREDENTIALS;
-
-  if (credentialsJson) {
-    try {
-      const credentials = JSON.parse(credentialsJson.replace(/\\n/g, "\n"));
-      // @ts-ignore
-      clientOptions.credentials = credentials;
-      console.log(
-        "Produção: Credenciais carregadas do Secret Manager (via ENV).",
-      );
-    } catch (e) {
-      console.error(
-        "ERRO: Falha ao analisar JSON da variável de credenciais. Recorrendo à Workload Identity (ADC).",
-        e,
-      );
-    }
-  } else {
-    console.log(
-      "Produção: Variável GOOGLE_APPLICATION_CREDENTIALS ausente. Usando Workload Identity (ADC).",
-    );
-  }
+  console.log(
+    "☁️ Produção: Usando Workload Identity (ADC). Nenhuma credencial explícita necessária.",
+  );
+  // Em produção, não usa credenciais explícitas - usa ADC do Cloud Run
 } else {
   try {
     const credentialsJson = fs.readFileSync(credentialsPathLocal, "utf8");

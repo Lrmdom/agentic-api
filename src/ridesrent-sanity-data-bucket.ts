@@ -21,28 +21,15 @@ const isCloudRun = !!process.env.K_SERVICE;
 const GOOGLE_CLOUD_PROJECT_ID =
   process.env.GCP_PROJECT_ID || "avid-infinity-370500";
 const GCS_BUCKET_NAME = "ridesrent-sanity-json-data";
-const credentialsPathLocal = "avid-infinity-370500-d9f7e84d26a4.txt";
+const credentialsPathLocal = "avid-infinity-370500-d9f7e84d26a4.json";
 
 let clientOptions = { projectId: GOOGLE_CLOUD_PROJECT_ID };
 
 if (isCloudRun || isProduction) {
-  const credentialsJson = process.env.GOOGLE_APPLICATION_CREDENTIALS;
-
-  if (credentialsJson) {
-    try {
-      const credentials = JSON.parse(credentialsJson.replace(/\\n/g, "\n"));
-      // @ts-ignore
-      clientOptions.credentials = credentials;
-      console.log(
-        "Produção: Credenciais carregadas do Secret Manager (via ENV).",
-      );
-    } catch (e) {
-      console.error(
-        "ERRO: Falha ao analisar JSON da variável de credenciais.",
-        e,
-      );
-    }
-  }
+  console.log(
+    "☁️ Produção: Usando Workload Identity (ADC). Nenhuma credencial explícita necessária.",
+  );
+  // Em produção, não usa credenciais explícitas - usa ADC do Cloud Run
 } else {
   try {
     const credentialsJson = fs.readFileSync(credentialsPathLocal, "utf8");

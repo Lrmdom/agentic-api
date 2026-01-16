@@ -3,8 +3,8 @@ import { Storage } from "@google-cloud/storage";
 import { Buffer } from "node:buffer";
 import * as fs from "node:fs";
 import { createClient } from "@sanity/client";
-
 import { cors } from "hono/cors";
+import { getGoogleCloudConfigWithCredentials } from "./utils/google-auth.js";
 
 const app = new Hono();
 app.use("*", cors());
@@ -12,49 +12,10 @@ app.use("*", cors());
 const isProduction = process.env.NODE_ENV === "production";
 const isCloudRun = !!process.env.K_SERVICE;
 
-const GOOGLE_CLOUD_PROJECT_ID =
-  process.env.GCP_PROJECT_ID || "avid-infinity-370500";
 const GCS_BUCKET_NAME = "heritage-sanity-json-data";
-const credentialsPathLocal = "avid-infinity-370500-d9f7e84d26a4.txt";
 
-let clientOptions = { projectId: GOOGLE_CLOUD_PROJECT_ID };
-
-if (isCloudRun || isProduction) {
-  const credentialsJson = process.env.GOOGLE_APPLICATION_CREDENTIALS;
-
-  if (credentialsJson) {
-    try {
-      const credentials = JSON.parse(credentialsJson.replace(/\\n/g, "\n"));
-      // @ts-ignore
-      clientOptions.credentials = credentials;
-      console.log(
-        "Produção: Credenciais carregadas do Secret Manager (via ENV).",
-      );
-    } catch (e) {
-      console.error(
-        "ERRO: Falha ao analisar JSON da variável de credenciais. Recorrendo à Workload Identity (ADC).",
-        e,
-      );
-    }
-  } else {
-    console.log(
-      "Produção: Variável GOOGLE_APPLICATION_CREDENTIALS ausente. Usando Workload Identity (ADC).",
-    );
-  }
-} else {
-  try {
-    const credentialsJson = fs.readFileSync(credentialsPathLocal, "utf8");
-    // @ts-ignore
-    clientOptions.credentials = JSON.parse(credentialsJson);
-    console.log(
-      `Local DEV: Credenciais carregadas do ficheiro: ${credentialsPathLocal}`,
-    );
-  } catch (e) {
-    console.warn(
-      `AVISO: Falha ao carregar credenciais locais. Usando Application Default Credentials (gcloud auth login).`,
-    );
-  }
-}
+// Configuração usando helper centralizado
+const clientOptions = getGoogleCloudConfigWithCredentials();
 
 const storage = new Storage(clientOptions);
 

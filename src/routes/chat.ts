@@ -2,31 +2,10 @@ import { Hono } from "hono";
 import { BigQuery } from "@google-cloud/bigquery";
 import { z } from "zod";
 import { zValidator } from "@hono/zod-validator";
+import { getGoogleCloudConfigWithCredentials } from "../utils/google-auth.js";
 
-// Configuração para produção/desenvolvimento
-const isProduction = process.env.NODE_ENV === "production" || process.env.K_SERVICE || process.env.K_REVISION;
-const GOOGLE_CLOUD_PROJECT_ID = process.env.GCP_PROJECT_ID || process.env.GOOGLE_CLOUD_PROJECT || "avid-infinity-370500";
-
-let clientOptions: any = { projectId: GOOGLE_CLOUD_PROJECT_ID };
-
-if (isProduction) {
-  console.log("☁️ Produção: Usando Workload Identity para BigQuery.");
-  // Em produção, usa Workload Identity (sem credenciais explícitas)
-} else {
-  // Em desenvolvimento, tenta usar arquivo local se existir
-  const fs = await import("node:fs");
-  const credentialsPath = "./avid-infinity-370500-d9f7e84d26a4.json";
-  
-  try {
-    if (fs.existsSync(credentialsPath)) {
-      const credentials = JSON.parse(fs.readFileSync(credentialsPath, "utf8"));
-      clientOptions.credentials = credentials;
-      console.log("💻 Dev: Usando credenciais locais para BigQuery.");
-    }
-  } catch (e) {
-    console.log("⚠️ Nenhuma credencial local encontrada. Usando ADC.");
-  }
-}
+// Configuração para produção/desenvolvimento usando helper centralizado
+const clientOptions = getGoogleCloudConfigWithCredentials();
 
 // Initialize BigQuery client with proper configuration
 const bigquery = new BigQuery(clientOptions);
@@ -35,10 +14,9 @@ const bigquery = new BigQuery(clientOptions);
 const BIGQUERY_LOCATION = "europe-southwest1"; // Dataset location
 const CONNECTION_LOCATION = "europe-southwest1"; // Connection location
 
-// Connection settings for query
+// Configuração de conexão usando helper centralizado
 const connectionSettings = {
-  projectId: process.env.GCP_PROJECT_ID,
-  keyFilename: process.env.GOOGLE_APPLICATION_CREDENTIALS,
+  projectId: clientOptions.projectId,
   location: BIGQUERY_LOCATION,
 };
 

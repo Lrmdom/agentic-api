@@ -87,7 +87,7 @@ const SERVER_CONFIGS = [
     args: ["-y", "@modelcontextprotocol/server-google-maps"],
     env: { GOOGLE_MAPS_API_KEY: process.env.GOOGLE_MAPS_API_KEY! },
   }, */
-  {
+  /*{
     name: "commercelayermetrics",
     command: "node",
     args: [path.resolve("/Users/leoneldomingos/Projects/mcp-server-metrics/dist/server/index.js")],
@@ -95,7 +95,7 @@ const SERVER_CONFIGS = [
       CL_CLIENT_ID: process.env.CL_INTEGRATION_CLIENT_ID!,
       CL_CLIENT_SECRET: process.env.CL_INTEGRATION_CLIENT_SECRET!,
     },
-  },
+  },*/
   ...getBrevoServers(),
 ];
 

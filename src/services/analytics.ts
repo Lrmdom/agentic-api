@@ -1,55 +1,27 @@
 import { BetaAnalyticsDataClient } from "@google-analytics/data";
-import fs from "fs";
+import { getGoogleCloudConfig } from "../utils/google-auth.js";
 
-let analyticsClient: BetaAnalyticsDataClient;
+// Cliente Analytics será inicializado apenas quando necessário
+let analyticsClient: BetaAnalyticsDataClient | null = null;
 
-// Envolvemos a inicialização num try/catch para evitar crash no import
-try {
-  const getClientConfig = () => {
-    // Em produção, usa Workload Identity diretamente
-    const isProduction = process.env.NODE_ENV === 'production' || process.env.K_SERVICE || process.env.K_REVISION;
-    
-    if (isProduction) {
-      console.log("☁️ Produção: Usando Workload Identity.");
-      return {};
-    }
+// Função para inicializar o cliente apenas quando necessário
+function getAnalyticsClient(): BetaAnalyticsDataClient {
+  if (analyticsClient) {
+    return analyticsClient;
+  }
 
-    // Em desenvolvimento, tenta usar variável de ambiente ou arquivo local
-    if (process.env.GOOGLE_APPLICATION_CREDENTIALS) {
-      return { keyFilename: process.env.GOOGLE_APPLICATION_CREDENTIALS };
-    }
-
-    const localKeyPath = "./avid-infinity-370500-d9f7e84d26a4.json";
-    
-    // Se o ficheiro local existir, usa-o
-    if (fs.existsSync(localKeyPath)) {
-      console.log("💻 Dev: Ficheiro encontrado. Usando chave local.");
-      return { keyFilename: localKeyPath };
-    }
-
-    // Fallback para Workload Identity
-    console.log("⚠️ Nenhuma credencial encontrada. Usando Workload Identity.");
-    return {};
-  };
-
-  analyticsClient = new BetaAnalyticsDataClient(getClientConfig());
+  const config = getGoogleCloudConfig();
+  analyticsClient = new BetaAnalyticsDataClient(config);
   console.log("✅ Cliente do Analytics inicializado com sucesso.");
-} catch (e: any) {
-  console.error("❌ Falha crítica ao inicializar Analytics Client:", e.message);
+  return analyticsClient;
 }
 
 const propertyId = process.env.GA4_PROPERTY_ID || "511766107";
 
 export async function runRealtimeReport(limit = 10) {
-  // @ts-ignore
-  if (!analyticsClient) {
-    return {
-      error: "O cliente do Analytics não foi inicializado corretamente.",
-    };
-  }
-
   try {
-    const [response] = await analyticsClient.runRealtimeReport({
+    const client = getAnalyticsClient();
+    const [response] = await client.runRealtimeReport({
       property: `properties/${propertyId}`,
       dimensions: [
         { name: "customUser:user_name" },
@@ -82,8 +54,8 @@ export async function runAnalyticsReport(days = 7, limit = 5) {
   try {
     console.log(`📊 Consultando Relatório Histórico (${days} dias)`);
 
-    // @ts-ignore
-    const [response] = await analyticsClient.runReport({
+    const client = getAnalyticsClient();
+    const [response] = await client.runReport({
       property: `properties/${propertyId}`,
       dateRanges: [{ startDate: `${days}daysAgo`, endDate: "today" }],
       dimensions: [{ name: "pagePath" }],

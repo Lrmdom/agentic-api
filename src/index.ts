@@ -8,8 +8,8 @@ import { cors } from 'hono/cors';
 import { genkit, z } from "genkit";
 import { googleAI } from "@genkit-ai/google-genai";
 
-// Importações de Analytics
-import { runRealtimeReport, runAnalyticsReport } from "./mcp/analytics.js";
+// Importações de Analytics (carregado apenas quando necessário)
+// import { runRealtimeReport, runAnalyticsReport } from "./mcp/analytics.js";
 
 // Importações do ecossistema Hono/PubSub
 import event from "./receive-clayer-event.js";
@@ -53,6 +53,9 @@ const analyticsTool = ai.defineTool(
         }),
     },
     async (input) => {
+        // Importação dinâmica para evitar carregamento em produção
+        const { runRealtimeReport, runAnalyticsReport } = await import("./mcp/analytics.js");
+        
         if (input.type === "realtime") return await runRealtimeReport();
         return await runAnalyticsReport(input.days);
     }
@@ -144,7 +147,6 @@ async function getAllMcpTools() {
     return tools;
 }
 
-// 3. Definição do Flow do Agente
 const agentFlow = ai.defineFlow(
     {
         name: 'agentFlow',
@@ -154,7 +156,9 @@ const agentFlow = ai.defineFlow(
     async (prompt) => {
         const mcpTools = await getAllMcpTools();
 
+        // @ts-ignore
         const response = await ai.generate({
+            model: 'googleai/gemini-2.0-flash',
             prompt: prompt,
             system: `
                 És um Especialista em Dados com acesso a ferramentas reais. 
@@ -164,10 +168,11 @@ const agentFlow = ai.defineFlow(
                 3. NÃO DIGAS que não podes fazer. Tenta sempre usar as ferramentas disponíveis.
             `,
             tools: [analyticsTool, ...mcpTools],
+            maxSteps: 20,
             config: { 
                 temperature: 0,
-                maxSteps: 20
-            },
+
+            }
         });
 
         return response.text;
@@ -184,11 +189,16 @@ app.use('/*', cors({
   credentials: true,
 }));
 
-// Endpoints
+// Atualiza a rota para aceitar 'message' ou 'question'
 app.post('/ask', async (c) => {
-    const {message} = await c.req.json();
-    const result = await agentFlow(message);
-    return c.json({result});
+    const body = await c.req.json();
+    // Aceita ambas as chaves para evitar erros de integração
+    const query = body.message || body.question; 
+    
+    if (!query) return c.json({ error: "No message provided" }, 400);
+
+    const result = await agentFlow(query);
+    return c.json({ result });
 });
 
 // Rotas legadas e utilitários
@@ -242,16 +252,20 @@ app.route("/mcp", mcpApi);
         console.error("❌ Erro no arranque do MCP:", error);
     }
 
-    serve({ fetch: app.fetch, port: parseInt(process.env.PORT || '8080') }, (info) => {
-    console.log(`🚀 API: http://localhost:${info.port}`);
-    
-    // Verifica rigorosamente se não estamos em produção antes de sugerir a UI
-    const isActuallyProd = process.env.NODE_ENV === 'production' || !!process.env.K_SERVICE;
-    
-    if (!isActuallyProd) {
-        console.log(`📊 Genkit UI: http://localhost:4001`);
-    } else {
-        console.log(`🔒 Genkit UI desativada em modo produção.`);
-    }
+   // ✅ Adiciona 'hostname: 0.0.0.0' para o Cloud Run aceitar ligações externas
+serve({
+  fetch: app.fetch,
+  port: parseInt(process.env.PORT || '8080'),
+  hostname: '0.0.0.0' // <-- ESTA É A CHAVE
+}, (info) => {
+  console.log(`🚀 API: http://0.0.0.0:${info.port}`);
+
+  const isActuallyProd = process.env.NODE_ENV === 'production' || !!process.env.K_SERVICE;
+
+  if (!isActuallyProd) {
+      console.log(`📊 Genkit UI: http://localhost:4001`);
+  } else {
+      console.log(`🔒 Genkit UI desativada em modo produção.`);
+  }
 });
 })();

@@ -1,134 +1,191 @@
-import { createMarketingOS } from "../graph.js";
+import {Hono} from "hono";
+import {getMcpManagerInstance, getAvailableTools} from "../servers.js";
+// Importações de Analytics (carregado dinamicamente para evitar ENOENT)
+// import {
+//     runAnalyticsReport,
+//     runRealtimeReport,
+// } from "../../services/analytics.js";
+import {GoogleGenerativeAI} from "@google/generative-ai";
 
+// Tratamento de erros globais
 process.on("uncaughtException", (err) => {
-  console.error("💥 CRASH FATAL (Uncaught Exception):", err.message);
-  console.error(err.stack);
-  process.exit(1);
+    console.error("💥 CRASH FATAL (Uncaught Exception):", err.message);
+    process.exit(1);
 });
 
-process.on("unhandledRejection", (reason, promise) => {
-  console.error("💥 REJEIÇÃO NÃO TRATADA em:", promise, "razão:", reason);
-});
 function sanitizeToolName(name: string): string {
-  // 1. Remove caracteres que não sejam alfanuméricos, _, ., : ou -
-  let clean = name.replace(/[^a-zA-Z0-9_.:-]/g, "_");
-
-  // 2. Garante que começa com letra ou underscore
-  if (!/^[a-zA-Z_]/.test(clean)) {
-    clean = "tool_" + clean;
-  }
-
-  // 3. Corta para o máximo de 64 caracteres (limite do Gemini)
-  return clean.slice(0, 64);
+    let clean = name.replace(/[^a-zA-Z0-9_.:-]/g, "_");
+    if (!/^[a-zA-Z_]/.test(clean)) clean = "tool_" + clean;
+    return clean.slice(0, 64);
 }
+
 function cleanSchema(schema: any): any {
-  if (!schema || typeof schema !== "object") return schema;
-
-  // Criamos uma cópia limpa
-  const newSchema: any = {};
-
-  // Lista de campos permitidos pelo Gemini em FunctionDeclaration
-  // Se o campo for 'type', 'properties', ou 'required', nós mantemos.
-  if (schema.type) newSchema.type = schema.type;
-  if (schema.properties) {
-    newSchema.properties = {};
-    for (const key in schema.properties) {
-      newSchema.properties[key] = cleanSchema(schema.properties[key]);
+    if (!schema || typeof schema !== "object") {
+        return {type: "object", properties: {}};
     }
-  }
-  if (schema.required) newSchema.required = schema.required;
-  if (schema.items) newSchema.items = cleanSchema(schema.items);
-  if (schema.description) newSchema.description = schema.description;
 
-  // Nota: Campos como $schema, additionalProperties, default, etc,
-  // são ignorados e não entram no newSchema.
+    const newSchema: any = {
+        type: "object",
+        properties: {} // ✅ Garante que isto existe sempre
+    };
 
-  return newSchema;
+    // Se o esquema original já tem propriedades, limpamos cada uma delas
+    if (schema.properties && Object.keys(schema.properties).length > 0) {
+        for (const key in schema.properties) {
+            newSchema.properties[key] = cleanSchema(schema.properties[key]);
+        }
+        if (schema.required) newSchema.required = schema.required;
+    } else {
+        // Se não há propriedades, removemos o campo 'required' para evitar esquemas inválidos
+        delete newSchema.required;
+    }
+
+    if (schema.description) newSchema.description = schema.description;
+
+    return newSchema;
 }
-
-import { Hono } from "hono";
-import { getMcpManagerInstance, getAvailableTools } from "../servers.js";
-import {
-  runAnalyticsReport,
-  runRealtimeReport,
-} from "../../services/analytics.js"; // IMPORTA O TEU NOVO SERVIÇO
 
 const app = new Hono();
 
-// --- DEFINIÇÃO DA TOOL INTERNA ---
+// Tools Internas
 const googleAnalyticsTool = {
-  name: "internal_get_google_analytics_report", // Usei um prefixo para evitar conflitos
-  description:
-    "Obtém dados de tráfego (utilizadores e páginas) do Google Analytics GA4.",
-  parameters: {
-    type: "object",
-    properties: {
-      days: { type: "number", description: "Período em dias (ex: 7 ou 30)" },
-      limit: { type: "number", description: "Número máximo de resultados" },
+    name: "internal_get_google_analytics_report",
+    description: "Obtém dados de tráfego do Google Analytics GA4.",
+    parameters: {
+        type: "object",
+        properties: {
+            days: {type: "number", description: "Período em dias"},
+            limit: {type: "number", description: "Máximo de resultados"},
+        },
     },
-  },
 };
 
 const googleRealtimeTool = {
-  name: "internal_get_realtime_traffic",
-  description:
-    "Obtém os utilizadores ativos no site AGORA (últimos 30 minutos). Usa esta ferramenta quando o utilizador perguntar por dados 'em tempo real', 'agora' ou 'neste momento'.",
-  parameters: {
-    type: "object",
-    properties: {
-      limit: { type: "number", description: "Máximo de resultados (ex: 10)" },
+    name: "internal_get_realtime_traffic",
+    description: "Obtém os utilizadores ativos no site AGORA.",
+    parameters: {
+        type: "object",
+        properties: {
+            limit: {type: "number", description: "Máximo de resultados"},
+        },
     },
-  },
 };
 
-app.get("/tools", async (c) => {
-  try {
-    const tools = await getAvailableTools();
-    return c.json({ success: true, tools });
-  } catch (error: any) {
-    return c.json({ success: false, error: error.message }, 500);
-  }
-});
-
-app.post("/execute-tool", async (c) => {
-  try {
-    const { server, tool, args } = await c.req.json();
-    const mcpManager = await getMcpManagerInstance();
-    const result = await mcpManager.callTool(server, tool, args);
-    return c.json({ success: true, result });
-  } catch (error: any) {
-    return c.json({ success: false, error: error.message }, 500);
-  }
-});
-
 app.post("/chat", async (c) => {
-  try {
-    const { message } = await c.req.json();
+    try {
+        const {message} = await c.req.json();
+        const mcpManager = await getMcpManagerInstance();
+        const availableToolsMap = await getAvailableTools();
 
-    // ✅ ADICIONA O AWAIT AQUI
-    // Como createMarketingOS() é async, precisas de esperar pela compilação
-    const os = await createMarketingOS();
+        const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY!);
+        const model = genAI.getGenerativeModel({model: "gemini-2.0-flash"});
 
-    console.log("🚀 Iniciando processamento do Grafo...");
+        const functionDeclarations: any[] = [
+            {
+                name: sanitizeToolName(googleAnalyticsTool.name),
+                description: googleAnalyticsTool.description,
+                parameters: cleanSchema(googleAnalyticsTool.parameters)
+            },
+            {
+                name: sanitizeToolName(googleRealtimeTool.name),
+                description: googleRealtimeTool.description,
+                parameters: cleanSchema(googleRealtimeTool.parameters)
+            }
+        ];
 
-    const finalState = await os.invoke({
-      messages: [{ role: "user", content: message }],
-    });
+        const toolToManagerMap: Record<string, { server: string, originalName: string }> = {};
 
-    // Procura a última mensagem de texto do assistente (ignorando tool resultados brutos)
-    const assistantMessages = finalState.messages.filter(
-      (m) => (m.role === "assistant" || m.type === "assistant") && m.content,
-    );
-    const lastReply = assistantMessages[assistantMessages.length - 1]?.content;
+        for (const [serverName, tools] of Object.entries(availableToolsMap)) {
+            if (Array.isArray(tools)) {
+                for (const t of tools) {
+                    const sanitized = sanitizeToolName(`${serverName}_${t.name}`);
 
-    return c.json({
-      reply: lastReply || "Ocorreu um erro no processamento.",
-      context: finalState.currentProfile,
-    });
-  } catch (error: any) {
-    console.error("❌ Erro na rota /chat:", error);
-    return c.json({ error: error.message }, 500);
-  }
+                    // Forçamos a limpeza através do cleanSchema mesmo que pareça ter dados
+                    // O cleanSchema agora garante o formato { type: "object", properties: {} }
+                    const finalParameters = cleanSchema(t.inputSchema);
+
+                    functionDeclarations.push({
+                        name: sanitized,
+                        description: t.description || `Tool ${t.name}`,
+                        parameters: finalParameters
+                    });
+
+                    toolToManagerMap[sanitized] = {
+                        server: serverName,
+                        originalName: t.name
+                    };
+                }
+            }
+        }
+
+        // Primeira chamada
+        const result = await model.generateContent({
+            contents: [{role: "user", parts: [{text: message}]}],
+            tools: [{functionDeclarations}]
+        });
+
+        const response = result.response;
+        const functionCalls = response.functionCalls();
+
+        if (functionCalls && functionCalls.length > 0) {
+            const toolResults = [];
+
+            for (const call of functionCalls) {
+                const toolName = call.name;
+                const args = call.args as any;
+                let rawResponse;
+
+                try {
+                    if (toolName === sanitizeToolName(googleAnalyticsTool.name)) {
+                        // Importação dinâmica para evitar carregamento em produção
+                        const { runAnalyticsReport } = await import("../../services/analytics.js");
+                        rawResponse = await runAnalyticsReport(args.days || 7, args.limit || 10);
+                    } else if (toolName === sanitizeToolName(googleRealtimeTool.name)) {
+                        // Importação dinâmica para evitar carregamento em produção
+                        const { runRealtimeReport } = await import("../../services/analytics.js");
+                        rawResponse = await runRealtimeReport(args.limit || 10);
+                    } else {
+                        const mapping = toolToManagerMap[toolName];
+                        if (mapping) {
+                            rawResponse = await mcpManager.callTool(mapping.server, mapping.originalName, args);
+                        } else {
+                            throw new Error(`Tool ${toolName} not found`);
+                        }
+                    }
+
+                    // ✅ CORREÇÃO AQUI: Garante que é um objeto {} e não uma lista []
+                    const safeResponse = (Array.isArray(rawResponse) || typeof rawResponse !== 'object')
+                        ? {output: rawResponse}
+                        : rawResponse;
+
+                    toolResults.push({
+                        functionResponse: {name: toolName, response: safeResponse}
+                    });
+                } catch (err: any) {
+                    toolResults.push({
+                        functionResponse: {name: toolName, response: {error: err.message}}
+                    });
+                }
+            }
+
+            // Segunda chamada (Histórico completo é obrigatório)
+            const finalResult = await model.generateContent({
+                contents: [
+                    {role: "user", parts: [{text: message}]},
+                    {role: "model", parts: response.candidates?.[0]?.content?.parts || []},
+                    {role: "function", parts: toolResults}
+                ]
+            });
+
+            return c.json({reply: finalResult.response.text()});
+        }
+
+        return c.json({reply: response.text()});
+
+    } catch (error: any) {
+        console.error("❌ Erro /chat:", error);
+        return c.json({error: error.message}, 500);
+    }
 });
 
 export default app;

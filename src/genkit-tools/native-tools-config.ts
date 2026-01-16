@@ -1,6 +1,6 @@
 // src/genkit-tools/native-tools-config.ts
 import { supabaseTools } from './supabase-tools-native.js';
-import { analyticsTools } from './analytics-tools-native.js';
+// import { analyticsTools } from './analytics-tools-native.js'; // Importação dinâmica para evitar carregamento em produção
 
 // Verifica se estamos em produção
 const isProduction = process.env.NODE_ENV === 'production' || process.env.K_SERVICE || process.env.K_REVISION;
@@ -51,11 +51,14 @@ export const nativeTools = {
     },
   },
   
-  // Analytics tools
+  // Analytics tools (carregado dinamicamente)
   analytics_realtime: {
     name: 'analytics_realtime',
     description: 'Obtém relatório em tempo real do Google Analytics',
-    handler: analyticsTools.analyticsRealtime,
+    handler: async (input: any) => {
+      const { analyticsTools } = await import('./analytics-tools-native.js');
+      return await analyticsTools.analyticsRealtime(input);
+    },
     inputSchema: {
       limit: { type: 'number', description: 'Limite de registros (padrão: 10)' },
     },
@@ -64,7 +67,10 @@ export const nativeTools = {
   analytics_report: {
     name: 'analytics_report',
     description: 'Obtém relatório histórico do Google Analytics',
-    handler: analyticsTools.analyticsReport,
+    handler: async (input: any) => {
+      const { analyticsTools } = await import('./analytics-tools-native.js');
+      return await analyticsTools.analyticsReport(input);
+    },
     inputSchema: {
       days: { type: 'number', description: 'Número de dias (padrão: 7)' },
       limit: { type: 'number', description: 'Limite de registros (padrão: 5)' },
@@ -74,7 +80,10 @@ export const nativeTools = {
   analytics_custom_metrics: {
     name: 'analytics_custom_metrics',
     description: 'Obtém métricas personalizadas do Google Analytics',
-    handler: analyticsTools.analyticsCustomMetrics,
+    handler: async (input: any) => {
+      const { analyticsTools } = await import('./analytics-tools-native.js');
+      return await analyticsTools.analyticsCustomMetrics(input);
+    },
     inputSchema: {
       dimensions: { type: 'array', description: 'Array de dimensões' },
       metrics: { type: 'array', description: 'Array de métricas' },
