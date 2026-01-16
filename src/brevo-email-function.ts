@@ -268,5 +268,3 @@ const originalJson = {
 
 // Transforma o JSON original
 const processedData = flattenJson(originalJson);
-
-console.log(processedData);

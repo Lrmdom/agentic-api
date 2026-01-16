@@ -34,6 +34,7 @@ import heritageSanityDataBucket from "./heritage-sanity-data-bucket.js";
 import { chatRouter } from "./routes/chat.js";
 import { nativeToolsRouter } from "./routes/native-tools.js";
 import mcpApi from "./mcp/api/mcp.js";
+import { ManualRetriever } from "./manual-retriever.js";
 
 // 1. Inicialização do Genkit
 export const ai = genkit({
@@ -41,6 +42,12 @@ export const ai = genkit({
         googleAI({apiKey: process.env.GEMINI_API_KEY}),
     ],
 });
+
+// 1.5. Inicializar Manual Retriever
+const manualRetriever = new ManualRetriever(ai);
+
+// 1.6. Tool de busca nos manuais
+const manualSearchTool = manualRetriever.createRetrieverTool();
 
 // 2. Tool Analytics Nativa
 const analyticsTool = ai.defineTool(
@@ -161,13 +168,17 @@ const agentFlow = ai.defineFlow(
             model: 'googleai/gemini-2.0-flash',
             prompt: prompt,
             system: `
-                És um Especialista em Dados com acesso a ferramentas reais. 
+                És um Especialista em Dados com acesso a ferramentas reais e manuais técnicos de motocicletas. 
                 Sempre que um utilizador pedir para "cruzar dados", deves:
                 1. Identificar as ferramentas necessárias.
                 2. Chamar as ferramentas em sequência.
                 3. NÃO DIGAS que não podes fazer. Tenta sempre usar as ferramentas disponíveis.
+                
+                Para perguntas sobre especificações técnicas, manutenção ou informações dos manuais:
+                1. Usa PRIMEIRO a ferramenta searchManuals para consultar os manuais técnicos.
+                2. Depois complementa com outras ferramentas se necessário.
             `,
-            tools: [analyticsTool, ...mcpTools],
+            tools: [analyticsTool, manualSearchTool, ...mcpTools],
             maxSteps: 20,
             config: { 
                 temperature: 0,
@@ -199,6 +210,23 @@ app.post('/ask', async (c) => {
 
     const result = await agentFlow(query);
     return c.json({ result });
+});
+
+// Endpoint para indexar manuais
+app.post('/index-manuals', async (c) => {
+    try {
+        await manualRetriever.indexManuals();
+        return c.json({ 
+            success: true, 
+            message: "Manuais indexados com sucesso!" 
+        });
+    } catch (error: any) {
+        console.error("Erro ao indexar manuais:", error);
+        return c.json({ 
+            success: false, 
+            error: error.message 
+        }, 500);
+    }
 });
 
 // Rotas legadas e utilitários
