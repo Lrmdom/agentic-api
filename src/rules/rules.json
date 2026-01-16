@@ -1,0 +1,230 @@
+[
+  {
+    "name": "Idade condutor",
+    "attributes": [
+      {
+        "name": "idade_condutor",
+        "type": "number"
+      }
+    ],
+    "conditions": {
+      "any": [
+        {
+          "fact": "step_4",
+          "operator": "lessThan",
+          "value": 26,
+          "path": "$.idade_condutor"
+        },
+        {
+          "fact": "step_4",
+          "operator": "greaterThan",
+          "value": 70,
+          "path": "$.idade_condutor"
+        }
+      ]
+    },
+    "event": {
+      "type": "applySurcharge",
+      "params": {
+        "percentage": "20",
+        "name": "Idade condutor >70 ou <26"
+      }
+    }
+  },
+  {
+    "name": "Taxa de Alta Temporada - Julho e Agosto",
+    "attributes": [
+      {
+        "name": "mes_recolha",
+        "type": "number"
+      }
+    ],
+    "conditions": {
+      "any": [
+        {
+          "fact": "step_0",
+          "operator": "equal",
+          "value": 7,
+          "path": "$.mes_recolha"
+        },
+        {
+          "fact": "step_0",
+          "operator": "equal",
+          "value": 8,
+          "path": "$.mes_recolha"
+        }
+      ]
+    },
+    "event": {
+      "type": "applySurcharge",
+      "params": {
+        "percentage": "10",
+        "name": "Taxa de Alta Temporada"
+      }
+    }
+  },
+  {
+    "name": "Address Deliver or Address Dropoff",
+    "attributes": [
+      {
+        "name": "deliveryMode",
+        "type": "string"
+      }
+    ],
+    "conditions": {
+      "any": [
+        {
+          "fact": "step_0",
+          "operator": "equal",
+          "value": "deliveryToCustomAddress",
+          "path": "$.deliveryMode"
+        },
+        {
+          "fact": "step_0",
+          "operator": "notEqual",
+          "value": null,
+          "path": "$.deliveryAddress"
+        }
+      ]
+    },
+    "event": {
+      "type": "applyAddressDeliveryValue",
+      "params": {
+        "_comment": "Values shoud as total_amount_cents of clayer",
+        "value": 7400,
+        "name": "Address Service"
+      }
+    }
+  },
+  {
+    "name": "Service Fee - Start Date Weekend",
+    "conditions": {
+      "all": [
+        {
+          "fact": "step_0",
+          "operator": "equal",
+          "value": true,
+          "path": "$.startDateIsWeekend"
+        }
+      ]
+    },
+    "event": {
+      "type": "applyWeekendPickDropValue",
+      "params": {
+        "value": 4700,
+        "name": "Service Fee (Start Date Weekend)"
+      }
+    }
+  },
+  {
+    "name": "Service Fee -  End Date Weekend",
+    "conditions": {
+      "all": [
+        {
+          "fact": "step_0",
+          "operator": "equal",
+          "value": true,
+          "path": "$.endDateIsWeekend"
+        }
+      ]
+    },
+    "event": {
+      "type": "applyWeekendPickDropValue",
+      "params": {
+        "value": 4700,
+        "name": "Service Fee (End Date Weekend)"
+      }
+    }
+  },
+  {
+    "name": "Desconto nº de dias - 10%",
+    "attributes": [
+      {
+        "name": "numero_dias",
+        "type": "number"
+      }
+    ],
+    "conditions": {
+      "all": [
+        {
+          "fact": "step_0",
+          "operator": "greaterThan",
+          "value": 7,
+          "path": "$.number_of_days"
+        },
+        {
+          "fact": "step_0",
+          "operator": "lessThanInclusive",
+          "value": 14,
+          "path": "$.number_of_days"
+        }
+      ]
+    },
+    "event": {
+      "type": "usageDiscount",
+      "params": {
+        "percentage": "-10",
+        "name": "Desconto por número de dias (7+)"
+      }
+    }
+  },
+  {
+    "name": "Desconto nº de dias - 20%",
+    "attributes": [
+      {
+        "name": "numero_dias",
+        "type": "number"
+      }
+    ],
+    "conditions": {
+      "all": [
+        {
+          "fact": "step_0",
+          "operator": "greaterThan",
+          "value": 14,
+          "path": "$.number_of_days"
+        },
+        {
+          "fact": "step_0",
+          "operator": "lessThanInclusive",
+          "value": 21,
+          "path": "$.number_of_days"
+        }
+      ]
+    },
+    "event": {
+      "type": "usageDiscount",
+      "params": {
+        "percentage": "-20",
+        "name": "Desconto por número de dias (14+)"
+      }
+    }
+  },
+  {
+    "name": "Desconto nº de dias - 30%",
+    "attributes": [
+      {
+        "name": "numero_dias",
+        "type": "number"
+      }
+    ],
+    "conditions": {
+      "any": [
+        {
+          "fact": "step_0",
+          "operator": "greaterThan",
+          "value": 21,
+          "path": "$.number_of_days"
+        }
+      ]
+    },
+    "event": {
+      "type": "usageDiscount",
+      "params": {
+        "percentage": "-30",
+        "name": "Desconto por número de dias (21+)"
+      }
+    }
+  }
+]
+

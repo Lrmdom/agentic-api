@@ -1,0 +1,35 @@
+//todo code to a cloud function
+        /*try {
+            const subscriptionNameOrId = 'eventsData-sub'; // Replace with your subscription name
+            const subscription = pubsub.subscription(subscriptionNameOrId);
+
+            // Set up a listener for incoming messages
+            subscription.on('message', message => {
+                console.log('Received message:', message.data.toString());
+                console.log('Message attributes:', message.attributes);
+                message.ack(); // Acknowledge the message to remove it from the subscription
+
+                // You can process the message data here
+                try {
+                    const messageData = JSON.parse(message.data.toString());
+                    console.log('Parsed message data:', messageData);
+                    // Perform further processing based on the message
+                } catch (parseError) {
+                    console.error('Error parsing message data:', parseError);
+                    // Decide how to handle unparseable messages (e.g., nack, log)
+                }
+            });
+
+            // Set up a listener for errors
+            subscription.on('error', error => {
+                console.error('Received error:', error);
+                process.exit(1); // Or handle the error in a more appropriate way
+            });
+
+            console.log(`Listening for messages on subscription "${subscriptionNameOrId}"...`);
+
+            // Keep the process running to continue listening for messages
+            // In a real application, you might have other tasks running concurrently.
+        } catch (error) {
+            console.error('Error setting up subscription:', error);
+        }*/

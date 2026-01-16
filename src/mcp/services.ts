@@ -1,0 +1,4 @@
+export const SERVICES = {
+  BREVO: "1a088298-1279-408c-9020-f3a6d51e8346",
+  COMMERCELAYER: "5f806886-638b-4922-bae0-f46153aeacb7",
+} as const;

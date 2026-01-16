@@ -1,0 +1,2058 @@
+{
+  "seguradoras": {
+    "tradicionais": {
+      "Fidelidade": {
+        "logo_url": "https://cresposeguros.pt/wp-content/uploads/2019/09/fidelidade_c8048208f33f5bf75067b40bcd790f5e.png",
+        "automovel": {
+          "cobertura_niveis": [
+            {
+              "nome": "Responsabilidade Civil",
+              "preco_base_euros": true,
+              "parametros_cobertura": {
+                "probabilidade": 0.05,
+                "custoMedio": 2000,
+                "despesas": 0.3,
+                "margem": 0.1
+              }
+            },
+            {
+              "nome": "Danos Próprios",
+              "preco_base_euros": true,
+              "parametros_cobertura": {
+                "probabilidade": 0.07,
+                "custoMedio": 5000,
+                "despesas": 0.3,
+                "margem": 0.1
+              }
+            }
+          ]
+        },
+        "mota": {
+          "cobertura_niveis": [
+            {
+              "nome": "Responsabilidade Civil",
+              "preco_base_euros": true
+            },
+            {
+              "nome": "Danos Próprios",
+              "preco_base_euros": true
+            }
+          ]
+        },
+        "saude": {
+          "cobertura_niveis": [
+            {
+              "nome": "Plano Base",
+              "preco_base_euros": 500
+            },
+            {
+              "nome": "Plano Completo (com Estomatologia e Internamento)",
+              "preco_base_euros": 900
+            }
+          ]
+        },
+        "vida": {
+          "cobertura_niveis": [
+            {
+              "nome": "Capital de 50.000€",
+              "preco_base_euros": 120
+            },
+            {
+              "nome": "Capital de 100.000€",
+              "preco_base_euros": 200
+            }
+          ]
+        },
+        "viagem": {
+          "cobertura_niveis": [
+            {
+              "nome": "Básico",
+              "preco_base_euros": 35
+            },
+            {
+              "nome": "Premium",
+              "preco_base_euros": 80
+            }
+          ]
+        },
+        "casa": {
+          "cobertura_niveis": [
+            {
+              "nome": "Cobertura Base",
+              "preco_base_euros": 280
+            },
+            {
+              "nome": "Cobertura Completa",
+              "preco_base_euros": 480
+            }
+          ]
+        },
+        "animais": {
+          "cobertura_niveis": [
+            {
+              "nome": "Veterinário e Medicamentos",
+              "preco_base_euros": 180
+            },
+            {
+              "nome": "Cirurgia e Internamento",
+              "preco_base_euros": 280
+            }
+          ]
+        },
+        "acidentes_pessoais": {
+          "cobertura_niveis": [
+            {
+              "nome": "Básico",
+              "preco_base_euros": 140
+            },
+            {
+              "nome": "Amplo",
+              "preco_base_euros": 220
+            }
+          ]
+        },
+        "responsabilidade_civil_familiar": {
+          "cobertura_niveis": [
+            {
+              "nome": "Plano Único",
+              "preco_base_euros": 40
+            }
+          ]
+        },
+        "parametros_rules": {
+          "Sobretaxa de Idade (Jovem e Sénior)": {
+            "percentage": "15",
+            "name": "Sobretaxa de Idade (Condutor <25 ou >70)"
+          },
+          "Sobretaxa por Anos de Carta": {
+            "percentage": "10",
+            "name": "Sobretaxa por Anos de Carta (<3 anos)"
+          },
+          "Sobretaxa por Histórico de Sinistros": {
+            "percentage": "25",
+            "name": "Sobretaxa por Sinistros (Últimos 5 anos)"
+          },
+          "Desconto por Bónus-Malus": {
+            "percentage": "-15",
+            "name": "Desconto por Bónus-Malus (>5 anos sem sinistros)"
+          },
+          "Sobretaxa por Marca e Modelo de Alto Risco": {
+            "percentage": "20",
+            "name": "Sobretaxa por Veículo de Alto Risco"
+          },
+          "Desconto por Garagem": {
+            "percentage": "-5",
+            "name": "Desconto por Estacionamento em Garagem"
+          },
+          "Sobretaxa por Uso Profissional": {
+            "percentage": "100",
+            "name": "Sobretaxa por Uso Profissional"
+          },
+          "Desconto por Quilometragem Anual Baixa": {
+            "percentage": "-8",
+            "name": "Desconto por Quilometragem Anual Baixa"
+          },
+          "Sobretaxa por Idade (Saúde)": {
+            "percentage": "10",
+            "name": "Sobretaxa por Idade (>50 anos)"
+          },
+          "Sobretaxa por Doença Preexistente": {
+            "percentage": "20",
+            "name": "Sobretaxa por Doença Crónica Preexistente"
+          },
+          "Sobretaxa por Fumador": {
+            "percentage": "15",
+            "name": "Sobretaxa por Fumador"
+          },
+          "Desconto para Famílias": {
+            "percentage": "-10",
+            "name": "Desconto para Plano Familiar"
+          }
+        }
+      },
+      "Ageas": {
+        "logo_url": "https://www.ageas.pt/media/4874/logotipo-da-ageas-seguros.png?v=1d9aa5ef4dd4590",
+        "automovel": {
+          "cobertura_niveis": [
+            {
+              "nome": "Responsabilidade Civil",
+              "preco_base_euros": true,
+              "parametros_cobertura": {
+                "probabilidade": 0.05,
+                "custoMedio": 2000,
+                "despesas": 0.3,
+                "margem": 0.1
+              }
+            },
+            {
+              "nome": "Danos Próprios",
+              "preco_base_euros": true,
+              "parametros_cobertura": {
+                "probabilidade": 0.07,
+                "custoMedio": 5000,
+                "despesas": 0.3,
+                "margem": 0.1
+              }
+            }
+          ]
+        },
+        "mota": {
+          "cobertura_niveis": [
+            {
+              "nome": "Responsabilidade Civil",
+              "preco_base_euros": 175
+            },
+            {
+              "nome": "Danos Próprios",
+              "preco_base_euros": 370
+            }
+          ]
+        },
+        "saude": {
+          "cobertura_niveis": [
+            {
+              "nome": "Plano Base",
+              "preco_base_euros": 480
+            },
+            {
+              "nome": "Plano Completo (com Estomatologia e Internamento)",
+              "preco_base_euros": 880
+            }
+          ]
+        },
+        "vida": {
+          "cobertura_niveis": [
+            {
+              "nome": "Capital de 50.000€",
+              "preco_base_euros": 110
+            },
+            {
+              "nome": "Capital de 100.000€",
+              "preco_base_euros": 195
+            }
+          ]
+        },
+        "viagem": {
+          "cobertura_niveis": [
+            {
+              "nome": "Básico",
+              "preco_base_euros": 32
+            },
+            {
+              "nome": "Premium",
+              "preco_base_euros": 78
+            }
+          ]
+        },
+        "casa": {
+          "cobertura_niveis": [
+            {
+              "nome": "Cobertura Base",
+              "preco_base_euros": 270
+            },
+            {
+              "nome": "Cobertura Completa",
+              "preco_base_euros": 470
+            }
+          ]
+        },
+        "animais": {
+          "cobertura_niveis": [
+            {
+              "nome": "Veterinário e Medicamentos",
+              "preco_base_euros": 175
+            },
+            {
+              "nome": "Cirurgia e Internamento",
+              "preco_base_euros": 270
+            }
+          ]
+        },
+        "acidentes_pessoais": {
+          "cobertura_niveis": [
+            {
+              "nome": "Básico",
+              "preco_base_euros": 135
+            },
+            {
+              "nome": "Amplo",
+              "preco_base_euros": 215
+            }
+          ]
+        },
+        "responsabilidade_civil_familiar": {
+          "cobertura_niveis": [
+            {
+              "nome": "Plano Único",
+              "preco_base_euros": 38
+            }
+          ]
+        },
+        "parametros_rules": {
+          "Sobretaxa de Idade (Jovem e Sénior)": {
+            "percentage": "25",
+            "name": "Sobretaxa de Idade (Condutor <25 ou >70)"
+          },
+          "Sobretaxa por Anos de Carta": {
+            "percentage": "12",
+            "name": "Sobretaxa por Anos de Carta (<3 anos)"
+          },
+          "Sobretaxa por Histórico de Sinistros": {
+            "percentage": "30",
+            "name": "Sobretaxa por Sinistros (Últimos 5 anos)"
+          },
+          "Desconto por Bónus-Malus": {
+            "percentage": "-12",
+            "name": "Desconto por Bónus-Malus (>5 anos sem sinistros)"
+          },
+          "Sobretaxa por Marca e Modelo de Alto Risco": {
+            "percentage": "22",
+            "name": "Sobretaxa por Veículo de Alto Risco"
+          },
+          "Desconto por Garagem": {
+            "percentage": "-8",
+            "name": "Desconto por Estacionamento em Garagem"
+          },
+          "Sobretaxa por Uso Profissional": {
+            "percentage": "110",
+            "name": "Sobretaxa por Uso Profissional"
+          },
+          "Desconto por Quilometragem Anual Baixa": {
+            "percentage": "-5",
+            "name": "Desconto por Quilometragem Anual Baixa"
+          },
+          "Sobretaxa por Idade (Saúde)": {
+            "percentage": "15",
+            "name": "Sobretaxa por Idade (>50 anos)"
+          },
+          "Sobretaxa por Doença Preexistente": {
+            "percentage": "25",
+            "name": "Sobretaxa por Doença Crónica Preexistente"
+          },
+          "Sobretaxa por Fumador": {
+            "percentage": "20",
+            "name": "Sobretaxa por Fumador"
+          },
+          "Desconto para Famílias": {
+            "percentage": "-12",
+            "name": "Desconto para Plano Familiar"
+          }
+        }
+      },
+      "AXA": {
+        "logo_url": "https://cdn.dribbble.com/userupload/42157319/file/original-dad204f89c42c5f0f7713b0fabf0c654.png",
+        "automovel": {
+          "cobertura_niveis": [
+            {
+              "nome": "Responsabilidade Civil",
+              "preco_base_euros": true,
+              "parametros_cobertura": {
+                "probabilidade": 0.05,
+                "custoMedio": 2000,
+                "despesas": 0.3,
+                "margem": 0.1
+              }
+            },
+            {
+              "nome": "Danos Próprios",
+              "preco_base_euros": true,
+              "parametros_cobertura": {
+                "probabilidade": 0.07,
+                "custoMedio": 5000,
+                "despesas": 0.3,
+                "margem": 0.1
+              }
+            }
+          ]
+        },
+        "mota": {
+          "cobertura_niveis": [
+            {
+              "nome": "Responsabilidade Civil",
+              "preco_base_euros": 170
+            },
+            {
+              "nome": "Danos Próprios",
+              "preco_base_euros": 360
+            }
+          ]
+        },
+        "saude": {
+          "cobertura_niveis": [
+            {
+              "nome": "Plano Base",
+              "preco_base_euros": 470
+            },
+            {
+              "nome": "Plano Completo (com Estomatologia e Internamento)",
+              "preco_base_euros": 870
+            }
+          ]
+        },
+        "vida": {
+          "cobertura_niveis": [
+            {
+              "nome": "Capital de 50.000€",
+              "preco_base_euros": 105
+            },
+            {
+              "nome": "Capital de 100.000€",
+              "preco_base_euros": 190
+            }
+          ]
+        },
+        "viagem": {
+          "cobertura_niveis": [
+            {
+              "nome": "Básico",
+              "preco_base_euros": 30
+            },
+            {
+              "nome": "Premium",
+              "preco_base_euros": 75
+            }
+          ]
+        },
+        "casa": {
+          "cobertura_niveis": [
+            {
+              "nome": "Cobertura Base",
+              "preco_base_euros": 265
+            },
+            {
+              "nome": "Cobertura Completa",
+              "preco_base_euros": 465
+            }
+          ]
+        },
+        "animais": {
+          "cobertura_niveis": [
+            {
+              "nome": "Veterinário e Medicamentos",
+              "preco_base_euros": 170
+            },
+            {
+              "nome": "Cirurgia e Internamento",
+              "preco_base_euros": 265
+            }
+          ]
+        },
+        "acidentes_pessoais": {
+          "cobertura_niveis": [
+            {
+              "nome": "Básico",
+              "preco_base_euros": 130
+            },
+            {
+              "nome": "Amplo",
+              "preco_base_euros": 210
+            }
+          ]
+        },
+        "responsabilidade_civil_familiar": {
+          "cobertura_niveis": [
+            {
+              "nome": "Plano Único",
+              "preco_base_euros": 37
+            }
+          ]
+        },
+        "parametros_rules": {
+          "Sobretaxa de Idade (Jovem e Sénior)": {
+            "percentage": "22",
+            "name": "Sobretaxa de Idade (Condutor <25 ou >70)"
+          },
+          "Sobretaxa por Anos de Carta": {
+            "percentage": "9",
+            "name": "Sobretaxa por Anos de Carta (<3 anos)"
+          },
+          "Sobretaxa por Histórico de Sinistros": {
+            "percentage": "28",
+            "name": "Sobretaxa por Sinistros (Últimos 5 anos)"
+          },
+          "Desconto por Bónus-Malus": {
+            "percentage": "-18",
+            "name": "Desconto por Bónus-Malus (>5 anos sem sinistros)"
+          },
+          "Sobretaxa por Marca e Modelo de Alto Risco": {
+            "percentage": "18",
+            "name": "Sobretaxa por Veículo de Alto Risco"
+          },
+          "Desconto por Garagem": {
+            "percentage": "-7",
+            "name": "Desconto por Estacionamento em Garagem"
+          },
+          "Sobretaxa por Uso Profissional": {
+            "percentage": "95",
+            "name": "Sobretaxa por Uso Profissional"
+          },
+          "Desconto por Quilometragem Anual Baixa": {
+            "percentage": "-10",
+            "name": "Desconto por Quilometragem Anual Baixa"
+          },
+          "Sobretaxa por Idade (Saúde)": {
+            "percentage": "12",
+            "name": "Sobretaxa por Idade (>50 anos)"
+          },
+          "Sobretaxa por Doença Preexistente": {
+            "percentage": "22",
+            "name": "Sobretaxa por Doença Crónica Preexistente"
+          },
+          "Sobretaxa por Fumador": {
+            "percentage": "18",
+            "name": "Sobretaxa por Fumador"
+          },
+          "Desconto para Famílias": {
+            "percentage": "-11",
+            "name": "Desconto para Plano Familiar"
+          }
+        }
+      },
+      "Allianz": {
+        "logo_url": "https://www.allianz.pt/content/dam/onemarketing/system/AZ_Logo_Twitter_438x220px.png",
+        "automovel": {
+          "cobertura_niveis": [
+            {
+              "nome": "Responsabilidade Civil",
+              "preco_base_euros": true,
+              "parametros_cobertura": {
+                "probabilidade": 0.05,
+                "custoMedio": 2000,
+                "despesas": 0.3,
+                "margem": 0.1
+              }
+            },
+            {
+              "nome": "Danos Próprios",
+              "preco_base_euros": true,
+              "parametros_cobertura": {
+                "probabilidade": 0.07,
+                "custoMedio": 5000,
+                "despesas": 0.3,
+                "margem": 0.1
+              }
+            }
+          ]
+        },
+        "mota": {
+          "cobertura_niveis": [
+            {
+              "nome": "Responsabilidade Civil",
+              "preco_base_euros": 178
+            },
+            {
+              "nome": "Danos Próprios",
+              "preco_base_euros": 375
+            }
+          ]
+        },
+        "saude": {
+          "cobertura_niveis": [
+            {
+              "nome": "Plano Base",
+              "preco_base_euros": 490
+            },
+            {
+              "nome": "Plano Completo (com Estomatologia e Internamento)",
+              "preco_base_euros": 890
+            }
+          ]
+        },
+        "vida": {
+          "cobertura_niveis": [
+            {
+              "nome": "Capital de 50.000€",
+              "preco_base_euros": 115
+            },
+            {
+              "nome": "Capital de 100.000€",
+              "preco_base_euros": 198
+            }
+          ]
+        },
+        "viagem": {
+          "cobertura_niveis": [
+            {
+              "nome": "Básico",
+              "preco_base_euros": 34
+            },
+            {
+              "nome": "Premium",
+              "preco_base_euros": 79
+            }
+          ]
+        },
+        "casa": {
+          "cobertura_niveis": [
+            {
+              "nome": "Cobertura Base",
+              "preco_base_euros": 275
+            },
+            {
+              "nome": "Cobertura Completa",
+              "preco_base_euros": 475
+            }
+          ]
+        },
+        "animais": {
+          "cobertura_niveis": [
+            {
+              "nome": "Veterinário e Medicamentos",
+              "preco_base_euros": 178
+            },
+            {
+              "nome": "Cirurgia e Internamento",
+              "preco_base_euros": 275
+            }
+          ]
+        },
+        "acidentes_pessoais": {
+          "cobertura_niveis": [
+            {
+              "nome": "Básico",
+              "preco_base_euros": 138
+            },
+            {
+              "nome": "Amplo",
+              "preco_base_euros": 218
+            }
+          ]
+        },
+        "responsabilidade_civil_familiar": {
+          "cobertura_niveis": [
+            {
+              "nome": "Plano Único",
+              "preco_base_euros": 39
+            }
+          ]
+        },
+        "parametros_rules": {
+          "Sobretaxa de Idade (Jovem e Sénior)": {
+            "percentage": "18",
+            "name": "Sobretaxa de Idade (Condutor <25 ou >70)"
+          },
+          "Sobretaxa por Anos de Carta": {
+            "percentage": "11",
+            "name": "Sobretaxa por Anos de Carta (<3 anos)"
+          },
+          "Sobretaxa por Histórico de Sinistros": {
+            "percentage": "26",
+            "name": "Sobretaxa por Sinistros (Últimos 5 anos)"
+          },
+          "Desconto por Bónus-Malus": {
+            "percentage": "-14",
+            "name": "Desconto por Bónus-Malus (>5 anos sem sinistros)"
+          },
+          "Sobretaxa por Marca e Modelo de Alto Risco": {
+            "percentage": "21",
+            "name": "Sobretaxa por Veículo de Alto Risco"
+          },
+          "Desconto por Garagem": {
+            "percentage": "-6",
+            "name": "Desconto por Estacionamento em Garagem"
+          },
+          "Sobretaxa por Uso Profissional": {
+            "percentage": "105",
+            "name": "Sobretaxa por Uso Profissional"
+          },
+          "Desconto por Quilometragem Anual Baixa": {
+            "percentage": "-7",
+            "name": "Desconto por Quilometragem Anual Baixa"
+          },
+          "Sobretaxa por Idade (Saúde)": {
+            "percentage": "13",
+            "name": "Sobretaxa por Idade (>50 anos)"
+          },
+          "Sobretaxa por Doença Preexistente": {
+            "percentage": "23",
+            "name": "Sobretaxa por Doença Crónica Preexistente"
+          },
+          "Sobretaxa por Fumador": {
+            "percentage": "17",
+            "name": "Sobretaxa por Fumador"
+          },
+          "Desconto para Famílias": {
+            "percentage": "-10",
+            "name": "Desconto para Plano Familiar"
+          }
+        }
+      },
+      "Zurich": {
+        "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Zurich_Insurance_Group_logo.svg/1280px-Zurich_Insurance_Group_logo.svg.png",
+        "automovel": {
+          "cobertura_niveis": [
+            {
+              "nome": "Responsabilidade Civil",
+              "preco_base_euros": true,
+              "parametros_cobertura": {
+                "probabilidade": 0.05,
+                "custoMedio": 2000,
+                "despesas": 0.3,
+                "margem": 0.1
+              }
+            },
+            {
+              "nome": "Danos Próprios",
+              "preco_base_euros": true,
+              "parametros_cobertura": {
+                "probabilidade": 0.07,
+                "custoMedio": 5000,
+                "despesas": 0.3,
+                "margem": 0.1
+              }
+            }
+          ]
+        },
+        "mota": {
+          "cobertura_niveis": [
+            {
+              "nome": "Responsabilidade Civil",
+              "preco_base_euros": 165
+            },
+            {
+              "nome": "Danos Próprios",
+              "preco_base_euros": 355
+            }
+          ]
+        },
+        "saude": {
+          "cobertura_niveis": [
+            {
+              "nome": "Plano Base",
+              "preco_base_euros": 460
+            },
+            {
+              "nome": "Plano Completo (com Estomatologia e Internamento)",
+              "preco_base_euros": 860
+            }
+          ]
+        },
+        "vida": {
+          "cobertura_niveis": [
+            {
+              "nome": "Capital de 50.000€",
+              "preco_base_euros": 100
+            },
+            {
+              "nome": "Capital de 100.000€",
+              "preco_base_euros": 185
+            }
+          ]
+        },
+        "viagem": {
+          "cobertura_niveis": [
+            {
+              "nome": "Básico",
+              "preco_base_euros": 29
+            },
+            {
+              "nome": "Premium",
+              "preco_base_euros": 73
+            }
+          ]
+        },
+        "casa": {
+          "cobertura_niveis": [
+            {
+              "nome": "Cobertura Base",
+              "preco_base_euros": 260
+            },
+            {
+              "nome": "Cobertura Completa",
+              "preco_base_euros": 460
+            }
+          ]
+        },
+        "animais": {
+          "cobertura_niveis": [
+            {
+              "nome": "Veterinário e Medicamentos",
+              "preco_base_euros": 165
+            },
+            {
+              "nome": "Cirurgia e Internamento",
+              "preco_base_euros": 260
+            }
+          ]
+        },
+        "acidentes_pessoais": {
+          "cobertura_niveis": [
+            {
+              "nome": "Básico",
+              "preco_base_euros": 125
+            },
+            {
+              "nome": "Amplo",
+              "preco_base_euros": 205
+            }
+          ]
+        },
+        "responsabilidade_civil_familiar": {
+          "cobertura_niveis": [
+            {
+              "nome": "Plano Único",
+              "preco_base_euros": 35
+            }
+          ]
+        },
+        "parametros_rules": {
+          "Sobretaxa de Idade (Jovem e Sénior)": {
+            "percentage": "20",
+            "name": "Sobretaxa de Idade (Condutor <25 ou >70)"
+          },
+          "Sobretaxa por Anos de Carta": {
+            "percentage": "8",
+            "name": "Sobretaxa por Anos de Carta (<3 anos)"
+          },
+          "Sobretaxa por Histórico de Sinistros": {
+            "percentage": "24",
+            "name": "Sobretaxa por Sinistros (Últimos 5 anos)"
+          },
+          "Desconto por Bónus-Malus": {
+            "percentage": "-17",
+            "name": "Desconto por Bónus-Malus (>5 anos sem sinistros)"
+          },
+          "Sobretaxa por Marca e Modelo de Alto Risco": {
+            "percentage": "19",
+            "name": "Sobretaxa por Veículo de Alto Risco"
+          },
+          "Desconto por Garagem": {
+            "percentage": "-4",
+            "name": "Desconto por Estacionamento em Garagem"
+          },
+          "Sobretaxa por Uso Profissional": {
+            "percentage": "90",
+            "name": "Sobretaxa por Uso Profissional"
+          },
+          "Desconto por Quilometragem Anual Baixa": {
+            "percentage": "-9",
+            "name": "Desconto por Quilometragem Anual Baixa"
+          },
+          "Sobretaxa por Idade (Saúde)": {
+            "percentage": "11",
+            "name": "Sobretaxa por Idade (>50 anos)"
+          },
+          "Sobretaxa por Doença Preexistente": {
+            "percentage": "21",
+            "name": "Sobretaxa por Doença Crónica Preexistente"
+          },
+          "Sobretaxa por Fumador": {
+            "percentage": "16",
+            "name": "Sobretaxa por Fumador"
+          },
+          "Desconto para Famílias": {
+            "percentage": "-9",
+            "name": "Desconto para Plano Familiar"
+          }
+        }
+      },
+      "Mapfre": {
+        "logo_url": "https://www.mapfre.pt/media/logo-mapfre-2-8.png",
+        "automovel": {
+          "cobertura_niveis": [
+            {
+              "nome": "Responsabilidade Civil",
+              "preco_base_euros": true,
+              "parametros_cobertura": {
+                "probabilidade": 0.05,
+                "custoMedio": 2000,
+                "despesas": 0.3,
+                "margem": 0.1
+              }
+            },
+            {
+              "nome": "Danos Próprios",
+              "preco_base_euros": true,
+              "parametros_cobertura": {
+                "probabilidade": 0.07,
+                "custoMedio": 5000,
+                "despesas": 0.3,
+                "margem": 0.1
+              }
+            }
+          ]
+        },
+        "mota": {
+          "cobertura_niveis": [
+            {
+              "nome": "Responsabilidade Civil",
+              "preco_base_euros": 172
+            },
+            {
+              "nome": "Danos Próprios",
+              "preco_base_euros": 365
+            }
+          ]
+        },
+        "saude": {
+          "cobertura_niveis": [
+            {
+              "nome": "Plano Base",
+              "preco_base_euros": 475
+            },
+            {
+              "nome": "Plano Completo (com Estomatologia e Internamento)",
+              "preco_base_euros": 875
+            }
+          ]
+        },
+        "vida": {
+          "cobertura_niveis": [
+            {
+              "nome": "Capital de 50.000€",
+              "preco_base_euros": 108
+            },
+            {
+              "nome": "Capital de 100.000€",
+              "preco_base_euros": 192
+            }
+          ]
+        },
+        "viagem": {
+          "cobertura_niveis": [
+            {
+              "nome": "Básico",
+              "preco_base_euros": 31
+            },
+            {
+              "nome": "Premium",
+              "preco_base_euros": 76
+            }
+          ]
+        },
+        "casa": {
+          "cobertura_niveis": [
+            {
+              "nome": "Cobertura Base",
+              "preco_base_euros": 268
+            },
+            {
+              "nome": "Cobertura Completa",
+              "preco_base_euros": 468
+            }
+          ]
+        },
+        "animais": {
+          "cobertura_niveis": [
+            {
+              "nome": "Veterinário e Medicamentos",
+              "preco_base_euros": 172
+            },
+            {
+              "nome": "Cirurgia e Internamento",
+              "preco_base_euros": 268
+            }
+          ]
+        },
+        "acidentes_pessoais": {
+          "cobertura_niveis": [
+            {
+              "nome": "Básico",
+              "preco_base_euros": 133
+            },
+            {
+              "nome": "Amplo",
+              "preco_base_euros": 213
+            }
+          ]
+        },
+        "responsabilidade_civil_familiar": {
+          "cobertura_niveis": [
+            {
+              "nome": "Plano Único",
+              "preco_base_euros": 36
+            }
+          ]
+        },
+        "parametros_rules": {
+          "Sobretaxa de Idade (Jovem e Sénior)": {
+            "percentage": "16",
+            "name": "Sobretaxa de Idade (Condutor <25 ou >70)"
+          },
+          "Sobretaxa por Anos de Carta": {
+            "percentage": "10",
+            "name": "Sobretaxa por Anos de Carta (<3 anos)"
+          },
+          "Sobretaxa por Histórico de Sinistros": {
+            "percentage": "27",
+            "name": "Sobretaxa por Sinistros (Últimos 5 anos)"
+          },
+          "Desconto por Bónus-Malus": {
+            "percentage": "-16",
+            "name": "Desconto por Bónus-Malus (>5 anos sem sinistros)"
+          },
+          "Sobretaxa por Marca e Modelo de Alto Risco": {
+            "percentage": "20",
+            "name": "Sobretaxa por Veículo de Alto Risco"
+          },
+          "Desconto por Garagem": {
+            "percentage": "-5",
+            "name": "Desconto por Estacionamento em Garagem"
+          },
+          "Sobretaxa por Uso Profissional": {
+            "percentage": "100",
+            "name": "Sobretaxa por Uso Profissional"
+          },
+          "Desconto por Quilometragem Anual Baixa": {
+            "percentage": "-8",
+            "name": "Desconto por Quilometragem Anual Baixa"
+          },
+          "Sobretaxa por Idade (Saúde)": {
+            "percentage": "14",
+            "name": "Sobretaxa por Idade (>50 anos)"
+          },
+          "Sobretaxa por Doença Preexistente": {
+            "percentage": "24",
+            "name": "Sobretaxa por Doença Crónica Preexistente"
+          },
+          "Sobretaxa por Fumador": {
+            "percentage": "19",
+            "name": "Sobretaxa por Fumador"
+          },
+          "Desconto para Famílias": {
+            "percentage": "-10",
+            "name": "Desconto para Plano Familiar"
+          }
+        }
+      },
+      "Generalli": {
+        "logo_url": "https://www.generalitranquilidade.pt/-/media/images/tranquilidade/logos/rebranding/ed258_logocor_horiz_trsp_esq-01.svg",
+        "automovel": {
+          "cobertura_niveis": [
+            {
+              "nome": "Responsabilidade Civil",
+              "preco_base_euros": true,
+              "parametros_cobertura": {
+                "probabilidade": 0.05,
+                "custoMedio": 2000,
+                "despesas": 0.3,
+                "margem": 0.1
+              }
+            },
+            {
+              "nome": "Danos Próprios",
+              "preco_base_euros": true,
+              "parametros_cobertura": {
+                "probabilidade": 0.07,
+                "custoMedio": 5000,
+                "despesas": 0.3,
+                "margem": 0.1
+              }
+            }
+          ]
+        },
+        "mota": {
+          "cobertura_niveis": [
+            {
+              "nome": "Responsabilidade Civil",
+              "preco_base_euros": 178
+            },
+            {
+              "nome": "Danos Próprios",
+              "preco_base_euros": 378
+            }
+          ]
+        },
+        "saude": {
+          "cobertura_niveis": [
+            {
+              "nome": "Plano Base",
+              "preco_base_euros": 495
+            },
+            {
+              "nome": "Plano Completo (com Estomatologia e Internamento)",
+              "preco_base_euros": 895
+            }
+          ]
+        },
+        "vida": {
+          "cobertura_niveis": [
+            {
+              "nome": "Capital de 50.000€",
+              "preco_base_euros": 118
+            },
+            {
+              "nome": "Capital de 100.000€",
+              "preco_base_euros": 198
+            }
+          ]
+        },
+        "viagem": {
+          "cobertura_niveis": [
+            {
+              "nome": "Básico",
+              "preco_base_euros": 34
+            },
+            {
+              "nome": "Premium",
+              "preco_base_euros": 78
+            }
+          ]
+        },
+        "casa": {
+          "cobertura_niveis": [
+            {
+              "nome": "Cobertura Base",
+              "preco_base_euros": 278
+            },
+            {
+              "nome": "Cobertura Completa",
+              "preco_base_euros": 478
+            }
+          ]
+        },
+        "animais": {
+          "cobertura_niveis": [
+            {
+              "nome": "Veterinário e Medicamentos",
+              "preco_base_euros": 178
+            },
+            {
+              "nome": "Cirurgia e Internamento",
+              "preco_base_euros": 278
+            }
+          ]
+        },
+        "acidentes_pessoais": {
+          "cobertura_niveis": [
+            {
+              "nome": "Básico",
+              "preco_base_euros": 139
+            },
+            {
+              "nome": "Amplo",
+              "preco_base_euros": 219
+            }
+          ]
+        },
+        "responsabilidade_civil_familiar": {
+          "cobertura_niveis": [
+            {
+              "nome": "Plano Único",
+              "preco_base_euros": 39
+            }
+          ]
+        },
+        "parametros_rules": {
+          "Sobretaxa de Idade (Jovem e Sénior)": {
+            "percentage": "17",
+            "name": "Sobretaxa de Idade (Condutor <25 ou >70)"
+          },
+          "Sobretaxa por Anos de Carta": {
+            "percentage": "9",
+            "name": "Sobretaxa por Anos de Carta (<3 anos)"
+          },
+          "Sobretaxa por Histórico de Sinistros": {
+            "percentage": "29",
+            "name": "Sobretaxa por Sinistros (Últimos 5 anos)"
+          },
+          "Desconto por Bónus-Malus": {
+            "percentage": "-14",
+            "name": "Desconto por Bónus-Malus (>5 anos sem sinistros)"
+          },
+          "Sobretaxa por Marca e Modelo de Alto Risco": {
+            "percentage": "21",
+            "name": "Sobretaxa por Veículo de Alto Risco"
+          },
+          "Desconto por Garagem": {
+            "percentage": "-6",
+            "name": "Desconto por Estacionamento em Garagem"
+          },
+          "Sobretaxa por Uso Profissional": {
+            "percentage": "105",
+            "name": "Sobretaxa por Uso Profissional"
+          },
+          "Desconto por Quilometragem Anual Baixa": {
+            "percentage": "-7",
+            "name": "Desconto por Quilometragem Anual Baixa"
+          },
+          "Sobretaxa por Idade (Saúde)": {
+            "percentage": "12",
+            "name": "Sobretaxa por Idade (>50 anos)"
+          },
+          "Sobretaxa por Doença Preexistente": {
+            "percentage": "22",
+            "name": "Sobretaxa por Doença Crónica Preexistente"
+          },
+          "Sobretaxa por Fumador": {
+            "percentage": "17",
+            "name": "Sobretaxa por Fumador"
+          },
+          "Desconto para Famílias": {
+            "percentage": "-11",
+            "name": "Desconto para Plano Familiar"
+          }
+        }
+      }
+    },
+    "online": {
+      "Seguro Direto": {
+        "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyEM2JnXKlMO11Ci-14yUHyVW31BVDLTFviQ&s",
+        "automovel": {
+          "cobertura_niveis": [
+            {
+              "nome": "Responsabilidade Civil",
+              "preco_base_euros": true,
+              "parametros_cobertura": {
+                "probabilidade": 0.05,
+                "custoMedio": 2000,
+                "despesas": 0.28,
+                "margem": 0.087
+              }
+            },
+            {
+              "nome": "Danos Próprios",
+              "preco_base_euros": true,
+              "parametros_cobertura": {
+                "probabilidade": 0.07,
+                "custoMedio": 5000,
+                "despesas": 0.3,
+                "margem": 0.1
+              }
+            }
+          ]
+        },
+        "mota": {
+          "cobertura_niveis": [
+            {
+              "nome": "Responsabilidade Civil",
+              "preco_base_euros": 120
+            },
+            {
+              "nome": "Danos Próprios",
+              "preco_base_euros": 320
+            }
+          ]
+        },
+        "saude": {
+          "cobertura_niveis": [
+            {
+              "nome": "Plano Base",
+              "preco_base_euros": 420
+            },
+            {
+              "nome": "Plano Completo (com Estomatologia e Internamento)",
+              "preco_base_euros": 750
+            }
+          ]
+        },
+        "vida": {
+          "cobertura_niveis": [
+            {
+              "nome": "Capital de 50.000€",
+              "preco_base_euros": 90
+            },
+            {
+              "nome": "Capital de 100.000€",
+              "preco_base_euros": 160
+            }
+          ]
+        },
+        "viagem": {
+          "cobertura_niveis": [
+            {
+              "nome": "Básico",
+              "preco_base_euros": 28
+            },
+            {
+              "nome": "Premium",
+              "preco_base_euros": 65
+            }
+          ]
+        },
+        "casa": {
+          "cobertura_niveis": [
+            {
+              "nome": "Cobertura Base",
+              "preco_base_euros": 230
+            },
+            {
+              "nome": "Cobertura Completa",
+              "preco_base_euros": 420
+            }
+          ]
+        },
+        "animais": {
+          "cobertura_niveis": [
+            {
+              "nome": "Veterinário e Medicamentos",
+              "preco_base_euros": 140
+            },
+            {
+              "nome": "Cirurgia e Internamento",
+              "preco_base_euros": 230
+            }
+          ]
+        },
+        "acidentes_pessoais": {
+          "cobertura_niveis": [
+            {
+              "nome": "Básico",
+              "preco_base_euros": 110
+            },
+            {
+              "nome": "Amplo",
+              "preco_base_euros": 180
+            }
+          ]
+        },
+        "responsabilidade_civil_familiar": {
+          "cobertura_niveis": [
+            {
+              "nome": "Plano Único",
+              "preco_base_euros": 28
+            }
+          ]
+        },
+        "parametros_rules": {
+          "Sobretaxa de Idade (Jovem e Sénior)": {
+            "percentage": "12",
+            "name": "Sobretaxa de Idade (Condutor <25 ou >70)"
+          },
+          "Sobretaxa por Anos de Carta": {
+            "percentage": "8",
+            "name": "Sobretaxa por Anos de Carta (<3 anos)"
+          },
+          "Sobretaxa por Histórico de Sinistros": {
+            "percentage": "20",
+            "name": "Sobretaxa por Sinistros (Últimos 5 anos)"
+          },
+          "Desconto por Bónus-Malus": {
+            "percentage": "-20",
+            "name": "Desconto por Bónus-Malus (>5 anos sem sinistros)"
+          },
+          "Sobretaxa por Marca e Modelo de Alto Risco": {
+            "percentage": "15",
+            "name": "Sobretaxa por Veículo de Alto Risco"
+          },
+          "Desconto por Garagem": {
+            "percentage": "-10",
+            "name": "Desconto por Estacionamento em Garagem"
+          },
+          "Sobretaxa por Uso Profissional": {
+            "percentage": "80",
+            "name": "Sobretaxa por Uso Profissional"
+          },
+          "Desconto por Quilometragem Anual Baixa": {
+            "percentage": "-12",
+            "name": "Desconto por Quilometragem Anual Baixa"
+          },
+          "Sobretaxa por Idade (Saúde)": {
+            "percentage": "10",
+            "name": "Sobretaxa por Idade (>50 anos)"
+          },
+          "Sobretaxa por Doença Preexistente": {
+            "percentage": "20",
+            "name": "Sobretaxa por Doença Crónica Preexistente"
+          },
+          "Sobretaxa por Fumador": {
+            "percentage": "15",
+            "name": "Sobretaxa por Fumador"
+          },
+          "Desconto para Famílias": {
+            "percentage": "-15",
+            "name": "Desconto para Plano Familiar"
+          }
+        }
+      },
+      "OK! Teleseguros": {
+        "logo_url": "https://okteleseguros.pt/hubfs/okseguros_negativo.svg",
+        "automovel": {
+          "cobertura_niveis": [
+            {
+              "nome": "Responsabilidade Civil",
+              "preco_base_euros": true,
+              "parametros_cobertura": {
+                "probabilidade": 0.05,
+                "custoMedio": 2000,
+                "despesas": 0.25,
+                "margem": 0.095
+              }
+            },
+            {
+              "nome": "Danos Próprios",
+              "preco_base_euros": true,
+              "parametros_cobertura": {
+                "probabilidade": 0.07,
+                "custoMedio": 5000,
+                "despesas": 0.3,
+                "margem": 0.1
+              }
+            }
+          ]
+        },
+        "mota": {
+          "cobertura_niveis": [
+            {
+              "nome": "Responsabilidade Civil",
+              "preco_base_euros": 115
+            },
+            {
+              "nome": "Danos Próprios",
+              "preco_base_euros": 310
+            }
+          ]
+        },
+        "saude": {
+          "cobertura_niveis": [
+            {
+              "nome": "Plano Base",
+              "preco_base_euros": 415
+            },
+            {
+              "nome": "Plano Completo (com Estomatologia e Internamento)",
+              "preco_base_euros": 740
+            }
+          ]
+        },
+        "vida": {
+          "cobertura_niveis": [
+            {
+              "nome": "Capital de 50.000€",
+              "preco_base_euros": 88
+            },
+            {
+              "nome": "Capital de 100.000€",
+              "preco_base_euros": 158
+            }
+          ]
+        },
+        "viagem": {
+          "cobertura_niveis": [
+            {
+              "nome": "Básico",
+              "preco_base_euros": 27
+            },
+            {
+              "nome": "Premium",
+              "preco_base_euros": 63
+            }
+          ]
+        },
+        "casa": {
+          "cobertura_niveis": [
+            {
+              "nome": "Cobertura Base",
+              "preco_base_euros": 225
+            },
+            {
+              "nome": "Cobertura Completa",
+              "preco_base_euros": 415
+            }
+          ]
+        },
+        "animais": {
+          "cobertura_niveis": [
+            {
+              "nome": "Veterinário e Medicamentos",
+              "preco_base_euros": 138
+            },
+            {
+              "nome": "Cirurgia e Internamento",
+              "preco_base_euros": 228
+            }
+          ]
+        },
+        "acidentes_pessoais": {
+          "cobertura_niveis": [
+            {
+              "nome": "Básico",
+              "preco_base_euros": 108
+            },
+            {
+              "nome": "Amplo",
+              "preco_base_euros": 175
+            }
+          ]
+        },
+        "responsabilidade_civil_familiar": {
+          "cobertura_niveis": [
+            {
+              "nome": "Plano Único",
+              "preco_base_euros": 27
+            }
+          ]
+        },
+        "parametros_rules": {
+          "Sobretaxa de Idade (Jovem e Sénior)": {
+            "percentage": "10",
+            "name": "Sobretaxa de Idade (Condutor <25 ou >70)"
+          },
+          "Sobretaxa por Anos de Carta": {
+            "percentage": "7",
+            "name": "Sobretaxa por Anos de Carta (<3 anos)"
+          },
+          "Sobretaxa por Histórico de Sinistros": {
+            "percentage": "18",
+            "name": "Sobretaxa por Sinistros (Últimos 5 anos)"
+          },
+          "Desconto por Bónus-Malus": {
+            "percentage": "-22",
+            "name": "Desconto por Bónus-Malus (>5 anos sem sinistros)"
+          },
+          "Sobretaxa por Marca e Modelo de Alto Risco": {
+            "percentage": "14",
+            "name": "Sobretaxa por Veículo de Alto Risco"
+          },
+          "Desconto por Garagem": {
+            "percentage": "-11",
+            "name": "Desconto por Estacionamento em Garagem"
+          },
+          "Sobretaxa por Uso Profissional": {
+            "percentage": "75",
+            "name": "Sobretaxa por Uso Profissional"
+          },
+          "Desconto por Quilometragem Anual Baixa": {
+            "percentage": "-13",
+            "name": "Desconto por Quilometragem Anual Baixa"
+          },
+          "Sobretaxa por Idade (Saúde)": {
+            "percentage": "9",
+            "name": "Sobretaxa por Idade (>50 anos)"
+          },
+          "Sobretaxa por Doença Preexistente": {
+            "percentage": "18",
+            "name": "Sobretaxa por Doença Crónica Preexistente"
+          },
+          "Sobretaxa por Fumador": {
+            "percentage": "14",
+            "name": "Sobretaxa por Fumador"
+          },
+          "Desconto para Famílias": {
+            "percentage": "-18",
+            "name": "Desconto para Plano Familiar"
+          }
+        }
+      },
+      "N Seguros": {
+        "logo_url": "https://www.nseguros.pt/media/nabfgp33/logo-nseguros-vert-branco.png",
+        "automovel": {
+          "cobertura_niveis": [
+            {
+              "nome": "Responsabilidade Civil",
+              "preco_base_euros": true,
+              "parametros_cobertura": {
+                "probabilidade": 0.05,
+                "custoMedio": 2000,
+                "despesas": 0.2,
+                "margem": 0.1
+              }
+            },
+            {
+              "nome": "Danos Próprios",
+              "preco_base_euros": true,
+              "parametros_cobertura": {
+                "probabilidade": 0.07,
+                "custoMedio": 5000,
+                "despesas": 0.3,
+                "margem": 0.1
+              }
+            }
+          ]
+        },
+        "mota": {
+          "cobertura_niveis": [
+            {
+              "nome": "Responsabilidade Civil",
+              "preco_base_euros": 110
+            },
+            {
+              "nome": "Danos Próprios",
+              "preco_base_euros": 305
+            }
+          ]
+        },
+        "saude": {
+          "cobertura_niveis": [
+            {
+              "nome": "Plano Base",
+              "preco_base_euros": 410
+            },
+            {
+              "nome": "Plano Completo (com Estomatologia e Internamento)",
+              "preco_base_euros": 735
+            }
+          ]
+        },
+        "vida": {
+          "cobertura_niveis": [
+            {
+              "nome": "Capital de 50.000€",
+              "preco_base_euros": 85
+            },
+            {
+              "nome": "Capital de 100.000€",
+              "preco_base_euros": 155
+            }
+          ]
+        },
+        "viagem": {
+          "cobertura_niveis": [
+            {
+              "nome": "Básico",
+              "preco_base_euros": 26
+            },
+            {
+              "nome": "Premium",
+              "preco_base_euros": 62
+            }
+          ]
+        },
+        "casa": {
+          "cobertura_niveis": [
+            {
+              "nome": "Cobertura Base",
+              "preco_base_euros": 220
+            },
+            {
+              "nome": "Cobertura Completa",
+              "preco_base_euros": 410
+            }
+          ]
+        },
+        "animais": {
+          "cobertura_niveis": [
+            {
+              "nome": "Veterinário e Medicamentos",
+              "preco_base_euros": 135
+            },
+            {
+              "nome": "Cirurgia e Internamento",
+              "preco_base_euros": 225
+            }
+          ]
+        },
+        "acidentes_pessoais": {
+          "cobertura_niveis": [
+            {
+              "nome": "Básico",
+              "preco_base_euros": 105
+            },
+            {
+              "nome": "Amplo",
+              "preco_base_euros": 170
+            }
+          ]
+        },
+        "responsabilidade_civil_familiar": {
+          "cobertura_niveis": [
+            {
+              "nome": "Plano Único",
+              "preco_base_euros": 26
+            }
+          ]
+        },
+        "parametros_rules": {
+          "Sobretaxa de Idade (Jovem e Sénior)": {
+            "percentage": "11",
+            "name": "Sobretaxa de Idade (Condutor <25 ou >70)"
+          },
+          "Sobretaxa por Anos de Carta": {
+            "percentage": "6",
+            "name": "Sobretaxa por Anos de Carta (<3 anos)"
+          },
+          "Sobretaxa por Histórico de Sinistros": {
+            "percentage": "17",
+            "name": "Sobretaxa por Sinistros (Últimos 5 anos)"
+          },
+          "Desconto por Bónus-Malus": {
+            "percentage": "-25",
+            "name": "Desconto por Bónus-Malus (>5 anos sem sinistros)"
+          },
+          "Sobretaxa por Marca e Modelo de Alto Risco": {
+            "percentage": "13",
+            "name": "Sobretaxa por Veículo de Alto Risco"
+          },
+          "Desconto por Garagem": {
+            "percentage": "-12",
+            "name": "Desconto por Estacionamento em Garagem"
+          },
+          "Sobretaxa por Uso Profissional": {
+            "percentage": "70",
+            "name": "Sobretaxa por Uso Profissional"
+          },
+          "Desconto por Quilometragem Anual Baixa": {
+            "percentage": "-15",
+            "name": "Desconto por Quilometragem Anual Baixa"
+          },
+          "Sobretaxa por Idade (Saúde)": {
+            "percentage": "8",
+            "name": "Sobretaxa por Idade (>50 anos)"
+          },
+          "Sobretaxa por Doença Preexistente": {
+            "percentage": "16",
+            "name": "Sobretaxa por Doença Crónica Preexistente"
+          },
+          "Sobretaxa por Fumador": {
+            "percentage": "12",
+            "name": "Sobretaxa por Fumador"
+          },
+          "Desconto para Famílias": {
+            "percentage": "-20",
+            "name": "Desconto para Plano Familiar"
+          }
+        }
+      }
+    }
+  },
+  "rules": {
+    "automovel": [
+      {
+        "name": "Sobretaxa de Idade (Jovem e Sénior)",
+        "attributes": [
+          {
+            "name": "idade_condutor",
+            "type": "number"
+          }
+        ],
+        "conditions": {
+          "any": [
+            {
+              "fact": "condutor_principal",
+              "operator": "lessThan",
+              "value": 25,
+              "path": "$.idade"
+            },
+            {
+              "fact": "condutor_principal",
+              "operator": "greaterThan",
+              "value": 70,
+              "path": "$.idade"
+            }
+          ]
+        },
+        "event": {
+          "type": "applySurcharge"
+        }
+      },
+      {
+        "name": "Sobretaxa por Anos de Carta",
+        "attributes": [
+          {
+            "name": "anos_carta",
+            "type": "number"
+          }
+        ],
+        "conditions": {
+          "all": [
+            {
+              "fact": "condutor_principal",
+              "operator": "lessThan",
+              "value": 3,
+              "path": "$.anos_carta"
+            }
+          ]
+        },
+        "event": {
+          "type": "applySurcharge"
+        }
+      },
+      {
+        "name": "Sobretaxa por Histórico de Sinistros",
+        "attributes": [
+          {
+            "name": "numero_sinistros",
+            "type": "number"
+          }
+        ],
+        "conditions": {
+          "all": [
+            {
+              "fact": "condutor_principal",
+              "operator": "greaterThan",
+              "value": 0,
+              "path": "$.historico.sinistros_5_anos"
+            }
+          ]
+        },
+        "event": {
+          "type": "applySurcharge"
+        }
+      },
+      {
+        "name": "Desconto por Bónus-Malus",
+        "attributes": [
+          {
+            "name": "anos_sem_sinistros",
+            "type": "number"
+          }
+        ],
+        "conditions": {
+          "all": [
+            {
+              "fact": "condutor_principal",
+              "operator": "greaterThan",
+              "value": 5,
+              "path": "$.historico.anos_sem_sinistros"
+            }
+          ]
+        },
+        "event": {
+          "type": "applyDiscount"
+        }
+      },
+      {
+        "name": "Sobretaxa por Marca e Modelo de Alto Risco",
+        "attributes": [
+          {
+            "name": "marca_modelo",
+            "type": "string"
+          }
+        ],
+        "conditions": {
+          "any": [
+            {
+              "fact": "veiculo",
+              "operator": "equal",
+              "value": "BMW M3",
+              "path": "$.marca_modelo"
+            },
+            {
+              "fact": "veiculo",
+              "operator": "equal",
+              "value": "Ford Mustang",
+              "path": "$.marca_modelo"
+            }
+          ]
+        },
+        "event": {
+          "type": "applySurcharge"
+        }
+      },
+      {
+        "name": "Desconto por Garagem",
+        "attributes": [
+          {
+            "name": "local_estacionamento",
+            "type": "string"
+          }
+        ],
+        "conditions": {
+          "all": [
+            {
+              "fact": "veiculo",
+              "operator": "equal",
+              "value": "garagem",
+              "path": "$.estacionamento"
+            }
+          ]
+        },
+        "event": {
+          "type": "applyDiscount"
+        }
+      },
+      {
+        "name": "Sobretaxa por Uso Profissional",
+        "attributes": [
+          {
+            "name": "uso_veiculo",
+            "type": "string"
+          }
+        ],
+        "conditions": {
+          "all": [
+            {
+              "fact": "veiculo",
+              "operator": "equal",
+              "value": "profissional",
+              "path": "$.uso_veiculo"
+            }
+          ]
+        },
+        "event": {
+          "type": "applySurcharge"
+        }
+      },
+      {
+        "name": "Desconto por Quilometragem Anual Baixa",
+        "attributes": [
+          {
+            "name": "kilometragem_anual",
+            "type": "number"
+          }
+        ],
+        "conditions": {
+          "all": [
+            {
+              "fact": "veiculo",
+              "operator": "lessThanInclusive",
+              "value": 10000,
+              "path": "$.quilometragem_anual"
+            }
+          ]
+        },
+        "event": {
+          "type": "applyDiscount"
+        }
+      }
+    ],
+    "saude": [
+      {
+        "name": "Sobretaxa por Idade (Saúde)",
+        "attributes": [
+          {
+            "name": "idade_cliente",
+            "type": "number"
+          }
+        ],
+        "conditions": {
+          "all": [
+            {
+              "fact": "cliente",
+              "operator": "greaterThan",
+              "value": 50,
+              "path": "$.idade"
+            }
+          ]
+        },
+        "event": {
+          "type": "applySurcharge"
+        }
+      },
+      {
+        "name": "Sobretaxa por Doença Preexistente",
+        "attributes": [
+          {
+            "name": "doencas_preexistentes",
+            "type": "array"
+          }
+        ],
+        "conditions": {
+          "any": [
+            {
+              "fact": "saude",
+              "operator": "contains",
+              "value": "hipertensão",
+              "path": "$.historico.doencas_preexistentes"
+            },
+            {
+              "fact": "saude",
+              "operator": "contains",
+              "value": "diabetes",
+              "path": "$.historico.doencas_preexistentes"
+            }
+          ]
+        },
+        "event": {
+          "type": "applySurcharge"
+        }
+      },
+      {
+        "name": "Sobretaxa por Fumador",
+        "attributes": [
+          {
+            "name": "fumador",
+            "type": "boolean"
+          }
+        ],
+        "conditions": {
+          "all": [
+            {
+              "fact": "cliente",
+              "operator": "equal",
+              "value": true,
+              "path": "$.fumador"
+            }
+          ]
+        },
+        "event": {
+          "type": "applySurcharge"
+        }
+      },
+      {
+        "name": "Desconto para Famílias",
+        "attributes": [
+          {
+            "name": "tipo_plano",
+            "type": "string"
+          }
+        ],
+        "conditions": {
+          "all": [
+            {
+              "fact": "seguro",
+              "operator": "equal",
+              "value": "familiar",
+              "path": "$.tipo_plano"
+            }
+          ]
+        },
+        "event": {
+          "type": "applyDiscount"
+        }
+      }
+    ],
+    "vida": [
+      {
+        "name": "Sobretaxa por Idade (Vida)",
+        "attributes": [
+          {
+            "name": "idade_segurado",
+            "type": "number"
+          }
+        ],
+        "conditions": {
+          "all": [
+            {
+              "fact": "segurado",
+              "operator": "greaterThan",
+              "value": 45,
+              "path": "$.idade"
+            }
+          ]
+        },
+        "event": {
+          "type": "applySurcharge"
+        }
+      },
+      {
+        "name": "Sobretaxa por Ocupação de Risco",
+        "attributes": [
+          {
+            "name": "ocupacao",
+            "type": "string"
+          }
+        ],
+        "conditions": {
+          "any": [
+            {
+              "fact": "segurado",
+              "operator": "in",
+              "value": [
+                "trabalhador da construção civil",
+                "piloto",
+                "bombeiro"
+              ],
+              "path": "$.ocupacao"
+            }
+          ]
+        },
+        "event": {
+          "type": "applySurcharge"
+        }
+      },
+      {
+        "name": "Desconto por Capital Segurado Alto",
+        "attributes": [
+          {
+            "name": "capital_segurado",
+            "type": "number"
+          }
+        ],
+        "conditions": {
+          "all": [
+            {
+              "fact": "seguro",
+              "operator": "greaterThan",
+              "value": 100000,
+              "path": "$.capital_segurado"
+            }
+          ]
+        },
+        "event": {
+          "type": "applyDiscount"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "conditions": {
+      "orderStatus": "approved",
+      "paymentStatus": "paid",
+      "fulfillmentStatus": "not_required"
+    },
+    "templateSuffix": "orders.pay"
+  },
+  {
+    "conditions": {
+      "orderStatus": "approved",
+      "paymentStatus": "paid",
+      "fulfillmentStatus": "fulfilled"
+    },
+    "templateSuffix": "orders.fulfill"
+  },
+  {
+    "conditions": {
+      "orderStatus": "approved",
+      "paymentStatus": "authorized",
+      "fulfillmentStatus": "not_required"
+    },
+    "templateSuffix": "orders.approve"
+  },
+  {
+    "conditions": {
+      "orderStatus": "placed",
+      "paymentStatus": "authorized",
+      "fulfillmentStatus": "not_required"
+    },
+    "templateSuffix": "orders.place"
+  },
+  {
+    "conditions": {
+      "orderStatus": "cancelled",
+      "paymentStatus": "voided",
+      "fulfillmentStatus": "not_required"
+    },
+    "templateSuffix": "orders.cancel"
+  },
+  {
+    "conditions": {
+      "orderStatus": "cancelled",
+      "paymentStatus": "refunded",
+      "fulfillmentStatus": "fulfilled"
+    },
+    "templateSuffix": "orders.fulfill"
+  },
+  {
+    "conditions": {
+      "orderStatus": "approved",
+      "paymentStatus": "partially_refunded",
+      "fulfillmentStatus": "unfulfilled"
+    },
+    "templateSuffix": "orders.refund"
+  }
+]

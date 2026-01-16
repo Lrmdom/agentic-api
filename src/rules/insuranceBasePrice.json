@@ -1,0 +1,26 @@
+{
+  "coberturas": [
+    {
+      "name": "Cálculo Base Responsabilidade Civil",
+      "event": {
+        "type": "setValue",
+        "params": {
+          "field": "preco_base_euros",
+          "formula": "(0.03 * 10000) * (1 + 0.30) * (1 + 0.10)",
+          "name": "Preço Base RC com defaults"
+        }
+      }
+    },
+    {
+      "name": "Cálculo Base Danos Próprios",
+      "event": {
+        "type": "setValue",
+        "params": {
+          "field": "preco_base_euros",
+          "formula": "(0.07 * 15000) * (1 + 0.30) * (1 + 0.10)",
+          "name": "Preço Base Danos Próprios com defaults"
+        }
+      }
+    }
+  ]
+}

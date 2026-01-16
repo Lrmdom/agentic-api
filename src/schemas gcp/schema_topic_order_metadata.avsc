@@ -1,0 +1,82 @@
+{
+  "type": "record",
+  "name": "orderMetadata",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "numero_pedido",
+      "type": "int"
+    },
+    {
+      "name": "status",
+      "type": "string"
+    },
+    {
+      "name": "payment_status",
+      "type": "string"
+    },
+    {
+      "name": "email_cliente",
+      "type": "string"
+    },
+    {
+      "name": "total_cents",
+      "type": "int"
+    },
+    {
+      "name": "formatted_total_amount_with_taxes",
+      "type": "string"
+    },
+    {
+      "name": "sku_code",
+      "type": "string"
+    },
+    {
+      "name": "moeda",
+      "type": "string"
+    },
+    {
+      "name": "mes_recolha",
+      "type": "int"
+    },
+    {
+      "name": "number_of_days",
+      "type": "int"
+    },
+    {
+      "name": "idade_condutor",
+      "type": "int"
+    },
+    {
+      "name": "conditionA",
+      "type": "int"
+    },
+    {
+      "name": "conditionB",
+      "type": "int"
+    },
+    {
+      "name": "vehicleModel",
+      "type": "string"
+    },
+    {
+      "name": "store_location",
+      "type": "string"
+    },
+    {
+      "name": "vehicle_registration_number",
+      "type": "string"
+    },
+    {
+      "name": "start_Date",
+      "type": "string"
+    },
+    {
+      "name": "end_Date",
+      "type": "string"
+    }
+  ]
+}
