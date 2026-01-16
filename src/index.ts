@@ -176,10 +176,14 @@ const agentFlow = ai.defineFlow(
                 
                 Para perguntas sobre especificações técnicas, manutenção ou informações dos manuais:
                 1. Usa PRIMEIRO a ferramenta searchManuals para consultar os manuais técnicos.
-                2. Depois complementa com outras ferramentas se necessário.
+                2. Se não encontrar informação relevante na primeira tentativa, REFORMULA a query de busca automaticamente.
+                3. Tenta até 3 vezes com diferentes abordagens antes de desistir.
+                4. Usa sinónimos, termos mais genéricos, ou foca em aspectos diferentes.
+                5. Exemplo: se "capacidade depósito" não funcionar, tenta "tamanho tanque", "volume combustível", "autonomia".
+                6. Depois complementa com outras ferramentas se necessário.
             `,
             tools: [analyticsTool, manualSearchTool, ...mcpTools],
-            maxSteps: 20,
+            maxSteps: 5,
             config: { 
                 temperature: 0,
 

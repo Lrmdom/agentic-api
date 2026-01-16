@@ -118,9 +118,27 @@ app.post("/chat", async (c) => {
             }
         }
 
-        // Primeira chamada
+        // Primeira chamada com system prompt melhorado
+        const systemPrompt = `
+            És um Especialista em Dados com acesso a ferramentas reais e manuais técnicos de motocicletas. 
+            Sempre que um utilizador pedir para "cruzar dados", deves:
+            1. Identificar as ferramentas necessárias.
+            2. Chamar as ferramentas em sequência.
+            3. NÃO DIGAS que não podes fazer. Tenta sempre usar as ferramentas disponíveis.
+            
+            Para perguntas sobre especificações técnicas, manutenção ou informações dos manuais:
+            1. Usa PRIMEIRO as ferramentas de manuais (search_manuals, get_model_info).
+            2. Se não encontrar informação relevante na primeira tentativa, REFORMULA a query de busca automaticamente.
+            3. Tenta até 3 vezes com diferentes abordagens antes de desistir.
+            4. Usa sinónimos, termos mais genéricos, ou foca em aspectos diferentes.
+            5. Exemplo: se "capacidade depósito" não funcionar, tenta "tamanho tanque", "volume combustível", "autonomia".
+            6. Depois complementa com outras ferramentas se necessário.
+        `;
+
         const result = await model.generateContent({
-            contents: [{role: "user", parts: [{text: message}]}],
+            contents: [
+                {role: "user", parts: [{text: systemPrompt + "\n\nPergunta do utilizador: " + message}]}
+            ],
             tools: [{functionDeclarations}]
         });
 
@@ -168,16 +186,84 @@ app.post("/chat", async (c) => {
                 }
             }
 
-            // Segunda chamada (Histórico completo é obrigatório)
-            const finalResult = await model.generateContent({
+            // Segunda chamada com system prompt e contexto completo
+            const finalSystemPrompt = `
+                Analisa os resultados das ferramentas e responde à pergunta do utilizador.
+                
+                Se os resultados das ferramentas de manuais não tiverem informação relevante:
+                1. Identifica o que foi procurado vs o que foi encontrado
+                2. Se ainda não tentou suficientes alternativas, FAZ NOVAS CHAMADAS de ferramentas
+                3. Usa diferentes termos: "capacidade depósito", "volume combustível", "tamanho tanque", "autonomia"
+                4. Seja transparente sobre as tentativas realizadas
+                5. Continue tentando até encontrar informação relevante ou esgotar 3 tentativas
+                
+                IMPORTANTE: Você PODE e DEVE fazer chamadas de ferramentas adicionais se as primeiras não funcionarem.
+            `;
+
+            // Permitir múltiplas chamadas de ferramentas na segunda fase
+            const secondResult = await model.generateContent({
                 contents: [
-                    {role: "user", parts: [{text: message}]},
+                    {role: "user", parts: [{text: finalSystemPrompt + "\n\nContexto original: " + message}]},
                     {role: "model", parts: response.candidates?.[0]?.content?.parts || []},
                     {role: "function", parts: toolResults}
-                ]
+                ],
+                tools: [{functionDeclarations}]
             });
 
-            return c.json({reply: finalResult.response.text()});
+            const secondResponse = secondResult.response;
+            const secondFunctionCalls = secondResponse.functionCalls();
+
+            if (secondFunctionCalls && secondFunctionCalls.length > 0) {
+                const secondToolResults = [...toolResults];
+
+                for (const call of secondFunctionCalls) {
+                    const toolName = call.name;
+                    const args = call.args as any;
+                    let rawResponse;
+
+                    try {
+                        if (toolName === sanitizeToolName(googleAnalyticsTool.name)) {
+                            const { runAnalyticsReport } = await import("../../services/analytics.js");
+                            rawResponse = await runAnalyticsReport(args.days || 7, args.limit || 10);
+                        } else if (toolName === sanitizeToolName(googleRealtimeTool.name)) {
+                            const { runRealtimeReport } = await import("../../services/analytics.js");
+                            rawResponse = await runRealtimeReport(args.limit || 10);
+                        } else {
+                            const mapping = toolToManagerMap[toolName];
+                            if (mapping) {
+                                rawResponse = await mcpManager.callTool(mapping.server, mapping.originalName, args);
+                            } else {
+                                throw new Error(`Tool ${toolName} not found`);
+                            }
+                        }
+
+                        const safeResponse = (Array.isArray(rawResponse) || typeof rawResponse !== 'object')
+                            ? {output: rawResponse}
+                            : rawResponse;
+
+                        secondToolResults.push({
+                            functionResponse: {name: toolName, response: safeResponse}
+                        });
+                    } catch (err: any) {
+                        secondToolResults.push({
+                            functionResponse: {name: toolName, response: {error: err.message}}
+                        });
+                    }
+                }
+
+                // Terceira chamada final com todos os resultados
+                const finalResult = await model.generateContent({
+                    contents: [
+                        {role: "user", parts: [{text: "Com base em todas as tentativas, responda à pergunta original: " + message}]},
+                        {role: "model", parts: response.candidates?.[0]?.content?.parts || []},
+                        {role: "function", parts: secondToolResults}
+                    ]
+                });
+
+                return c.json({reply: finalResult.response.text()});
+            }
+
+            return c.json({reply: secondResponse.text()});
         }
 
         return c.json({reply: response.text()});
