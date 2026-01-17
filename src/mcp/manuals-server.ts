@@ -8,18 +8,25 @@ import {
 } from '@modelcontextprotocol/sdk/types.js';
 import { FinalIndexer } from '../final-indexer.js';
 import { SimpleExtractor } from '../simple-extractor.js';
+import { IndexadorNumerico } from '../../evaluation/indexar-dados-numericos.js';
+import { GeminiEmbeddingService } from '../../evaluation/gemini-embedding-service.js';
 
 class ManualsMCPServer {
   private server: Server;
   private indexer: FinalIndexer;
   private searchIndex: any = null;
+  private indexadorNumerico: IndexadorNumerico;
+  private dadosNumericos: any[] = [];
   private isInitialized: boolean = false;
+  private lastCallId: string = '';
+  private callCount: number = 0;
+  private geminiService: GeminiEmbeddingService;
 
   constructor() {
     this.server = new Server(
       {
         name: 'manuals-server',
-        version: '1.0.0',
+        version: '3.0.0', // Versão atualizada com Gemini Embeddings
       },
       {
         capabilities: {
@@ -29,6 +36,8 @@ class ManualsMCPServer {
     );
 
     this.indexer = new FinalIndexer();
+    this.indexadorNumerico = new IndexadorNumerico();
+    this.geminiService = new GeminiEmbeddingService();
     this.setupToolHandlers();
   }
 
@@ -36,11 +45,31 @@ class ManualsMCPServer {
     if (this.isInitialized) return;
 
     try {
-      console.log('📂 Carregando índice de manuais...');
+      console.log('📂 Carregando índice de manuais COM DADOS NUMÉRICOS...');
+      
+      // Carregar índice numérico primeiro
+      try {
+        const fs = await import('fs');
+        if (fs.existsSync('./indice-numerico.json')) {
+          const indiceNumerico = JSON.parse(fs.readFileSync('./indice-numerico.json', 'utf8'));
+          this.dadosNumericos = indiceNumerico.dados;
+          console.log(`✅ Índice numérico carregado: ${this.dadosNumericos.length} dados`);
+        } else {
+          console.log('🔄 Construindo índice numérico...');
+          await this.indexadorNumerico.indexarDadosNumericos();
+          const fs = await import('fs');
+          const indiceNumerico = JSON.parse(fs.readFileSync('./indice-numerico.json', 'utf8'));
+          this.dadosNumericos = indiceNumerico.dados;
+        }
+      } catch (error) {
+        console.log('⚠️ Erro ao carregar índice numérico, usando sistema antigo...');
+      }
+      
+      // Carregar índice tradicional como fallback
       this.searchIndex = await this.indexer.loadIndex();
       
       if (!this.searchIndex) {
-        console.log('🔄 Construindo novo índice...');
+        console.log('🔄 Construindo índice tradicional...');
         const extractor = new SimpleExtractor();
         const documents = await extractor.processAllPdfs();
         this.searchIndex = this.indexer.buildSearchIndex(documents);
@@ -48,6 +77,7 @@ class ManualsMCPServer {
       }
       
       this.isInitialized = true;
+      console.log(`✅ Sistema inicializado: ${this.dadosNumericos.length} dados numéricos + índice tradicional`);
       console.log(`✅ Índice carregado: ${this.searchIndex.documents.length} documentos`);
     } catch (error) {
       console.error('❌ Erro ao inicializar índice:', error);
@@ -140,52 +170,161 @@ class ManualsMCPServer {
   }
 
   private async handleSearchManuals(args: any) {
-    const { query, model, type = 'all' } = args;
+    const { query, model, type = 'all', _clearContext, _callId, _timestamp } = args;
 
-    let results = this.indexer.search(query, this.searchIndex);
+    // Incrementar contador de chamadas
+    this.callCount++;
+    
+    // Verificar se é uma nova chamada (diferente ID ou limpeza forçada)
+    const isNewCall = _callId && _callId !== this.lastCallId;
+    const shouldClearContext = _clearContext === true || isNewCall || this.callCount === 1;
+    
+    if (shouldClearContext) {
+      console.log(`🧹 Limpando contexto - Call ID: ${_callId}, Nova chamada: ${isNewCall}`);
+      this.lastCallId = _callId || '';
+    }
+
+    // PRIORIDADE 1: Buscar nos dados numéricos primeiro
+    let resultadosNumericos = this.buscarDadosNumericos(query, model);
+    
+    // PRIORIDADE 2: Se não encontrar em dados numéricos, buscar no índice tradicional
+    let resultsTradicionais = this.indexer.search(query, this.searchIndex);
+    
+    // Combinar resultados
+    let allResults = [
+      ...resultadosNumericos.map(r => ({
+        model: r.modelo,
+        section: r.especificacao,
+        type: 'specifications',
+        content: `${r.especificacao}: ${r.valor} ${r.unidade} (Página ${r.pagina})\nContexto: ${r.contexto.substring(0, 200)}...`,
+        callId: _callId,
+        timestamp: _timestamp
+      })),
+      ...resultsTradicionais
+    ];
 
     // Filtrar por modelo se especificado
     if (model) {
-      results = results.filter(result => 
+      allResults = allResults.filter(result => 
         result.model.toLowerCase().includes(model.toLowerCase())
       );
     }
 
     // Filtrar por tipo se especificado
     if (type !== 'all') {
-      results = results.filter(result => result.type === type);
+      allResults = allResults.filter(result => result.type === type);
     }
 
     // Limitar resultados
-    results = results.slice(0, 5);
+    allResults = allResults.slice(0, 10);
 
-    if (results.length === 0) {
+    if (allResults.length === 0) {
       return {
         content: [
           {
             type: 'text',
-            text: 'Não foram encontradas informações relevantes nos manuais para esta consulta.',
+            text: `Não foram encontradas informações relevantes nos manuais para esta consulta. (Call ID: ${_callId})`,
           },
         ],
       };
     }
 
-    const formattedResults = results.map((result, index) => 
-      `**Resultado ${index + 1}**\n` +
-      `Modelo: ${result.model}\n` +
-      `Seção: ${result.section}\n` +
-      `Tipo: ${result.type === 'specifications' ? '📋 Especificações' : '🚀 Funcionalidades'}\n` +
-      `Conteúdo: ${result.content.substring(0, 500)}${result.content.length > 500 ? '...' : ''}\n`
-    ).join('\n---\n');
+    // Priorizar resultados numéricos
+    const formattedResults = allResults.map((result, index) => {
+      const isNumerico = resultadosNumericos.some(r => 
+        r.modelo === result.model && r.especificacao === result.section
+      );
+      
+      const prefix = isNumerico ? '🔢' : '📄';
+      const tipoIcon = result.type === 'specifications' ? '📋 Especificações' : '🚀 Funcionalidades';
+      
+      return `${prefix} **Resultado ${index + 1}**\n` +
+        `Modelo: ${result.model}\n` +
+        `Seção: ${result.section}\n` +
+        `Tipo: ${tipoIcon}\n` +
+        `Conteúdo: ${result.content.substring(0, 500)}${result.content.length > 500 ? '...' : ''}\n` +
+        `(Call ID: ${_callId || 'N/A'})\n`;
+    }).join('\n---\n');
 
     return {
       content: [
         {
           type: 'text',
-          text: `Encontrados ${results.length} resultados:\n\n${formattedResults}`,
+          text: `Encontrados ${allResults.length} resultados (Call ID: ${_callId || 'N/A'}):\n\n${formattedResults}`,
         },
       ],
     };
+  }
+
+  private buscarDadosNumericos(query: string, model?: string): any[] {
+    if (!this.dadosNumericos || this.dadosNumericos.length === 0) {
+      return [];
+    }
+
+    const queryLower = query.toLowerCase();
+    let resultados = this.dadosNumericos;
+
+    // Filtrar por modelo se especificado - MELHORADO
+    if (model) {
+      resultados = resultados.filter(dado => {
+        const modeloLower = dado.modelo.toLowerCase();
+        const modelLower = model.toLowerCase();
+        
+        // Busca flexível por modelo
+        return modeloLower.includes(modelLower) || 
+               modelLower.includes(modeloLower) ||
+               // Variações comuns
+               (modelLower.includes('pcx') && modeloLower.includes('pcx')) ||
+               (modelLower.includes('forza') && modeloLower.includes('forza')) ||
+               (modelLower.includes('sh') && modeloLower.includes('sh')) ||
+               (modelLower.includes('vision') && modeloLower.includes('vision')) ||
+               (modelLower.includes('cbr') && modeloLower.includes('cbr'));
+      });
+    }
+
+    // Buscar por termos relevantes - MELHORADO
+    const termosRelevantes = [
+      'pressao', 'pressão', 'pneu', 'calibragem', 'inflacao', 'inflação',
+      'kpa', 'psi', 'bar', 'kgf/cm',
+      'folga', 'jogo', 'regulagem', 'acelerador', 'punho', 'flange',
+      'torque', 'binario', 'binário', 'aperto', 'parafuso', 'cabeçote',
+      'capacidade', 'tanque', 'deposito', 'litro', 'litros'
+    ];
+
+    const temTermoRelevante = termosRelevantes.some(termo => 
+      queryLower.includes(termo) || termo.includes(queryLower)
+    );
+
+    if (temTermoRelevante) {
+      // Busca mais abrangente para termos técnicos
+      resultados = resultados.filter(dado => {
+        const contextoLower = dado.contexto.toLowerCase();
+        const especificacaoLower = dado.especificacao.toLowerCase();
+        const modeloLower = dado.modelo.toLowerCase();
+        
+        // Busca mais flexível
+        return contextoLower.includes(queryLower) || 
+               especificacaoLower.includes(queryLower) ||
+               (queryLower.includes('pressao') && (
+                 contextoLower.includes('pneu') || 
+                 contextoLower.includes('traseiro') ||
+                 contextoLower.includes('dianteiro') ||
+                 especificacaoLower.includes('pressão')
+               )) ||
+               (queryLower.includes('folga') && (
+                 contextoLower.includes('acelerador') || 
+                 contextoLower.includes('punho') ||
+                 contextoLower.includes('flange')
+               )) ||
+               (queryLower.includes('capacidade') && (
+                 contextoLower.includes('tanque') || 
+                 contextoLower.includes('deposito') ||
+                 especificacaoLower.includes('capacidade')
+               ));
+      });
+    }
+
+    return resultados;
   }
 
   private async handleGetModelInfo(args: any) {

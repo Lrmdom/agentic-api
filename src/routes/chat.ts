@@ -71,7 +71,7 @@ chatRouter.get("/test-connection", async (c) => {
 
     // Check if required tables and models exist
     const requiredTables = ['master_catalog_rag'];
-    const requiredModels = ['modelo_final', 'modelo_embedding_madrid'];
+    const requiredModels = ['modelo_final', 'text-embedding-004'];
     
     const missingTables = requiredTables.filter(
       (table: string) => !(tables as any[]).some((t: any) => t.table_name === table)
@@ -184,7 +184,7 @@ chatRouter.post("/chat", zValidator("json", chatSchema), async (c) => {
               'embedding',
               (SELECT ml_generate_embedding_result 
                FROM ML.GENERATE_EMBEDDING(
-                 MODEL \`${projectId}.events_data_dataset.modelo_embedding_madrid\`,
+                 MODEL \`${projectId}.events_data_dataset.text-embedding-004\`,
                  (SELECT @userInput as content)
                )),
               top_k => 2
@@ -222,11 +222,11 @@ chatRouter.post("/chat", zValidator("json", chatSchema), async (c) => {
     if (rows && rows.length > 0) {
       const firstRow = rows[0];
       if (firstRow && "resposta_ia" in firstRow && firstRow.resposta_ia) {
-        response = firstRow.resposta_ia;
+        response = `**[FONTE: CATÁLOGO]** ${firstRow.resposta_ia}`;
       } else if (firstRow && Object.keys(firstRow).length > 0) {
         // If the response doesn't have a 'resposta_ia' field, return the first field found
         const firstKey = Object.keys(firstRow)[0];
-        response = firstRow[firstKey] || response;
+        response = `**[FONTE: CATÁLOGO]** ${firstRow[firstKey] || response}`;
       }
     }
 

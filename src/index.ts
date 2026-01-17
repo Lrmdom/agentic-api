@@ -33,6 +33,7 @@ import pushNotificationsSubscribe from "./push-notifications-subscribe.js";
 import heritageSanityDataBucket from "./heritage-sanity-data-bucket.js";
 import { chatRouter } from "./routes/chat.js";
 import { nativeToolsRouter } from "./routes/native-tools.js";
+import { enhancedCatalogRouter } from "./routes/enhanced-catalog.js";
 import mcpApi from "./mcp/api/mcp.js";
 import { ManualRetriever } from "./manual-retriever.js";
 
@@ -63,8 +64,14 @@ const analyticsTool = ai.defineTool(
         // Importação dinâmica para evitar carregamento em produção
         const { runRealtimeReport, runAnalyticsReport } = await import("./mcp/analytics.js");
         
-        if (input.type === "realtime") return await runRealtimeReport();
-        return await runAnalyticsReport(input.days);
+        let result;
+        if (input.type === "realtime") {
+            result = await runRealtimeReport();
+        } else {
+            result = await runAnalyticsReport(input.days);
+        }
+        
+        return `**[FONTE: ANALYTICS]** Dados do Google Analytics 4:\n\n${JSON.stringify(result, null, 2)}`;
     }
 );
 
@@ -174,6 +181,12 @@ const agentFlow = ai.defineFlow(
                 2. Chamar as ferramentas em sequência.
                 3. NÃO DIGAS que não podes fazer. Tenta sempre usar as ferramentas disponíveis.
                 
+                **IMPORTANTE: Sempre identifica claramente a origem dos dados nas tuas respostas:**
+                - Dados dos manuais técnicos: **[FONTE: MANUAL]**
+                - Dados do catálogo BigQuery: **[FONTE: CATÁLOGO]**
+                - Dados do Analytics: **[FONTE: ANALYTICS]**
+                - Outras fontes: **[FONTE: OUTROS]**
+                
                 Para perguntas sobre especificações técnicas, manutenção ou informações dos manuais:
                 1. Usa PRIMEIRO a ferramenta searchManuals para consultar os manuais técnicos.
                 2. Se não encontrar informação relevante na primeira tentativa, REFORMULA a query de busca automaticamente.
@@ -181,6 +194,8 @@ const agentFlow = ai.defineFlow(
                 4. Usa sinónimos, termos mais genéricos, ou foca em aspectos diferentes.
                 5. Exemplo: se "capacidade depósito" não funcionar, tenta "tamanho tanque", "volume combustível", "autonomia".
                 6. Depois complementa com outras ferramentas se necessário.
+                
+                Ao apresentar informações, organiza por fonte e nunca mistures dados de diferentes origens sem identificar claramente cada uma.
             `,
             tools: [analyticsTool, manualSearchTool, ...mcpTools],
             maxSteps: 5,
@@ -255,6 +270,7 @@ app.route("/clayer-customer-to-profiles", clayerCustomerToProfiles);
 app.route("/verify-turnstile", verifyTurnstile);
 app.route("/api", chatRouter);
 app.route("/native-tools", nativeToolsRouter);
+app.route("/enhanced-catalog", enhancedCatalogRouter);
 app.route("/mcp", mcpApi);
 
 // 5. Inicialização do Servidor

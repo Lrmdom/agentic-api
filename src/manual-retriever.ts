@@ -293,10 +293,10 @@ export class ManualRetriever {
         }
 
         const formattedResults = results.map((result, index) => 
-          `**Resultado ${index + 1}** (Fonte: ${result.filename}):\n${result.text}`
+          `**Resultado ${index + 1}** **[FONTE: MANUAL]** (${result.filename}):\n${result.text}`
         ).join('\n\n');
 
-        return `Informações encontradas nos manuais:\n\n${formattedResults}`;
+        return `**[FONTE: MANUAL]** Informações encontradas nos manuais:\n\n${formattedResults}`;
       }
     );
   }

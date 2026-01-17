@@ -87,6 +87,12 @@ const SERVER_CONFIGS = [
     args: ["tsx", path.resolve(process.cwd(), "src/mcp/manuals-server.ts")],
     env: {},
   },
+  {
+    name: "enhanced-catalog",
+    command: "npx",
+    args: ["tsx", path.resolve(process.cwd(), "src/mcp/enhanced-catalog-server.ts")],
+    env: {},
+  },
   /* {
     name: "google-maps",
     command: "npx",

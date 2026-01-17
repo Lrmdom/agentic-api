@@ -1,0 +1,832 @@
+{
+  "timestamp": "2026-01-16T22:58:24.734Z",
+  "total": 37,
+  "porModelo": {
+    "cbr 650r": [
+      {
+        "modelo": "cbr 650r",
+        "categoria": "Capacidade",
+        "especificacao": "Capacidade",
+        "valor": "7",
+        "unidade": "L",
+        "pagina": "N/A",
+        "contexto": "oi concebido para usar gasolina com ndice de octanas RON 91 ou superior. Capacidade do dep sito: 11,7 L Conselhos sobre reabastecimento e combust vel P15 Abrir o tamp o de enchimento do combust vel a ...",
+        "precisao": "exata",
+        "fonte": "Honda_Forza_350.md"
+      },
+      {
+        "modelo": "cbr 650r",
+        "categoria": "Corrente",
+        "especificacao": "Corrente",
+        "valor": "118",
+        "unidade": "A",
+        "pagina": "N/A",
+        "contexto": "nterrutor de igni o est bloqueado. Se o sistema da chave Honda SMART Key n o funcionar devidamente P118 Anel do interrutor de igni o Interrutor de igni o Ligado Posi o SEAT FUEL Bloqueado Desligado 3P...",
+        "precisao": "exata",
+        "fonte": "Honda_Forza_350.md"
+      },
+      {
+        "modelo": "cbr 650r",
+        "categoria": "Corrente",
+        "especificacao": "Corrente",
+        "valor": "21",
+        "unidade": "A",
+        "pagina": "61",
+        "contexto": "Ligado Posi o SEAT FUEL Bloqueado Desligado 3PK1BF000_PT.book Page 53 Tuesday, October 27, 2020 11:21 AM --- Página 61 --- 58 Sistema de controlo por voz para smartphone Honda Cont nuo Guia de funcion...",
+        "precisao": "exata",
+        "fonte": "Honda_Forza_350.md"
+      },
+      {
+        "modelo": "cbr 650r",
+        "categoria": "Corrente",
+        "especificacao": "Corrente",
+        "valor": "3",
+        "unidade": "A",
+        "pagina": "N/A",
+        "contexto": "iga com precau o. Durante a condu o, utilize sempre o seu bom senso e obede a s regras de tr nsito. 3 ATEN O Utilizar o sistema de controlo por voz ao conduzir pode desviar a sua aten o da estrada, pr...",
+        "precisao": "exata",
+        "fonte": "Honda_Forza_350.md"
+      },
+      {
+        "modelo": "cbr 650r",
+        "categoria": "Corrente",
+        "especificacao": "Corrente",
+        "valor": "15",
+        "unidade": "A",
+        "pagina": "N/A",
+        "contexto": "s RON 91 ou superior. Capacidade do dep sito: 11,7 L Conselhos sobre reabastecimento e combust vel P15 Abrir o tamp o de enchimento do combust vel a Coloque o interrutor de igni o na posi o SEAT FUEL....",
+        "precisao": "exata",
+        "fonte": "Honda_Forza_350.md"
+      },
+      {
+        "modelo": "cbr 650r",
+        "categoria": "Folga",
+        "especificacao": "Folga do acelerador",
+        "valor": "2 - 6",
+        "unidade": "mm",
+        "pagina": "134",
+        "contexto": "oda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador est correta. Se o acelerador n o se mover com suavidade, n o se fechar automatic...",
+        "precisao": "exata",
+        "fonte": "Honda_Forza_350.md"
+      }
+    ],
+    "forza 125": [
+      {
+        "modelo": "forza 125",
+        "categoria": "Capacidade",
+        "especificacao": "Capacidade",
+        "valor": "40",
+        "unidade": "L",
+        "pagina": "53",
+        "contexto": "tor da igni o colocado na posi o Ligado . Se o indicador do comando Honda SMART Key piscar: P108 3PK40L300_PT.book Page 40 Friday, November 6, 2020 4:53 PM --- Página 53 --- 50 Sistema da chave Honda ...",
+        "precisao": "exata",
+        "fonte": "Honda_Forza_125.md"
+      },
+      {
+        "modelo": "forza 125",
+        "categoria": "Corrente",
+        "especificacao": "Corrente",
+        "valor": "0",
+        "unidade": "A",
+        "pagina": "N/A",
+        "contexto": "seguintes especifica es. Para usar a tomada USB, abra a tampa. A capacidade nominal de 15 W 5 V, 3,0 A . N o ligue dispositivos USB que excedam a capacidade nominal. Podem n o carregar ou funcionar co...",
+        "precisao": "exata",
+        "fonte": "Honda_Forza_125.md"
+      },
+      {
+        "modelo": "forza 125",
+        "categoria": "Folga",
+        "especificacao": "Folga do acelerador",
+        "valor": "2 - 6",
+        "unidade": "mm",
+        "pagina": "115",
+        "contexto": "oda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador est correta. Se o acelerador n o se mover com suavidade, n o se fechar automatic...",
+        "precisao": "exata",
+        "fonte": "Honda_Forza_125.md"
+      },
+      {
+        "modelo": "forza 125",
+        "categoria": "Potência Elétrica",
+        "especificacao": "Potência Elétrica",
+        "valor": "15",
+        "unidade": "W",
+        "pagina": "N/A",
+        "contexto": "s USB com as seguintes especifica es. Para usar a tomada USB, abra a tampa. A capacidade nominal de 15 W 5 V, 3,0 A . N o ligue dispositivos USB que excedam a capacidade nominal. Podem n o carregar ou...",
+        "precisao": "exata",
+        "fonte": "Honda_Forza_125.md"
+      },
+      {
+        "modelo": "forza 125",
+        "categoria": "Velocidade",
+        "especificacao": "Velocidade",
+        "valor": "5",
+        "unidade": "km/h",
+        "pagina": "N/A",
+        "contexto": "se quando o interrutor de igni o colocado na posi o Ligado . Apaga-se quando a moto atinge cerca de 5 km/h Se se acender durante a condu o: P106 Se algum destes indicadores n o se acender quando devia...",
+        "precisao": "aproximada",
+        "fonte": "Honda_Forza_125.md"
+      },
+      {
+        "modelo": "forza 125",
+        "categoria": "Velocidade",
+        "especificacao": "Velocidade",
+        "valor": "10",
+        "unidade": "km/h",
+        "pagina": "N/A",
+        "contexto": "mindo o bot o de arranque aque a o motor o suficiente conduza o ve culo a uma velocidade superior a 10 km/h O indicador de paragem ao ralenti n o se acende: P110 Interrutor de paragem ao ralenti Indic...",
+        "precisao": "exata",
+        "fonte": "Honda_Forza_125.md"
+      },
+      {
+        "modelo": "forza 125",
+        "categoria": "Voltagem",
+        "especificacao": "Voltagem",
+        "valor": "1",
+        "unidade": "V",
+        "pagina": "N/A",
+        "contexto": "ndicador da chave Honda SMART Key e o anel do interrutor de igni o apagam-se, os indicadores piscam 1 vez e o interrutor de igni o fica bloqueado. Se o sistema da chave Honda SMART Key n o funcionar d...",
+        "precisao": "exata",
+        "fonte": "Honda_Forza_125.md"
+      },
+      {
+        "modelo": "forza 125",
+        "categoria": "Voltagem",
+        "especificacao": "Voltagem",
+        "valor": "5",
+        "unidade": "V",
+        "pagina": "N/A",
+        "contexto": "com as seguintes especifica es. Para usar a tomada USB, abra a tampa. A capacidade nominal de 15 W 5 V, 3,0 A . N o ligue dispositivos USB que excedam a capacidade nominal. Podem n o carregar ou funci...",
+        "precisao": "exata",
+        "fonte": "Honda_Forza_125.md"
+      }
+    ],
+    "pcx 125": [
+      {
+        "modelo": "pcx 125",
+        "categoria": "Corrente",
+        "especificacao": "Corrente",
+        "valor": "125",
+        "unidade": "A",
+        "pagina": "N/A",
+        "contexto": "inuamente o bot o enquanto o controlo de bin rio HSTC apresentado alterna entre ligar e desligar. WW125A SEL SET Indicador de controlo de bin rio desligado Indicador de controlo de bin rio Bot o SET C...",
+        "precisao": "exata",
+        "fonte": "Honda_PCX_125.md"
+      },
+      {
+        "modelo": "pcx 125",
+        "categoria": "Folga",
+        "especificacao": "Folga",
+        "valor": "10 - 20",
+        "unidade": "mm",
+        "pagina": "118",
+        "contexto": "C000_PT.book Page 77 Thursday, October 15, 2020 1:51 PM --- Página 118 --- Trav es u Inspecionar a folga da manete do trav o traseiro 115 Manuten o Inspecionar a folga da manete do trav o traseiro 1. ...",
+        "precisao": "exata",
+        "fonte": "Honda_PCX_125.md"
+      },
+      {
+        "modelo": "pcx 125",
+        "categoria": "Velocidade",
+        "especificacao": "Velocidade",
+        "valor": "10",
+        "unidade": "km/h",
+        "pagina": "N/A",
+        "contexto": "agem ao ralenti n o funciona se o motor estiver frio. Conduza o ve culo a uma velocidade superior a 10 km/h. O sistema de paragem ao ralenti n o funciona at conduzir uma vez. Para proteger o motor, se...",
+        "precisao": "exata",
+        "fonte": "Honda_PCX_125.md"
+      },
+      {
+        "modelo": "pcx 125",
+        "categoria": "Voltagem",
+        "especificacao": "Voltagem",
+        "valor": "2",
+        "unidade": "V",
+        "pagina": "N/A",
+        "contexto": "comando Honda SMART Key e o anel do interrutor de igni o acendem-se. O sinal sonoro tamb m emitido 2 vezes neste momento. u poss vel cancelar o sinal sonoro. P54 c Coloque o interrutor de igni o na po...",
+        "precisao": "exata",
+        "fonte": "Honda_PCX_125.md"
+      },
+      {
+        "modelo": "pcx 125",
+        "categoria": "Voltagem",
+        "especificacao": "Voltagem",
+        "valor": "1",
+        "unidade": "V",
+        "pagina": "N/A",
+        "contexto": "ndicador da chave Honda SMART Key e o anel do interrutor de igni o apagam-se, os indicadores piscam 1 vez e o interrutor de igni o fica bloqueado. Se o sistema da chave Honda SMART Key n o funcionar d...",
+        "precisao": "exata",
+        "fonte": "Honda_PCX_125.md"
+      },
+      {
+        "modelo": "pcx 125",
+        "categoria": "Voltagem",
+        "especificacao": "Voltagem",
+        "valor": "3",
+        "unidade": "V",
+        "pagina": "N/A",
+        "contexto": "MART Key e o anel do interrutor de igni o acendem-se e emitido um sinal sonoro. e Repita o seguinte 3 vezes: Prima o bot o de resposta/alarme na Honda SMART Key 3 vezes e o interrutor de igni o 1 vez....",
+        "precisao": "exata",
+        "fonte": "Honda_PCX_125.md"
+      }
+    ],
+    "sh 125": [
+      {
+        "modelo": "sh 125",
+        "categoria": "Corrente",
+        "especificacao": "Corrente",
+        "valor": "5",
+        "unidade": "A",
+        "pagina": "N/A",
+        "contexto": "m ser ligados dispositivos USB com as seguintes especifica es. A capacidade nominal de 7,5 W 5 V, 1,5 A . N o ligue dispositivos USB que excedam a capacidade nominal. Podem n o carregar ou funcionar c...",
+        "precisao": "exata",
+        "fonte": "Honda_SH_125.md"
+      },
+      {
+        "modelo": "sh 125",
+        "categoria": "Folga",
+        "especificacao": "Folga do acelerador",
+        "valor": "2 - 6",
+        "unidade": "mm",
+        "pagina": "120",
+        "contexto": "oda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamen...",
+        "precisao": "exata",
+        "fonte": "Honda_SH_125.md"
+      },
+      {
+        "modelo": "sh 125",
+        "categoria": "Potência Elétrica",
+        "especificacao": "Potência Elétrica",
+        "valor": "42",
+        "unidade": "W",
+        "pagina": "60",
+        "contexto": "paragem ao ralenti: P55 : Pisca o m ximo do farol. bot o INFO A bot o INFO B 3PK0RA10_pt.book Page 42 Wednesday, October 20, 2021 2:12 PM --- Página 60 --- 57 Guia de utiliza o Colocar novamente o mot...",
+        "precisao": "exata",
+        "fonte": "Honda_SH_125.md"
+      },
+      {
+        "modelo": "sh 125",
+        "categoria": "Potência Elétrica",
+        "especificacao": "Potência Elétrica",
+        "valor": "57",
+        "unidade": "W",
+        "pagina": "65",
+        "contexto": "e paragem ao ralenti. Consulte o seu concession rio para verificar a bateria. 3PK0RA10_pt.book Page 57 Wednesday, October 20, 2021 2:12 PM --- Página 65 --- 62 Guia de utiliza o Condu o Iniciar a cond...",
+        "precisao": "exata",
+        "fonte": "Honda_SH_125.md"
+      },
+      {
+        "modelo": "sh 125",
+        "categoria": "Potência Elétrica",
+        "especificacao": "Potência Elétrica",
+        "valor": "62",
+        "unidade": "W",
+        "pagina": "70",
+        "contexto": "ente. Para desacelerar: feche o acelerador. Fechar Desacelerar Abrir Acelerar 3PK0RA10_pt.book Page 62 Wednesday, October 20, 2021 2:12 PM --- Página 70 --- 67 Guia de utiliza o Tomada USB O seu ve cu...",
+        "precisao": "exata",
+        "fonte": "Honda_SH_125.md"
+      },
+      {
+        "modelo": "sh 125",
+        "categoria": "Potência Elétrica",
+        "especificacao": "Potência Elétrica",
+        "valor": "5",
+        "unidade": "W",
+        "pagina": "N/A",
+        "contexto": "Apenas podem ser ligados dispositivos USB com as seguintes especifica es. A capacidade nominal de 7,5 W 5 V, 1,5 A . N o ligue dispositivos USB que excedam a capacidade nominal. Podem n o carregar ou ...",
+        "precisao": "exata",
+        "fonte": "Honda_SH_125.md"
+      },
+      {
+        "modelo": "sh 125",
+        "categoria": "Potência Elétrica",
+        "especificacao": "Potência Elétrica",
+        "valor": "67",
+        "unidade": "W",
+        "pagina": "105",
+        "contexto": "pa. c Ligue um cabo USB certificado tomada USB. Cobertura Tomada USB Continua 3PK0RA10_pt.book Page 67 Wednesday, October 20, 2021 2:12 PM --- Página 105 --- 102 Manuten o Acelerador Inspecionar o ace...",
+        "precisao": "exata",
+        "fonte": "Honda_SH_125.md"
+      },
+      {
+        "modelo": "sh 125",
+        "categoria": "Potência Elétrica",
+        "especificacao": "Potência Elétrica",
+        "valor": "102",
+        "unidade": "W",
+        "pagina": "120",
+        "contexto": "concession rio. Folga na flange do punho do acelerador: 2 - 6 mm Folga Flange 3PK0RA10_pt.book Page 102 Wednesday, October 20, 2021 2:12 PM --- Página 120 --- Se o Sistema de paragem do motor ao ralen...",
+        "precisao": "exata",
+        "fonte": "Honda_SH_125.md"
+      },
+      {
+        "modelo": "sh 125",
+        "categoria": "Potência Elétrica",
+        "especificacao": "Potência Elétrica",
+        "valor": "117",
+        "unidade": "W",
+        "pagina": "45",
+        "contexto": "m IDLING: Bateria com carga baixa ou descarregada ou cabos da bateria soltos: 3PK0RA10_pt.book Page 117 Wednesday, October 20, 2021 2:12 PM ## 🚀 Funcionalidades e Equipamento --- Página 45 --- 42 Gui...",
+        "precisao": "exata",
+        "fonte": "Honda_SH_125.md"
+      },
+      {
+        "modelo": "sh 125",
+        "categoria": "Potência Elétrica",
+        "especificacao": "Potência Elétrica",
+        "valor": "47",
+        "unidade": "W",
+        "pagina": "55",
+        "contexto": "ma pode ser utilizado dentro da rea sombreada mostrada na ilustra o. Continua 3PK0RA10_pt.book Page 47 Wednesday, October 20, 2021 2:12 PM --- Página 55 --- 52 Guia de utiliza o Certifique-se sempre d...",
+        "precisao": "exata",
+        "fonte": "Honda_SH_125.md"
+      },
+      {
+        "modelo": "sh 125",
+        "categoria": "Potência Elétrica",
+        "especificacao": "Potência Elétrica",
+        "valor": "52",
+        "unidade": "W",
+        "pagina": "60",
+        "contexto": "re o, desbloqueie o interruptor da igni o. Sistema Honda SMART Key Continua o 3PK0RA10_pt.book Page 52 Wednesday, October 20, 2021 2:12 PM --- Página 60 --- 57 Guia de utiliza o Colocar novamente o mo...",
+        "precisao": "exata",
+        "fonte": "Honda_SH_125.md"
+      },
+      {
+        "modelo": "sh 125",
+        "categoria": "Potência Elétrica",
+        "especificacao": "Potência Elétrica",
+        "valor": "72",
+        "unidade": "W",
+        "pagina": "120",
+        "contexto": "ntral Kit de ferramentas Faixa de borracha Equipamento de arruma o Continua o 3PK0RA10_pt.book Page 72 Wednesday, October 20, 2021 2:12 PM --- Página 120 --- Se o Sistema de paragem do motor ao ralent...",
+        "precisao": "exata",
+        "fonte": "Honda_SH_125.md"
+      },
+      {
+        "modelo": "sh 125",
+        "categoria": "Voltagem",
+        "especificacao": "Voltagem",
+        "valor": "5",
+        "unidade": "V",
+        "pagina": "N/A",
+        "contexto": "as podem ser ligados dispositivos USB com as seguintes especifica es. A capacidade nominal de 7,5 W 5 V, 1,5 A . N o ligue dispositivos USB que excedam a capacidade nominal. Podem n o carregar ou func...",
+        "precisao": "exata",
+        "fonte": "Honda_SH_125.md"
+      }
+    ],
+    "vision 110": [
+      {
+        "modelo": "vision 110",
+        "categoria": "Capacidade",
+        "especificacao": "Capacidade",
+        "valor": "44",
+        "unidade": "L",
+        "pagina": "N/A",
+        "contexto": "stema de paragem durante um per odo de tempo alargado pode descarregar a bateria. 20160927135141_3PK44L000_por_BOOK Page 33 Tuesday, September 27 2016 14:01:46 JST Guia de utiliza o 30 Sistema de para...",
+        "precisao": "exata",
+        "fonte": "Honda_Vision_110.md"
+      },
+      {
+        "modelo": "vision 110",
+        "categoria": "Capacidade",
+        "especificacao": "Capacidade",
+        "valor": "90",
+        "unidade": "L",
+        "pagina": "N/A",
+        "contexto": "sday, September 27 2016 14:01:46 JST Problemas el tricos u L mpadas fundidas Diagn stico de avarias 90 Lente da luz traseira Vedante do vidro Tampa inferior traseira L mpada Parafusos ## 🚀 Funcionali...",
+        "precisao": "exata",
+        "fonte": "Honda_Vision_110.md"
+      },
+      {
+        "modelo": "vision 110",
+        "categoria": "Corrente",
+        "especificacao": "Corrente",
+        "valor": "3",
+        "unidade": "A",
+        "pagina": "N/A",
+        "contexto": "est o localizados debaixo do banco. u Utilize os porta-capacetes apenas com a scooter estacionada. 3 AVISO Conduzir com um capacete preso ao porta capacetes pode interferir com a sua capacidade de con...",
+        "precisao": "exata",
+        "fonte": "Honda_Vision_110.md"
+      },
+      {
+        "modelo": "vision 110",
+        "categoria": "Folga",
+        "especificacao": "Folga do acelerador",
+        "valor": "2 - 6",
+        "unidade": "mm",
+        "pagina": "N/A",
+        "contexto": "oda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamen...",
+        "precisao": "exata",
+        "fonte": "Honda_Vision_110.md"
+      }
+    ]
+  },
+  "especificacoes": [
+    {
+      "modelo": "cbr 650r",
+      "categoria": "Capacidade",
+      "especificacao": "Capacidade",
+      "valor": "7",
+      "unidade": "L",
+      "pagina": "N/A",
+      "contexto": "oi concebido para usar gasolina com ndice de octanas RON 91 ou superior. Capacidade do dep sito: 11,7 L Conselhos sobre reabastecimento e combust vel P15 Abrir o tamp o de enchimento do combust vel a ...",
+      "precisao": "exata",
+      "fonte": "Honda_Forza_350.md"
+    },
+    {
+      "modelo": "cbr 650r",
+      "categoria": "Corrente",
+      "especificacao": "Corrente",
+      "valor": "118",
+      "unidade": "A",
+      "pagina": "N/A",
+      "contexto": "nterrutor de igni o est bloqueado. Se o sistema da chave Honda SMART Key n o funcionar devidamente P118 Anel do interrutor de igni o Interrutor de igni o Ligado Posi o SEAT FUEL Bloqueado Desligado 3P...",
+      "precisao": "exata",
+      "fonte": "Honda_Forza_350.md"
+    },
+    {
+      "modelo": "cbr 650r",
+      "categoria": "Corrente",
+      "especificacao": "Corrente",
+      "valor": "21",
+      "unidade": "A",
+      "pagina": "61",
+      "contexto": "Ligado Posi o SEAT FUEL Bloqueado Desligado 3PK1BF000_PT.book Page 53 Tuesday, October 27, 2020 11:21 AM --- Página 61 --- 58 Sistema de controlo por voz para smartphone Honda Cont nuo Guia de funcion...",
+      "precisao": "exata",
+      "fonte": "Honda_Forza_350.md"
+    },
+    {
+      "modelo": "cbr 650r",
+      "categoria": "Corrente",
+      "especificacao": "Corrente",
+      "valor": "3",
+      "unidade": "A",
+      "pagina": "N/A",
+      "contexto": "iga com precau o. Durante a condu o, utilize sempre o seu bom senso e obede a s regras de tr nsito. 3 ATEN O Utilizar o sistema de controlo por voz ao conduzir pode desviar a sua aten o da estrada, pr...",
+      "precisao": "exata",
+      "fonte": "Honda_Forza_350.md"
+    },
+    {
+      "modelo": "cbr 650r",
+      "categoria": "Corrente",
+      "especificacao": "Corrente",
+      "valor": "15",
+      "unidade": "A",
+      "pagina": "N/A",
+      "contexto": "s RON 91 ou superior. Capacidade do dep sito: 11,7 L Conselhos sobre reabastecimento e combust vel P15 Abrir o tamp o de enchimento do combust vel a Coloque o interrutor de igni o na posi o SEAT FUEL....",
+      "precisao": "exata",
+      "fonte": "Honda_Forza_350.md"
+    },
+    {
+      "modelo": "cbr 650r",
+      "categoria": "Folga",
+      "especificacao": "Folga do acelerador",
+      "valor": "2 - 6",
+      "unidade": "mm",
+      "pagina": "134",
+      "contexto": "oda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador est correta. Se o acelerador n o se mover com suavidade, n o se fechar automatic...",
+      "precisao": "exata",
+      "fonte": "Honda_Forza_350.md"
+    },
+    {
+      "modelo": "forza 125",
+      "categoria": "Capacidade",
+      "especificacao": "Capacidade",
+      "valor": "40",
+      "unidade": "L",
+      "pagina": "53",
+      "contexto": "tor da igni o colocado na posi o Ligado . Se o indicador do comando Honda SMART Key piscar: P108 3PK40L300_PT.book Page 40 Friday, November 6, 2020 4:53 PM --- Página 53 --- 50 Sistema da chave Honda ...",
+      "precisao": "exata",
+      "fonte": "Honda_Forza_125.md"
+    },
+    {
+      "modelo": "forza 125",
+      "categoria": "Corrente",
+      "especificacao": "Corrente",
+      "valor": "0",
+      "unidade": "A",
+      "pagina": "N/A",
+      "contexto": "seguintes especifica es. Para usar a tomada USB, abra a tampa. A capacidade nominal de 15 W 5 V, 3,0 A . N o ligue dispositivos USB que excedam a capacidade nominal. Podem n o carregar ou funcionar co...",
+      "precisao": "exata",
+      "fonte": "Honda_Forza_125.md"
+    },
+    {
+      "modelo": "forza 125",
+      "categoria": "Folga",
+      "especificacao": "Folga do acelerador",
+      "valor": "2 - 6",
+      "unidade": "mm",
+      "pagina": "115",
+      "contexto": "oda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador est correta. Se o acelerador n o se mover com suavidade, n o se fechar automatic...",
+      "precisao": "exata",
+      "fonte": "Honda_Forza_125.md"
+    },
+    {
+      "modelo": "forza 125",
+      "categoria": "Potência Elétrica",
+      "especificacao": "Potência Elétrica",
+      "valor": "15",
+      "unidade": "W",
+      "pagina": "N/A",
+      "contexto": "s USB com as seguintes especifica es. Para usar a tomada USB, abra a tampa. A capacidade nominal de 15 W 5 V, 3,0 A . N o ligue dispositivos USB que excedam a capacidade nominal. Podem n o carregar ou...",
+      "precisao": "exata",
+      "fonte": "Honda_Forza_125.md"
+    },
+    {
+      "modelo": "forza 125",
+      "categoria": "Velocidade",
+      "especificacao": "Velocidade",
+      "valor": "5",
+      "unidade": "km/h",
+      "pagina": "N/A",
+      "contexto": "se quando o interrutor de igni o colocado na posi o Ligado . Apaga-se quando a moto atinge cerca de 5 km/h Se se acender durante a condu o: P106 Se algum destes indicadores n o se acender quando devia...",
+      "precisao": "aproximada",
+      "fonte": "Honda_Forza_125.md"
+    },
+    {
+      "modelo": "forza 125",
+      "categoria": "Velocidade",
+      "especificacao": "Velocidade",
+      "valor": "10",
+      "unidade": "km/h",
+      "pagina": "N/A",
+      "contexto": "mindo o bot o de arranque aque a o motor o suficiente conduza o ve culo a uma velocidade superior a 10 km/h O indicador de paragem ao ralenti n o se acende: P110 Interrutor de paragem ao ralenti Indic...",
+      "precisao": "exata",
+      "fonte": "Honda_Forza_125.md"
+    },
+    {
+      "modelo": "forza 125",
+      "categoria": "Voltagem",
+      "especificacao": "Voltagem",
+      "valor": "1",
+      "unidade": "V",
+      "pagina": "N/A",
+      "contexto": "ndicador da chave Honda SMART Key e o anel do interrutor de igni o apagam-se, os indicadores piscam 1 vez e o interrutor de igni o fica bloqueado. Se o sistema da chave Honda SMART Key n o funcionar d...",
+      "precisao": "exata",
+      "fonte": "Honda_Forza_125.md"
+    },
+    {
+      "modelo": "forza 125",
+      "categoria": "Voltagem",
+      "especificacao": "Voltagem",
+      "valor": "5",
+      "unidade": "V",
+      "pagina": "N/A",
+      "contexto": "com as seguintes especifica es. Para usar a tomada USB, abra a tampa. A capacidade nominal de 15 W 5 V, 3,0 A . N o ligue dispositivos USB que excedam a capacidade nominal. Podem n o carregar ou funci...",
+      "precisao": "exata",
+      "fonte": "Honda_Forza_125.md"
+    },
+    {
+      "modelo": "pcx 125",
+      "categoria": "Corrente",
+      "especificacao": "Corrente",
+      "valor": "125",
+      "unidade": "A",
+      "pagina": "N/A",
+      "contexto": "inuamente o bot o enquanto o controlo de bin rio HSTC apresentado alterna entre ligar e desligar. WW125A SEL SET Indicador de controlo de bin rio desligado Indicador de controlo de bin rio Bot o SET C...",
+      "precisao": "exata",
+      "fonte": "Honda_PCX_125.md"
+    },
+    {
+      "modelo": "pcx 125",
+      "categoria": "Folga",
+      "especificacao": "Folga",
+      "valor": "10 - 20",
+      "unidade": "mm",
+      "pagina": "118",
+      "contexto": "C000_PT.book Page 77 Thursday, October 15, 2020 1:51 PM --- Página 118 --- Trav es u Inspecionar a folga da manete do trav o traseiro 115 Manuten o Inspecionar a folga da manete do trav o traseiro 1. ...",
+      "precisao": "exata",
+      "fonte": "Honda_PCX_125.md"
+    },
+    {
+      "modelo": "pcx 125",
+      "categoria": "Velocidade",
+      "especificacao": "Velocidade",
+      "valor": "10",
+      "unidade": "km/h",
+      "pagina": "N/A",
+      "contexto": "agem ao ralenti n o funciona se o motor estiver frio. Conduza o ve culo a uma velocidade superior a 10 km/h. O sistema de paragem ao ralenti n o funciona at conduzir uma vez. Para proteger o motor, se...",
+      "precisao": "exata",
+      "fonte": "Honda_PCX_125.md"
+    },
+    {
+      "modelo": "pcx 125",
+      "categoria": "Voltagem",
+      "especificacao": "Voltagem",
+      "valor": "2",
+      "unidade": "V",
+      "pagina": "N/A",
+      "contexto": "comando Honda SMART Key e o anel do interrutor de igni o acendem-se. O sinal sonoro tamb m emitido 2 vezes neste momento. u poss vel cancelar o sinal sonoro. P54 c Coloque o interrutor de igni o na po...",
+      "precisao": "exata",
+      "fonte": "Honda_PCX_125.md"
+    },
+    {
+      "modelo": "pcx 125",
+      "categoria": "Voltagem",
+      "especificacao": "Voltagem",
+      "valor": "1",
+      "unidade": "V",
+      "pagina": "N/A",
+      "contexto": "ndicador da chave Honda SMART Key e o anel do interrutor de igni o apagam-se, os indicadores piscam 1 vez e o interrutor de igni o fica bloqueado. Se o sistema da chave Honda SMART Key n o funcionar d...",
+      "precisao": "exata",
+      "fonte": "Honda_PCX_125.md"
+    },
+    {
+      "modelo": "pcx 125",
+      "categoria": "Voltagem",
+      "especificacao": "Voltagem",
+      "valor": "3",
+      "unidade": "V",
+      "pagina": "N/A",
+      "contexto": "MART Key e o anel do interrutor de igni o acendem-se e emitido um sinal sonoro. e Repita o seguinte 3 vezes: Prima o bot o de resposta/alarme na Honda SMART Key 3 vezes e o interrutor de igni o 1 vez....",
+      "precisao": "exata",
+      "fonte": "Honda_PCX_125.md"
+    },
+    {
+      "modelo": "sh 125",
+      "categoria": "Corrente",
+      "especificacao": "Corrente",
+      "valor": "5",
+      "unidade": "A",
+      "pagina": "N/A",
+      "contexto": "m ser ligados dispositivos USB com as seguintes especifica es. A capacidade nominal de 7,5 W 5 V, 1,5 A . N o ligue dispositivos USB que excedam a capacidade nominal. Podem n o carregar ou funcionar c...",
+      "precisao": "exata",
+      "fonte": "Honda_SH_125.md"
+    },
+    {
+      "modelo": "sh 125",
+      "categoria": "Folga",
+      "especificacao": "Folga do acelerador",
+      "valor": "2 - 6",
+      "unidade": "mm",
+      "pagina": "120",
+      "contexto": "oda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamen...",
+      "precisao": "exata",
+      "fonte": "Honda_SH_125.md"
+    },
+    {
+      "modelo": "sh 125",
+      "categoria": "Potência Elétrica",
+      "especificacao": "Potência Elétrica",
+      "valor": "42",
+      "unidade": "W",
+      "pagina": "60",
+      "contexto": "paragem ao ralenti: P55 : Pisca o m ximo do farol. bot o INFO A bot o INFO B 3PK0RA10_pt.book Page 42 Wednesday, October 20, 2021 2:12 PM --- Página 60 --- 57 Guia de utiliza o Colocar novamente o mot...",
+      "precisao": "exata",
+      "fonte": "Honda_SH_125.md"
+    },
+    {
+      "modelo": "sh 125",
+      "categoria": "Potência Elétrica",
+      "especificacao": "Potência Elétrica",
+      "valor": "57",
+      "unidade": "W",
+      "pagina": "65",
+      "contexto": "e paragem ao ralenti. Consulte o seu concession rio para verificar a bateria. 3PK0RA10_pt.book Page 57 Wednesday, October 20, 2021 2:12 PM --- Página 65 --- 62 Guia de utiliza o Condu o Iniciar a cond...",
+      "precisao": "exata",
+      "fonte": "Honda_SH_125.md"
+    },
+    {
+      "modelo": "sh 125",
+      "categoria": "Potência Elétrica",
+      "especificacao": "Potência Elétrica",
+      "valor": "62",
+      "unidade": "W",
+      "pagina": "70",
+      "contexto": "ente. Para desacelerar: feche o acelerador. Fechar Desacelerar Abrir Acelerar 3PK0RA10_pt.book Page 62 Wednesday, October 20, 2021 2:12 PM --- Página 70 --- 67 Guia de utiliza o Tomada USB O seu ve cu...",
+      "precisao": "exata",
+      "fonte": "Honda_SH_125.md"
+    },
+    {
+      "modelo": "sh 125",
+      "categoria": "Potência Elétrica",
+      "especificacao": "Potência Elétrica",
+      "valor": "5",
+      "unidade": "W",
+      "pagina": "N/A",
+      "contexto": "Apenas podem ser ligados dispositivos USB com as seguintes especifica es. A capacidade nominal de 7,5 W 5 V, 1,5 A . N o ligue dispositivos USB que excedam a capacidade nominal. Podem n o carregar ou ...",
+      "precisao": "exata",
+      "fonte": "Honda_SH_125.md"
+    },
+    {
+      "modelo": "sh 125",
+      "categoria": "Potência Elétrica",
+      "especificacao": "Potência Elétrica",
+      "valor": "67",
+      "unidade": "W",
+      "pagina": "105",
+      "contexto": "pa. c Ligue um cabo USB certificado tomada USB. Cobertura Tomada USB Continua 3PK0RA10_pt.book Page 67 Wednesday, October 20, 2021 2:12 PM --- Página 105 --- 102 Manuten o Acelerador Inspecionar o ace...",
+      "precisao": "exata",
+      "fonte": "Honda_SH_125.md"
+    },
+    {
+      "modelo": "sh 125",
+      "categoria": "Potência Elétrica",
+      "especificacao": "Potência Elétrica",
+      "valor": "102",
+      "unidade": "W",
+      "pagina": "120",
+      "contexto": "concession rio. Folga na flange do punho do acelerador: 2 - 6 mm Folga Flange 3PK0RA10_pt.book Page 102 Wednesday, October 20, 2021 2:12 PM --- Página 120 --- Se o Sistema de paragem do motor ao ralen...",
+      "precisao": "exata",
+      "fonte": "Honda_SH_125.md"
+    },
+    {
+      "modelo": "sh 125",
+      "categoria": "Potência Elétrica",
+      "especificacao": "Potência Elétrica",
+      "valor": "117",
+      "unidade": "W",
+      "pagina": "45",
+      "contexto": "m IDLING: Bateria com carga baixa ou descarregada ou cabos da bateria soltos: 3PK0RA10_pt.book Page 117 Wednesday, October 20, 2021 2:12 PM ## 🚀 Funcionalidades e Equipamento --- Página 45 --- 42 Gui...",
+      "precisao": "exata",
+      "fonte": "Honda_SH_125.md"
+    },
+    {
+      "modelo": "sh 125",
+      "categoria": "Potência Elétrica",
+      "especificacao": "Potência Elétrica",
+      "valor": "47",
+      "unidade": "W",
+      "pagina": "55",
+      "contexto": "ma pode ser utilizado dentro da rea sombreada mostrada na ilustra o. Continua 3PK0RA10_pt.book Page 47 Wednesday, October 20, 2021 2:12 PM --- Página 55 --- 52 Guia de utiliza o Certifique-se sempre d...",
+      "precisao": "exata",
+      "fonte": "Honda_SH_125.md"
+    },
+    {
+      "modelo": "sh 125",
+      "categoria": "Potência Elétrica",
+      "especificacao": "Potência Elétrica",
+      "valor": "52",
+      "unidade": "W",
+      "pagina": "60",
+      "contexto": "re o, desbloqueie o interruptor da igni o. Sistema Honda SMART Key Continua o 3PK0RA10_pt.book Page 52 Wednesday, October 20, 2021 2:12 PM --- Página 60 --- 57 Guia de utiliza o Colocar novamente o mo...",
+      "precisao": "exata",
+      "fonte": "Honda_SH_125.md"
+    },
+    {
+      "modelo": "sh 125",
+      "categoria": "Potência Elétrica",
+      "especificacao": "Potência Elétrica",
+      "valor": "72",
+      "unidade": "W",
+      "pagina": "120",
+      "contexto": "ntral Kit de ferramentas Faixa de borracha Equipamento de arruma o Continua o 3PK0RA10_pt.book Page 72 Wednesday, October 20, 2021 2:12 PM --- Página 120 --- Se o Sistema de paragem do motor ao ralent...",
+      "precisao": "exata",
+      "fonte": "Honda_SH_125.md"
+    },
+    {
+      "modelo": "sh 125",
+      "categoria": "Voltagem",
+      "especificacao": "Voltagem",
+      "valor": "5",
+      "unidade": "V",
+      "pagina": "N/A",
+      "contexto": "as podem ser ligados dispositivos USB com as seguintes especifica es. A capacidade nominal de 7,5 W 5 V, 1,5 A . N o ligue dispositivos USB que excedam a capacidade nominal. Podem n o carregar ou func...",
+      "precisao": "exata",
+      "fonte": "Honda_SH_125.md"
+    },
+    {
+      "modelo": "vision 110",
+      "categoria": "Capacidade",
+      "especificacao": "Capacidade",
+      "valor": "44",
+      "unidade": "L",
+      "pagina": "N/A",
+      "contexto": "stema de paragem durante um per odo de tempo alargado pode descarregar a bateria. 20160927135141_3PK44L000_por_BOOK Page 33 Tuesday, September 27 2016 14:01:46 JST Guia de utiliza o 30 Sistema de para...",
+      "precisao": "exata",
+      "fonte": "Honda_Vision_110.md"
+    },
+    {
+      "modelo": "vision 110",
+      "categoria": "Capacidade",
+      "especificacao": "Capacidade",
+      "valor": "90",
+      "unidade": "L",
+      "pagina": "N/A",
+      "contexto": "sday, September 27 2016 14:01:46 JST Problemas el tricos u L mpadas fundidas Diagn stico de avarias 90 Lente da luz traseira Vedante do vidro Tampa inferior traseira L mpada Parafusos ## 🚀 Funcionali...",
+      "precisao": "exata",
+      "fonte": "Honda_Vision_110.md"
+    },
+    {
+      "modelo": "vision 110",
+      "categoria": "Corrente",
+      "especificacao": "Corrente",
+      "valor": "3",
+      "unidade": "A",
+      "pagina": "N/A",
+      "contexto": "est o localizados debaixo do banco. u Utilize os porta-capacetes apenas com a scooter estacionada. 3 AVISO Conduzir com um capacete preso ao porta capacetes pode interferir com a sua capacidade de con...",
+      "precisao": "exata",
+      "fonte": "Honda_Vision_110.md"
+    },
+    {
+      "modelo": "vision 110",
+      "categoria": "Folga",
+      "especificacao": "Folga do acelerador",
+      "valor": "2 - 6",
+      "unidade": "mm",
+      "pagina": "N/A",
+      "contexto": "oda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamen...",
+      "precisao": "exata",
+      "fonte": "Honda_Vision_110.md"
+    }
+  ]
+}

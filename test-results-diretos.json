@@ -1,0 +1,1026 @@
+{
+  "timestamp": "2026-01-16T22:44:29.584Z",
+  "estatisticas": {
+    "folga": {
+      "total": 25,
+      "encontrados": 24,
+      "taxaEncontro": 96,
+      "comDadosNumericos": 22,
+      "taxaDadosNumericos": 88
+    },
+    "binario": {
+      "total": 25,
+      "encontrados": 6,
+      "taxaEncontro": 24,
+      "comDadosNumericos": 4,
+      "taxaDadosNumericos": 16
+    },
+    "pressao": {
+      "total": 25,
+      "encontrados": 15,
+      "taxaEncontro": 60,
+      "comDadosNumericos": 3,
+      "taxaDadosNumericos": 12
+    }
+  },
+  "resultadosDetalhados": [
+    {
+      "modelo": "forza 125",
+      "categoria": "folga",
+      "prompt": "folga do acelerador",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 63 --- 60 Colocar o motor a trabalhar Continua o Guia de utiliza o a Coloque o ve culo no descanso central. b Coloque o interrutor de igni o na posi o Ligado . u Para desbloquear o interrutor de igni o. P50 c Aperte a manete do trav o traseiro. u O motor de arranque s trabalha se a manete do trav o traseiro estiver aplicada e o descanso lateral estiver recolhido. d Com o acelerador completamente fechado, carregue no bot o de arranque. Solte o bot o de arranque assim que o motor come ar a trabalhar. 3PK40L300_PT.book Page 60 Friday, November 6, 2020 4:53 PM  --- Página 68 ---",
+        " --- Página 100 --- 97 Manuten o Acelerador Inspecionar o acelerador Com o motor desligado, verifique se o acelerador roda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador est correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamente ou se o cabo estiver danificado, mande inspecionar o ve culo no seu concession rio. Folga no flange do punho do acelerador: 2 - 6 mm Folga Flange 3PK40L300_PT.book Page 97 Friday, November 6, 2020 4:53 PM  --- Página 115 ---",
+        " --- Página 115 --- Se o sistema de paragem ao ralenti n o funcionar corretamente u O motor n o trabalha mesmo quando se abre o acelerador 112 Diagn stico de avarias O motor n o trabalha mesmo quando se abre o acelerador Se o motor n o trabalhar mesmo quando se abre o acelerador, verifique o seguinte: Enquanto o motor estiver parado por a o do sistema de paragem ao ralenti, se acionar o descanso lateral, o indicador de paragem ao ralenti que estava a piscar apaga-se ou deixa de piscar e fica aceso e o sistema de paragem ao ralenti cancelado. Recoloque o motor a trabalhar seguindo o procedimento de arranque normal do motor 2 P. 59 . Enquanto o motor estiver a parar por a o do sistema de paragem ao ralenti, se premir o interrutor de paragem ao ralenti para a posi o ralenti , o sistema de paragem ao ralenti cancelado. Recoloque o motor a trabalhar seguindo o procedimento de arranque normal do motor 2 P. 59 . Se o indicador de paragem ao ralenti piscar com o interrutor de paragem ao ralenti na posi o Paragem ao ralenti , mas o motor n o come ar a trabalhar mesmo quando se abre o acelerador, realize o que se segue. Verifique a bateria e os terminais da bateria. Se a bateria estiver fraca, consulte o seu concession rio. Se o descanso lateral est descido: Se o interrutor de paragem ao ralenti estiver em Ralenti : Bateria com carga baixa ou descarregada ou cabos da bateria soltos: 3PK40L300_PT.book Page 112 Friday, November 6, 2020 4:53 PM  ## 🚀 Funcionalidades e Equipamento"
+      ],
+      "valoresNumericos": [
+        "2 - 6 mm",
+        "6 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 63 --- 60 Colocar o motor a trabalhar Continua o Guia de utiliza o a Coloque o ve culo no descanso central. b Coloque o interrutor de igni o na posi o Ligado . u Para desbloquear o interrutor de igni o. P50 c Aperte a manete do trav o traseiro. u O motor de arranque s trabalha se a manete do trav o traseiro estiver aplicada e o descanso lateral estiver recolhido. d Com o acelerador completamente fechado, carregue no bot o de arranque. Solte o bot o de arranque assim que o motor come ..."
+    },
+    {
+      "modelo": "forza 125",
+      "categoria": "folga",
+      "prompt": "folga no punho do acelerador",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 63 --- 60 Colocar o motor a trabalhar Continua o Guia de utiliza o a Coloque o ve culo no descanso central. b Coloque o interrutor de igni o na posi o Ligado . u Para desbloquear o interrutor de igni o. P50 c Aperte a manete do trav o traseiro. u O motor de arranque s trabalha se a manete do trav o traseiro estiver aplicada e o descanso lateral estiver recolhido. d Com o acelerador completamente fechado, carregue no bot o de arranque. Solte o bot o de arranque assim que o motor come ar a trabalhar. 3PK40L300_PT.book Page 60 Friday, November 6, 2020 4:53 PM  --- Página 68 ---",
+        " --- Página 100 --- 97 Manuten o Acelerador Inspecionar o acelerador Com o motor desligado, verifique se o acelerador roda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador est correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamente ou se o cabo estiver danificado, mande inspecionar o ve culo no seu concession rio. Folga no flange do punho do acelerador: 2 - 6 mm Folga Flange 3PK40L300_PT.book Page 97 Friday, November 6, 2020 4:53 PM  --- Página 115 ---",
+        " --- Página 115 --- Se o sistema de paragem ao ralenti n o funcionar corretamente u O motor n o trabalha mesmo quando se abre o acelerador 112 Diagn stico de avarias O motor n o trabalha mesmo quando se abre o acelerador Se o motor n o trabalhar mesmo quando se abre o acelerador, verifique o seguinte: Enquanto o motor estiver parado por a o do sistema de paragem ao ralenti, se acionar o descanso lateral, o indicador de paragem ao ralenti que estava a piscar apaga-se ou deixa de piscar e fica aceso e o sistema de paragem ao ralenti cancelado. Recoloque o motor a trabalhar seguindo o procedimento de arranque normal do motor 2 P. 59 . Enquanto o motor estiver a parar por a o do sistema de paragem ao ralenti, se premir o interrutor de paragem ao ralenti para a posi o ralenti , o sistema de paragem ao ralenti cancelado. Recoloque o motor a trabalhar seguindo o procedimento de arranque normal do motor 2 P. 59 . Se o indicador de paragem ao ralenti piscar com o interrutor de paragem ao ralenti na posi o Paragem ao ralenti , mas o motor n o come ar a trabalhar mesmo quando se abre o acelerador, realize o que se segue. Verifique a bateria e os terminais da bateria. Se a bateria estiver fraca, consulte o seu concession rio. Se o descanso lateral est descido: Se o interrutor de paragem ao ralenti estiver em Ralenti : Bateria com carga baixa ou descarregada ou cabos da bateria soltos: 3PK40L300_PT.book Page 112 Friday, November 6, 2020 4:53 PM  ## 🚀 Funcionalidades e Equipamento"
+      ],
+      "valoresNumericos": [
+        "2 - 6 mm",
+        "6 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 63 --- 60 Colocar o motor a trabalhar Continua o Guia de utiliza o a Coloque o ve culo no descanso central. b Coloque o interrutor de igni o na posi o Ligado . u Para desbloquear o interrutor de igni o. P50 c Aperte a manete do trav o traseiro. u O motor de arranque s trabalha se a manete do trav o traseiro estiver aplicada e o descanso lateral estiver recolhido. d Com o acelerador completamente fechado, carregue no bot o de arranque. Solte o bot o de arranque assim que o motor come ..."
+    },
+    {
+      "modelo": "forza 125",
+      "categoria": "folga",
+      "prompt": "flange do punho",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 100 --- 97 Manuten o Acelerador Inspecionar o acelerador Com o motor desligado, verifique se o acelerador roda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador est correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamente ou se o cabo estiver danificado, mande inspecionar o ve culo no seu concession rio. Folga no flange do punho do acelerador: 2 - 6 mm Folga Flange 3PK40L300_PT.book Page 97 Friday, November 6, 2020 4:53 PM  --- Página 115 ---"
+      ],
+      "valoresNumericos": [
+        "2 - 6 mm",
+        "6 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 100 --- 97 Manuten o Acelerador Inspecionar o acelerador Com o motor desligado, verifique se o acelerador roda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador est correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamente ou se o cabo estiver danificado, mande inspecionar o ve culo no seu concession rio. Folga no flange do punho do acelerador: 2 - 6 mm Folga Flange 3PK40L300_PT.book Page 97 Fr..."
+    },
+    {
+      "modelo": "forza 125",
+      "categoria": "folga",
+      "prompt": "regulagem do acelerador",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 63 --- 60 Colocar o motor a trabalhar Continua o Guia de utiliza o a Coloque o ve culo no descanso central. b Coloque o interrutor de igni o na posi o Ligado . u Para desbloquear o interrutor de igni o. P50 c Aperte a manete do trav o traseiro. u O motor de arranque s trabalha se a manete do trav o traseiro estiver aplicada e o descanso lateral estiver recolhido. d Com o acelerador completamente fechado, carregue no bot o de arranque. Solte o bot o de arranque assim que o motor come ar a trabalhar. 3PK40L300_PT.book Page 60 Friday, November 6, 2020 4:53 PM  --- Página 68 ---",
+        " --- Página 100 --- 97 Manuten o Acelerador Inspecionar o acelerador Com o motor desligado, verifique se o acelerador roda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador est correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamente ou se o cabo estiver danificado, mande inspecionar o ve culo no seu concession rio. Folga no flange do punho do acelerador: 2 - 6 mm Folga Flange 3PK40L300_PT.book Page 97 Friday, November 6, 2020 4:53 PM  --- Página 115 ---",
+        " --- Página 115 --- Se o sistema de paragem ao ralenti n o funcionar corretamente u O motor n o trabalha mesmo quando se abre o acelerador 112 Diagn stico de avarias O motor n o trabalha mesmo quando se abre o acelerador Se o motor n o trabalhar mesmo quando se abre o acelerador, verifique o seguinte: Enquanto o motor estiver parado por a o do sistema de paragem ao ralenti, se acionar o descanso lateral, o indicador de paragem ao ralenti que estava a piscar apaga-se ou deixa de piscar e fica aceso e o sistema de paragem ao ralenti cancelado. Recoloque o motor a trabalhar seguindo o procedimento de arranque normal do motor 2 P. 59 . Enquanto o motor estiver a parar por a o do sistema de paragem ao ralenti, se premir o interrutor de paragem ao ralenti para a posi o ralenti , o sistema de paragem ao ralenti cancelado. Recoloque o motor a trabalhar seguindo o procedimento de arranque normal do motor 2 P. 59 . Se o indicador de paragem ao ralenti piscar com o interrutor de paragem ao ralenti na posi o Paragem ao ralenti , mas o motor n o come ar a trabalhar mesmo quando se abre o acelerador, realize o que se segue. Verifique a bateria e os terminais da bateria. Se a bateria estiver fraca, consulte o seu concession rio. Se o descanso lateral est descido: Se o interrutor de paragem ao ralenti estiver em Ralenti : Bateria com carga baixa ou descarregada ou cabos da bateria soltos: 3PK40L300_PT.book Page 112 Friday, November 6, 2020 4:53 PM  ## 🚀 Funcionalidades e Equipamento"
+      ],
+      "valoresNumericos": [
+        "2 - 6 mm",
+        "6 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 63 --- 60 Colocar o motor a trabalhar Continua o Guia de utiliza o a Coloque o ve culo no descanso central. b Coloque o interrutor de igni o na posi o Ligado . u Para desbloquear o interrutor de igni o. P50 c Aperte a manete do trav o traseiro. u O motor de arranque s trabalha se a manete do trav o traseiro estiver aplicada e o descanso lateral estiver recolhido. d Com o acelerador completamente fechado, carregue no bot o de arranque. Solte o bot o de arranque assim que o motor come ..."
+    },
+    {
+      "modelo": "forza 125",
+      "categoria": "folga",
+      "prompt": "jogo do acelerador",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 63 --- 60 Colocar o motor a trabalhar Continua o Guia de utiliza o a Coloque o ve culo no descanso central. b Coloque o interrutor de igni o na posi o Ligado . u Para desbloquear o interrutor de igni o. P50 c Aperte a manete do trav o traseiro. u O motor de arranque s trabalha se a manete do trav o traseiro estiver aplicada e o descanso lateral estiver recolhido. d Com o acelerador completamente fechado, carregue no bot o de arranque. Solte o bot o de arranque assim que o motor come ar a trabalhar. 3PK40L300_PT.book Page 60 Friday, November 6, 2020 4:53 PM  --- Página 68 ---",
+        " --- Página 100 --- 97 Manuten o Acelerador Inspecionar o acelerador Com o motor desligado, verifique se o acelerador roda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador est correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamente ou se o cabo estiver danificado, mande inspecionar o ve culo no seu concession rio. Folga no flange do punho do acelerador: 2 - 6 mm Folga Flange 3PK40L300_PT.book Page 97 Friday, November 6, 2020 4:53 PM  --- Página 115 ---",
+        " --- Página 115 --- Se o sistema de paragem ao ralenti n o funcionar corretamente u O motor n o trabalha mesmo quando se abre o acelerador 112 Diagn stico de avarias O motor n o trabalha mesmo quando se abre o acelerador Se o motor n o trabalhar mesmo quando se abre o acelerador, verifique o seguinte: Enquanto o motor estiver parado por a o do sistema de paragem ao ralenti, se acionar o descanso lateral, o indicador de paragem ao ralenti que estava a piscar apaga-se ou deixa de piscar e fica aceso e o sistema de paragem ao ralenti cancelado. Recoloque o motor a trabalhar seguindo o procedimento de arranque normal do motor 2 P. 59 . Enquanto o motor estiver a parar por a o do sistema de paragem ao ralenti, se premir o interrutor de paragem ao ralenti para a posi o ralenti , o sistema de paragem ao ralenti cancelado. Recoloque o motor a trabalhar seguindo o procedimento de arranque normal do motor 2 P. 59 . Se o indicador de paragem ao ralenti piscar com o interrutor de paragem ao ralenti na posi o Paragem ao ralenti , mas o motor n o come ar a trabalhar mesmo quando se abre o acelerador, realize o que se segue. Verifique a bateria e os terminais da bateria. Se a bateria estiver fraca, consulte o seu concession rio. Se o descanso lateral est descido: Se o interrutor de paragem ao ralenti estiver em Ralenti : Bateria com carga baixa ou descarregada ou cabos da bateria soltos: 3PK40L300_PT.book Page 112 Friday, November 6, 2020 4:53 PM  ## 🚀 Funcionalidades e Equipamento"
+      ],
+      "valoresNumericos": [
+        "2 - 6 mm",
+        "6 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 63 --- 60 Colocar o motor a trabalhar Continua o Guia de utiliza o a Coloque o ve culo no descanso central. b Coloque o interrutor de igni o na posi o Ligado . u Para desbloquear o interrutor de igni o. P50 c Aperte a manete do trav o traseiro. u O motor de arranque s trabalha se a manete do trav o traseiro estiver aplicada e o descanso lateral estiver recolhido. d Com o acelerador completamente fechado, carregue no bot o de arranque. Solte o bot o de arranque assim que o motor come ..."
+    },
+    {
+      "modelo": "forza 125",
+      "categoria": "binario",
+      "prompt": "torque de aperto",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "forza 125",
+      "categoria": "binario",
+      "prompt": "valor de torque",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "forza 125",
+      "categoria": "binario",
+      "prompt": "binário de aperto",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "forza 125",
+      "categoria": "binario",
+      "prompt": "aperto do motor",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 43 --- 40 Guia de utiliza o Indicadores Indicador ABS sistema de travagem antibloqueio Acende-se quando o interrutor de igni o colocado na posi o Ligado . Apaga-se quando a moto atinge cerca de 5 km/h Se se acender durante a condu o: P106 Se algum destes indicadores n o se acender quando devia, pe a ao seu concession rio para verificar a exist ncia de problemas. Luz indicadora de avaria MIL do sistema PGM-FI inje o programada de combust vel Acende-se por instantes quando o interrutor da igni o colocado na posi o Ligado . Se se acender com o motor a trabalhar: P105 Indicador da chave Honda SMART Key Acende-se quando a verifica o do ve culo e do sistema da chave Honda SMART Key conclu da e o interrutor de igni o pode ser acionado. Apaga-se quando o interrutor da igni o colocado na posi o Ligado . Se o indicador do comando Honda SMART Key piscar: P108 3PK40L300_PT.book Page 40 Friday, November 6, 2020 4:53 PM  --- Página 53 ---",
+        " --- Página 58 --- 55 Continua o Guia de utiliza o Sistema de paragem ao ralenti O sistema de paragem ao ralenti foi concebido para ajudar a reduzir o consumo de combust vel e o ru do, realizando uma paragem ao ralenti durante uma imobiliza o, por exemplo, ao aguardar num cruzamento. Ligar e desligar o sistema de paragem ao ralenti Para ligar e desligar o sistema de paragem ao ralenti, o condutor usa o interrutor de paragem ao ralenti. LIGADO: Paragem ao ralenti u O indicador de paragem ao ralenti acende-se quando o sistema est preparado para desligar o motor quando este ficar ao ralenti. Quando o motor for desligado por a o do sistema de paragem ao ralenti, o indicador do sistema de paragem ao ralenti fica a piscar. DESLIGADO: Ralenti u Se o sistema de paragem ao ralenti estiver desligado, o indicador do sistema de paragem ao ralenti n o se acende. Ativa o do sistema de paragem ao ralenti O sistema de paragem ao ralenti fica pronto para desligar o motor e o indicador de paragem ao ralenti acende-se caso as condi es indicadas a seguir sejam cumpridas, com o interrutor de paragem ao ralenti na posi o Paragem ao ralenti : coloque o motor a trabalhar premindo o bot o de arranque aque a o motor o suficiente conduza o ve culo a uma velocidade superior a 10 km/h O indicador de paragem ao ralenti n o se acende: P110 Interrutor de paragem ao ralenti Indicador de paragem ao ralenti 3PK40L300_PT.book Page 55 Friday, November 6, 2020 4:53 PM  --- Página 63 ---",
+        " --- Página 63 --- 60 Colocar o motor a trabalhar Continua o Guia de utiliza o a Coloque o ve culo no descanso central. b Coloque o interrutor de igni o na posi o Ligado . u Para desbloquear o interrutor de igni o. P50 c Aperte a manete do trav o traseiro. u O motor de arranque s trabalha se a manete do trav o traseiro estiver aplicada e o descanso lateral estiver recolhido. d Com o acelerador completamente fechado, carregue no bot o de arranque. Solte o bot o de arranque assim que o motor come ar a trabalhar. 3PK40L300_PT.book Page 60 Friday, November 6, 2020 4:53 PM  --- Página 68 ---"
+      ],
+      "valoresNumericos": [
+        "2 - 6 mm",
+        "6 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 43 --- 40 Guia de utiliza o Indicadores Indicador ABS sistema de travagem antibloqueio Acende-se quando o interrutor de igni o colocado na posi o Ligado . Apaga-se quando a moto atinge cerca de 5 km/h Se se acender durante a condu o: P106 Se algum destes indicadores n o se acender quando devia, pe a ao seu concession rio para verificar a exist ncia de problemas. Luz indicadora de avaria MIL do sistema PGM-FI inje o programada de combust vel Acende-se por instantes quando o interrutor..."
+    },
+    {
+      "modelo": "forza 125",
+      "categoria": "binario",
+      "prompt": "parafuso cabeçote",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "forza 125",
+      "categoria": "pressao",
+      "prompt": "pressão dos pneus",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 53 --- 50 Sistema da chave Honda SMART Key Continua o Guia de utiliza o Alterar a posi o do interrutor de igni o Para desbloquear o interrutor de igni o a Certifique-se de que a chave Honda SMART Key est ativada. P46 b Para autenticar o sistema da chave Honda SMART Key, prima o interrutor de igni o. u Quando estiver devidamente autenticado e o interrutor de igni o destrancado, o indicador do comando Honda SMART Key e o anel do interrutor de igni o acendem-se. c Coloque o interrutor de igni o na posi o Ligado quando o indicador da chave Honda SMART Key se acender. u Se n o conseguir colocar o interrutor de igni o na posi o Ligado no espa o de 20 segundos ap s carregar no bot o da igni o, o indicador da chave Honda SMART Key e o anel do interrutor de igni o apagam-se, os indicadores piscam 1 vez e o interrutor de igni o fica bloqueado. Se o sistema da chave Honda SMART Key n o funcionar devidamente P113 Se algu m sem a Honda SMART Key tentar acionar o interrutor da igni o, este roda livremente. Se notar que o interrutor da igni o est numa posi o diferente, rode-o para a posi o original Desligado ou Bloqueado . Chave Honda SMART Key Indicador da chave Honda SMART Key Anel do interrutor de igni o Interrutor de igni o 3PK40L300_PT.book Page 50 Friday, November 6, 2020 4:53 PM  --- Página 58 ---",
+        " --- Página 68 --- 65 Continua o Guia de utiliza o Tomada USB A tomada USB est localizada no porta-luvas. A utiliza o de dispositivos USB por conta e risco do utilizador. Em nenhuma circunst ncia a Honda poder ser responsabilizada por quaisquer danos no dispositivo USB quando est a ser utilizado. Apenas podem ser ligados dispositivos USB com as seguintes especifica es. Para usar a tomada USB, abra a tampa. A capacidade nominal de 15 W 5 V, 3,0 A . N o ligue dispositivos USB que excedam a capacidade nominal. Podem n o carregar ou funcionar corretamente, mesmo que estejam ligados. Para obter informa es sobre a utiliza o ou avaria do dispositivo USB que ligar, consulte o respetivo manual de instru es. Para ligar o seu dispositivo USB a Abra a tampa do porta-luvas. P71 b Para usar a tomada USB, abra a tampa. c Ligue um cabo USB certificado tomada USB. Cobertura Tomada USB 3PK40L300_PT.book Page 65 Friday, November 6, 2020 4:53 PM  --- Página 100 ---",
+        " --- Página 53 --- 50 Sistema da chave Honda SMART Key Continua o Guia de utiliza o Alterar a posi o do interrutor de igni o Para desbloquear o interrutor de igni o a Certifique-se de que a chave Honda SMART Key est ativada. P46 b Para autenticar o sistema da chave Honda SMART Key, prima o interrutor de igni o. u Quando estiver devidamente autenticado e o interrutor de igni o destrancado, o indicador do comando Honda SMART Key e o anel do interrutor de igni o acendem-se. c Coloque o interrutor de igni o na posi o Ligado quando o indicador da chave Honda SMART Key se acender. u Se n o conseguir colocar o interrutor de igni o na posi o Ligado no espa o de 20 segundos ap s carregar no bot o da igni o, o indicador da chave Honda SMART Key e o anel do interrutor de igni o apagam-se, os indicadores piscam 1 vez e o interrutor de igni o fica bloqueado. Se o sistema da chave Honda SMART Key n o funcionar devidamente P113 Se algu m sem a Honda SMART Key tentar acionar o interrutor da igni o, este roda livremente. Se notar que o interrutor da igni o est numa posi o diferente, rode-o para a posi o original Desligado ou Bloqueado . Chave Honda SMART Key Indicador da chave Honda SMART Key Anel do interrutor de igni o Interrutor de igni o 3PK40L300_PT.book Page 50 Friday, November 6, 2020 4:53 PM  --- Página 58 ---"
+      ],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": " --- Página 53 --- 50 Sistema da chave Honda SMART Key Continua o Guia de utiliza o Alterar a posi o do interrutor de igni o Para desbloquear o interrutor de igni o a Certifique-se de que a chave Honda SMART Key est ativada. P46 b Para autenticar o sistema da chave Honda SMART Key, prima o interrutor de igni o. u Quando estiver devidamente autenticado e o interrutor de igni o destrancado, o indicador do comando Honda SMART Key e o anel do interrutor de igni o acendem-se. c Coloque o interrutor d..."
+    },
+    {
+      "modelo": "forza 125",
+      "categoria": "pressao",
+      "prompt": "calibragem dos pneus",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 53 --- 50 Sistema da chave Honda SMART Key Continua o Guia de utiliza o Alterar a posi o do interrutor de igni o Para desbloquear o interrutor de igni o a Certifique-se de que a chave Honda SMART Key est ativada. P46 b Para autenticar o sistema da chave Honda SMART Key, prima o interrutor de igni o. u Quando estiver devidamente autenticado e o interrutor de igni o destrancado, o indicador do comando Honda SMART Key e o anel do interrutor de igni o acendem-se. c Coloque o interrutor de igni o na posi o Ligado quando o indicador da chave Honda SMART Key se acender. u Se n o conseguir colocar o interrutor de igni o na posi o Ligado no espa o de 20 segundos ap s carregar no bot o da igni o, o indicador da chave Honda SMART Key e o anel do interrutor de igni o apagam-se, os indicadores piscam 1 vez e o interrutor de igni o fica bloqueado. Se o sistema da chave Honda SMART Key n o funcionar devidamente P113 Se algu m sem a Honda SMART Key tentar acionar o interrutor da igni o, este roda livremente. Se notar que o interrutor da igni o est numa posi o diferente, rode-o para a posi o original Desligado ou Bloqueado . Chave Honda SMART Key Indicador da chave Honda SMART Key Anel do interrutor de igni o Interrutor de igni o 3PK40L300_PT.book Page 50 Friday, November 6, 2020 4:53 PM  --- Página 58 ---",
+        " --- Página 68 --- 65 Continua o Guia de utiliza o Tomada USB A tomada USB est localizada no porta-luvas. A utiliza o de dispositivos USB por conta e risco do utilizador. Em nenhuma circunst ncia a Honda poder ser responsabilizada por quaisquer danos no dispositivo USB quando est a ser utilizado. Apenas podem ser ligados dispositivos USB com as seguintes especifica es. Para usar a tomada USB, abra a tampa. A capacidade nominal de 15 W 5 V, 3,0 A . N o ligue dispositivos USB que excedam a capacidade nominal. Podem n o carregar ou funcionar corretamente, mesmo que estejam ligados. Para obter informa es sobre a utiliza o ou avaria do dispositivo USB que ligar, consulte o respetivo manual de instru es. Para ligar o seu dispositivo USB a Abra a tampa do porta-luvas. P71 b Para usar a tomada USB, abra a tampa. c Ligue um cabo USB certificado tomada USB. Cobertura Tomada USB 3PK40L300_PT.book Page 65 Friday, November 6, 2020 4:53 PM  --- Página 100 ---",
+        " --- Página 53 --- 50 Sistema da chave Honda SMART Key Continua o Guia de utiliza o Alterar a posi o do interrutor de igni o Para desbloquear o interrutor de igni o a Certifique-se de que a chave Honda SMART Key est ativada. P46 b Para autenticar o sistema da chave Honda SMART Key, prima o interrutor de igni o. u Quando estiver devidamente autenticado e o interrutor de igni o destrancado, o indicador do comando Honda SMART Key e o anel do interrutor de igni o acendem-se. c Coloque o interrutor de igni o na posi o Ligado quando o indicador da chave Honda SMART Key se acender. u Se n o conseguir colocar o interrutor de igni o na posi o Ligado no espa o de 20 segundos ap s carregar no bot o da igni o, o indicador da chave Honda SMART Key e o anel do interrutor de igni o apagam-se, os indicadores piscam 1 vez e o interrutor de igni o fica bloqueado. Se o sistema da chave Honda SMART Key n o funcionar devidamente P113 Se algu m sem a Honda SMART Key tentar acionar o interrutor da igni o, este roda livremente. Se notar que o interrutor da igni o est numa posi o diferente, rode-o para a posi o original Desligado ou Bloqueado . Chave Honda SMART Key Indicador da chave Honda SMART Key Anel do interrutor de igni o Interrutor de igni o 3PK40L300_PT.book Page 50 Friday, November 6, 2020 4:53 PM  --- Página 58 ---"
+      ],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": " --- Página 53 --- 50 Sistema da chave Honda SMART Key Continua o Guia de utiliza o Alterar a posi o do interrutor de igni o Para desbloquear o interrutor de igni o a Certifique-se de que a chave Honda SMART Key est ativada. P46 b Para autenticar o sistema da chave Honda SMART Key, prima o interrutor de igni o. u Quando estiver devidamente autenticado e o interrutor de igni o destrancado, o indicador do comando Honda SMART Key e o anel do interrutor de igni o acendem-se. c Coloque o interrutor d..."
+    },
+    {
+      "modelo": "forza 125",
+      "categoria": "pressao",
+      "prompt": "pressão de pneu",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "forza 125",
+      "categoria": "pressao",
+      "prompt": "inflação dos pneus",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 53 --- 50 Sistema da chave Honda SMART Key Continua o Guia de utiliza o Alterar a posi o do interrutor de igni o Para desbloquear o interrutor de igni o a Certifique-se de que a chave Honda SMART Key est ativada. P46 b Para autenticar o sistema da chave Honda SMART Key, prima o interrutor de igni o. u Quando estiver devidamente autenticado e o interrutor de igni o destrancado, o indicador do comando Honda SMART Key e o anel do interrutor de igni o acendem-se. c Coloque o interrutor de igni o na posi o Ligado quando o indicador da chave Honda SMART Key se acender. u Se n o conseguir colocar o interrutor de igni o na posi o Ligado no espa o de 20 segundos ap s carregar no bot o da igni o, o indicador da chave Honda SMART Key e o anel do interrutor de igni o apagam-se, os indicadores piscam 1 vez e o interrutor de igni o fica bloqueado. Se o sistema da chave Honda SMART Key n o funcionar devidamente P113 Se algu m sem a Honda SMART Key tentar acionar o interrutor da igni o, este roda livremente. Se notar que o interrutor da igni o est numa posi o diferente, rode-o para a posi o original Desligado ou Bloqueado . Chave Honda SMART Key Indicador da chave Honda SMART Key Anel do interrutor de igni o Interrutor de igni o 3PK40L300_PT.book Page 50 Friday, November 6, 2020 4:53 PM  --- Página 58 ---",
+        " --- Página 68 --- 65 Continua o Guia de utiliza o Tomada USB A tomada USB est localizada no porta-luvas. A utiliza o de dispositivos USB por conta e risco do utilizador. Em nenhuma circunst ncia a Honda poder ser responsabilizada por quaisquer danos no dispositivo USB quando est a ser utilizado. Apenas podem ser ligados dispositivos USB com as seguintes especifica es. Para usar a tomada USB, abra a tampa. A capacidade nominal de 15 W 5 V, 3,0 A . N o ligue dispositivos USB que excedam a capacidade nominal. Podem n o carregar ou funcionar corretamente, mesmo que estejam ligados. Para obter informa es sobre a utiliza o ou avaria do dispositivo USB que ligar, consulte o respetivo manual de instru es. Para ligar o seu dispositivo USB a Abra a tampa do porta-luvas. P71 b Para usar a tomada USB, abra a tampa. c Ligue um cabo USB certificado tomada USB. Cobertura Tomada USB 3PK40L300_PT.book Page 65 Friday, November 6, 2020 4:53 PM  --- Página 100 ---",
+        " --- Página 53 --- 50 Sistema da chave Honda SMART Key Continua o Guia de utiliza o Alterar a posi o do interrutor de igni o Para desbloquear o interrutor de igni o a Certifique-se de que a chave Honda SMART Key est ativada. P46 b Para autenticar o sistema da chave Honda SMART Key, prima o interrutor de igni o. u Quando estiver devidamente autenticado e o interrutor de igni o destrancado, o indicador do comando Honda SMART Key e o anel do interrutor de igni o acendem-se. c Coloque o interrutor de igni o na posi o Ligado quando o indicador da chave Honda SMART Key se acender. u Se n o conseguir colocar o interrutor de igni o na posi o Ligado no espa o de 20 segundos ap s carregar no bot o da igni o, o indicador da chave Honda SMART Key e o anel do interrutor de igni o apagam-se, os indicadores piscam 1 vez e o interrutor de igni o fica bloqueado. Se o sistema da chave Honda SMART Key n o funcionar devidamente P113 Se algu m sem a Honda SMART Key tentar acionar o interrutor da igni o, este roda livremente. Se notar que o interrutor da igni o est numa posi o diferente, rode-o para a posi o original Desligado ou Bloqueado . Chave Honda SMART Key Indicador da chave Honda SMART Key Anel do interrutor de igni o Interrutor de igni o 3PK40L300_PT.book Page 50 Friday, November 6, 2020 4:53 PM  --- Página 58 ---"
+      ],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": " --- Página 53 --- 50 Sistema da chave Honda SMART Key Continua o Guia de utiliza o Alterar a posi o do interrutor de igni o Para desbloquear o interrutor de igni o a Certifique-se de que a chave Honda SMART Key est ativada. P46 b Para autenticar o sistema da chave Honda SMART Key, prima o interrutor de igni o. u Quando estiver devidamente autenticado e o interrutor de igni o destrancado, o indicador do comando Honda SMART Key e o anel do interrutor de igni o acendem-se. c Coloque o interrutor d..."
+    },
+    {
+      "modelo": "forza 125",
+      "categoria": "pressao",
+      "prompt": "pressão recomendada",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "sh 125",
+      "categoria": "folga",
+      "prompt": "folga do acelerador",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 60 --- 57 Guia de utiliza o Colocar novamente o motor a trabalhar Verifique se o indicador de paragem do motor ao ralenti est a piscar e, a seguir, abra o acelerador. u Se n o estiver a piscar, n o conseguir colocar novamente o motor a trabalhar atrav s do sistema de paragem ao ralenti, mesmo que abra o acelerador. u Se baixar o descanso lateral ap s o motor ter sido desligado pelo sistema de paragem, o indicador do sistema apaga-se ou deixa de piscar e fica aceso; nestas condi es o motor n o recome a a trabalhar, mesmo que abra o acelerador. O motor n o trabalha mesmo quando se abre o acelerador: P117 Consulte o seu concession rio para inspecionar a bateria conforme especificado no calend rio de manuten o. Calend rio de manuten o: P76 NOTA O farol continua aceso ap s o motor parar por a o do sistema de paragem ao ralenti. A bateria pode descarregar-se e pode n o conseguir colocar novamente o motor a trabalhar. Se a bateria ficar fraca, coloque o interruptor de paragem ao ralenti na posi o IDLING e n o use o Sistema de paragem ao ralenti. Consulte o seu concession rio para verificar a bateria. 3PK0RA10_pt.book Page 57 Wednesday, October 20, 2021 2:12 PM  --- Página 65 ---",
+        " --- Página 65 --- 62 Guia de utiliza o Condu o Iniciar a condu o do ve culo a Empurre o ve culo para a frente para o retirar do descanso central. u Aperte a manete do trav o traseiro. u Mantenha o acelerador fechado. Certifique-se de que o descanso lateral e o descanso central est o recolhidos. b Suba para o ve culo. u Suba para o ve culo pelo lado esquerdo, mantendo, pelo menos, um p no ch o. c Solte a manete do trav o. d Acelera o e desacelera o Para acelerar: abra o acelerador lentamente. Para desacelerar: feche o acelerador. Fechar Desacelerar Abrir Acelerar 3PK0RA10_pt.book Page 62 Wednesday, October 20, 2021 2:12 PM  --- Página 70 ---",
+        " --- Página 105 --- 102 Manuten o Acelerador Inspecionar o acelerador Com o motor desligado, verifique se o acelerador roda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamente ou se o cabo estiver danificado, mande inspecionar o ve culo no seu concession rio. Folga na flange do punho do acelerador: 2 - 6 mm Folga Flange 3PK0RA10_pt.book Page 102 Wednesday, October 20, 2021 2:12 PM  --- Página 120 ---"
+      ],
+      "valoresNumericos": [
+        "2 - 6 mm",
+        "6 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 60 --- 57 Guia de utiliza o Colocar novamente o motor a trabalhar Verifique se o indicador de paragem do motor ao ralenti est a piscar e, a seguir, abra o acelerador. u Se n o estiver a piscar, n o conseguir colocar novamente o motor a trabalhar atrav s do sistema de paragem ao ralenti, mesmo que abra o acelerador. u Se baixar o descanso lateral ap s o motor ter sido desligado pelo sistema de paragem, o indicador do sistema apaga-se ou deixa de piscar e fica aceso; nestas condi es o ..."
+    },
+    {
+      "modelo": "sh 125",
+      "categoria": "folga",
+      "prompt": "folga no punho do acelerador",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 60 --- 57 Guia de utiliza o Colocar novamente o motor a trabalhar Verifique se o indicador de paragem do motor ao ralenti est a piscar e, a seguir, abra o acelerador. u Se n o estiver a piscar, n o conseguir colocar novamente o motor a trabalhar atrav s do sistema de paragem ao ralenti, mesmo que abra o acelerador. u Se baixar o descanso lateral ap s o motor ter sido desligado pelo sistema de paragem, o indicador do sistema apaga-se ou deixa de piscar e fica aceso; nestas condi es o motor n o recome a a trabalhar, mesmo que abra o acelerador. O motor n o trabalha mesmo quando se abre o acelerador: P117 Consulte o seu concession rio para inspecionar a bateria conforme especificado no calend rio de manuten o. Calend rio de manuten o: P76 NOTA O farol continua aceso ap s o motor parar por a o do sistema de paragem ao ralenti. A bateria pode descarregar-se e pode n o conseguir colocar novamente o motor a trabalhar. Se a bateria ficar fraca, coloque o interruptor de paragem ao ralenti na posi o IDLING e n o use o Sistema de paragem ao ralenti. Consulte o seu concession rio para verificar a bateria. 3PK0RA10_pt.book Page 57 Wednesday, October 20, 2021 2:12 PM  --- Página 65 ---",
+        " --- Página 65 --- 62 Guia de utiliza o Condu o Iniciar a condu o do ve culo a Empurre o ve culo para a frente para o retirar do descanso central. u Aperte a manete do trav o traseiro. u Mantenha o acelerador fechado. Certifique-se de que o descanso lateral e o descanso central est o recolhidos. b Suba para o ve culo. u Suba para o ve culo pelo lado esquerdo, mantendo, pelo menos, um p no ch o. c Solte a manete do trav o. d Acelera o e desacelera o Para acelerar: abra o acelerador lentamente. Para desacelerar: feche o acelerador. Fechar Desacelerar Abrir Acelerar 3PK0RA10_pt.book Page 62 Wednesday, October 20, 2021 2:12 PM  --- Página 70 ---",
+        " --- Página 105 --- 102 Manuten o Acelerador Inspecionar o acelerador Com o motor desligado, verifique se o acelerador roda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamente ou se o cabo estiver danificado, mande inspecionar o ve culo no seu concession rio. Folga na flange do punho do acelerador: 2 - 6 mm Folga Flange 3PK0RA10_pt.book Page 102 Wednesday, October 20, 2021 2:12 PM  --- Página 120 ---"
+      ],
+      "valoresNumericos": [
+        "2 - 6 mm",
+        "6 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 60 --- 57 Guia de utiliza o Colocar novamente o motor a trabalhar Verifique se o indicador de paragem do motor ao ralenti est a piscar e, a seguir, abra o acelerador. u Se n o estiver a piscar, n o conseguir colocar novamente o motor a trabalhar atrav s do sistema de paragem ao ralenti, mesmo que abra o acelerador. u Se baixar o descanso lateral ap s o motor ter sido desligado pelo sistema de paragem, o indicador do sistema apaga-se ou deixa de piscar e fica aceso; nestas condi es o ..."
+    },
+    {
+      "modelo": "sh 125",
+      "categoria": "folga",
+      "prompt": "flange do punho",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 105 --- 102 Manuten o Acelerador Inspecionar o acelerador Com o motor desligado, verifique se o acelerador roda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamente ou se o cabo estiver danificado, mande inspecionar o ve culo no seu concession rio. Folga na flange do punho do acelerador: 2 - 6 mm Folga Flange 3PK0RA10_pt.book Page 102 Wednesday, October 20, 2021 2:12 PM  --- Página 120 ---"
+      ],
+      "valoresNumericos": [
+        "2 - 6 mm",
+        "6 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 105 --- 102 Manuten o Acelerador Inspecionar o acelerador Com o motor desligado, verifique se o acelerador roda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamente ou se o cabo estiver danificado, mande inspecionar o ve culo no seu concession rio. Folga na flange do punho do acelerador: 2 - 6 mm Folga Flange 3PK0RA10_pt.book Page 102 Wedne..."
+    },
+    {
+      "modelo": "sh 125",
+      "categoria": "folga",
+      "prompt": "regulagem do acelerador",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 60 --- 57 Guia de utiliza o Colocar novamente o motor a trabalhar Verifique se o indicador de paragem do motor ao ralenti est a piscar e, a seguir, abra o acelerador. u Se n o estiver a piscar, n o conseguir colocar novamente o motor a trabalhar atrav s do sistema de paragem ao ralenti, mesmo que abra o acelerador. u Se baixar o descanso lateral ap s o motor ter sido desligado pelo sistema de paragem, o indicador do sistema apaga-se ou deixa de piscar e fica aceso; nestas condi es o motor n o recome a a trabalhar, mesmo que abra o acelerador. O motor n o trabalha mesmo quando se abre o acelerador: P117 Consulte o seu concession rio para inspecionar a bateria conforme especificado no calend rio de manuten o. Calend rio de manuten o: P76 NOTA O farol continua aceso ap s o motor parar por a o do sistema de paragem ao ralenti. A bateria pode descarregar-se e pode n o conseguir colocar novamente o motor a trabalhar. Se a bateria ficar fraca, coloque o interruptor de paragem ao ralenti na posi o IDLING e n o use o Sistema de paragem ao ralenti. Consulte o seu concession rio para verificar a bateria. 3PK0RA10_pt.book Page 57 Wednesday, October 20, 2021 2:12 PM  --- Página 65 ---",
+        " --- Página 65 --- 62 Guia de utiliza o Condu o Iniciar a condu o do ve culo a Empurre o ve culo para a frente para o retirar do descanso central. u Aperte a manete do trav o traseiro. u Mantenha o acelerador fechado. Certifique-se de que o descanso lateral e o descanso central est o recolhidos. b Suba para o ve culo. u Suba para o ve culo pelo lado esquerdo, mantendo, pelo menos, um p no ch o. c Solte a manete do trav o. d Acelera o e desacelera o Para acelerar: abra o acelerador lentamente. Para desacelerar: feche o acelerador. Fechar Desacelerar Abrir Acelerar 3PK0RA10_pt.book Page 62 Wednesday, October 20, 2021 2:12 PM  --- Página 70 ---",
+        " --- Página 105 --- 102 Manuten o Acelerador Inspecionar o acelerador Com o motor desligado, verifique se o acelerador roda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamente ou se o cabo estiver danificado, mande inspecionar o ve culo no seu concession rio. Folga na flange do punho do acelerador: 2 - 6 mm Folga Flange 3PK0RA10_pt.book Page 102 Wednesday, October 20, 2021 2:12 PM  --- Página 120 ---"
+      ],
+      "valoresNumericos": [
+        "2 - 6 mm",
+        "6 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 60 --- 57 Guia de utiliza o Colocar novamente o motor a trabalhar Verifique se o indicador de paragem do motor ao ralenti est a piscar e, a seguir, abra o acelerador. u Se n o estiver a piscar, n o conseguir colocar novamente o motor a trabalhar atrav s do sistema de paragem ao ralenti, mesmo que abra o acelerador. u Se baixar o descanso lateral ap s o motor ter sido desligado pelo sistema de paragem, o indicador do sistema apaga-se ou deixa de piscar e fica aceso; nestas condi es o ..."
+    },
+    {
+      "modelo": "sh 125",
+      "categoria": "folga",
+      "prompt": "jogo do acelerador",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 60 --- 57 Guia de utiliza o Colocar novamente o motor a trabalhar Verifique se o indicador de paragem do motor ao ralenti est a piscar e, a seguir, abra o acelerador. u Se n o estiver a piscar, n o conseguir colocar novamente o motor a trabalhar atrav s do sistema de paragem ao ralenti, mesmo que abra o acelerador. u Se baixar o descanso lateral ap s o motor ter sido desligado pelo sistema de paragem, o indicador do sistema apaga-se ou deixa de piscar e fica aceso; nestas condi es o motor n o recome a a trabalhar, mesmo que abra o acelerador. O motor n o trabalha mesmo quando se abre o acelerador: P117 Consulte o seu concession rio para inspecionar a bateria conforme especificado no calend rio de manuten o. Calend rio de manuten o: P76 NOTA O farol continua aceso ap s o motor parar por a o do sistema de paragem ao ralenti. A bateria pode descarregar-se e pode n o conseguir colocar novamente o motor a trabalhar. Se a bateria ficar fraca, coloque o interruptor de paragem ao ralenti na posi o IDLING e n o use o Sistema de paragem ao ralenti. Consulte o seu concession rio para verificar a bateria. 3PK0RA10_pt.book Page 57 Wednesday, October 20, 2021 2:12 PM  --- Página 65 ---",
+        " --- Página 65 --- 62 Guia de utiliza o Condu o Iniciar a condu o do ve culo a Empurre o ve culo para a frente para o retirar do descanso central. u Aperte a manete do trav o traseiro. u Mantenha o acelerador fechado. Certifique-se de que o descanso lateral e o descanso central est o recolhidos. b Suba para o ve culo. u Suba para o ve culo pelo lado esquerdo, mantendo, pelo menos, um p no ch o. c Solte a manete do trav o. d Acelera o e desacelera o Para acelerar: abra o acelerador lentamente. Para desacelerar: feche o acelerador. Fechar Desacelerar Abrir Acelerar 3PK0RA10_pt.book Page 62 Wednesday, October 20, 2021 2:12 PM  --- Página 70 ---",
+        " --- Página 105 --- 102 Manuten o Acelerador Inspecionar o acelerador Com o motor desligado, verifique se o acelerador roda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamente ou se o cabo estiver danificado, mande inspecionar o ve culo no seu concession rio. Folga na flange do punho do acelerador: 2 - 6 mm Folga Flange 3PK0RA10_pt.book Page 102 Wednesday, October 20, 2021 2:12 PM  --- Página 120 ---"
+      ],
+      "valoresNumericos": [
+        "2 - 6 mm",
+        "6 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 60 --- 57 Guia de utiliza o Colocar novamente o motor a trabalhar Verifique se o indicador de paragem do motor ao ralenti est a piscar e, a seguir, abra o acelerador. u Se n o estiver a piscar, n o conseguir colocar novamente o motor a trabalhar atrav s do sistema de paragem ao ralenti, mesmo que abra o acelerador. u Se baixar o descanso lateral ap s o motor ter sido desligado pelo sistema de paragem, o indicador do sistema apaga-se ou deixa de piscar e fica aceso; nestas condi es o ..."
+    },
+    {
+      "modelo": "sh 125",
+      "categoria": "binario",
+      "prompt": "torque de aperto",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "sh 125",
+      "categoria": "binario",
+      "prompt": "valor de torque",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "sh 125",
+      "categoria": "binario",
+      "prompt": "binário de aperto",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "sh 125",
+      "categoria": "binario",
+      "prompt": "aperto do motor",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 45 --- 42 Guia de utiliza o Interruptores Interruptor de paragem ao ralenti Interruptor de m dio e de m ximo do farol/comando da luz de passagem : M ximos : M dios Bot o de arranque Interruptor dos piscas de dire o u Carregar no interruptor desliga os piscas de dire o. Bot o da buzina IDLING STOP : O sistema de paragemr ao ralenti est ligado. IDLING : O sistema de paragem do motor ao ralenti est desligado. Sistema de paragem ao ralenti: P55 : Pisca o m ximo do farol. bot o INFO A bot o INFO B 3PK0RA10_pt.book Page 42 Wednesday, October 20, 2021 2:12 PM  --- Página 60 ---",
+        " --- Página 60 --- 57 Guia de utiliza o Colocar novamente o motor a trabalhar Verifique se o indicador de paragem do motor ao ralenti est a piscar e, a seguir, abra o acelerador. u Se n o estiver a piscar, n o conseguir colocar novamente o motor a trabalhar atrav s do sistema de paragem ao ralenti, mesmo que abra o acelerador. u Se baixar o descanso lateral ap s o motor ter sido desligado pelo sistema de paragem, o indicador do sistema apaga-se ou deixa de piscar e fica aceso; nestas condi es o motor n o recome a a trabalhar, mesmo que abra o acelerador. O motor n o trabalha mesmo quando se abre o acelerador: P117 Consulte o seu concession rio para inspecionar a bateria conforme especificado no calend rio de manuten o. Calend rio de manuten o: P76 NOTA O farol continua aceso ap s o motor parar por a o do sistema de paragem ao ralenti. A bateria pode descarregar-se e pode n o conseguir colocar novamente o motor a trabalhar. Se a bateria ficar fraca, coloque o interruptor de paragem ao ralenti na posi o IDLING e n o use o Sistema de paragem ao ralenti. Consulte o seu concession rio para verificar a bateria. 3PK0RA10_pt.book Page 57 Wednesday, October 20, 2021 2:12 PM  --- Página 65 ---",
+        " --- Página 105 --- 102 Manuten o Acelerador Inspecionar o acelerador Com o motor desligado, verifique se o acelerador roda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamente ou se o cabo estiver danificado, mande inspecionar o ve culo no seu concession rio. Folga na flange do punho do acelerador: 2 - 6 mm Folga Flange 3PK0RA10_pt.book Page 102 Wednesday, October 20, 2021 2:12 PM  --- Página 120 ---"
+      ],
+      "valoresNumericos": [
+        "2 - 6 mm",
+        "6 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 45 --- 42 Guia de utiliza o Interruptores Interruptor de paragem ao ralenti Interruptor de m dio e de m ximo do farol/comando da luz de passagem : M ximos : M dios Bot o de arranque Interruptor dos piscas de dire o u Carregar no interruptor desliga os piscas de dire o. Bot o da buzina IDLING STOP : O sistema de paragemr ao ralenti est ligado. IDLING : O sistema de paragem do motor ao ralenti est desligado. Sistema de paragem ao ralenti: P55 : Pisca o m ximo do farol. bot o INFO A bot..."
+    },
+    {
+      "modelo": "sh 125",
+      "categoria": "binario",
+      "prompt": "parafuso cabeçote",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "sh 125",
+      "categoria": "pressao",
+      "prompt": "pressão dos pneus",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 45 --- 42 Guia de utiliza o Interruptores Interruptor de paragem ao ralenti Interruptor de m dio e de m ximo do farol/comando da luz de passagem : M ximos : M dios Bot o de arranque Interruptor dos piscas de dire o u Carregar no interruptor desliga os piscas de dire o. Bot o da buzina IDLING STOP : O sistema de paragemr ao ralenti est ligado. IDLING : O sistema de paragem do motor ao ralenti est desligado. Sistema de paragem ao ralenti: P55 : Pisca o m ximo do farol. bot o INFO A bot o INFO B 3PK0RA10_pt.book Page 42 Wednesday, October 20, 2021 2:12 PM  --- Página 60 ---",
+        " --- Página 65 --- 62 Guia de utiliza o Condu o Iniciar a condu o do ve culo a Empurre o ve culo para a frente para o retirar do descanso central. u Aperte a manete do trav o traseiro. u Mantenha o acelerador fechado. Certifique-se de que o descanso lateral e o descanso central est o recolhidos. b Suba para o ve culo. u Suba para o ve culo pelo lado esquerdo, mantendo, pelo menos, um p no ch o. c Solte a manete do trav o. d Acelera o e desacelera o Para acelerar: abra o acelerador lentamente. Para desacelerar: feche o acelerador. Fechar Desacelerar Abrir Acelerar 3PK0RA10_pt.book Page 62 Wednesday, October 20, 2021 2:12 PM  --- Página 70 ---",
+        " --- Página 70 --- 67 Guia de utiliza o Tomada USB O seu ve culo est equipado com uma tomada USB apenas para USB Tipo A . A utiliza o de dispositivos USB por conta e risco do utilizador. Em nenhuma circunst ncia a Honda poder ser responsabilizada por quaisquer danos no dispositivo USB quando est a ser utilizado. Apenas podem ser ligados dispositivos USB com as seguintes especifica es. A capacidade nominal de 7,5 W 5 V, 1,5 A . N o ligue dispositivos USB que excedam a capacidade nominal. Podem n o carregar ou funcionar corretamente, mesmo que estejam ligados. Para obter informa es sobre a utiliza o ou avaria do dispositivo USB que ligar, consulte o respetivo manual de instru es. Para ligar o seu dispositivo USB a Abra o banco. P69 b Para usar a tomada USB, abra a tampa. c Ligue um cabo USB certificado tomada USB. Cobertura Tomada USB Continua 3PK0RA10_pt.book Page 67 Wednesday, October 20, 2021 2:12 PM  --- Página 105 ---"
+      ],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": " --- Página 45 --- 42 Guia de utiliza o Interruptores Interruptor de paragem ao ralenti Interruptor de m dio e de m ximo do farol/comando da luz de passagem : M ximos : M dios Bot o de arranque Interruptor dos piscas de dire o u Carregar no interruptor desliga os piscas de dire o. Bot o da buzina IDLING STOP : O sistema de paragemr ao ralenti est ligado. IDLING : O sistema de paragem do motor ao ralenti est desligado. Sistema de paragem ao ralenti: P55 : Pisca o m ximo do farol. bot o INFO A bot..."
+    },
+    {
+      "modelo": "sh 125",
+      "categoria": "pressao",
+      "prompt": "calibragem dos pneus",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 45 --- 42 Guia de utiliza o Interruptores Interruptor de paragem ao ralenti Interruptor de m dio e de m ximo do farol/comando da luz de passagem : M ximos : M dios Bot o de arranque Interruptor dos piscas de dire o u Carregar no interruptor desliga os piscas de dire o. Bot o da buzina IDLING STOP : O sistema de paragemr ao ralenti est ligado. IDLING : O sistema de paragem do motor ao ralenti est desligado. Sistema de paragem ao ralenti: P55 : Pisca o m ximo do farol. bot o INFO A bot o INFO B 3PK0RA10_pt.book Page 42 Wednesday, October 20, 2021 2:12 PM  --- Página 60 ---",
+        " --- Página 65 --- 62 Guia de utiliza o Condu o Iniciar a condu o do ve culo a Empurre o ve culo para a frente para o retirar do descanso central. u Aperte a manete do trav o traseiro. u Mantenha o acelerador fechado. Certifique-se de que o descanso lateral e o descanso central est o recolhidos. b Suba para o ve culo. u Suba para o ve culo pelo lado esquerdo, mantendo, pelo menos, um p no ch o. c Solte a manete do trav o. d Acelera o e desacelera o Para acelerar: abra o acelerador lentamente. Para desacelerar: feche o acelerador. Fechar Desacelerar Abrir Acelerar 3PK0RA10_pt.book Page 62 Wednesday, October 20, 2021 2:12 PM  --- Página 70 ---",
+        " --- Página 70 --- 67 Guia de utiliza o Tomada USB O seu ve culo est equipado com uma tomada USB apenas para USB Tipo A . A utiliza o de dispositivos USB por conta e risco do utilizador. Em nenhuma circunst ncia a Honda poder ser responsabilizada por quaisquer danos no dispositivo USB quando est a ser utilizado. Apenas podem ser ligados dispositivos USB com as seguintes especifica es. A capacidade nominal de 7,5 W 5 V, 1,5 A . N o ligue dispositivos USB que excedam a capacidade nominal. Podem n o carregar ou funcionar corretamente, mesmo que estejam ligados. Para obter informa es sobre a utiliza o ou avaria do dispositivo USB que ligar, consulte o respetivo manual de instru es. Para ligar o seu dispositivo USB a Abra o banco. P69 b Para usar a tomada USB, abra a tampa. c Ligue um cabo USB certificado tomada USB. Cobertura Tomada USB Continua 3PK0RA10_pt.book Page 67 Wednesday, October 20, 2021 2:12 PM  --- Página 105 ---"
+      ],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": " --- Página 45 --- 42 Guia de utiliza o Interruptores Interruptor de paragem ao ralenti Interruptor de m dio e de m ximo do farol/comando da luz de passagem : M ximos : M dios Bot o de arranque Interruptor dos piscas de dire o u Carregar no interruptor desliga os piscas de dire o. Bot o da buzina IDLING STOP : O sistema de paragemr ao ralenti est ligado. IDLING : O sistema de paragem do motor ao ralenti est desligado. Sistema de paragem ao ralenti: P55 : Pisca o m ximo do farol. bot o INFO A bot..."
+    },
+    {
+      "modelo": "sh 125",
+      "categoria": "pressao",
+      "prompt": "pressão de pneu",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "sh 125",
+      "categoria": "pressao",
+      "prompt": "inflação dos pneus",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 45 --- 42 Guia de utiliza o Interruptores Interruptor de paragem ao ralenti Interruptor de m dio e de m ximo do farol/comando da luz de passagem : M ximos : M dios Bot o de arranque Interruptor dos piscas de dire o u Carregar no interruptor desliga os piscas de dire o. Bot o da buzina IDLING STOP : O sistema de paragemr ao ralenti est ligado. IDLING : O sistema de paragem do motor ao ralenti est desligado. Sistema de paragem ao ralenti: P55 : Pisca o m ximo do farol. bot o INFO A bot o INFO B 3PK0RA10_pt.book Page 42 Wednesday, October 20, 2021 2:12 PM  --- Página 60 ---",
+        " --- Página 65 --- 62 Guia de utiliza o Condu o Iniciar a condu o do ve culo a Empurre o ve culo para a frente para o retirar do descanso central. u Aperte a manete do trav o traseiro. u Mantenha o acelerador fechado. Certifique-se de que o descanso lateral e o descanso central est o recolhidos. b Suba para o ve culo. u Suba para o ve culo pelo lado esquerdo, mantendo, pelo menos, um p no ch o. c Solte a manete do trav o. d Acelera o e desacelera o Para acelerar: abra o acelerador lentamente. Para desacelerar: feche o acelerador. Fechar Desacelerar Abrir Acelerar 3PK0RA10_pt.book Page 62 Wednesday, October 20, 2021 2:12 PM  --- Página 70 ---",
+        " --- Página 70 --- 67 Guia de utiliza o Tomada USB O seu ve culo est equipado com uma tomada USB apenas para USB Tipo A . A utiliza o de dispositivos USB por conta e risco do utilizador. Em nenhuma circunst ncia a Honda poder ser responsabilizada por quaisquer danos no dispositivo USB quando est a ser utilizado. Apenas podem ser ligados dispositivos USB com as seguintes especifica es. A capacidade nominal de 7,5 W 5 V, 1,5 A . N o ligue dispositivos USB que excedam a capacidade nominal. Podem n o carregar ou funcionar corretamente, mesmo que estejam ligados. Para obter informa es sobre a utiliza o ou avaria do dispositivo USB que ligar, consulte o respetivo manual de instru es. Para ligar o seu dispositivo USB a Abra o banco. P69 b Para usar a tomada USB, abra a tampa. c Ligue um cabo USB certificado tomada USB. Cobertura Tomada USB Continua 3PK0RA10_pt.book Page 67 Wednesday, October 20, 2021 2:12 PM  --- Página 105 ---"
+      ],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": " --- Página 45 --- 42 Guia de utiliza o Interruptores Interruptor de paragem ao ralenti Interruptor de m dio e de m ximo do farol/comando da luz de passagem : M ximos : M dios Bot o de arranque Interruptor dos piscas de dire o u Carregar no interruptor desliga os piscas de dire o. Bot o da buzina IDLING STOP : O sistema de paragemr ao ralenti est ligado. IDLING : O sistema de paragem do motor ao ralenti est desligado. Sistema de paragem ao ralenti: P55 : Pisca o m ximo do farol. bot o INFO A bot..."
+    },
+    {
+      "modelo": "sh 125",
+      "categoria": "pressao",
+      "prompt": "pressão recomendada",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "pcx 125",
+      "categoria": "folga",
+      "prompt": "folga do acelerador",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 80 --- 77 Guia de utiliza o Travagem Feche o acelerador e aplique as manetes do trav o dianteiro e traseiro em conjunto. Manete do trav o traseiro Manete do trav o dianteiro 3PK1YC000_PT.book Page 77 Thursday, October 15, 2020 1:51 PM  --- Página 118 ---",
+        " --- Página 118 --- Trav es u Inspecionar a folga da manete do trav o traseiro 115 Manuten o Inspecionar a folga da manete do trav o traseiro 1. Coloque o ve culo no descanso central. 2. Me a a dist ncia a que o manete traseiro do trav o se move antes de o trav o come ar a agarrar . Verifique o cabo do trav o quanto a vincos e/ou sinais de desgaste. Se necess rio, mande substitu -lo no seu concession rio. Para evitar o desgaste e a corros o prematuros, lubrifique o cabo do trav o com um lubrificante para cabos dispon vel no mercado. Certifique-se de que o bra o do trav o, a mola e o fixador est o em bom estado. Folga na ponta da manete do trav o: 10 - 20 mm Tipo WW125, WW125A ED Folga 3PK1YC000_PT.book Page 115 Thursday, October 15, 2020 1:51 PM  --- Página 135 ---"
+      ],
+      "valoresNumericos": [
+        "10 - 20 mm",
+        "20 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 80 --- 77 Guia de utiliza o Travagem Feche o acelerador e aplique as manetes do trav o dianteiro e traseiro em conjunto. Manete do trav o traseiro Manete do trav o dianteiro 3PK1YC000_PT.book Page 77 Thursday, October 15, 2020 1:51 PM  --- Página 118 ---\n --- Página 118 --- Trav es u Inspecionar a folga da manete do trav o traseiro 115 Manuten o Inspecionar a folga da manete do trav o traseiro 1. Coloque o ve culo no descanso central. 2. Me a a dist ncia a que o manete traseiro do tr..."
+    },
+    {
+      "modelo": "pcx 125",
+      "categoria": "folga",
+      "prompt": "folga no punho do acelerador",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 80 --- 77 Guia de utiliza o Travagem Feche o acelerador e aplique as manetes do trav o dianteiro e traseiro em conjunto. Manete do trav o traseiro Manete do trav o dianteiro 3PK1YC000_PT.book Page 77 Thursday, October 15, 2020 1:51 PM  --- Página 118 ---",
+        " --- Página 118 --- Trav es u Inspecionar a folga da manete do trav o traseiro 115 Manuten o Inspecionar a folga da manete do trav o traseiro 1. Coloque o ve culo no descanso central. 2. Me a a dist ncia a que o manete traseiro do trav o se move antes de o trav o come ar a agarrar . Verifique o cabo do trav o quanto a vincos e/ou sinais de desgaste. Se necess rio, mande substitu -lo no seu concession rio. Para evitar o desgaste e a corros o prematuros, lubrifique o cabo do trav o com um lubrificante para cabos dispon vel no mercado. Certifique-se de que o bra o do trav o, a mola e o fixador est o em bom estado. Folga na ponta da manete do trav o: 10 - 20 mm Tipo WW125, WW125A ED Folga 3PK1YC000_PT.book Page 115 Thursday, October 15, 2020 1:51 PM  --- Página 135 ---"
+      ],
+      "valoresNumericos": [
+        "10 - 20 mm",
+        "20 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 80 --- 77 Guia de utiliza o Travagem Feche o acelerador e aplique as manetes do trav o dianteiro e traseiro em conjunto. Manete do trav o traseiro Manete do trav o dianteiro 3PK1YC000_PT.book Page 77 Thursday, October 15, 2020 1:51 PM  --- Página 118 ---\n --- Página 118 --- Trav es u Inspecionar a folga da manete do trav o traseiro 115 Manuten o Inspecionar a folga da manete do trav o traseiro 1. Coloque o ve culo no descanso central. 2. Me a a dist ncia a que o manete traseiro do tr..."
+    },
+    {
+      "modelo": "pcx 125",
+      "categoria": "folga",
+      "prompt": "flange do punho",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "pcx 125",
+      "categoria": "folga",
+      "prompt": "regulagem do acelerador",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 80 --- 77 Guia de utiliza o Travagem Feche o acelerador e aplique as manetes do trav o dianteiro e traseiro em conjunto. Manete do trav o traseiro Manete do trav o dianteiro 3PK1YC000_PT.book Page 77 Thursday, October 15, 2020 1:51 PM  --- Página 118 ---"
+      ],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": " --- Página 80 --- 77 Guia de utiliza o Travagem Feche o acelerador e aplique as manetes do trav o dianteiro e traseiro em conjunto. Manete do trav o traseiro Manete do trav o dianteiro 3PK1YC000_PT.book Page 77 Thursday, October 15, 2020 1:51 PM  --- Página 118 ---"
+    },
+    {
+      "modelo": "pcx 125",
+      "categoria": "folga",
+      "prompt": "jogo do acelerador",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 80 --- 77 Guia de utiliza o Travagem Feche o acelerador e aplique as manetes do trav o dianteiro e traseiro em conjunto. Manete do trav o traseiro Manete do trav o dianteiro 3PK1YC000_PT.book Page 77 Thursday, October 15, 2020 1:51 PM  --- Página 118 ---"
+      ],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": " --- Página 80 --- 77 Guia de utiliza o Travagem Feche o acelerador e aplique as manetes do trav o dianteiro e traseiro em conjunto. Manete do trav o traseiro Manete do trav o dianteiro 3PK1YC000_PT.book Page 77 Thursday, October 15, 2020 1:51 PM  --- Página 118 ---"
+    },
+    {
+      "modelo": "pcx 125",
+      "categoria": "binario",
+      "prompt": "torque de aperto",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "pcx 125",
+      "categoria": "binario",
+      "prompt": "valor de torque",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "pcx 125",
+      "categoria": "binario",
+      "prompt": "binário de aperto",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "pcx 125",
+      "categoria": "binario",
+      "prompt": "aperto do motor",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 75 --- 72 Guia de utiliza o Controlo de bin rio selecion vel Honda O controlo de bin rio controlo da pot ncia do motor pode ser ligado/desligado. u Primeiro, pare o ve culo e, em seguida, ligue ou desligue o controlo de bin rio. u N o poss vel desligar o controlo de bin rio quando o sistema estiver ativado indicador do controlo de bin rio intermitente . u Sempre que o interrutor de igni o for rodado para a posi o Ligado , o controlo de bin rio automaticamente definido para ligado. Ligar e desligar o sistema de controlo de bin rio Prima o bot o para apresentar o controlo de bin rio HSTC . Premir continuamente o bot o enquanto o controlo de bin rio HSTC apresentado alterna entre ligar e desligar. WW125A SEL SET Indicador de controlo de bin rio desligado Indicador de controlo de bin rio Bot o SET Controlo de bin rio HSTC 3PK1YC000_PT.book Page 72 Thursday, October 15, 2020 1:51 PM  --- Página 80 ---",
+        " --- Página 135 --- 132 Diagn stico de avarias Se o sistema de paragem ao ralenti n o funcionar corretamente O indicador de paragem ao ralenti n o se acende Se o indicador de paragem ao ralenti n o se acender, verifique o seguinte: Coloque o interrutor de paragem ao ralenti na posi o Paragem ao ralenti . Deixe o motor aquecer. O sistema de paragem ao ralenti n o funciona se o motor estiver frio. Conduza o ve culo a uma velocidade superior a 10 km/h. O sistema de paragem ao ralenti n o funciona at conduzir uma vez. Para proteger o motor, se a luz indicadora de avaria MIL da inje o de combust vel program vel PGM-FI se acender, o sistema de paragem ao ralenti n o funciona. Consulte o seu concession rio. Conduza o ve culo durante algum tempo, depois pare o motor e, em seguida, reinicie o motor seguindo o procedimento de arranque normal 2 P. 73 . Se a tens o da bateria for baixa, o sistema de paragem ao ralenti pode n o funcionar. Se esta situa o ocorrer com frequ ncia, consulte o seu concession rio. Se o interrutor de paragem ao ralenti estiver em Ralenti : Se o motor estiver frio: Se n o tiver conduzido o ve culo ap s o motor come ar a trabalhar: Se a luz indicadora de avaria MIL do sistema PGM-FI se acender: Se a tens o da bateria for baixa: 3PK1YC000_PT.book Page 132 Thursday, October 15, 2020 1:51 PM  ## 🚀 Funcionalidades e Equipamento",
+        " --- Página 75 --- 72 Guia de utiliza o Controlo de bin rio selecion vel Honda O controlo de bin rio controlo da pot ncia do motor pode ser ligado/desligado. u Primeiro, pare o ve culo e, em seguida, ligue ou desligue o controlo de bin rio. u N o poss vel desligar o controlo de bin rio quando o sistema estiver ativado indicador do controlo de bin rio intermitente . u Sempre que o interrutor de igni o for rodado para a posi o Ligado , o controlo de bin rio automaticamente definido para ligado. Ligar e desligar o sistema de controlo de bin rio Prima o bot o para apresentar o controlo de bin rio HSTC . Premir continuamente o bot o enquanto o controlo de bin rio HSTC apresentado alterna entre ligar e desligar. WW125A SEL SET Indicador de controlo de bin rio desligado Indicador de controlo de bin rio Bot o SET Controlo de bin rio HSTC 3PK1YC000_PT.book Page 72 Thursday, October 15, 2020 1:51 PM  --- Página 135 ---"
+      ],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": " --- Página 75 --- 72 Guia de utiliza o Controlo de bin rio selecion vel Honda O controlo de bin rio controlo da pot ncia do motor pode ser ligado/desligado. u Primeiro, pare o ve culo e, em seguida, ligue ou desligue o controlo de bin rio. u N o poss vel desligar o controlo de bin rio quando o sistema estiver ativado indicador do controlo de bin rio intermitente . u Sempre que o interrutor de igni o for rodado para a posi o Ligado , o controlo de bin rio automaticamente definido para ligado. Li..."
+    },
+    {
+      "modelo": "pcx 125",
+      "categoria": "binario",
+      "prompt": "parafuso cabeçote",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "pcx 125",
+      "categoria": "pressao",
+      "prompt": "pressão dos pneus",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 55 --- 52 Sistema da chave Honda SMART Key Continua o Guia de utiliza o Alterar a posi o do interrutor de igni o Para desbloquear o interrutor de igni o a Certifique-se de que a chave Honda SMART Key est ativada. P48 b Para autenticar o sistema da chave Honda SMART Key, prima o interrutor de igni o. u Quando estiver devidamente autenticado e o interrutor de igni o destrancado, o indicador do comando Honda SMART Key e o anel do interrutor de igni o acendem-se. O sinal sonoro tamb m emitido 2 vezes neste momento. u poss vel cancelar o sinal sonoro. P54 c Coloque o interrutor de igni o na posi o Ligado quando o indicador da chave Honda SMART Key se acender. u Se n o conseguir colocar o interrutor de igni o na posi o Ligado no espa o de 20 segundos ap s carregar no bot o da igni o, o indicador da chave Honda SMART Key e o anel do interrutor de igni o apagam-se, os indicadores piscam 1 vez e o interrutor de igni o fica bloqueado. Se o sistema da chave Honda SMART Key n o funcionar devidamente P135 Tipo KO Tipo KO Chave Honda SMART Key Indicador da chave Honda SMART Key Anel do interrutor de igni o Interrutor de igni o 3PK1YC000_PT.book Page 52 Thursday, October 15, 2020 1:51 PM  --- Página 60 ---",
+        " --- Página 60 --- 57 Guia de utiliza o Continua o Cancelar o sistema de alarme antirroubo Para cancelar o sistema de alarme antirroubo, desbloqueie o interrutor de igni o. P52 Quando o interrutor de igni o desbloquear, o sinal sonoro toca 2 vezes e o indicador de alarme apaga-se. Parar a ativa o do alarme antirroubo Para parar o sistema de alarme antirroubo, proceda de um dos seguintes modos: Prima o bot o de resposta/alarme da chave Honda SMART Key. u Ap s parar a ativa o do alarme antirroubo, o sistema de alarme antirroubo reiniciado. Desbloqueie o interrutor de igni o. P52 u Ap s parar a ativa o do alarme antirroubo, o sistema de alarme antirroubo cancelado. Bot o de resposta/alarme 3PK1YC000_PT.book Page 57 Thursday, October 15, 2020 1:51 PM  --- Página 65 ---"
+      ],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": " --- Página 55 --- 52 Sistema da chave Honda SMART Key Continua o Guia de utiliza o Alterar a posi o do interrutor de igni o Para desbloquear o interrutor de igni o a Certifique-se de que a chave Honda SMART Key est ativada. P48 b Para autenticar o sistema da chave Honda SMART Key, prima o interrutor de igni o. u Quando estiver devidamente autenticado e o interrutor de igni o destrancado, o indicador do comando Honda SMART Key e o anel do interrutor de igni o acendem-se. O sinal sonoro tamb m em..."
+    },
+    {
+      "modelo": "pcx 125",
+      "categoria": "pressao",
+      "prompt": "calibragem dos pneus",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 55 --- 52 Sistema da chave Honda SMART Key Continua o Guia de utiliza o Alterar a posi o do interrutor de igni o Para desbloquear o interrutor de igni o a Certifique-se de que a chave Honda SMART Key est ativada. P48 b Para autenticar o sistema da chave Honda SMART Key, prima o interrutor de igni o. u Quando estiver devidamente autenticado e o interrutor de igni o destrancado, o indicador do comando Honda SMART Key e o anel do interrutor de igni o acendem-se. O sinal sonoro tamb m emitido 2 vezes neste momento. u poss vel cancelar o sinal sonoro. P54 c Coloque o interrutor de igni o na posi o Ligado quando o indicador da chave Honda SMART Key se acender. u Se n o conseguir colocar o interrutor de igni o na posi o Ligado no espa o de 20 segundos ap s carregar no bot o da igni o, o indicador da chave Honda SMART Key e o anel do interrutor de igni o apagam-se, os indicadores piscam 1 vez e o interrutor de igni o fica bloqueado. Se o sistema da chave Honda SMART Key n o funcionar devidamente P135 Tipo KO Tipo KO Chave Honda SMART Key Indicador da chave Honda SMART Key Anel do interrutor de igni o Interrutor de igni o 3PK1YC000_PT.book Page 52 Thursday, October 15, 2020 1:51 PM  --- Página 60 ---",
+        " --- Página 60 --- 57 Guia de utiliza o Continua o Cancelar o sistema de alarme antirroubo Para cancelar o sistema de alarme antirroubo, desbloqueie o interrutor de igni o. P52 Quando o interrutor de igni o desbloquear, o sinal sonoro toca 2 vezes e o indicador de alarme apaga-se. Parar a ativa o do alarme antirroubo Para parar o sistema de alarme antirroubo, proceda de um dos seguintes modos: Prima o bot o de resposta/alarme da chave Honda SMART Key. u Ap s parar a ativa o do alarme antirroubo, o sistema de alarme antirroubo reiniciado. Desbloqueie o interrutor de igni o. P52 u Ap s parar a ativa o do alarme antirroubo, o sistema de alarme antirroubo cancelado. Bot o de resposta/alarme 3PK1YC000_PT.book Page 57 Thursday, October 15, 2020 1:51 PM  --- Página 65 ---"
+      ],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": " --- Página 55 --- 52 Sistema da chave Honda SMART Key Continua o Guia de utiliza o Alterar a posi o do interrutor de igni o Para desbloquear o interrutor de igni o a Certifique-se de que a chave Honda SMART Key est ativada. P48 b Para autenticar o sistema da chave Honda SMART Key, prima o interrutor de igni o. u Quando estiver devidamente autenticado e o interrutor de igni o destrancado, o indicador do comando Honda SMART Key e o anel do interrutor de igni o acendem-se. O sinal sonoro tamb m em..."
+    },
+    {
+      "modelo": "pcx 125",
+      "categoria": "pressao",
+      "prompt": "pressão de pneu",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "pcx 125",
+      "categoria": "pressao",
+      "prompt": "inflação dos pneus",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 55 --- 52 Sistema da chave Honda SMART Key Continua o Guia de utiliza o Alterar a posi o do interrutor de igni o Para desbloquear o interrutor de igni o a Certifique-se de que a chave Honda SMART Key est ativada. P48 b Para autenticar o sistema da chave Honda SMART Key, prima o interrutor de igni o. u Quando estiver devidamente autenticado e o interrutor de igni o destrancado, o indicador do comando Honda SMART Key e o anel do interrutor de igni o acendem-se. O sinal sonoro tamb m emitido 2 vezes neste momento. u poss vel cancelar o sinal sonoro. P54 c Coloque o interrutor de igni o na posi o Ligado quando o indicador da chave Honda SMART Key se acender. u Se n o conseguir colocar o interrutor de igni o na posi o Ligado no espa o de 20 segundos ap s carregar no bot o da igni o, o indicador da chave Honda SMART Key e o anel do interrutor de igni o apagam-se, os indicadores piscam 1 vez e o interrutor de igni o fica bloqueado. Se o sistema da chave Honda SMART Key n o funcionar devidamente P135 Tipo KO Tipo KO Chave Honda SMART Key Indicador da chave Honda SMART Key Anel do interrutor de igni o Interrutor de igni o 3PK1YC000_PT.book Page 52 Thursday, October 15, 2020 1:51 PM  --- Página 60 ---",
+        " --- Página 60 --- 57 Guia de utiliza o Continua o Cancelar o sistema de alarme antirroubo Para cancelar o sistema de alarme antirroubo, desbloqueie o interrutor de igni o. P52 Quando o interrutor de igni o desbloquear, o sinal sonoro toca 2 vezes e o indicador de alarme apaga-se. Parar a ativa o do alarme antirroubo Para parar o sistema de alarme antirroubo, proceda de um dos seguintes modos: Prima o bot o de resposta/alarme da chave Honda SMART Key. u Ap s parar a ativa o do alarme antirroubo, o sistema de alarme antirroubo reiniciado. Desbloqueie o interrutor de igni o. P52 u Ap s parar a ativa o do alarme antirroubo, o sistema de alarme antirroubo cancelado. Bot o de resposta/alarme 3PK1YC000_PT.book Page 57 Thursday, October 15, 2020 1:51 PM  --- Página 65 ---"
+      ],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": " --- Página 55 --- 52 Sistema da chave Honda SMART Key Continua o Guia de utiliza o Alterar a posi o do interrutor de igni o Para desbloquear o interrutor de igni o a Certifique-se de que a chave Honda SMART Key est ativada. P48 b Para autenticar o sistema da chave Honda SMART Key, prima o interrutor de igni o. u Quando estiver devidamente autenticado e o interrutor de igni o destrancado, o indicador do comando Honda SMART Key e o anel do interrutor de igni o acendem-se. O sinal sonoro tamb m em..."
+    },
+    {
+      "modelo": "pcx 125",
+      "categoria": "pressao",
+      "prompt": "pressão recomendada",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "vision 110",
+      "categoria": "folga",
+      "prompt": "folga do acelerador",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 33 --- Paragem do motor com o sistema de paragem do motor ao ralenti O motor para e o indicador do sistema de paragem do motor ao ralenti come a a piscar ap s fechar completamente o acelerador e parar a scooter com o indicador do sistema de paragem aceso. u O farol enfraquece enquanto o motor parado pelo sistema de paragem do motor ao ralenti u Enquanto o motor estiver parado por a o do sistema de paragem, se mudar o interruptor do sistema para a posi o IDLING, o sistema de paragem do motor ao ralenti cancelado. O motor n o recome a a trabalhar mesmo que abra o acelerador. Precau es de seguran a para o sistema de paragem do motor ao ralenti N o saia da scooter com o indicador de paragem do motor ao ralenti a piscar. Quando tiver de sair da scooter, coloque sempre o interruptor da igni o na posi o Desligada . u O motor pode come ar a trabalhar inesperadamente se se abrir o acelerador. O sistema de paragem do motor ao ralenti n o desliga o motor enquanto o indicador de paragem est aceso: P.83 NOTA Manter o motor desligado por a o do sistema de paragem durante um per odo de tempo alargado pode descarregar a bateria. 20160927135141_3PK44L000_por_BOOK Page 33 Tuesday, September 27 2016 14:01:46 JST Guia de utiliza o 30 Sistema de paragem do motor ao ralenti Continua o Indicador de paragem do motor ao ralenti  --- Página 38 ---",
+        " --- Página 38 --- Condu o Iniciar a condu o da scooter a Empurre a scooter para a frente, para a fazer sair do descanso central. u Bloqueie o bloqueio do trav o traseiro. u Mantenha o acelerador fechado. Certifique-se de que o descanso lateral e o descanso central est o recolhidos. b Suba para a scooter. u Suba para a scooter pelo lado esquerdo, mantendo, pelo menos, um p no ch o. c Solte o bloqueio do trav o traseiro. d Acelera o e desacelera o Para acelerar: Abra o acelerador lentamente. Para desacelerar: Feche o acelerador. 20160927135141_3PK44L000_por_BOOK Page 38 Tuesday, September 27 2016 14:01:46 JST Guia de utiliza o 35 Continua Fechar Desacelerar Abrir Acelerar  --- Página 43 ---",
+        " --- Página 79 --- Acelerador Inspecionar o acelerador Com o motor desligado, verifique se o acelerador roda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamente ou se o cabo estiver danificado, mande inspecionar a scooter no seu concession rio. Folga na flange do punho do acelerador: 2 - 6 mm 20160927135141_3PK44L000_por_BOOK Page 79 Tuesday, September 27 2016 14:01:46 JST Manuten o 76 Folga Flange  --- Página 90 ---"
+      ],
+      "valoresNumericos": [
+        "2 - 6 mm",
+        "6 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 33 --- Paragem do motor com o sistema de paragem do motor ao ralenti O motor para e o indicador do sistema de paragem do motor ao ralenti come a a piscar ap s fechar completamente o acelerador e parar a scooter com o indicador do sistema de paragem aceso. u O farol enfraquece enquanto o motor parado pelo sistema de paragem do motor ao ralenti u Enquanto o motor estiver parado por a o do sistema de paragem, se mudar o interruptor do sistema para a posi o IDLING, o sistema de paragem d..."
+    },
+    {
+      "modelo": "vision 110",
+      "categoria": "folga",
+      "prompt": "folga no punho do acelerador",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 33 --- Paragem do motor com o sistema de paragem do motor ao ralenti O motor para e o indicador do sistema de paragem do motor ao ralenti come a a piscar ap s fechar completamente o acelerador e parar a scooter com o indicador do sistema de paragem aceso. u O farol enfraquece enquanto o motor parado pelo sistema de paragem do motor ao ralenti u Enquanto o motor estiver parado por a o do sistema de paragem, se mudar o interruptor do sistema para a posi o IDLING, o sistema de paragem do motor ao ralenti cancelado. O motor n o recome a a trabalhar mesmo que abra o acelerador. Precau es de seguran a para o sistema de paragem do motor ao ralenti N o saia da scooter com o indicador de paragem do motor ao ralenti a piscar. Quando tiver de sair da scooter, coloque sempre o interruptor da igni o na posi o Desligada . u O motor pode come ar a trabalhar inesperadamente se se abrir o acelerador. O sistema de paragem do motor ao ralenti n o desliga o motor enquanto o indicador de paragem est aceso: P.83 NOTA Manter o motor desligado por a o do sistema de paragem durante um per odo de tempo alargado pode descarregar a bateria. 20160927135141_3PK44L000_por_BOOK Page 33 Tuesday, September 27 2016 14:01:46 JST Guia de utiliza o 30 Sistema de paragem do motor ao ralenti Continua o Indicador de paragem do motor ao ralenti  --- Página 38 ---",
+        " --- Página 38 --- Condu o Iniciar a condu o da scooter a Empurre a scooter para a frente, para a fazer sair do descanso central. u Bloqueie o bloqueio do trav o traseiro. u Mantenha o acelerador fechado. Certifique-se de que o descanso lateral e o descanso central est o recolhidos. b Suba para a scooter. u Suba para a scooter pelo lado esquerdo, mantendo, pelo menos, um p no ch o. c Solte o bloqueio do trav o traseiro. d Acelera o e desacelera o Para acelerar: Abra o acelerador lentamente. Para desacelerar: Feche o acelerador. 20160927135141_3PK44L000_por_BOOK Page 38 Tuesday, September 27 2016 14:01:46 JST Guia de utiliza o 35 Continua Fechar Desacelerar Abrir Acelerar  --- Página 43 ---",
+        " --- Página 79 --- Acelerador Inspecionar o acelerador Com o motor desligado, verifique se o acelerador roda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamente ou se o cabo estiver danificado, mande inspecionar a scooter no seu concession rio. Folga na flange do punho do acelerador: 2 - 6 mm 20160927135141_3PK44L000_por_BOOK Page 79 Tuesday, September 27 2016 14:01:46 JST Manuten o 76 Folga Flange  --- Página 90 ---"
+      ],
+      "valoresNumericos": [
+        "2 - 6 mm",
+        "6 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 33 --- Paragem do motor com o sistema de paragem do motor ao ralenti O motor para e o indicador do sistema de paragem do motor ao ralenti come a a piscar ap s fechar completamente o acelerador e parar a scooter com o indicador do sistema de paragem aceso. u O farol enfraquece enquanto o motor parado pelo sistema de paragem do motor ao ralenti u Enquanto o motor estiver parado por a o do sistema de paragem, se mudar o interruptor do sistema para a posi o IDLING, o sistema de paragem d..."
+    },
+    {
+      "modelo": "vision 110",
+      "categoria": "folga",
+      "prompt": "flange do punho",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 79 --- Acelerador Inspecionar o acelerador Com o motor desligado, verifique se o acelerador roda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamente ou se o cabo estiver danificado, mande inspecionar a scooter no seu concession rio. Folga na flange do punho do acelerador: 2 - 6 mm 20160927135141_3PK44L000_por_BOOK Page 79 Tuesday, September 27 2016 14:01:46 JST Manuten o 76 Folga Flange  --- Página 90 ---"
+      ],
+      "valoresNumericos": [
+        "2 - 6 mm",
+        "6 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 79 --- Acelerador Inspecionar o acelerador Com o motor desligado, verifique se o acelerador roda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamente ou se o cabo estiver danificado, mande inspecionar a scooter no seu concession rio. Folga na flange do punho do acelerador: 2 - 6 mm 20160927135141_3PK44L000_por_BOOK Page 79 Tuesday, Septembe..."
+    },
+    {
+      "modelo": "vision 110",
+      "categoria": "folga",
+      "prompt": "regulagem do acelerador",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 33 --- Paragem do motor com o sistema de paragem do motor ao ralenti O motor para e o indicador do sistema de paragem do motor ao ralenti come a a piscar ap s fechar completamente o acelerador e parar a scooter com o indicador do sistema de paragem aceso. u O farol enfraquece enquanto o motor parado pelo sistema de paragem do motor ao ralenti u Enquanto o motor estiver parado por a o do sistema de paragem, se mudar o interruptor do sistema para a posi o IDLING, o sistema de paragem do motor ao ralenti cancelado. O motor n o recome a a trabalhar mesmo que abra o acelerador. Precau es de seguran a para o sistema de paragem do motor ao ralenti N o saia da scooter com o indicador de paragem do motor ao ralenti a piscar. Quando tiver de sair da scooter, coloque sempre o interruptor da igni o na posi o Desligada . u O motor pode come ar a trabalhar inesperadamente se se abrir o acelerador. O sistema de paragem do motor ao ralenti n o desliga o motor enquanto o indicador de paragem est aceso: P.83 NOTA Manter o motor desligado por a o do sistema de paragem durante um per odo de tempo alargado pode descarregar a bateria. 20160927135141_3PK44L000_por_BOOK Page 33 Tuesday, September 27 2016 14:01:46 JST Guia de utiliza o 30 Sistema de paragem do motor ao ralenti Continua o Indicador de paragem do motor ao ralenti  --- Página 38 ---",
+        " --- Página 38 --- Condu o Iniciar a condu o da scooter a Empurre a scooter para a frente, para a fazer sair do descanso central. u Bloqueie o bloqueio do trav o traseiro. u Mantenha o acelerador fechado. Certifique-se de que o descanso lateral e o descanso central est o recolhidos. b Suba para a scooter. u Suba para a scooter pelo lado esquerdo, mantendo, pelo menos, um p no ch o. c Solte o bloqueio do trav o traseiro. d Acelera o e desacelera o Para acelerar: Abra o acelerador lentamente. Para desacelerar: Feche o acelerador. 20160927135141_3PK44L000_por_BOOK Page 38 Tuesday, September 27 2016 14:01:46 JST Guia de utiliza o 35 Continua Fechar Desacelerar Abrir Acelerar  --- Página 43 ---",
+        " --- Página 79 --- Acelerador Inspecionar o acelerador Com o motor desligado, verifique se o acelerador roda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamente ou se o cabo estiver danificado, mande inspecionar a scooter no seu concession rio. Folga na flange do punho do acelerador: 2 - 6 mm 20160927135141_3PK44L000_por_BOOK Page 79 Tuesday, September 27 2016 14:01:46 JST Manuten o 76 Folga Flange  --- Página 90 ---"
+      ],
+      "valoresNumericos": [
+        "2 - 6 mm",
+        "6 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 33 --- Paragem do motor com o sistema de paragem do motor ao ralenti O motor para e o indicador do sistema de paragem do motor ao ralenti come a a piscar ap s fechar completamente o acelerador e parar a scooter com o indicador do sistema de paragem aceso. u O farol enfraquece enquanto o motor parado pelo sistema de paragem do motor ao ralenti u Enquanto o motor estiver parado por a o do sistema de paragem, se mudar o interruptor do sistema para a posi o IDLING, o sistema de paragem d..."
+    },
+    {
+      "modelo": "vision 110",
+      "categoria": "folga",
+      "prompt": "jogo do acelerador",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 33 --- Paragem do motor com o sistema de paragem do motor ao ralenti O motor para e o indicador do sistema de paragem do motor ao ralenti come a a piscar ap s fechar completamente o acelerador e parar a scooter com o indicador do sistema de paragem aceso. u O farol enfraquece enquanto o motor parado pelo sistema de paragem do motor ao ralenti u Enquanto o motor estiver parado por a o do sistema de paragem, se mudar o interruptor do sistema para a posi o IDLING, o sistema de paragem do motor ao ralenti cancelado. O motor n o recome a a trabalhar mesmo que abra o acelerador. Precau es de seguran a para o sistema de paragem do motor ao ralenti N o saia da scooter com o indicador de paragem do motor ao ralenti a piscar. Quando tiver de sair da scooter, coloque sempre o interruptor da igni o na posi o Desligada . u O motor pode come ar a trabalhar inesperadamente se se abrir o acelerador. O sistema de paragem do motor ao ralenti n o desliga o motor enquanto o indicador de paragem est aceso: P.83 NOTA Manter o motor desligado por a o do sistema de paragem durante um per odo de tempo alargado pode descarregar a bateria. 20160927135141_3PK44L000_por_BOOK Page 33 Tuesday, September 27 2016 14:01:46 JST Guia de utiliza o 30 Sistema de paragem do motor ao ralenti Continua o Indicador de paragem do motor ao ralenti  --- Página 38 ---",
+        " --- Página 38 --- Condu o Iniciar a condu o da scooter a Empurre a scooter para a frente, para a fazer sair do descanso central. u Bloqueie o bloqueio do trav o traseiro. u Mantenha o acelerador fechado. Certifique-se de que o descanso lateral e o descanso central est o recolhidos. b Suba para a scooter. u Suba para a scooter pelo lado esquerdo, mantendo, pelo menos, um p no ch o. c Solte o bloqueio do trav o traseiro. d Acelera o e desacelera o Para acelerar: Abra o acelerador lentamente. Para desacelerar: Feche o acelerador. 20160927135141_3PK44L000_por_BOOK Page 38 Tuesday, September 27 2016 14:01:46 JST Guia de utiliza o 35 Continua Fechar Desacelerar Abrir Acelerar  --- Página 43 ---",
+        " --- Página 79 --- Acelerador Inspecionar o acelerador Com o motor desligado, verifique se o acelerador roda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamente ou se o cabo estiver danificado, mande inspecionar a scooter no seu concession rio. Folga na flange do punho do acelerador: 2 - 6 mm 20160927135141_3PK44L000_por_BOOK Page 79 Tuesday, September 27 2016 14:01:46 JST Manuten o 76 Folga Flange  --- Página 90 ---"
+      ],
+      "valoresNumericos": [
+        "2 - 6 mm",
+        "6 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 33 --- Paragem do motor com o sistema de paragem do motor ao ralenti O motor para e o indicador do sistema de paragem do motor ao ralenti come a a piscar ap s fechar completamente o acelerador e parar a scooter com o indicador do sistema de paragem aceso. u O farol enfraquece enquanto o motor parado pelo sistema de paragem do motor ao ralenti u Enquanto o motor estiver parado por a o do sistema de paragem, se mudar o interruptor do sistema para a posi o IDLING, o sistema de paragem d..."
+    },
+    {
+      "modelo": "vision 110",
+      "categoria": "binario",
+      "prompt": "torque de aperto",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "vision 110",
+      "categoria": "binario",
+      "prompt": "valor de torque",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "vision 110",
+      "categoria": "binario",
+      "prompt": "binário de aperto",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "vision 110",
+      "categoria": "binario",
+      "prompt": "aperto do motor",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 33 --- Paragem do motor com o sistema de paragem do motor ao ralenti O motor para e o indicador do sistema de paragem do motor ao ralenti come a a piscar ap s fechar completamente o acelerador e parar a scooter com o indicador do sistema de paragem aceso. u O farol enfraquece enquanto o motor parado pelo sistema de paragem do motor ao ralenti u Enquanto o motor estiver parado por a o do sistema de paragem, se mudar o interruptor do sistema para a posi o IDLING, o sistema de paragem do motor ao ralenti cancelado. O motor n o recome a a trabalhar mesmo que abra o acelerador. Precau es de seguran a para o sistema de paragem do motor ao ralenti N o saia da scooter com o indicador de paragem do motor ao ralenti a piscar. Quando tiver de sair da scooter, coloque sempre o interruptor da igni o na posi o Desligada . u O motor pode come ar a trabalhar inesperadamente se se abrir o acelerador. O sistema de paragem do motor ao ralenti n o desliga o motor enquanto o indicador de paragem est aceso: P.83 NOTA Manter o motor desligado por a o do sistema de paragem durante um per odo de tempo alargado pode descarregar a bateria. 20160927135141_3PK44L000_por_BOOK Page 33 Tuesday, September 27 2016 14:01:46 JST Guia de utiliza o 30 Sistema de paragem do motor ao ralenti Continua o Indicador de paragem do motor ao ralenti  --- Página 38 ---",
+        " --- Página 48 --- A import ncia da manuten o A import ncia da manuten o Manter a sua scooter com a manuten o em dia ab- solutamente essencial para a sua seguran a e para proteger o seu investimento, para obter a m xima performance, evitar avarias e reduzir a polui o at- mosf rica. A manuten o da responsabilidade do propriet rio. Certifique-se de que inspeciona a sua scooter antes de conduzir e de que efetua as verifica- es peri dicas especificadas no calend rio de manu- ten o. 2 P. 46 3 AVISO A manuten o incorreta da sua scooter ou a n o corre o de um problema antes de conduzir pode provocar um acidente no qual voc se pode ferir gravemente ou morrer. Cumpra sempre as recomenda es de inspe o e de manuten o, bem como os calend rios de manuten o indicados neste manual do utilizador. Manuten o em seguran a Leia sempre as instru es de manuten o antes de come ar uma tarefa e certifique-se de que disp e das ferramentas e das pe as e de que possui os conhecimentos necess rios. N o nos poss vel alert -lo para todos os perigos imagin veis que podem surgir ao efetuar a manuten o. S voc poder decidir se deve ou n o executar uma determinada tarefa. Ao executar uma tarefa de manuten o, siga estes conselhos. Pare o motor e retire a chave. Coloque a sua scooter em piso firme e nivelado utilizando o descanso lateral, o descanso central ou um cavalete de manuten o para a apoiar. Para n o se queimar, deixe arrefecer o motor, o silenciador, os trav es e outros componentes sujeitos a alta temperatura, antes de os intervencionar. Ponha o motor a trabalhar apenas quando tal lhe for indicado e fa a-o apenas num local bem ventilado. 20160927135141_3PK44L000_por_BOOK Page 48 Tuesday, September 27 2016 14:01:46 JST Manuten o 45  --- Página 79 ---",
+        " --- Página 79 --- Acelerador Inspecionar o acelerador Com o motor desligado, verifique se o acelerador roda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamente ou se o cabo estiver danificado, mande inspecionar a scooter no seu concession rio. Folga na flange do punho do acelerador: 2 - 6 mm 20160927135141_3PK44L000_por_BOOK Page 79 Tuesday, September 27 2016 14:01:46 JST Manuten o 76 Folga Flange  --- Página 90 ---"
+      ],
+      "valoresNumericos": [
+        "2 - 6 mm",
+        "6 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 33 --- Paragem do motor com o sistema de paragem do motor ao ralenti O motor para e o indicador do sistema de paragem do motor ao ralenti come a a piscar ap s fechar completamente o acelerador e parar a scooter com o indicador do sistema de paragem aceso. u O farol enfraquece enquanto o motor parado pelo sistema de paragem do motor ao ralenti u Enquanto o motor estiver parado por a o do sistema de paragem, se mudar o interruptor do sistema para a posi o IDLING, o sistema de paragem d..."
+    },
+    {
+      "modelo": "vision 110",
+      "categoria": "binario",
+      "prompt": "parafuso cabeçote",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 90 --- L mpada do farol 1. Puxe os guarda-p de para cima. 2. Retire os espelhos retrovisores retirando os respetivos adaptadores. 3. Retire a tampa superior dianteira. 2 P. 62 4. Retire os parafusos. 5. Retire a caixa do farol e remova a ficha sem a rodar. 20160927135141_3PK44L000_por_BOOK Page 90 Tuesday, September 27 2016 14:01:46 JST Problemas el tricos u L mpadas fundidas Diagn stico de avarias 87 Continua Espelhos retrovisores Adaptador do espelho retrovisor Guardas-p Adaptador do espelho retrovisor Caixa do farol Suporte Parafusos  --- Página 93 ---",
+        " --- Página 93 --- L mpada da luz dos trav es/Luz traseira 1. Retire as tampas dos piscas de dire o esquerdos e direitos. 2 P. 92 2. Retire a tampa inferior traseira. 3. Retire a lente da luz traseira e o respetivo vedante retirando os parafusos. 4. Carregue ligeiramente na l mpada e rode-a no sentido contr rio ao dos ponteiros do rel gio. 5. Instale uma l mpada nova e as pe as pela ordem inversa da remo o. 6. Instale as pe as retiradas pela ordem inversa da remo o. u Ap s recolocar o vedante em posi o, instale a lente da luz traseira. 20160927135141_3PK44L000_por_BOOK Page 93 Tuesday, September 27 2016 14:01:46 JST Problemas el tricos u L mpadas fundidas Diagn stico de avarias 90 Lente da luz traseira Vedante do vidro Tampa inferior traseira L mpada Parafusos  ## 🚀 Funcionalidades e Equipamento",
+        " --- Página 90 --- L mpada do farol 1. Puxe os guarda-p de para cima. 2. Retire os espelhos retrovisores retirando os respetivos adaptadores. 3. Retire a tampa superior dianteira. 2 P. 62 4. Retire os parafusos. 5. Retire a caixa do farol e remova a ficha sem a rodar. 20160927135141_3PK44L000_por_BOOK Page 90 Tuesday, September 27 2016 14:01:46 JST Problemas el tricos u L mpadas fundidas Diagn stico de avarias 87 Continua Espelhos retrovisores Adaptador do espelho retrovisor Guardas-p Adaptador do espelho retrovisor Caixa do farol Suporte Parafusos  "
+      ],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": " --- Página 90 --- L mpada do farol 1. Puxe os guarda-p de para cima. 2. Retire os espelhos retrovisores retirando os respetivos adaptadores. 3. Retire a tampa superior dianteira. 2 P. 62 4. Retire os parafusos. 5. Retire a caixa do farol e remova a ficha sem a rodar. 20160927135141_3PK44L000_por_BOOK Page 90 Tuesday, September 27 2016 14:01:46 JST Problemas el tricos u L mpadas fundidas Diagn stico de avarias 87 Continua Espelhos retrovisores Adaptador do espelho retrovisor Guardas-p Adaptador ..."
+    },
+    {
+      "modelo": "vision 110",
+      "categoria": "pressao",
+      "prompt": "pressão dos pneus",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 38 --- Condu o Iniciar a condu o da scooter a Empurre a scooter para a frente, para a fazer sair do descanso central. u Bloqueie o bloqueio do trav o traseiro. u Mantenha o acelerador fechado. Certifique-se de que o descanso lateral e o descanso central est o recolhidos. b Suba para a scooter. u Suba para a scooter pelo lado esquerdo, mantendo, pelo menos, um p no ch o. c Solte o bloqueio do trav o traseiro. d Acelera o e desacelera o Para acelerar: Abra o acelerador lentamente. Para desacelerar: Feche o acelerador. 20160927135141_3PK44L000_por_BOOK Page 38 Tuesday, September 27 2016 14:01:46 JST Guia de utiliza o 35 Continua Fechar Desacelerar Abrir Acelerar  --- Página 43 ---",
+        " --- Página 43 --- Porta-capacetes Os porta-capacetes est o localizados debaixo do banco. u Utilize os porta-capacetes apenas com a scooter estacionada. 3 AVISO Conduzir com um capacete preso ao porta capacetes pode interferir com a sua capacidade de controlar a scooter e pode provocar um acidente no qual voc pode ferir se gravemente ou morrer. Utilize os porta capacetes apenas com a moto parada. N o conduza com um capacete preso ao porta capacetes. 20160927135141_3PK44L000_por_BOOK Page 43 Tuesday, September 27 2016 14:01:46 JST Guia de utiliza o 40 Compartimento de arruma o Continua o Porta-capacetes Capacete  --- Página 48 ---",
+        " --- Página 48 --- A import ncia da manuten o A import ncia da manuten o Manter a sua scooter com a manuten o em dia ab- solutamente essencial para a sua seguran a e para proteger o seu investimento, para obter a m xima performance, evitar avarias e reduzir a polui o at- mosf rica. A manuten o da responsabilidade do propriet rio. Certifique-se de que inspeciona a sua scooter antes de conduzir e de que efetua as verifica- es peri dicas especificadas no calend rio de manu- ten o. 2 P. 46 3 AVISO A manuten o incorreta da sua scooter ou a n o corre o de um problema antes de conduzir pode provocar um acidente no qual voc se pode ferir gravemente ou morrer. Cumpra sempre as recomenda es de inspe o e de manuten o, bem como os calend rios de manuten o indicados neste manual do utilizador. Manuten o em seguran a Leia sempre as instru es de manuten o antes de come ar uma tarefa e certifique-se de que disp e das ferramentas e das pe as e de que possui os conhecimentos necess rios. N o nos poss vel alert -lo para todos os perigos imagin veis que podem surgir ao efetuar a manuten o. S voc poder decidir se deve ou n o executar uma determinada tarefa. Ao executar uma tarefa de manuten o, siga estes conselhos. Pare o motor e retire a chave. Coloque a sua scooter em piso firme e nivelado utilizando o descanso lateral, o descanso central ou um cavalete de manuten o para a apoiar. Para n o se queimar, deixe arrefecer o motor, o silenciador, os trav es e outros componentes sujeitos a alta temperatura, antes de os intervencionar. Ponha o motor a trabalhar apenas quando tal lhe for indicado e fa a-o apenas num local bem ventilado. 20160927135141_3PK44L000_por_BOOK Page 48 Tuesday, September 27 2016 14:01:46 JST Manuten o 45  --- Página 79 ---"
+      ],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": " --- Página 38 --- Condu o Iniciar a condu o da scooter a Empurre a scooter para a frente, para a fazer sair do descanso central. u Bloqueie o bloqueio do trav o traseiro. u Mantenha o acelerador fechado. Certifique-se de que o descanso lateral e o descanso central est o recolhidos. b Suba para a scooter. u Suba para a scooter pelo lado esquerdo, mantendo, pelo menos, um p no ch o. c Solte o bloqueio do trav o traseiro. d Acelera o e desacelera o Para acelerar: Abra o acelerador lentamente. Para..."
+    },
+    {
+      "modelo": "vision 110",
+      "categoria": "pressao",
+      "prompt": "calibragem dos pneus",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 38 --- Condu o Iniciar a condu o da scooter a Empurre a scooter para a frente, para a fazer sair do descanso central. u Bloqueie o bloqueio do trav o traseiro. u Mantenha o acelerador fechado. Certifique-se de que o descanso lateral e o descanso central est o recolhidos. b Suba para a scooter. u Suba para a scooter pelo lado esquerdo, mantendo, pelo menos, um p no ch o. c Solte o bloqueio do trav o traseiro. d Acelera o e desacelera o Para acelerar: Abra o acelerador lentamente. Para desacelerar: Feche o acelerador. 20160927135141_3PK44L000_por_BOOK Page 38 Tuesday, September 27 2016 14:01:46 JST Guia de utiliza o 35 Continua Fechar Desacelerar Abrir Acelerar  --- Página 43 ---",
+        " --- Página 43 --- Porta-capacetes Os porta-capacetes est o localizados debaixo do banco. u Utilize os porta-capacetes apenas com a scooter estacionada. 3 AVISO Conduzir com um capacete preso ao porta capacetes pode interferir com a sua capacidade de controlar a scooter e pode provocar um acidente no qual voc pode ferir se gravemente ou morrer. Utilize os porta capacetes apenas com a moto parada. N o conduza com um capacete preso ao porta capacetes. 20160927135141_3PK44L000_por_BOOK Page 43 Tuesday, September 27 2016 14:01:46 JST Guia de utiliza o 40 Compartimento de arruma o Continua o Porta-capacetes Capacete  --- Página 48 ---",
+        " --- Página 48 --- A import ncia da manuten o A import ncia da manuten o Manter a sua scooter com a manuten o em dia ab- solutamente essencial para a sua seguran a e para proteger o seu investimento, para obter a m xima performance, evitar avarias e reduzir a polui o at- mosf rica. A manuten o da responsabilidade do propriet rio. Certifique-se de que inspeciona a sua scooter antes de conduzir e de que efetua as verifica- es peri dicas especificadas no calend rio de manu- ten o. 2 P. 46 3 AVISO A manuten o incorreta da sua scooter ou a n o corre o de um problema antes de conduzir pode provocar um acidente no qual voc se pode ferir gravemente ou morrer. Cumpra sempre as recomenda es de inspe o e de manuten o, bem como os calend rios de manuten o indicados neste manual do utilizador. Manuten o em seguran a Leia sempre as instru es de manuten o antes de come ar uma tarefa e certifique-se de que disp e das ferramentas e das pe as e de que possui os conhecimentos necess rios. N o nos poss vel alert -lo para todos os perigos imagin veis que podem surgir ao efetuar a manuten o. S voc poder decidir se deve ou n o executar uma determinada tarefa. Ao executar uma tarefa de manuten o, siga estes conselhos. Pare o motor e retire a chave. Coloque a sua scooter em piso firme e nivelado utilizando o descanso lateral, o descanso central ou um cavalete de manuten o para a apoiar. Para n o se queimar, deixe arrefecer o motor, o silenciador, os trav es e outros componentes sujeitos a alta temperatura, antes de os intervencionar. Ponha o motor a trabalhar apenas quando tal lhe for indicado e fa a-o apenas num local bem ventilado. 20160927135141_3PK44L000_por_BOOK Page 48 Tuesday, September 27 2016 14:01:46 JST Manuten o 45  --- Página 79 ---"
+      ],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": " --- Página 38 --- Condu o Iniciar a condu o da scooter a Empurre a scooter para a frente, para a fazer sair do descanso central. u Bloqueie o bloqueio do trav o traseiro. u Mantenha o acelerador fechado. Certifique-se de que o descanso lateral e o descanso central est o recolhidos. b Suba para a scooter. u Suba para a scooter pelo lado esquerdo, mantendo, pelo menos, um p no ch o. c Solte o bloqueio do trav o traseiro. d Acelera o e desacelera o Para acelerar: Abra o acelerador lentamente. Para..."
+    },
+    {
+      "modelo": "vision 110",
+      "categoria": "pressao",
+      "prompt": "pressão de pneu",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "vision 110",
+      "categoria": "pressao",
+      "prompt": "inflação dos pneus",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 38 --- Condu o Iniciar a condu o da scooter a Empurre a scooter para a frente, para a fazer sair do descanso central. u Bloqueie o bloqueio do trav o traseiro. u Mantenha o acelerador fechado. Certifique-se de que o descanso lateral e o descanso central est o recolhidos. b Suba para a scooter. u Suba para a scooter pelo lado esquerdo, mantendo, pelo menos, um p no ch o. c Solte o bloqueio do trav o traseiro. d Acelera o e desacelera o Para acelerar: Abra o acelerador lentamente. Para desacelerar: Feche o acelerador. 20160927135141_3PK44L000_por_BOOK Page 38 Tuesday, September 27 2016 14:01:46 JST Guia de utiliza o 35 Continua Fechar Desacelerar Abrir Acelerar  --- Página 43 ---",
+        " --- Página 43 --- Porta-capacetes Os porta-capacetes est o localizados debaixo do banco. u Utilize os porta-capacetes apenas com a scooter estacionada. 3 AVISO Conduzir com um capacete preso ao porta capacetes pode interferir com a sua capacidade de controlar a scooter e pode provocar um acidente no qual voc pode ferir se gravemente ou morrer. Utilize os porta capacetes apenas com a moto parada. N o conduza com um capacete preso ao porta capacetes. 20160927135141_3PK44L000_por_BOOK Page 43 Tuesday, September 27 2016 14:01:46 JST Guia de utiliza o 40 Compartimento de arruma o Continua o Porta-capacetes Capacete  --- Página 48 ---",
+        " --- Página 48 --- A import ncia da manuten o A import ncia da manuten o Manter a sua scooter com a manuten o em dia ab- solutamente essencial para a sua seguran a e para proteger o seu investimento, para obter a m xima performance, evitar avarias e reduzir a polui o at- mosf rica. A manuten o da responsabilidade do propriet rio. Certifique-se de que inspeciona a sua scooter antes de conduzir e de que efetua as verifica- es peri dicas especificadas no calend rio de manu- ten o. 2 P. 46 3 AVISO A manuten o incorreta da sua scooter ou a n o corre o de um problema antes de conduzir pode provocar um acidente no qual voc se pode ferir gravemente ou morrer. Cumpra sempre as recomenda es de inspe o e de manuten o, bem como os calend rios de manuten o indicados neste manual do utilizador. Manuten o em seguran a Leia sempre as instru es de manuten o antes de come ar uma tarefa e certifique-se de que disp e das ferramentas e das pe as e de que possui os conhecimentos necess rios. N o nos poss vel alert -lo para todos os perigos imagin veis que podem surgir ao efetuar a manuten o. S voc poder decidir se deve ou n o executar uma determinada tarefa. Ao executar uma tarefa de manuten o, siga estes conselhos. Pare o motor e retire a chave. Coloque a sua scooter em piso firme e nivelado utilizando o descanso lateral, o descanso central ou um cavalete de manuten o para a apoiar. Para n o se queimar, deixe arrefecer o motor, o silenciador, os trav es e outros componentes sujeitos a alta temperatura, antes de os intervencionar. Ponha o motor a trabalhar apenas quando tal lhe for indicado e fa a-o apenas num local bem ventilado. 20160927135141_3PK44L000_por_BOOK Page 48 Tuesday, September 27 2016 14:01:46 JST Manuten o 45  --- Página 79 ---"
+      ],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": " --- Página 38 --- Condu o Iniciar a condu o da scooter a Empurre a scooter para a frente, para a fazer sair do descanso central. u Bloqueie o bloqueio do trav o traseiro. u Mantenha o acelerador fechado. Certifique-se de que o descanso lateral e o descanso central est o recolhidos. b Suba para a scooter. u Suba para a scooter pelo lado esquerdo, mantendo, pelo menos, um p no ch o. c Solte o bloqueio do trav o traseiro. d Acelera o e desacelera o Para acelerar: Abra o acelerador lentamente. Para..."
+    },
+    {
+      "modelo": "vision 110",
+      "categoria": "pressao",
+      "prompt": "pressão recomendada",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "cbr 650r",
+      "categoria": "folga",
+      "prompt": "folga do acelerador",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 66 --- 63 Guia de funcionamento Se n o conseguir colocar o motor a trabalhar: a Coloque o ve culo no descanso central e aperte a manete do trav o traseiro. b Com o acelerador ligeiramente aberto cerca de 3 mm, sem contar com a folga , prima o bot o de arranque. Se o motor n o come ar a trabalhar: a Abra totalmente o acelerador e carregue no bot o de arranque durante 5 segundos. b Repita o procedimento normal de arranque. c Se o motor come ar a trabalhar, abra ligeiramente o acelerador se o ralenti estiver inst vel. d Se o motor n o arrancar, aguarde 10 segundos antes de voltar a tentar os passos a e b . Se o motor n o arrancar P111 Cerca de 3 mm, sem contar com a folga 3PK1BF000_PT.book Page 63 Tuesday, October 27, 2020 11:21 AM  --- Página 71 ---",
+        " --- Página 107 --- 104 Manuten o Acelerador Inspecionar o acelerador Com o motor desligado, verifique se o acelerador roda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador est correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamente ou se o cabo estiver danificado, mande inspecionar o ve culo no seu concession rio. Folga no flange do punho do acelerador: 2 - 6 mm Folga Flange 3PK1BF000_PT.book Page 104 Tuesday, October 27, 2020 11:21 AM  --- Página 134 ---"
+      ],
+      "valoresNumericos": [
+        "2 - 6 mm",
+        "3 mm",
+        "6 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 66 --- 63 Guia de funcionamento Se n o conseguir colocar o motor a trabalhar: a Coloque o ve culo no descanso central e aperte a manete do trav o traseiro. b Com o acelerador ligeiramente aberto cerca de 3 mm, sem contar com a folga , prima o bot o de arranque. Se o motor n o come ar a trabalhar: a Abra totalmente o acelerador e carregue no bot o de arranque durante 5 segundos. b Repita o procedimento normal de arranque. c Se o motor come ar a trabalhar, abra ligeiramente o acelerado..."
+    },
+    {
+      "modelo": "cbr 650r",
+      "categoria": "folga",
+      "prompt": "folga no punho do acelerador",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 66 --- 63 Guia de funcionamento Se n o conseguir colocar o motor a trabalhar: a Coloque o ve culo no descanso central e aperte a manete do trav o traseiro. b Com o acelerador ligeiramente aberto cerca de 3 mm, sem contar com a folga , prima o bot o de arranque. Se o motor n o come ar a trabalhar: a Abra totalmente o acelerador e carregue no bot o de arranque durante 5 segundos. b Repita o procedimento normal de arranque. c Se o motor come ar a trabalhar, abra ligeiramente o acelerador se o ralenti estiver inst vel. d Se o motor n o arrancar, aguarde 10 segundos antes de voltar a tentar os passos a e b . Se o motor n o arrancar P111 Cerca de 3 mm, sem contar com a folga 3PK1BF000_PT.book Page 63 Tuesday, October 27, 2020 11:21 AM  --- Página 71 ---",
+        " --- Página 107 --- 104 Manuten o Acelerador Inspecionar o acelerador Com o motor desligado, verifique se o acelerador roda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador est correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamente ou se o cabo estiver danificado, mande inspecionar o ve culo no seu concession rio. Folga no flange do punho do acelerador: 2 - 6 mm Folga Flange 3PK1BF000_PT.book Page 104 Tuesday, October 27, 2020 11:21 AM  --- Página 134 ---"
+      ],
+      "valoresNumericos": [
+        "2 - 6 mm",
+        "3 mm",
+        "6 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 66 --- 63 Guia de funcionamento Se n o conseguir colocar o motor a trabalhar: a Coloque o ve culo no descanso central e aperte a manete do trav o traseiro. b Com o acelerador ligeiramente aberto cerca de 3 mm, sem contar com a folga , prima o bot o de arranque. Se o motor n o come ar a trabalhar: a Abra totalmente o acelerador e carregue no bot o de arranque durante 5 segundos. b Repita o procedimento normal de arranque. c Se o motor come ar a trabalhar, abra ligeiramente o acelerado..."
+    },
+    {
+      "modelo": "cbr 650r",
+      "categoria": "folga",
+      "prompt": "flange do punho",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 107 --- 104 Manuten o Acelerador Inspecionar o acelerador Com o motor desligado, verifique se o acelerador roda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador est correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamente ou se o cabo estiver danificado, mande inspecionar o ve culo no seu concession rio. Folga no flange do punho do acelerador: 2 - 6 mm Folga Flange 3PK1BF000_PT.book Page 104 Tuesday, October 27, 2020 11:21 AM  --- Página 134 ---"
+      ],
+      "valoresNumericos": [
+        "2 - 6 mm",
+        "6 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 107 --- 104 Manuten o Acelerador Inspecionar o acelerador Com o motor desligado, verifique se o acelerador roda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador est correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamente ou se o cabo estiver danificado, mande inspecionar o ve culo no seu concession rio. Folga no flange do punho do acelerador: 2 - 6 mm Folga Flange 3PK1BF000_PT.book Page 104 ..."
+    },
+    {
+      "modelo": "cbr 650r",
+      "categoria": "folga",
+      "prompt": "regulagem do acelerador",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 66 --- 63 Guia de funcionamento Se n o conseguir colocar o motor a trabalhar: a Coloque o ve culo no descanso central e aperte a manete do trav o traseiro. b Com o acelerador ligeiramente aberto cerca de 3 mm, sem contar com a folga , prima o bot o de arranque. Se o motor n o come ar a trabalhar: a Abra totalmente o acelerador e carregue no bot o de arranque durante 5 segundos. b Repita o procedimento normal de arranque. c Se o motor come ar a trabalhar, abra ligeiramente o acelerador se o ralenti estiver inst vel. d Se o motor n o arrancar, aguarde 10 segundos antes de voltar a tentar os passos a e b . Se o motor n o arrancar P111 Cerca de 3 mm, sem contar com a folga 3PK1BF000_PT.book Page 63 Tuesday, October 27, 2020 11:21 AM  --- Página 71 ---",
+        " --- Página 107 --- 104 Manuten o Acelerador Inspecionar o acelerador Com o motor desligado, verifique se o acelerador roda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador est correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamente ou se o cabo estiver danificado, mande inspecionar o ve culo no seu concession rio. Folga no flange do punho do acelerador: 2 - 6 mm Folga Flange 3PK1BF000_PT.book Page 104 Tuesday, October 27, 2020 11:21 AM  --- Página 134 ---"
+      ],
+      "valoresNumericos": [
+        "2 - 6 mm",
+        "3 mm",
+        "6 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 66 --- 63 Guia de funcionamento Se n o conseguir colocar o motor a trabalhar: a Coloque o ve culo no descanso central e aperte a manete do trav o traseiro. b Com o acelerador ligeiramente aberto cerca de 3 mm, sem contar com a folga , prima o bot o de arranque. Se o motor n o come ar a trabalhar: a Abra totalmente o acelerador e carregue no bot o de arranque durante 5 segundos. b Repita o procedimento normal de arranque. c Se o motor come ar a trabalhar, abra ligeiramente o acelerado..."
+    },
+    {
+      "modelo": "cbr 650r",
+      "categoria": "folga",
+      "prompt": "jogo do acelerador",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 66 --- 63 Guia de funcionamento Se n o conseguir colocar o motor a trabalhar: a Coloque o ve culo no descanso central e aperte a manete do trav o traseiro. b Com o acelerador ligeiramente aberto cerca de 3 mm, sem contar com a folga , prima o bot o de arranque. Se o motor n o come ar a trabalhar: a Abra totalmente o acelerador e carregue no bot o de arranque durante 5 segundos. b Repita o procedimento normal de arranque. c Se o motor come ar a trabalhar, abra ligeiramente o acelerador se o ralenti estiver inst vel. d Se o motor n o arrancar, aguarde 10 segundos antes de voltar a tentar os passos a e b . Se o motor n o arrancar P111 Cerca de 3 mm, sem contar com a folga 3PK1BF000_PT.book Page 63 Tuesday, October 27, 2020 11:21 AM  --- Página 71 ---",
+        " --- Página 107 --- 104 Manuten o Acelerador Inspecionar o acelerador Com o motor desligado, verifique se o acelerador roda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador est correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamente ou se o cabo estiver danificado, mande inspecionar o ve culo no seu concession rio. Folga no flange do punho do acelerador: 2 - 6 mm Folga Flange 3PK1BF000_PT.book Page 104 Tuesday, October 27, 2020 11:21 AM  --- Página 134 ---"
+      ],
+      "valoresNumericos": [
+        "2 - 6 mm",
+        "3 mm",
+        "6 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 66 --- 63 Guia de funcionamento Se n o conseguir colocar o motor a trabalhar: a Coloque o ve culo no descanso central e aperte a manete do trav o traseiro. b Com o acelerador ligeiramente aberto cerca de 3 mm, sem contar com a folga , prima o bot o de arranque. Se o motor n o come ar a trabalhar: a Abra totalmente o acelerador e carregue no bot o de arranque durante 5 segundos. b Repita o procedimento normal de arranque. c Se o motor come ar a trabalhar, abra ligeiramente o acelerado..."
+    },
+    {
+      "modelo": "cbr 650r",
+      "categoria": "binario",
+      "prompt": "torque de aperto",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "cbr 650r",
+      "categoria": "binario",
+      "prompt": "valor de torque",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "cbr 650r",
+      "categoria": "binario",
+      "prompt": "binário de aperto",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "cbr 650r",
+      "categoria": "binario",
+      "prompt": "aperto do motor",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 66 --- 63 Guia de funcionamento Se n o conseguir colocar o motor a trabalhar: a Coloque o ve culo no descanso central e aperte a manete do trav o traseiro. b Com o acelerador ligeiramente aberto cerca de 3 mm, sem contar com a folga , prima o bot o de arranque. Se o motor n o come ar a trabalhar: a Abra totalmente o acelerador e carregue no bot o de arranque durante 5 segundos. b Repita o procedimento normal de arranque. c Se o motor come ar a trabalhar, abra ligeiramente o acelerador se o ralenti estiver inst vel. d Se o motor n o arrancar, aguarde 10 segundos antes de voltar a tentar os passos a e b . Se o motor n o arrancar P111 Cerca de 3 mm, sem contar com a folga 3PK1BF000_PT.book Page 63 Tuesday, October 27, 2020 11:21 AM  --- Página 71 ---",
+        " --- Página 107 --- 104 Manuten o Acelerador Inspecionar o acelerador Com o motor desligado, verifique se o acelerador roda suavemente, desde totalmente fechado a totalmente aberto, em todas as posi es do guiador e se a folga do acelerador est correta. Se o acelerador n o se mover com suavidade, n o se fechar automaticamente ou se o cabo estiver danificado, mande inspecionar o ve culo no seu concession rio. Folga no flange do punho do acelerador: 2 - 6 mm Folga Flange 3PK1BF000_PT.book Page 104 Tuesday, October 27, 2020 11:21 AM  --- Página 134 ---",
+        " --- Página 134 --- Problemas el tricos u Fus vel fundido 131 Diagn stico de avarias 3. Retire a tampa do interrutor magn tico do motor de arranque. 4. Puxe o fus vel principal para fora e verifique se est fundido. Substitua sempre um fus vel fundido por outro de reserva da mesma especifica o. u O fus vel principal de reserva est localizado no interrutor magn tico do motor de arranque. 5. Reinstale os componentes pela ordem inversa da remo o. AVISO Se um fus vel se fundir repetidamente, provavelmente existe um problema el trico. Leve o seu ve culo ao seu concession rio para inspe o. Tampa do interrutor magn tico do motor de arranque Fus vel principal Fus vel de reserva Interrutor magn tico do motor de arranque 3PK1BF000_PT.book Page 131 Tuesday, October 27, 2020 11:21 AM  ## 🚀 Funcionalidades e Equipamento"
+      ],
+      "valoresNumericos": [
+        "2 - 6 mm",
+        "3 mm",
+        "6 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 66 --- 63 Guia de funcionamento Se n o conseguir colocar o motor a trabalhar: a Coloque o ve culo no descanso central e aperte a manete do trav o traseiro. b Com o acelerador ligeiramente aberto cerca de 3 mm, sem contar com a folga , prima o bot o de arranque. Se o motor n o come ar a trabalhar: a Abra totalmente o acelerador e carregue no bot o de arranque durante 5 segundos. b Repita o procedimento normal de arranque. c Se o motor come ar a trabalhar, abra ligeiramente o acelerado..."
+    },
+    {
+      "modelo": "cbr 650r",
+      "categoria": "binario",
+      "prompt": "parafuso cabeçote",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "cbr 650r",
+      "categoria": "pressao",
+      "prompt": "pressão dos pneus",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 56 --- 53 Guia de funcionamento Cont nuo Para bloquear o interrutor de igni o a Coloque o interrutor de igni o na posi o SEAT FUEL, Desligado ou Bloqueado . b Tranque o interrutor de igni o numa das seguintes formas: Saia da dist ncia de funcionamento da chave Honda SMART Key. P49 Carregue no interrutor de igni o. Aguarde cerca de 20 segundos ap s rodar o interruptor da igni o de Ligado para SEAT FUEL, Desligado ou Tranca . Desative o sistema da chave Honda SMART Key. P48 c Certifique-se de que o indicador do comando Honda SMART Key e o anel do interruptor da igni o se apagam e que os indicadores piscam uma vez. Isso indica que o interrutor de igni o est bloqueado. Se o sistema da chave Honda SMART Key n o funcionar devidamente P118 Anel do interrutor de igni o Interrutor de igni o Ligado Posi o SEAT FUEL Bloqueado Desligado 3PK1BF000_PT.book Page 53 Tuesday, October 27, 2020 11:21 AM  --- Página 61 ---",
+        " --- Página 61 --- 58 Sistema de controlo por voz para smartphone Honda Cont nuo Guia de funcionamento Os custos de comunica o de rede e do equipamento de comunica o necess rios para a utiliza o desta funcionalidade ser o suportados pelo pr prio utilizador. N o poss vel emparelhar dois ou mais smartphones em simult neo. Alguns smartphones podem n o ser compat veis com a funcionalidade. N o se aceitam quaisquer responsabilidades por danos ou problemas decorrentes da utiliza o do smartphone. Quando n o conseguir ligar o smartphone ao ve culo, coloque o smartphone noutra posi o. O pr prio sistema possui determinadas limita es. Assim, ter de confirmar as instru es orais e as informa es nos instrumentos fornecidas pelo sistema, observando cuidadosamente a estrada, os sinais e indica es de tr nsito, etc. Se n o estiver seguro, prossiga com precau o. Durante a condu o, utilize sempre o seu bom senso e obede a s regras de tr nsito. 3 ATEN O Utilizar o sistema de controlo por voz ao conduzir pode desviar a sua aten o da estrada, provocando acidentes nos quais pode sofrer ferimentos graves ou fatais. Tenha especial cuidado ao atravessar cruzamentos, em tr nsito intenso, etc. Observe cuidadosamente a estrada, os sinais e as indica es de tr nsito. Respeite o c digo da estrada durante a condu o. 3PK1BF000_PT.book Page 58 Tuesday, October 27, 2020 11:21 AM  --- Página 66 ---",
+        " --- Página 66 --- 63 Guia de funcionamento Se n o conseguir colocar o motor a trabalhar: a Coloque o ve culo no descanso central e aperte a manete do trav o traseiro. b Com o acelerador ligeiramente aberto cerca de 3 mm, sem contar com a folga , prima o bot o de arranque. Se o motor n o come ar a trabalhar: a Abra totalmente o acelerador e carregue no bot o de arranque durante 5 segundos. b Repita o procedimento normal de arranque. c Se o motor come ar a trabalhar, abra ligeiramente o acelerador se o ralenti estiver inst vel. d Se o motor n o arrancar, aguarde 10 segundos antes de voltar a tentar os passos a e b . Se o motor n o arrancar P111 Cerca de 3 mm, sem contar com a folga 3PK1BF000_PT.book Page 63 Tuesday, October 27, 2020 11:21 AM  --- Página 71 ---"
+      ],
+      "valoresNumericos": [
+        "3 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 56 --- 53 Guia de funcionamento Cont nuo Para bloquear o interrutor de igni o a Coloque o interrutor de igni o na posi o SEAT FUEL, Desligado ou Bloqueado . b Tranque o interrutor de igni o numa das seguintes formas: Saia da dist ncia de funcionamento da chave Honda SMART Key. P49 Carregue no interrutor de igni o. Aguarde cerca de 20 segundos ap s rodar o interruptor da igni o de Ligado para SEAT FUEL, Desligado ou Tranca . Desative o sistema da chave Honda SMART Key. P48 c Certifiqu..."
+    },
+    {
+      "modelo": "cbr 650r",
+      "categoria": "pressao",
+      "prompt": "calibragem dos pneus",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 56 --- 53 Guia de funcionamento Cont nuo Para bloquear o interrutor de igni o a Coloque o interrutor de igni o na posi o SEAT FUEL, Desligado ou Bloqueado . b Tranque o interrutor de igni o numa das seguintes formas: Saia da dist ncia de funcionamento da chave Honda SMART Key. P49 Carregue no interrutor de igni o. Aguarde cerca de 20 segundos ap s rodar o interruptor da igni o de Ligado para SEAT FUEL, Desligado ou Tranca . Desative o sistema da chave Honda SMART Key. P48 c Certifique-se de que o indicador do comando Honda SMART Key e o anel do interruptor da igni o se apagam e que os indicadores piscam uma vez. Isso indica que o interrutor de igni o est bloqueado. Se o sistema da chave Honda SMART Key n o funcionar devidamente P118 Anel do interrutor de igni o Interrutor de igni o Ligado Posi o SEAT FUEL Bloqueado Desligado 3PK1BF000_PT.book Page 53 Tuesday, October 27, 2020 11:21 AM  --- Página 61 ---",
+        " --- Página 61 --- 58 Sistema de controlo por voz para smartphone Honda Cont nuo Guia de funcionamento Os custos de comunica o de rede e do equipamento de comunica o necess rios para a utiliza o desta funcionalidade ser o suportados pelo pr prio utilizador. N o poss vel emparelhar dois ou mais smartphones em simult neo. Alguns smartphones podem n o ser compat veis com a funcionalidade. N o se aceitam quaisquer responsabilidades por danos ou problemas decorrentes da utiliza o do smartphone. Quando n o conseguir ligar o smartphone ao ve culo, coloque o smartphone noutra posi o. O pr prio sistema possui determinadas limita es. Assim, ter de confirmar as instru es orais e as informa es nos instrumentos fornecidas pelo sistema, observando cuidadosamente a estrada, os sinais e indica es de tr nsito, etc. Se n o estiver seguro, prossiga com precau o. Durante a condu o, utilize sempre o seu bom senso e obede a s regras de tr nsito. 3 ATEN O Utilizar o sistema de controlo por voz ao conduzir pode desviar a sua aten o da estrada, provocando acidentes nos quais pode sofrer ferimentos graves ou fatais. Tenha especial cuidado ao atravessar cruzamentos, em tr nsito intenso, etc. Observe cuidadosamente a estrada, os sinais e as indica es de tr nsito. Respeite o c digo da estrada durante a condu o. 3PK1BF000_PT.book Page 58 Tuesday, October 27, 2020 11:21 AM  --- Página 66 ---",
+        " --- Página 66 --- 63 Guia de funcionamento Se n o conseguir colocar o motor a trabalhar: a Coloque o ve culo no descanso central e aperte a manete do trav o traseiro. b Com o acelerador ligeiramente aberto cerca de 3 mm, sem contar com a folga , prima o bot o de arranque. Se o motor n o come ar a trabalhar: a Abra totalmente o acelerador e carregue no bot o de arranque durante 5 segundos. b Repita o procedimento normal de arranque. c Se o motor come ar a trabalhar, abra ligeiramente o acelerador se o ralenti estiver inst vel. d Se o motor n o arrancar, aguarde 10 segundos antes de voltar a tentar os passos a e b . Se o motor n o arrancar P111 Cerca de 3 mm, sem contar com a folga 3PK1BF000_PT.book Page 63 Tuesday, October 27, 2020 11:21 AM  --- Página 71 ---"
+      ],
+      "valoresNumericos": [
+        "3 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 56 --- 53 Guia de funcionamento Cont nuo Para bloquear o interrutor de igni o a Coloque o interrutor de igni o na posi o SEAT FUEL, Desligado ou Bloqueado . b Tranque o interrutor de igni o numa das seguintes formas: Saia da dist ncia de funcionamento da chave Honda SMART Key. P49 Carregue no interrutor de igni o. Aguarde cerca de 20 segundos ap s rodar o interruptor da igni o de Ligado para SEAT FUEL, Desligado ou Tranca . Desative o sistema da chave Honda SMART Key. P48 c Certifiqu..."
+    },
+    {
+      "modelo": "cbr 650r",
+      "categoria": "pressao",
+      "prompt": "pressão de pneu",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    },
+    {
+      "modelo": "cbr 650r",
+      "categoria": "pressao",
+      "prompt": "inflação dos pneus",
+      "encontrado": true,
+      "linhasRelevantes": [
+        " --- Página 56 --- 53 Guia de funcionamento Cont nuo Para bloquear o interrutor de igni o a Coloque o interrutor de igni o na posi o SEAT FUEL, Desligado ou Bloqueado . b Tranque o interrutor de igni o numa das seguintes formas: Saia da dist ncia de funcionamento da chave Honda SMART Key. P49 Carregue no interrutor de igni o. Aguarde cerca de 20 segundos ap s rodar o interruptor da igni o de Ligado para SEAT FUEL, Desligado ou Tranca . Desative o sistema da chave Honda SMART Key. P48 c Certifique-se de que o indicador do comando Honda SMART Key e o anel do interruptor da igni o se apagam e que os indicadores piscam uma vez. Isso indica que o interrutor de igni o est bloqueado. Se o sistema da chave Honda SMART Key n o funcionar devidamente P118 Anel do interrutor de igni o Interrutor de igni o Ligado Posi o SEAT FUEL Bloqueado Desligado 3PK1BF000_PT.book Page 53 Tuesday, October 27, 2020 11:21 AM  --- Página 61 ---",
+        " --- Página 61 --- 58 Sistema de controlo por voz para smartphone Honda Cont nuo Guia de funcionamento Os custos de comunica o de rede e do equipamento de comunica o necess rios para a utiliza o desta funcionalidade ser o suportados pelo pr prio utilizador. N o poss vel emparelhar dois ou mais smartphones em simult neo. Alguns smartphones podem n o ser compat veis com a funcionalidade. N o se aceitam quaisquer responsabilidades por danos ou problemas decorrentes da utiliza o do smartphone. Quando n o conseguir ligar o smartphone ao ve culo, coloque o smartphone noutra posi o. O pr prio sistema possui determinadas limita es. Assim, ter de confirmar as instru es orais e as informa es nos instrumentos fornecidas pelo sistema, observando cuidadosamente a estrada, os sinais e indica es de tr nsito, etc. Se n o estiver seguro, prossiga com precau o. Durante a condu o, utilize sempre o seu bom senso e obede a s regras de tr nsito. 3 ATEN O Utilizar o sistema de controlo por voz ao conduzir pode desviar a sua aten o da estrada, provocando acidentes nos quais pode sofrer ferimentos graves ou fatais. Tenha especial cuidado ao atravessar cruzamentos, em tr nsito intenso, etc. Observe cuidadosamente a estrada, os sinais e as indica es de tr nsito. Respeite o c digo da estrada durante a condu o. 3PK1BF000_PT.book Page 58 Tuesday, October 27, 2020 11:21 AM  --- Página 66 ---",
+        " --- Página 66 --- 63 Guia de funcionamento Se n o conseguir colocar o motor a trabalhar: a Coloque o ve culo no descanso central e aperte a manete do trav o traseiro. b Com o acelerador ligeiramente aberto cerca de 3 mm, sem contar com a folga , prima o bot o de arranque. Se o motor n o come ar a trabalhar: a Abra totalmente o acelerador e carregue no bot o de arranque durante 5 segundos. b Repita o procedimento normal de arranque. c Se o motor come ar a trabalhar, abra ligeiramente o acelerador se o ralenti estiver inst vel. d Se o motor n o arrancar, aguarde 10 segundos antes de voltar a tentar os passos a e b . Se o motor n o arrancar P111 Cerca de 3 mm, sem contar com a folga 3PK1BF000_PT.book Page 63 Tuesday, October 27, 2020 11:21 AM  --- Página 71 ---"
+      ],
+      "valoresNumericos": [
+        "3 mm"
+      ],
+      "temDadosNumericos": true,
+      "contexto": " --- Página 56 --- 53 Guia de funcionamento Cont nuo Para bloquear o interrutor de igni o a Coloque o interrutor de igni o na posi o SEAT FUEL, Desligado ou Bloqueado . b Tranque o interrutor de igni o numa das seguintes formas: Saia da dist ncia de funcionamento da chave Honda SMART Key. P49 Carregue no interrutor de igni o. Aguarde cerca de 20 segundos ap s rodar o interruptor da igni o de Ligado para SEAT FUEL, Desligado ou Tranca . Desative o sistema da chave Honda SMART Key. P48 c Certifiqu..."
+    },
+    {
+      "modelo": "cbr 650r",
+      "categoria": "pressao",
+      "prompt": "pressão recomendada",
+      "encontrado": false,
+      "linhasRelevantes": [],
+      "valoresNumericos": [],
+      "temDadosNumericos": false,
+      "contexto": ""
+    }
+  ]
+}

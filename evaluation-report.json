@@ -1,0 +1,642 @@
+{
+  "forza 125": {
+    "binário": [
+      {
+        "query": "torque de aperto",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "valor de torque",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "binário de aperto",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "torque de montagem",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "valor de aperto",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      }
+    ],
+    "folga": [
+      {
+        "query": "folga das válvulas",
+        "success": true,
+        "values": [
+          {
+            "value": 2,
+            "unit": "mm",
+            "context": "sion rio. Folga no flange do punho do acelerador: 2-6 mm Folga Flange 3PK40L300_PT.book Page 97 Friday, No"
+          }
+        ],
+        "totalFound": 1
+      },
+      {
+        "query": "regulagem de válvulas",
+        "success": true,
+        "values": [
+          {
+            "value": 2,
+            "unit": "mm",
+            "context": "sion rio. Folga no flange do punho do acelerador: 2-6 mm Folga Flange 3PK40L300_PT.book Page 97 Friday, No"
+          }
+        ],
+        "totalFound": 1
+      },
+      {
+        "query": "jogo das válvulas",
+        "success": true,
+        "values": [
+          {
+            "value": 2,
+            "unit": "mm",
+            "context": "sion rio. Folga no flange do punho do acelerador: 2-6 mm Folga Flange 3PK40L300_PT.book Page 97 Friday, No"
+          }
+        ],
+        "totalFound": 1
+      },
+      {
+        "query": "folga entre válvula",
+        "success": true,
+        "values": [
+          {
+            "value": 2,
+            "unit": "mm",
+            "context": "sion rio. Folga no flange do punho do acelerador: 2-6 mm Folga Flange 3PK40L300_PT.book Page 97 Friday, No"
+          }
+        ],
+        "totalFound": 1
+      },
+      {
+        "query": "ajuste de tuchos",
+        "success": true,
+        "values": [
+          {
+            "value": 2,
+            "unit": "mm",
+            "context": "sion rio. Folga no flange do punho do acelerador: 2-6 mm Folga Flange 3PK40L300_PT.book Page 97 Friday, No"
+          }
+        ],
+        "totalFound": 1
+      }
+    ],
+    "pressão": [
+      {
+        "query": "pressão de pneu",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "calibragem dos pneus",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "pressão do pneu",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "pressão de ar",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "pressão de inflação",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      }
+    ]
+  },
+  "sh 125": {
+    "binário": [
+      {
+        "query": "torque de aperto",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "valor de torque",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "binário de aperto",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "torque de montagem",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "valor de aperto",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      }
+    ],
+    "folga": [
+      {
+        "query": "folga das válvulas",
+        "success": true,
+        "values": [
+          {
+            "value": 2,
+            "unit": "mm",
+            "context": "sion rio. Folga na flange do punho do acelerador: 2-6 mm Folga Flange 3PK0RA10_pt.book Page 102 Wednesday,"
+          }
+        ],
+        "totalFound": 1
+      },
+      {
+        "query": "regulagem de válvulas",
+        "success": true,
+        "values": [
+          {
+            "value": 2,
+            "unit": "mm",
+            "context": "sion rio. Folga na flange do punho do acelerador: 2-6 mm Folga Flange 3PK0RA10_pt.book Page 102 Wednesday,"
+          }
+        ],
+        "totalFound": 1
+      },
+      {
+        "query": "jogo das válvulas",
+        "success": true,
+        "values": [
+          {
+            "value": 2,
+            "unit": "mm",
+            "context": "sion rio. Folga na flange do punho do acelerador: 2-6 mm Folga Flange 3PK0RA10_pt.book Page 102 Wednesday,"
+          }
+        ],
+        "totalFound": 1
+      },
+      {
+        "query": "folga entre válvula",
+        "success": true,
+        "values": [
+          {
+            "value": 2,
+            "unit": "mm",
+            "context": "sion rio. Folga na flange do punho do acelerador: 2-6 mm Folga Flange 3PK0RA10_pt.book Page 102 Wednesday,"
+          }
+        ],
+        "totalFound": 1
+      },
+      {
+        "query": "ajuste de tuchos",
+        "success": true,
+        "values": [
+          {
+            "value": 2,
+            "unit": "mm",
+            "context": "sion rio. Folga na flange do punho do acelerador: 2-6 mm Folga Flange 3PK0RA10_pt.book Page 102 Wednesday,"
+          }
+        ],
+        "totalFound": 1
+      }
+    ],
+    "pressão": [
+      {
+        "query": "pressão de pneu",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "calibragem dos pneus",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "pressão do pneu",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "pressão de ar",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "pressão de inflação",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      }
+    ]
+  },
+  "pcx 125": {
+    "binário": [
+      {
+        "query": "torque de aperto",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "valor de torque",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "binário de aperto",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "torque de montagem",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "valor de aperto",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      }
+    ],
+    "folga": [
+      {
+        "query": "folga das válvulas",
+        "success": true,
+        "values": [
+          {
+            "value": 10,
+            "unit": "mm",
+            "context": "m bom estado. Folga na ponta da manete do trav o: 10-20 mm Tipo WW125, WW125A ED Folga 3PK1YC000_PT.book Pag"
+          }
+        ],
+        "totalFound": 1
+      },
+      {
+        "query": "regulagem de válvulas",
+        "success": true,
+        "values": [
+          {
+            "value": 10,
+            "unit": "mm",
+            "context": "m bom estado. Folga na ponta da manete do trav o: 10-20 mm Tipo WW125, WW125A ED Folga 3PK1YC000_PT.book Pag"
+          }
+        ],
+        "totalFound": 1
+      },
+      {
+        "query": "jogo das válvulas",
+        "success": true,
+        "values": [
+          {
+            "value": 10,
+            "unit": "mm",
+            "context": "m bom estado. Folga na ponta da manete do trav o: 10-20 mm Tipo WW125, WW125A ED Folga 3PK1YC000_PT.book Pag"
+          }
+        ],
+        "totalFound": 1
+      },
+      {
+        "query": "folga entre válvula",
+        "success": true,
+        "values": [
+          {
+            "value": 10,
+            "unit": "mm",
+            "context": "m bom estado. Folga na ponta da manete do trav o: 10-20 mm Tipo WW125, WW125A ED Folga 3PK1YC000_PT.book Pag"
+          }
+        ],
+        "totalFound": 1
+      },
+      {
+        "query": "ajuste de tuchos",
+        "success": true,
+        "values": [
+          {
+            "value": 10,
+            "unit": "mm",
+            "context": "m bom estado. Folga na ponta da manete do trav o: 10-20 mm Tipo WW125, WW125A ED Folga 3PK1YC000_PT.book Pag"
+          }
+        ],
+        "totalFound": 1
+      }
+    ],
+    "pressão": [
+      {
+        "query": "pressão de pneu",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "calibragem dos pneus",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "pressão do pneu",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "pressão de ar",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "pressão de inflação",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      }
+    ]
+  },
+  "vision 110": {
+    "binário": [
+      {
+        "query": "torque de aperto",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "valor de torque",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "binário de aperto",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "torque de montagem",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "valor de aperto",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      }
+    ],
+    "folga": [
+      {
+        "query": "folga das válvulas",
+        "success": true,
+        "values": [
+          {
+            "value": 2,
+            "unit": "mm",
+            "context": "sion rio. Folga na flange do punho do acelerador: 2-6 mm 20160927135141_3PK44L000_por_BOOK Page 79 Tuesday"
+          }
+        ],
+        "totalFound": 1
+      },
+      {
+        "query": "regulagem de válvulas",
+        "success": true,
+        "values": [
+          {
+            "value": 2,
+            "unit": "mm",
+            "context": "sion rio. Folga na flange do punho do acelerador: 2-6 mm 20160927135141_3PK44L000_por_BOOK Page 79 Tuesday"
+          }
+        ],
+        "totalFound": 1
+      },
+      {
+        "query": "jogo das válvulas",
+        "success": true,
+        "values": [
+          {
+            "value": 2,
+            "unit": "mm",
+            "context": "sion rio. Folga na flange do punho do acelerador: 2-6 mm 20160927135141_3PK44L000_por_BOOK Page 79 Tuesday"
+          }
+        ],
+        "totalFound": 1
+      },
+      {
+        "query": "folga entre válvula",
+        "success": true,
+        "values": [
+          {
+            "value": 2,
+            "unit": "mm",
+            "context": "sion rio. Folga na flange do punho do acelerador: 2-6 mm 20160927135141_3PK44L000_por_BOOK Page 79 Tuesday"
+          }
+        ],
+        "totalFound": 1
+      },
+      {
+        "query": "ajuste de tuchos",
+        "success": true,
+        "values": [
+          {
+            "value": 2,
+            "unit": "mm",
+            "context": "sion rio. Folga na flange do punho do acelerador: 2-6 mm 20160927135141_3PK44L000_por_BOOK Page 79 Tuesday"
+          }
+        ],
+        "totalFound": 1
+      }
+    ],
+    "pressão": [
+      {
+        "query": "pressão de pneu",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "calibragem dos pneus",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "pressão do pneu",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "pressão de ar",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "pressão de inflação",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      }
+    ]
+  },
+  "cbr 650r": {
+    "binário": [
+      {
+        "query": "torque de aperto",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "valor de torque",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "binário de aperto",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "torque de montagem",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "valor de aperto",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      }
+    ],
+    "folga": [
+      {
+        "query": "folga das válvulas",
+        "success": true,
+        "values": [
+          {
+            "value": 2,
+            "unit": "mm",
+            "context": "sion rio. Folga no flange do punho do acelerador: 2-6 mm Folga Flange 3PK1BF000_PT.book Page 104 Tuesday,"
+          }
+        ],
+        "totalFound": 1
+      },
+      {
+        "query": "regulagem de válvulas",
+        "success": true,
+        "values": [
+          {
+            "value": 2,
+            "unit": "mm",
+            "context": "sion rio. Folga no flange do punho do acelerador: 2-6 mm Folga Flange 3PK1BF000_PT.book Page 104 Tuesday,"
+          }
+        ],
+        "totalFound": 1
+      },
+      {
+        "query": "jogo das válvulas",
+        "success": true,
+        "values": [
+          {
+            "value": 2,
+            "unit": "mm",
+            "context": "sion rio. Folga no flange do punho do acelerador: 2-6 mm Folga Flange 3PK1BF000_PT.book Page 104 Tuesday,"
+          }
+        ],
+        "totalFound": 1
+      },
+      {
+        "query": "folga entre válvula",
+        "success": true,
+        "values": [
+          {
+            "value": 2,
+            "unit": "mm",
+            "context": "sion rio. Folga no flange do punho do acelerador: 2-6 mm Folga Flange 3PK1BF000_PT.book Page 104 Tuesday,"
+          }
+        ],
+        "totalFound": 1
+      },
+      {
+        "query": "ajuste de tuchos",
+        "success": true,
+        "values": [
+          {
+            "value": 2,
+            "unit": "mm",
+            "context": "sion rio. Folga no flange do punho do acelerador: 2-6 mm Folga Flange 3PK1BF000_PT.book Page 104 Tuesday,"
+          }
+        ],
+        "totalFound": 1
+      }
+    ],
+    "pressão": [
+      {
+        "query": "pressão de pneu",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "calibragem dos pneus",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "pressão do pneu",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "pressão de ar",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      },
+      {
+        "query": "pressão de inflação",
+        "success": false,
+        "error": "Nenhum valor relevante encontrado",
+        "totalFound": 1
+      }
+    ]
+  }
+}

@@ -11,7 +11,8 @@
     "start": "node dist/index.js",
     "start:prod": "NODE_ENV=production NODE_OPTIONS='--max-old-space-size=512 --expose-gc' node dist/index.js",
     "start:script": "./start-prod.sh",
-    "test": "jest"
+    "test": "jest",
+    "evaluate:models": "NODE_OPTIONS='--loader tsx' evaluation/evaluate-models.ts"
   },
   "dependencies": {
     "@commercelayer/js-auth": "^7.1.2",
@@ -28,6 +29,7 @@
     "@google-cloud/pubsub": "^5.2.2",
     "@google-cloud/storage": "^7.18.0",
     "@google-cloud/vision": "^5.3.4",
+    "@google/generative-ai": "^0.24.1",
     "@hono/node-server": "^1.19.9",
     "@hono/zod-validator": "^0.7.6",
     "@modelcontextprotocol/sdk": "^1.25.2",

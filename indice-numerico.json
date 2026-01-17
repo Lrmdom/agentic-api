@@ -1,0 +1,2004 @@
+{
+  "dados": [
+    {
+      "valor": 6,
+      "unidade": "mm",
+      "especificacao": "Folga",
+      "modelo": "Honda Forza 350",
+      "contexto": "Tuesday, October 27, 2020 11:21 AM --- Tabela de Especificações (Página 107) --- Tabela 1: Flange Folga 2 - 6 mm Folga no flange do punho do acelerador: concessionário. danificado, mande inspecionar o veículo no",
+      "pagina": "107",
+      "tipo": "folga",
+      "precisao": "exata"
+    },
+    {
+      "valor": 0,
+      "unidade": "mm",
+      "especificacao": "Folga",
+      "modelo": "Honda Forza 350",
+      "contexto": "4 tempos, com Grau de Serviço PIRELLI: pneus Ralenti | 1500 ± 100 rpm Tamanho dos 120/70-15 M/C 56P Folga das velas | 0,80 - 0,90 mm IRC: Dianteiro Vela de ignição | (standard) | LMAR8L-9 (NGK) 120/70-15 M/C 56S Traseiro | 2,0 mm pi",
+      "pagina": "N/A",
+      "tipo": "folga",
+      "precisao": "exata"
+    },
+    {
+      "valor": 225,
+      "unidade": "kPa",
+      "especificacao": "Pressão",
+      "modelo": "Honda Forza 350",
+      "contexto": "ações (Página 153) --- Tabela 1: refrigeração sistema de | 1,01 L Capacidade do travões Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) pneus 2 o sistema de Pressão de ar dos Dianteiro | 200 kPa (2,00 kgf/cm |",
+      "pagina": "153",
+      "tipo": "pressao",
+      "precisao": "exata"
+    },
+    {
+      "valor": 33,
+      "unidade": "psi",
+      "especificacao": "Pressão",
+      "modelo": "Honda Forza 350",
+      "contexto": "abela 1: refrigeração sistema de | 1,01 L Capacidade do travões Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) pneus 2 o sistema de Pressão de ar dos Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) Fluido Honda D",
+      "pagina": "N/A",
+      "tipo": "pressao",
+      "precisao": "exata"
+    },
+    {
+      "valor": 200,
+      "unidade": "kPa",
+      "especificacao": "Pressão",
+      "modelo": "Honda Forza 350",
+      "contexto": "vões Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) pneus 2 o sistema de Pressão de ar dos Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) Fluido Honda DOT 4 para travões 2 recomendado para Ciclomotor | Não permit",
+      "pagina": "N/A",
+      "tipo": "pressao",
+      "precisao": "exata"
+    },
+    {
+      "valor": 29,
+      "unidade": "psi",
+      "especificacao": "Pressão",
+      "modelo": "Honda Forza 350",
+      "contexto": "2,25 kgf/cm | , 33 psi) pneus 2 o sistema de Pressão de ar dos Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) Fluido Honda DOT 4 para travões 2 recomendado para Ciclomotor | Não permitido Fluido pneus Neve |",
+      "pagina": "N/A",
+      "tipo": "pressao",
+      "precisao": "exata"
+    },
+    {
+      "valor": 3,
+      "unidade": "L",
+      "especificacao": "Capacidade",
+      "modelo": "Honda Forza 350",
+      "contexto": "11:21 AM --- Tabela de Especificações (Página 153) --- Tabela 1: refrigeração sistema de | 1,01 L Capacidade do travões Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) pneus 2 o sistema de Pressão de ar dos Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) Fluido Honda DOT 4 para travões 2 recomendado para Ciclomotor | Não permitido Fluido pneus Neve | Não permitido desmontagem transmissão utilização dos 0,20 L Especial | Não permitido Após a óleo da Categoria de Normal | Permitido Capacidade de Após drenar | 0,17 L IRC | SCT-004 desmontagem Traseiro 1,8 L PIRELLI | DIABLO SCOOTER Após a recomendados IRC | SS-560F D óleo do motor | óleo do motor Pneus Especificações Dianteiro Capacidade de | mudar o filtro do | 1,5 L FRONT PIRELLI Após drenar e DIABLO SCOOTER Após drenar | 1,3 L de ar) Tipo de pneu Não radiais, tubeless (sem câmara especificação SAE 10W-30, JASO T 903 standard",
+      "pagina": "153",
+      "tipo": "capacidade",
+      "precisao": "exata"
+    },
+    {
+      "valor": 90,
+      "unidade": "mm",
+      "especificacao": "Dimensão",
+      "modelo": "Honda Forza 350",
+      "contexto": "ço PIRELLI: pneus Ralenti | 1500 ± 100 rpm Tamanho dos 120/70-15 M/C 56P Folga das velas | 0,80 - 0,90 mm IRC: Dianteiro Vela de ignição | (standard) | LMAR8L-9 (NGK) 120/70-15 M/C 56S Traseiro | 2,0 mm pi",
+      "pagina": "N/A",
+      "tipo": "dimensao",
+      "precisao": "exata"
+    },
+    {
+      "valor": 0,
+      "unidade": "mm",
+      "especificacao": "Dimensão",
+      "modelo": "Honda Forza 350",
+      "contexto": "0,90 mm IRC: Dianteiro Vela de ignição | (standard) | LMAR8L-9 (NGK) 120/70-15 M/C 56S Traseiro | 2,0 mm piso PIRELLI: Altura mínima do Dianteiro | 1,5 mm Dados de serviço ■ Especificações 3PK1BF000_PT.bo",
+      "pagina": "N/A",
+      "tipo": "dimensao",
+      "precisao": "exata"
+    },
+    {
+      "valor": 5,
+      "unidade": "mm",
+      "especificacao": "Dimensão",
+      "modelo": "Honda Forza 350",
+      "contexto": ") | LMAR8L-9 (NGK) 120/70-15 M/C 56S Traseiro | 2,0 mm piso PIRELLI: Altura mínima do Dianteiro | 1,5 mm Dados de serviço ■ Especificações 3PK1BF000_PT.book Page 150 Tuesday, October 27, 2020 11:21 AM",
+      "pagina": "N/A",
+      "tipo": "dimensao",
+      "precisao": "exata"
+    },
+    {
+      "valor": 1,
+      "unidade": "L",
+      "especificacao": "Capacidade",
+      "modelo": "Honda Forza 350",
+      "contexto": "esource Conserving\" (Conservação de Energia) e com especificação SAE 10W-30, JASO T 903 standard MB Capacidade de óleo do motor Após drenar 1,3 L Após drenar e mudar o filtro do óleo do motor 1,5 L Após a desmontagem 1,8 L Capacidade de óleo da transmissão Após drenar 0,17 L Após a desmontagem 0,20 L Fluido recomendado para o sistema de travões Fluido Honda DOT 4 para travões Capacidade do sistema de refrigeração 1,01 L Líquido de refrigeração recomendado Líquido de refrigeração HONDA PRE-MIX COOLANT 3PK1BF000_PT.book",
+      "pagina": "N/A",
+      "tipo": "capacidade",
+      "precisao": "exata"
+    },
+    {
+      "valor": 6,
+      "unidade": "mm",
+      "especificacao": "Folga",
+      "modelo": "Honda Forza 125",
+      "contexto": "3 Friday, November 6, 2020 4:53 PM --- Tabela de Especificações (Página 100) --- Tabela 1: Flange Folga 2 - 6 mm Folga no flange do punho do acelerador: concessionário. danificado, mande inspecionar o veículo no",
+      "pagina": "100",
+      "tipo": "folga",
+      "precisao": "exata"
+    },
+    {
+      "valor": 0,
+      "unidade": "mm",
+      "especificacao": "Folga",
+      "modelo": "Honda Forza 125",
+      "contexto": "6, 2020 4:53 PM --- Tabela de Especificações (Página 143) --- Tabela 1: Ralenti | 1700 ± 100 rpm Folga das velas | 0,80 - 0,90 mm Vela de ignição | (standard) | LMAR8L-9 (NGK) Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) dos pneus",
+      "pagina": "143",
+      "tipo": "folga",
+      "precisao": "exata"
+    },
+    {
+      "valor": 225,
+      "unidade": "kPa",
+      "especificacao": "Pressão",
+      "modelo": "Honda Forza 125",
+      "contexto": "± 100 rpm Folga das velas | 0,80 - 0,90 mm Vela de ignição | (standard) | LMAR8L-9 (NGK) Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) dos pneus 2 recomendado Pressão de ar Dianteiro | 200 kPa (2,00 kgf/cm | ,",
+      "pagina": "N/A",
+      "tipo": "pressao",
+      "precisao": "exata"
+    },
+    {
+      "valor": 33,
+      "unidade": "psi",
+      "especificacao": "Pressão",
+      "modelo": "Honda Forza 125",
+      "contexto": "| 0,80 - 0,90 mm Vela de ignição | (standard) | LMAR8L-9 (NGK) Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) dos pneus 2 recomendado Pressão de ar Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) refrigeração |",
+      "pagina": "N/A",
+      "tipo": "pressao",
+      "precisao": "exata"
+    },
+    {
+      "valor": 200,
+      "unidade": "kPa",
+      "especificacao": "Pressão",
+      "modelo": "Honda Forza 125",
+      "contexto": "(NGK) Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) dos pneus 2 recomendado Pressão de ar Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) refrigeração | Pro Honda HP Coolant 2 Líquido de Ciclomotor | Não permitid",
+      "pagina": "N/A",
+      "tipo": "pressao",
+      "precisao": "exata"
+    },
+    {
+      "valor": 29,
+      "unidade": "psi",
+      "especificacao": "Pressão",
+      "modelo": "Honda Forza 125",
+      "contexto": "(2,25 kgf/cm | , 33 psi) dos pneus 2 recomendado Pressão de ar Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) refrigeração | Pro Honda HP Coolant 2 Líquido de Ciclomotor | Não permitido pneus refrigeração Nev",
+      "pagina": "N/A",
+      "tipo": "pressao",
+      "precisao": "exata"
+    },
+    {
+      "valor": 0,
+      "unidade": "L",
+      "especificacao": "Capacidade",
+      "modelo": "Honda Forza 125",
+      "contexto": "ou de faixa de rodagem e recorrendo à buzina sempre que necessário. Nunca conduza excedendo as suas capacidades nem mais rápido do que as condições permitem. O cansaço e a falta de atenção podem prejudicar a sua capacidade de analisar corretamente as situações e de conduzir em segurança. O álcool ou as substâncias ilícitas e a condução não são compatíveis. Até mesmo uma só bebida alcoólica pode reduzir a sua capacidade de resposta à alteração das condições de condução e os seus tempos de reação pioram com cada bebida adicional. O mesmo se aplica ao consumo de substâncias ilícitas. Não conduza se beber ou consumir substâncias ilícitas, nem permita que os seus amigos o façam. É importante as manutenções do veículo estarem em dia e o veículo estar em condições de ser conduzido em segurança. Inspecione o veículo antes de conduzir e efetue todas as operações de manutenção recomendadas. Nunca exceda os limites de carga ( 2 P. 18), e não modifique o veículo nem instale acessórios que possam fazer com que o mesmo deixe de ser seguro ( 2 P. 17). A sua segurança pessoal é a principal prioridade. Se você ou alguém estiver ferido, disponha do tempo necessário para se inteirar da gravidade dos ferimentos e se é seguro continuar a condução. Se necessário, chame a assistência de emergência. Do mesmo modo, cumpra as leis e regulamentos aplicáveis se houver outra pessoa ou veículo envolvido no acidente. Torne-se facilmente visível Conduza dentro dos seus limites Se beber ou consumir substâncias ilícitas, não conduza Mantenha a sua Honda em bom estado Se se envolver num acidente 3PK40L300_PT.book Page 4 Friday, November 6, 2020 4:53 PM --- Tabela de Especificações (Página 8) --- Ta",
+      "pagina": "8",
+      "tipo": "capacidade",
+      "precisao": "exata"
+    },
+    {
+      "valor": 7,
+      "unidade": "L",
+      "especificacao": "Capacidade",
+      "modelo": "Honda Forza 125",
+      "contexto": "HR)/7,4 Ah (20 HR) Bateria Distância mínima ao solo | 145 mm YTZ8V Distância entre eixos | 1505 mm Capacidade do depósito | 11,7 L elevada) Gasolinas com álcool | Até 10% de ETANOL (para-brisas na posição mais Altura total ou supe",
+      "pagina": "N/A",
+      "tipo": "capacidade",
+      "precisao": "exata"
+    },
+    {
+      "valor": 9,
+      "unidade": "L",
+      "especificacao": "Capacidade",
+      "modelo": "Honda Forza 125",
+      "contexto": "ração Neve | Não permitido utilização dos sistema de | 0,50 L Especial | Não permitido Categoria de Capacidade do Normal | Permitido travões PIRELLI | DIABLO SCOOTER para o sistema de Traseiro Fluido Honda DOT 4 para travões MICHELIN | CITY GRIP recomendado recomendados FRONT Fluido Pneus PIRELLI DIABLO SCOOTER Especificações Dianteiro desmontagem transmissão 0,14 L MICHELIN | CITY GRIP Após a óleo da Capacidade de (sem câmara de ar) Após drenar | 0,12 L Tipo de pneu Não radiais, tubeless desmontagem 0,9 L 140/70-14M/C 68S Após a PIRELLI: óleo do motor | filtro de rede Traseiro Capacidade de | limpar a r",
+      "pagina": "N/A",
+      "tipo": "capacidade",
+      "precisao": "exata"
+    },
+    {
+      "valor": 8,
+      "unidade": "L",
+      "especificacao": "Capacidade",
+      "modelo": "Honda Forza 125",
+      "contexto": "tubeless desmontagem 0,9 L 140/70-14M/C 68S Após a PIRELLI: óleo do motor | filtro de rede Traseiro Capacidade de | limpar a rede do | 0,8 L 140/70-14 M/C 68P Após drenar e MICHELIN: pneus Após drenar | 0,8 L Tamanho dos 120/70-15M/C 56S es",
+      "pagina": "N/A",
+      "tipo": "capacidade",
+      "precisao": "exata"
+    },
+    {
+      "valor": 90,
+      "unidade": "mm",
+      "especificacao": "Dimensão",
+      "modelo": "Honda Forza 125",
+      "contexto": "a de Especificações (Página 143) --- Tabela 1: Ralenti | 1700 ± 100 rpm Folga das velas | 0,80 - 0,90 mm Vela de ignição | (standard) | LMAR8L-9 (NGK) Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) dos pneus",
+      "pagina": "143",
+      "tipo": "dimensao",
+      "precisao": "exata"
+    },
+    {
+      "valor": 0,
+      "unidade": "mm",
+      "especificacao": "Folga",
+      "modelo": "Honda PCX 125",
+      "contexto": "98 Thursday, October 15, 2020 1:51 PM --- Tabela de Especificações (Página 118) --- Tabela 1: 115 Folga 10 - 20 mm Folga na ponta da manete do travão: fixador estão em bom estado. se move antes de o travão começar",
+      "pagina": "118",
+      "tipo": "folga",
+      "precisao": "exata"
+    },
+    {
+      "valor": 9,
+      "unidade": "mm",
+      "especificacao": "Folga",
+      "modelo": "Honda PCX 125",
+      "contexto": "day, October 15, 2020 1:51 PM --- Tabela de Especificações (Página 166) --- Tabela 1: recomendado Folga das velas | 0,8 - 0,9 mm refrigeração | Pro Honda HP Coolant Vela de ignição | (standard) | LMAR8L-9 (NGK) Líquido de passag",
+      "pagina": "166",
+      "tipo": "folga",
+      "precisao": "exata"
+    },
+    {
+      "valor": 108,
+      "unidade": "kPa",
+      "especificacao": "Pressão",
+      "modelo": "Honda PCX 125",
+      "contexto": "e Especificações (Página 10) --- Tabela 1: 7 A válvula de descarga da pressão começa a abrir aos | 108 kPa | . O líquido quente vai queimá-lo. NUNCA ABRIR QUANDO QUENTE. PERIGO AUTOCOLANTE DO TAMPÃO DO RADI",
+      "pagina": "10",
+      "tipo": "pressao",
+      "precisao": "exata"
+    },
+    {
+      "valor": 250,
+      "unidade": "kPa",
+      "especificacao": "Pressão",
+      "modelo": "Honda PCX 125",
+      "contexto": "oolant Vela de ignição | (standard) | LMAR8L-9 (NGK) Líquido de passageiro) refrigeração Traseiro | 250 kPa (2,50 kgf/cm | , 36 psi) (Condutor e 2 sistema de | 0,50 L pneus Capacidade do Pressão do ar dos |",
+      "pagina": "N/A",
+      "tipo": "pressao",
+      "precisao": "exata"
+    },
+    {
+      "valor": 36,
+      "unidade": "psi",
+      "especificacao": "Pressão",
+      "modelo": "Honda PCX 125",
+      "contexto": "(standard) | LMAR8L-9 (NGK) Líquido de passageiro) refrigeração Traseiro | 250 kPa (2,50 kgf/cm | , 36 psi) (Condutor e 2 sistema de | 0,50 L pneus Capacidade do Pressão do ar dos | Dianteiro | 200 kPa (2,0",
+      "pagina": "N/A",
+      "tipo": "pressao",
+      "precisao": "exata"
+    },
+    {
+      "valor": 200,
+      "unidade": "kPa",
+      "especificacao": "Pressão",
+      "modelo": "Honda PCX 125",
+      "contexto": "m | , 36 psi) (Condutor e 2 sistema de | 0,50 L pneus Capacidade do Pressão do ar dos | Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) 2 de travões condutores) para o sistema Fluido de travões Honda DOT 3 ou D",
+      "pagina": "N/A",
+      "tipo": "pressao",
+      "precisao": "exata"
+    },
+    {
+      "valor": 29,
+      "unidade": "psi",
+      "especificacao": "Pressão",
+      "modelo": "Honda PCX 125",
+      "contexto": "2 sistema de | 0,50 L pneus Capacidade do Pressão do ar dos | Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) 2 de travões condutores) para o sistema Fluido de travões Honda DOT 3 ou DOT 4 Traseiro | 225 kPa",
+      "pagina": "N/A",
+      "tipo": "pressao",
+      "precisao": "exata"
+    },
+    {
+      "valor": 225,
+      "unidade": "kPa",
+      "especificacao": "Pressão",
+      "modelo": "Honda PCX 125",
+      "contexto": ", 29 psi) 2 de travões condutores) para o sistema Fluido de travões Honda DOT 3 ou DOT 4 Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) (Apenas 2 recomendado pneus Fluido Pressão do ar dos | Dianteiro | 200 kPa",
+      "pagina": "N/A",
+      "tipo": "pressao",
+      "precisao": "exata"
+    },
+    {
+      "valor": 33,
+      "unidade": "psi",
+      "especificacao": "Pressão",
+      "modelo": "Honda PCX 125",
+      "contexto": "ndutores) para o sistema Fluido de travões Honda DOT 3 ou DOT 4 Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) (Apenas 2 recomendado pneus Fluido Pressão do ar dos | Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi",
+      "pagina": "N/A",
+      "tipo": "pressao",
+      "precisao": "exata"
+    },
+    {
+      "valor": 1,
+      "unidade": "L",
+      "especificacao": "Capacidade",
+      "modelo": "Honda PCX 125",
+      "contexto": "al | 10 kg 12 V-7,0 Ah (10 HR) 13 kg Especificações GTZ8V Tipo KO | 160 kg carga *1 Tipo KO Bateria Capacidade máxima de Tipo ED | 180 kg 12 V-7,0 Ah (10 HR)/7,4 Ah (20 HR) Tara | 130 kg YTZ8V Tipo KO | 80 mm coluna da direção no solo Tipo ED Projeção do ângulo da Tipo ED | 79 mm Capacidade do depósito | 8,1 L Ângulo da coluna da direção | 26º 30’ Combustível com álcool | Até 10% de ETANOL Distância mínima a",
+      "pagina": "N/A",
+      "tipo": "capacidade",
+      "precisao": "exata"
+    },
+    {
+      "valor": 8,
+      "unidade": "L",
+      "especificacao": "Capacidade",
+      "modelo": "Honda PCX 125",
+      "contexto": "o) refrigeração Traseiro | 250 kPa (2,50 kgf/cm | , 36 psi) (Condutor e 2 sistema de | 0,50 L pneus Capacidade do Pressão do ar dos | Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) 2 de travões condutores) para o sistema Fluido de travões Honda DOT 3 ou DOT 4 Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) (Apenas 2 recomendado pneus Fluido Pressão do ar dos | Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) 2 Especificações desmontagem transmissão 0,14 L Ciclomotor | Não permitido Após a óleo da pneus *1 Neve | Não permitido Capacidade de Após drenar | 0,12 L utilização dos Especial | Não permitido desmontagem Categoria de 0,9 L Normal | Permitido Após a Traseiro | IRC SCT-007 óleo do motor | filtro de rede Tipo KO Capacidade de | limpar a rede do | 0,85 L Dianteiro | IRC SCT-006 recomendados Após drenar e Pneus Traseiro | MICHELIN CITY GRIP Tipo ED Após drenar | 0,8 L Dianteiro | MICHELIN CITY GRIP especificação SAE 10W-30, norma JASO T 903 MB Tipo de pneu | Não rad",
+      "pagina": "N/A",
+      "tipo": "capacidade",
+      "precisao": "exata"
+    },
+    {
+      "valor": 9,
+      "unidade": "mm",
+      "especificacao": "Dimensão",
+      "modelo": "Honda PCX 125",
+      "contexto": "PM --- Tabela de Especificações (Página 166) --- Tabela 1: recomendado Folga das velas | 0,8 - 0,9 mm refrigeração | Pro Honda HP Coolant Vela de ignição | (standard) | LMAR8L-9 (NGK) Líquido de passag",
+      "pagina": "166",
+      "tipo": "dimensao",
+      "precisao": "exata"
+    },
+    {
+      "valor": 0,
+      "unidade": "L",
+      "especificacao": "Capacidade",
+      "modelo": "Honda PCX 125",
+      "contexto": "\"Resource Conserving\" (Conservação de Energia) e com especificação SAE 10W-30, norma JASO T 903 MB Capacidade de óleo do motor Após drenar 0,8 L Após drenar e limpar a rede do filtro de rede 0,85 L Após a desmontagem 0,9 L Capacidade de óleo da transmissão Após drenar 0,12 L Após a desmontagem 0,14 L Fluido recomendado para o sistema de travões Fluido de travões Honda DOT 3 ou DOT 4 Capacidade do sistema de refrigeração 0,50 L Líquido de refrigeração recomendado Pro Honda HP Coolant 3PK1YC000_PT.book Page 163 Thursday, Octob",
+      "pagina": "N/A",
+      "tipo": "capacidade",
+      "precisao": "exata"
+    },
+    {
+      "valor": 9,
+      "unidade": "mm",
+      "especificacao": "Folga",
+      "modelo": "Honda SH 125",
+      "contexto": "e passageiro) | Profundidade | mínima do piso | (apenas | SH150AD/ | SH150AD2) | Vela de ignição | Folga das velas | Ralenti Dados de serviço *1 Dianteiro | Traseiro | Dianteiro | Traseiro | Normal | Especial | Neve | Ciclomotor | Dianteiro | Traseiro | Dianteiro | Traseiro | Dianteiro | Traseiro (standard) 100/80-16M/C 50P | 120/80-16M/C 60P | Não radiais, sem câmara de ar | IRC SS-530F | MICHELIN CITY GRIP | IRC SS-530R | MICHELIN CITY GRIP | Permitido | Não permitido | Não permitido | Não permitido | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 1,5 mm | 2,0 mm | 0,8 - 0,9 mm | 1.700 ± 100 rpm LMAR8L-9 (NGK) 2 | 2 | 2 | 2 ) | ) | ) | ) Óleo | recomendado | para o motor | Ca",
+      "pagina": "N/A",
+      "tipo": "folga",
+      "precisao": "exata"
+    },
+    {
+      "valor": 200,
+      "unidade": "kPa",
+      "especificacao": "Pressão",
+      "modelo": "Honda SH 125",
+      "contexto": "IP | IRC SS-530R | MICHELIN CITY GRIP | Permitido | Não permitido | Não permitido | Não permitido | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 1,5 mm | 2,0 mm",
+      "pagina": "N/A",
+      "tipo": "pressao",
+      "precisao": "exata"
+    },
+    {
+      "valor": 225,
+      "unidade": "kPa",
+      "especificacao": "Pressão",
+      "modelo": "Honda SH 125",
+      "contexto": "ELIN CITY GRIP | Permitido | Não permitido | Não permitido | Não permitido | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 1,5 mm | 2,0 mm | 0,8 - 0,9 mm | 1.700",
+      "pagina": "N/A",
+      "tipo": "pressao",
+      "precisao": "exata"
+    },
+    {
+      "valor": 5,
+      "unidade": "mm",
+      "especificacao": "Dimensão",
+      "modelo": "Honda SH 125",
+      "contexto": "ido | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 1,5 mm | 2,0 mm | 0,8 - 0,9 mm | 1.700 ± 100 rpm LMAR8L-9 (NGK) 2 | 2 | 2 | 2 ) | ) | ) | ) Óleo | recomen",
+      "pagina": "N/A",
+      "tipo": "dimensao",
+      "precisao": "exata"
+    },
+    {
+      "valor": 0,
+      "unidade": "mm",
+      "especificacao": "Dimensão",
+      "modelo": "Honda SH 125",
+      "contexto": "kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 1,5 mm | 2,0 mm | 0,8 - 0,9 mm | 1.700 ± 100 rpm LMAR8L-9 (NGK) 2 | 2 | 2 | 2 ) | ) | ) | ) Óleo | recomendado | pa",
+      "pagina": "N/A",
+      "tipo": "dimensao",
+      "precisao": "exata"
+    },
+    {
+      "valor": 9,
+      "unidade": "mm",
+      "especificacao": "Dimensão",
+      "modelo": "Honda SH 125",
+      "contexto": "cm | 225 kPa (2,25 kgf/cm | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 1,5 mm | 2,0 mm | 0,8 - 0,9 mm | 1.700 ± 100 rpm LMAR8L-9 (NGK) 2 | 2 | 2 | 2 ) | ) | ) | ) Óleo | recomendado | para o motor | Ca",
+      "pagina": "N/A",
+      "tipo": "dimensao",
+      "precisao": "exata"
+    },
+    {
+      "valor": 7,
+      "unidade": "L",
+      "especificacao": "Capacidade",
+      "modelo": "Honda SH 125",
+      "contexto": "“Resource Conserving” (Conservação de Energia) e com especificação SAE 10W-30, norma JASO T 903 MB Capacidade de óleo do motor Após drenar 0,8 L Após drenar e limpar a rede do filtro de rede 0,9 L Após a desmontagem 0,9 L Capacidade de óleo da transmissão Após drenar 0,12 L Após a desmontagem 0,14 L Fluido recomendado para o sistema de travões Fluido de travões Honda DOT 3 ou DOT 4 Capacidade do sistema de refrigeração 0,47 L Líquido de refrigeração recomendado Pro Honda HP Coolant 3PK0RA10_pt.book Page 144 Wednesday, Octob",
+      "pagina": "N/A",
+      "tipo": "capacidade",
+      "precisao": "exata"
+    },
+    {
+      "valor": 6,
+      "unidade": "mm",
+      "especificacao": "Folga",
+      "modelo": "Honda Vision 110",
+      "contexto": "ave de parafusos de fendas/Phillips --- Tabela de Especificações (Página 79) --- Tabela 1: Flange Folga 2 - 6 mm Folga na flange do punho do acelerador: concessionário. danificado, mande inspecionar a scooter no",
+      "pagina": "79",
+      "tipo": "folga",
+      "precisao": "exata"
+    },
+    {
+      "valor": 4,
+      "unidade": "kgf·m",
+      "especificacao": "Torque",
+      "modelo": "Honda Vision 110",
+      "contexto": "V‐10 W × 2 Luz dos travões/Luz traseira | 12 V‐21/5 W | Bujão de dreno do óleo do motor | 24 N·m (2,4 kgf·m) Farol | 12 V‐35/35 W | Bujão do óleo | 20 N·m (2,0 kgf·m) ■ | Lâmpadas | ■ | Especificações de ape",
+      "pagina": "N/A",
+      "tipo": "torque",
+      "precisao": "exata"
+    },
+    {
+      "valor": 0,
+      "unidade": "kgf·m",
+      "especificacao": "Torque",
+      "modelo": "Honda Vision 110",
+      "contexto": "jão de dreno do óleo do motor | 24 N·m (2,4 kgf·m) Farol | 12 V‐35/35 W | Bujão do óleo | 20 N·m (2,0 kgf·m) ■ | Lâmpadas | ■ | Especificações de aperto Especificações 20160927135141_3PK44L000_por_BOOK Page",
+      "pagina": "N/A",
+      "tipo": "torque",
+      "precisao": "exata"
+    },
+    {
+      "valor": 225,
+      "unidade": "kPa",
+      "especificacao": "Pressão",
+      "modelo": "Honda Vision 110",
+      "contexto": "Tabela 1: vela 0,80 ‐ 0,90 mm Cachimbo da Vela | (standard) | MR8C‐9N (NGK) passageiro) Traseira | 225 kPa (2,25 kgf/cm | ) (Condutor e 2 pneus Pressão dos | Dianteira | 200 kPa (2,00 kgf/cm | ) 2 condutore",
+      "pagina": "N/A",
+      "tipo": "pressao",
+      "precisao": "exata"
+    },
+    {
+      "valor": 200,
+      "unidade": "kPa",
+      "especificacao": "Pressão",
+      "modelo": "Honda Vision 110",
+      "contexto": "(NGK) passageiro) Traseira | 225 kPa (2,25 kgf/cm | ) (Condutor e 2 pneus Pressão dos | Dianteira | 200 kPa (2,00 kgf/cm | ) 2 condutores) Traseira | 225 kPa (2,25 kgf/cm | ) (Apenas Especificações 2 pneus t",
+      "pagina": "N/A",
+      "tipo": "pressao",
+      "precisao": "exata"
+    },
+    {
+      "valor": 4,
+      "unidade": "L",
+      "especificacao": "Capacidade",
+      "modelo": "Honda Vision 110",
+      "contexto": "ndo à buzina sempre que necessário. Conduza dentro dos seus limites Nunca conduza excedendo as suas capacidades nem mais rápido do que as condições permitem. O cansaço e a falta de atenção podem prejudicar a sua capacidade de analisar corretamente as situações e de conduzir em segurança. Se conduzir, não beba O álcool e condução não são compatíveis. Até mesmo uma só bebida alcoólica pode reduzir a sua capacidade de resposta à alteração das condições de condução e os seus tempos de reação pioram com cada bebida adicional. Se tiver de conduzir, não beba e não permita que os seus amigos o façam. Mantenha a sua Honda em bom estado É importante conservar a sua scooter devidamente as- sistida e em condições de segurança. Inspecione a sua scooter antes de conduzir e efetue todas as operações de manutenção recomendadas. Nunca exceda os limites de carga ( 2 P. 17) e não modifique a sua scooter nem instale acessórios que a possam tornar insegura ( 2 P. 16). Se se envolver num acidente A sua segurança pessoal é a primeira prioridade. Se você ou alguém estiver ferido, disponha do tempo necessário para se inteirar da gravidade dos ferimentos e se é segu- ro continuar a condução. Se necessário, chame a assis- tência de emergência. Do mesmo modo, cumpra as leis e regulamentos aplicáveis se houver outra pessoa ou veí- culo envolvido no acidente. 20160927135141_3PK44L000_por_BOOK Page 7 Tuesday, September 27 2016 14:01:46 JST Conselhos de segurança Segurança da scoo",
+      "pagina": "N/A",
+      "tipo": "capacidade",
+      "precisao": "exata"
+    },
+    {
+      "valor": 2,
+      "unidade": "L",
+      "especificacao": "Capacidade",
+      "modelo": "Honda Vision 110",
+      "contexto": "(trail) | 70 mm 12 V‐5 Ah (10 HR)/5,3 Ah (20 HR) Bateria direção GTZ6V 27º 00’ Ângulo da coluna da Capacidade do depósito | 5,2 L Altura mínima ao solo | 160 mm superior Distância entre eixos | 1.290 mm Combustível | Recomendado:",
+      "pagina": "N/A",
+      "tipo": "capacidade",
+      "precisao": "exata"
+    }
+  ],
+  "timestamp": "2026-01-16T23:03:27.539Z",
+  "total": 49,
+  "porModelo": {
+    "Honda Forza 350": [
+      {
+        "valor": 6,
+        "unidade": "mm",
+        "especificacao": "Folga",
+        "modelo": "Honda Forza 350",
+        "contexto": "Tuesday, October 27, 2020 11:21 AM --- Tabela de Especificações (Página 107) --- Tabela 1: Flange Folga 2 - 6 mm Folga no flange do punho do acelerador: concessionário. danificado, mande inspecionar o veículo no",
+        "pagina": "107",
+        "tipo": "folga",
+        "precisao": "exata"
+      },
+      {
+        "valor": 0,
+        "unidade": "mm",
+        "especificacao": "Folga",
+        "modelo": "Honda Forza 350",
+        "contexto": "4 tempos, com Grau de Serviço PIRELLI: pneus Ralenti | 1500 ± 100 rpm Tamanho dos 120/70-15 M/C 56P Folga das velas | 0,80 - 0,90 mm IRC: Dianteiro Vela de ignição | (standard) | LMAR8L-9 (NGK) 120/70-15 M/C 56S Traseiro | 2,0 mm pi",
+        "pagina": "N/A",
+        "tipo": "folga",
+        "precisao": "exata"
+      },
+      {
+        "valor": 225,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda Forza 350",
+        "contexto": "ações (Página 153) --- Tabela 1: refrigeração sistema de | 1,01 L Capacidade do travões Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) pneus 2 o sistema de Pressão de ar dos Dianteiro | 200 kPa (2,00 kgf/cm |",
+        "pagina": "153",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 33,
+        "unidade": "psi",
+        "especificacao": "Pressão",
+        "modelo": "Honda Forza 350",
+        "contexto": "abela 1: refrigeração sistema de | 1,01 L Capacidade do travões Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) pneus 2 o sistema de Pressão de ar dos Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) Fluido Honda D",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 200,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda Forza 350",
+        "contexto": "vões Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) pneus 2 o sistema de Pressão de ar dos Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) Fluido Honda DOT 4 para travões 2 recomendado para Ciclomotor | Não permit",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 29,
+        "unidade": "psi",
+        "especificacao": "Pressão",
+        "modelo": "Honda Forza 350",
+        "contexto": "2,25 kgf/cm | , 33 psi) pneus 2 o sistema de Pressão de ar dos Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) Fluido Honda DOT 4 para travões 2 recomendado para Ciclomotor | Não permitido Fluido pneus Neve |",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 3,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda Forza 350",
+        "contexto": "11:21 AM --- Tabela de Especificações (Página 153) --- Tabela 1: refrigeração sistema de | 1,01 L Capacidade do travões Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) pneus 2 o sistema de Pressão de ar dos Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) Fluido Honda DOT 4 para travões 2 recomendado para Ciclomotor | Não permitido Fluido pneus Neve | Não permitido desmontagem transmissão utilização dos 0,20 L Especial | Não permitido Após a óleo da Categoria de Normal | Permitido Capacidade de Após drenar | 0,17 L IRC | SCT-004 desmontagem Traseiro 1,8 L PIRELLI | DIABLO SCOOTER Após a recomendados IRC | SS-560F D óleo do motor | óleo do motor Pneus Especificações Dianteiro Capacidade de | mudar o filtro do | 1,5 L FRONT PIRELLI Após drenar e DIABLO SCOOTER Após drenar | 1,3 L de ar) Tipo de pneu Não radiais, tubeless (sem câmara especificação SAE 10W-30, JASO T 903 standard",
+        "pagina": "153",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 90,
+        "unidade": "mm",
+        "especificacao": "Dimensão",
+        "modelo": "Honda Forza 350",
+        "contexto": "ço PIRELLI: pneus Ralenti | 1500 ± 100 rpm Tamanho dos 120/70-15 M/C 56P Folga das velas | 0,80 - 0,90 mm IRC: Dianteiro Vela de ignição | (standard) | LMAR8L-9 (NGK) 120/70-15 M/C 56S Traseiro | 2,0 mm pi",
+        "pagina": "N/A",
+        "tipo": "dimensao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 0,
+        "unidade": "mm",
+        "especificacao": "Dimensão",
+        "modelo": "Honda Forza 350",
+        "contexto": "0,90 mm IRC: Dianteiro Vela de ignição | (standard) | LMAR8L-9 (NGK) 120/70-15 M/C 56S Traseiro | 2,0 mm piso PIRELLI: Altura mínima do Dianteiro | 1,5 mm Dados de serviço ■ Especificações 3PK1BF000_PT.bo",
+        "pagina": "N/A",
+        "tipo": "dimensao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 5,
+        "unidade": "mm",
+        "especificacao": "Dimensão",
+        "modelo": "Honda Forza 350",
+        "contexto": ") | LMAR8L-9 (NGK) 120/70-15 M/C 56S Traseiro | 2,0 mm piso PIRELLI: Altura mínima do Dianteiro | 1,5 mm Dados de serviço ■ Especificações 3PK1BF000_PT.book Page 150 Tuesday, October 27, 2020 11:21 AM",
+        "pagina": "N/A",
+        "tipo": "dimensao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 1,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda Forza 350",
+        "contexto": "esource Conserving\" (Conservação de Energia) e com especificação SAE 10W-30, JASO T 903 standard MB Capacidade de óleo do motor Após drenar 1,3 L Após drenar e mudar o filtro do óleo do motor 1,5 L Após a desmontagem 1,8 L Capacidade de óleo da transmissão Após drenar 0,17 L Após a desmontagem 0,20 L Fluido recomendado para o sistema de travões Fluido Honda DOT 4 para travões Capacidade do sistema de refrigeração 1,01 L Líquido de refrigeração recomendado Líquido de refrigeração HONDA PRE-MIX COOLANT 3PK1BF000_PT.book",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      }
+    ],
+    "Honda Forza 125": [
+      {
+        "valor": 6,
+        "unidade": "mm",
+        "especificacao": "Folga",
+        "modelo": "Honda Forza 125",
+        "contexto": "3 Friday, November 6, 2020 4:53 PM --- Tabela de Especificações (Página 100) --- Tabela 1: Flange Folga 2 - 6 mm Folga no flange do punho do acelerador: concessionário. danificado, mande inspecionar o veículo no",
+        "pagina": "100",
+        "tipo": "folga",
+        "precisao": "exata"
+      },
+      {
+        "valor": 0,
+        "unidade": "mm",
+        "especificacao": "Folga",
+        "modelo": "Honda Forza 125",
+        "contexto": "6, 2020 4:53 PM --- Tabela de Especificações (Página 143) --- Tabela 1: Ralenti | 1700 ± 100 rpm Folga das velas | 0,80 - 0,90 mm Vela de ignição | (standard) | LMAR8L-9 (NGK) Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) dos pneus",
+        "pagina": "143",
+        "tipo": "folga",
+        "precisao": "exata"
+      },
+      {
+        "valor": 225,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda Forza 125",
+        "contexto": "± 100 rpm Folga das velas | 0,80 - 0,90 mm Vela de ignição | (standard) | LMAR8L-9 (NGK) Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) dos pneus 2 recomendado Pressão de ar Dianteiro | 200 kPa (2,00 kgf/cm | ,",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 33,
+        "unidade": "psi",
+        "especificacao": "Pressão",
+        "modelo": "Honda Forza 125",
+        "contexto": "| 0,80 - 0,90 mm Vela de ignição | (standard) | LMAR8L-9 (NGK) Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) dos pneus 2 recomendado Pressão de ar Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) refrigeração |",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 200,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda Forza 125",
+        "contexto": "(NGK) Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) dos pneus 2 recomendado Pressão de ar Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) refrigeração | Pro Honda HP Coolant 2 Líquido de Ciclomotor | Não permitid",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 29,
+        "unidade": "psi",
+        "especificacao": "Pressão",
+        "modelo": "Honda Forza 125",
+        "contexto": "(2,25 kgf/cm | , 33 psi) dos pneus 2 recomendado Pressão de ar Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) refrigeração | Pro Honda HP Coolant 2 Líquido de Ciclomotor | Não permitido pneus refrigeração Nev",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 0,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda Forza 125",
+        "contexto": "ou de faixa de rodagem e recorrendo à buzina sempre que necessário. Nunca conduza excedendo as suas capacidades nem mais rápido do que as condições permitem. O cansaço e a falta de atenção podem prejudicar a sua capacidade de analisar corretamente as situações e de conduzir em segurança. O álcool ou as substâncias ilícitas e a condução não são compatíveis. Até mesmo uma só bebida alcoólica pode reduzir a sua capacidade de resposta à alteração das condições de condução e os seus tempos de reação pioram com cada bebida adicional. O mesmo se aplica ao consumo de substâncias ilícitas. Não conduza se beber ou consumir substâncias ilícitas, nem permita que os seus amigos o façam. É importante as manutenções do veículo estarem em dia e o veículo estar em condições de ser conduzido em segurança. Inspecione o veículo antes de conduzir e efetue todas as operações de manutenção recomendadas. Nunca exceda os limites de carga ( 2 P. 18), e não modifique o veículo nem instale acessórios que possam fazer com que o mesmo deixe de ser seguro ( 2 P. 17). A sua segurança pessoal é a principal prioridade. Se você ou alguém estiver ferido, disponha do tempo necessário para se inteirar da gravidade dos ferimentos e se é seguro continuar a condução. Se necessário, chame a assistência de emergência. Do mesmo modo, cumpra as leis e regulamentos aplicáveis se houver outra pessoa ou veículo envolvido no acidente. Torne-se facilmente visível Conduza dentro dos seus limites Se beber ou consumir substâncias ilícitas, não conduza Mantenha a sua Honda em bom estado Se se envolver num acidente 3PK40L300_PT.book Page 4 Friday, November 6, 2020 4:53 PM --- Tabela de Especificações (Página 8) --- Ta",
+        "pagina": "8",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 7,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda Forza 125",
+        "contexto": "HR)/7,4 Ah (20 HR) Bateria Distância mínima ao solo | 145 mm YTZ8V Distância entre eixos | 1505 mm Capacidade do depósito | 11,7 L elevada) Gasolinas com álcool | Até 10% de ETANOL (para-brisas na posição mais Altura total ou supe",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 9,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda Forza 125",
+        "contexto": "ração Neve | Não permitido utilização dos sistema de | 0,50 L Especial | Não permitido Categoria de Capacidade do Normal | Permitido travões PIRELLI | DIABLO SCOOTER para o sistema de Traseiro Fluido Honda DOT 4 para travões MICHELIN | CITY GRIP recomendado recomendados FRONT Fluido Pneus PIRELLI DIABLO SCOOTER Especificações Dianteiro desmontagem transmissão 0,14 L MICHELIN | CITY GRIP Após a óleo da Capacidade de (sem câmara de ar) Após drenar | 0,12 L Tipo de pneu Não radiais, tubeless desmontagem 0,9 L 140/70-14M/C 68S Após a PIRELLI: óleo do motor | filtro de rede Traseiro Capacidade de | limpar a r",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 8,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda Forza 125",
+        "contexto": "tubeless desmontagem 0,9 L 140/70-14M/C 68S Após a PIRELLI: óleo do motor | filtro de rede Traseiro Capacidade de | limpar a rede do | 0,8 L 140/70-14 M/C 68P Após drenar e MICHELIN: pneus Após drenar | 0,8 L Tamanho dos 120/70-15M/C 56S es",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 90,
+        "unidade": "mm",
+        "especificacao": "Dimensão",
+        "modelo": "Honda Forza 125",
+        "contexto": "a de Especificações (Página 143) --- Tabela 1: Ralenti | 1700 ± 100 rpm Folga das velas | 0,80 - 0,90 mm Vela de ignição | (standard) | LMAR8L-9 (NGK) Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) dos pneus",
+        "pagina": "143",
+        "tipo": "dimensao",
+        "precisao": "exata"
+      }
+    ],
+    "Honda PCX 125": [
+      {
+        "valor": 0,
+        "unidade": "mm",
+        "especificacao": "Folga",
+        "modelo": "Honda PCX 125",
+        "contexto": "98 Thursday, October 15, 2020 1:51 PM --- Tabela de Especificações (Página 118) --- Tabela 1: 115 Folga 10 - 20 mm Folga na ponta da manete do travão: fixador estão em bom estado. se move antes de o travão começar",
+        "pagina": "118",
+        "tipo": "folga",
+        "precisao": "exata"
+      },
+      {
+        "valor": 9,
+        "unidade": "mm",
+        "especificacao": "Folga",
+        "modelo": "Honda PCX 125",
+        "contexto": "day, October 15, 2020 1:51 PM --- Tabela de Especificações (Página 166) --- Tabela 1: recomendado Folga das velas | 0,8 - 0,9 mm refrigeração | Pro Honda HP Coolant Vela de ignição | (standard) | LMAR8L-9 (NGK) Líquido de passag",
+        "pagina": "166",
+        "tipo": "folga",
+        "precisao": "exata"
+      },
+      {
+        "valor": 108,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda PCX 125",
+        "contexto": "e Especificações (Página 10) --- Tabela 1: 7 A válvula de descarga da pressão começa a abrir aos | 108 kPa | . O líquido quente vai queimá-lo. NUNCA ABRIR QUANDO QUENTE. PERIGO AUTOCOLANTE DO TAMPÃO DO RADI",
+        "pagina": "10",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 250,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda PCX 125",
+        "contexto": "oolant Vela de ignição | (standard) | LMAR8L-9 (NGK) Líquido de passageiro) refrigeração Traseiro | 250 kPa (2,50 kgf/cm | , 36 psi) (Condutor e 2 sistema de | 0,50 L pneus Capacidade do Pressão do ar dos |",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 36,
+        "unidade": "psi",
+        "especificacao": "Pressão",
+        "modelo": "Honda PCX 125",
+        "contexto": "(standard) | LMAR8L-9 (NGK) Líquido de passageiro) refrigeração Traseiro | 250 kPa (2,50 kgf/cm | , 36 psi) (Condutor e 2 sistema de | 0,50 L pneus Capacidade do Pressão do ar dos | Dianteiro | 200 kPa (2,0",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 200,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda PCX 125",
+        "contexto": "m | , 36 psi) (Condutor e 2 sistema de | 0,50 L pneus Capacidade do Pressão do ar dos | Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) 2 de travões condutores) para o sistema Fluido de travões Honda DOT 3 ou D",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 29,
+        "unidade": "psi",
+        "especificacao": "Pressão",
+        "modelo": "Honda PCX 125",
+        "contexto": "2 sistema de | 0,50 L pneus Capacidade do Pressão do ar dos | Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) 2 de travões condutores) para o sistema Fluido de travões Honda DOT 3 ou DOT 4 Traseiro | 225 kPa",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 225,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda PCX 125",
+        "contexto": ", 29 psi) 2 de travões condutores) para o sistema Fluido de travões Honda DOT 3 ou DOT 4 Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) (Apenas 2 recomendado pneus Fluido Pressão do ar dos | Dianteiro | 200 kPa",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 33,
+        "unidade": "psi",
+        "especificacao": "Pressão",
+        "modelo": "Honda PCX 125",
+        "contexto": "ndutores) para o sistema Fluido de travões Honda DOT 3 ou DOT 4 Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) (Apenas 2 recomendado pneus Fluido Pressão do ar dos | Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 1,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda PCX 125",
+        "contexto": "al | 10 kg 12 V-7,0 Ah (10 HR) 13 kg Especificações GTZ8V Tipo KO | 160 kg carga *1 Tipo KO Bateria Capacidade máxima de Tipo ED | 180 kg 12 V-7,0 Ah (10 HR)/7,4 Ah (20 HR) Tara | 130 kg YTZ8V Tipo KO | 80 mm coluna da direção no solo Tipo ED Projeção do ângulo da Tipo ED | 79 mm Capacidade do depósito | 8,1 L Ângulo da coluna da direção | 26º 30’ Combustível com álcool | Até 10% de ETANOL Distância mínima a",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 8,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda PCX 125",
+        "contexto": "o) refrigeração Traseiro | 250 kPa (2,50 kgf/cm | , 36 psi) (Condutor e 2 sistema de | 0,50 L pneus Capacidade do Pressão do ar dos | Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) 2 de travões condutores) para o sistema Fluido de travões Honda DOT 3 ou DOT 4 Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) (Apenas 2 recomendado pneus Fluido Pressão do ar dos | Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) 2 Especificações desmontagem transmissão 0,14 L Ciclomotor | Não permitido Após a óleo da pneus *1 Neve | Não permitido Capacidade de Após drenar | 0,12 L utilização dos Especial | Não permitido desmontagem Categoria de 0,9 L Normal | Permitido Após a Traseiro | IRC SCT-007 óleo do motor | filtro de rede Tipo KO Capacidade de | limpar a rede do | 0,85 L Dianteiro | IRC SCT-006 recomendados Após drenar e Pneus Traseiro | MICHELIN CITY GRIP Tipo ED Após drenar | 0,8 L Dianteiro | MICHELIN CITY GRIP especificação SAE 10W-30, norma JASO T 903 MB Tipo de pneu | Não rad",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 9,
+        "unidade": "mm",
+        "especificacao": "Dimensão",
+        "modelo": "Honda PCX 125",
+        "contexto": "PM --- Tabela de Especificações (Página 166) --- Tabela 1: recomendado Folga das velas | 0,8 - 0,9 mm refrigeração | Pro Honda HP Coolant Vela de ignição | (standard) | LMAR8L-9 (NGK) Líquido de passag",
+        "pagina": "166",
+        "tipo": "dimensao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 0,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda PCX 125",
+        "contexto": "\"Resource Conserving\" (Conservação de Energia) e com especificação SAE 10W-30, norma JASO T 903 MB Capacidade de óleo do motor Após drenar 0,8 L Após drenar e limpar a rede do filtro de rede 0,85 L Após a desmontagem 0,9 L Capacidade de óleo da transmissão Após drenar 0,12 L Após a desmontagem 0,14 L Fluido recomendado para o sistema de travões Fluido de travões Honda DOT 3 ou DOT 4 Capacidade do sistema de refrigeração 0,50 L Líquido de refrigeração recomendado Pro Honda HP Coolant 3PK1YC000_PT.book Page 163 Thursday, Octob",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      }
+    ],
+    "Honda SH 125": [
+      {
+        "valor": 9,
+        "unidade": "mm",
+        "especificacao": "Folga",
+        "modelo": "Honda SH 125",
+        "contexto": "e passageiro) | Profundidade | mínima do piso | (apenas | SH150AD/ | SH150AD2) | Vela de ignição | Folga das velas | Ralenti Dados de serviço *1 Dianteiro | Traseiro | Dianteiro | Traseiro | Normal | Especial | Neve | Ciclomotor | Dianteiro | Traseiro | Dianteiro | Traseiro | Dianteiro | Traseiro (standard) 100/80-16M/C 50P | 120/80-16M/C 60P | Não radiais, sem câmara de ar | IRC SS-530F | MICHELIN CITY GRIP | IRC SS-530R | MICHELIN CITY GRIP | Permitido | Não permitido | Não permitido | Não permitido | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 1,5 mm | 2,0 mm | 0,8 - 0,9 mm | 1.700 ± 100 rpm LMAR8L-9 (NGK) 2 | 2 | 2 | 2 ) | ) | ) | ) Óleo | recomendado | para o motor | Ca",
+        "pagina": "N/A",
+        "tipo": "folga",
+        "precisao": "exata"
+      },
+      {
+        "valor": 200,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda SH 125",
+        "contexto": "IP | IRC SS-530R | MICHELIN CITY GRIP | Permitido | Não permitido | Não permitido | Não permitido | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 1,5 mm | 2,0 mm",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 225,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda SH 125",
+        "contexto": "ELIN CITY GRIP | Permitido | Não permitido | Não permitido | Não permitido | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 1,5 mm | 2,0 mm | 0,8 - 0,9 mm | 1.700",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 5,
+        "unidade": "mm",
+        "especificacao": "Dimensão",
+        "modelo": "Honda SH 125",
+        "contexto": "ido | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 1,5 mm | 2,0 mm | 0,8 - 0,9 mm | 1.700 ± 100 rpm LMAR8L-9 (NGK) 2 | 2 | 2 | 2 ) | ) | ) | ) Óleo | recomen",
+        "pagina": "N/A",
+        "tipo": "dimensao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 0,
+        "unidade": "mm",
+        "especificacao": "Dimensão",
+        "modelo": "Honda SH 125",
+        "contexto": "kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 1,5 mm | 2,0 mm | 0,8 - 0,9 mm | 1.700 ± 100 rpm LMAR8L-9 (NGK) 2 | 2 | 2 | 2 ) | ) | ) | ) Óleo | recomendado | pa",
+        "pagina": "N/A",
+        "tipo": "dimensao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 9,
+        "unidade": "mm",
+        "especificacao": "Dimensão",
+        "modelo": "Honda SH 125",
+        "contexto": "cm | 225 kPa (2,25 kgf/cm | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 1,5 mm | 2,0 mm | 0,8 - 0,9 mm | 1.700 ± 100 rpm LMAR8L-9 (NGK) 2 | 2 | 2 | 2 ) | ) | ) | ) Óleo | recomendado | para o motor | Ca",
+        "pagina": "N/A",
+        "tipo": "dimensao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 7,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda SH 125",
+        "contexto": "“Resource Conserving” (Conservação de Energia) e com especificação SAE 10W-30, norma JASO T 903 MB Capacidade de óleo do motor Após drenar 0,8 L Após drenar e limpar a rede do filtro de rede 0,9 L Após a desmontagem 0,9 L Capacidade de óleo da transmissão Após drenar 0,12 L Após a desmontagem 0,14 L Fluido recomendado para o sistema de travões Fluido de travões Honda DOT 3 ou DOT 4 Capacidade do sistema de refrigeração 0,47 L Líquido de refrigeração recomendado Pro Honda HP Coolant 3PK0RA10_pt.book Page 144 Wednesday, Octob",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      }
+    ],
+    "Honda Vision 110": [
+      {
+        "valor": 6,
+        "unidade": "mm",
+        "especificacao": "Folga",
+        "modelo": "Honda Vision 110",
+        "contexto": "ave de parafusos de fendas/Phillips --- Tabela de Especificações (Página 79) --- Tabela 1: Flange Folga 2 - 6 mm Folga na flange do punho do acelerador: concessionário. danificado, mande inspecionar a scooter no",
+        "pagina": "79",
+        "tipo": "folga",
+        "precisao": "exata"
+      },
+      {
+        "valor": 4,
+        "unidade": "kgf·m",
+        "especificacao": "Torque",
+        "modelo": "Honda Vision 110",
+        "contexto": "V‐10 W × 2 Luz dos travões/Luz traseira | 12 V‐21/5 W | Bujão de dreno do óleo do motor | 24 N·m (2,4 kgf·m) Farol | 12 V‐35/35 W | Bujão do óleo | 20 N·m (2,0 kgf·m) ■ | Lâmpadas | ■ | Especificações de ape",
+        "pagina": "N/A",
+        "tipo": "torque",
+        "precisao": "exata"
+      },
+      {
+        "valor": 0,
+        "unidade": "kgf·m",
+        "especificacao": "Torque",
+        "modelo": "Honda Vision 110",
+        "contexto": "jão de dreno do óleo do motor | 24 N·m (2,4 kgf·m) Farol | 12 V‐35/35 W | Bujão do óleo | 20 N·m (2,0 kgf·m) ■ | Lâmpadas | ■ | Especificações de aperto Especificações 20160927135141_3PK44L000_por_BOOK Page",
+        "pagina": "N/A",
+        "tipo": "torque",
+        "precisao": "exata"
+      },
+      {
+        "valor": 225,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda Vision 110",
+        "contexto": "Tabela 1: vela 0,80 ‐ 0,90 mm Cachimbo da Vela | (standard) | MR8C‐9N (NGK) passageiro) Traseira | 225 kPa (2,25 kgf/cm | ) (Condutor e 2 pneus Pressão dos | Dianteira | 200 kPa (2,00 kgf/cm | ) 2 condutore",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 200,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda Vision 110",
+        "contexto": "(NGK) passageiro) Traseira | 225 kPa (2,25 kgf/cm | ) (Condutor e 2 pneus Pressão dos | Dianteira | 200 kPa (2,00 kgf/cm | ) 2 condutores) Traseira | 225 kPa (2,25 kgf/cm | ) (Apenas Especificações 2 pneus t",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 4,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda Vision 110",
+        "contexto": "ndo à buzina sempre que necessário. Conduza dentro dos seus limites Nunca conduza excedendo as suas capacidades nem mais rápido do que as condições permitem. O cansaço e a falta de atenção podem prejudicar a sua capacidade de analisar corretamente as situações e de conduzir em segurança. Se conduzir, não beba O álcool e condução não são compatíveis. Até mesmo uma só bebida alcoólica pode reduzir a sua capacidade de resposta à alteração das condições de condução e os seus tempos de reação pioram com cada bebida adicional. Se tiver de conduzir, não beba e não permita que os seus amigos o façam. Mantenha a sua Honda em bom estado É importante conservar a sua scooter devidamente as- sistida e em condições de segurança. Inspecione a sua scooter antes de conduzir e efetue todas as operações de manutenção recomendadas. Nunca exceda os limites de carga ( 2 P. 17) e não modifique a sua scooter nem instale acessórios que a possam tornar insegura ( 2 P. 16). Se se envolver num acidente A sua segurança pessoal é a primeira prioridade. Se você ou alguém estiver ferido, disponha do tempo necessário para se inteirar da gravidade dos ferimentos e se é segu- ro continuar a condução. Se necessário, chame a assis- tência de emergência. Do mesmo modo, cumpra as leis e regulamentos aplicáveis se houver outra pessoa ou veí- culo envolvido no acidente. 20160927135141_3PK44L000_por_BOOK Page 7 Tuesday, September 27 2016 14:01:46 JST Conselhos de segurança Segurança da scoo",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 2,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda Vision 110",
+        "contexto": "(trail) | 70 mm 12 V‐5 Ah (10 HR)/5,3 Ah (20 HR) Bateria direção GTZ6V 27º 00’ Ângulo da coluna da Capacidade do depósito | 5,2 L Altura mínima ao solo | 160 mm superior Distância entre eixos | 1.290 mm Combustível | Recomendado:",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      }
+    ]
+  },
+  "porTipo": {
+    "folga": [
+      {
+        "valor": 6,
+        "unidade": "mm",
+        "especificacao": "Folga",
+        "modelo": "Honda Forza 350",
+        "contexto": "Tuesday, October 27, 2020 11:21 AM --- Tabela de Especificações (Página 107) --- Tabela 1: Flange Folga 2 - 6 mm Folga no flange do punho do acelerador: concessionário. danificado, mande inspecionar o veículo no",
+        "pagina": "107",
+        "tipo": "folga",
+        "precisao": "exata"
+      },
+      {
+        "valor": 0,
+        "unidade": "mm",
+        "especificacao": "Folga",
+        "modelo": "Honda Forza 350",
+        "contexto": "4 tempos, com Grau de Serviço PIRELLI: pneus Ralenti | 1500 ± 100 rpm Tamanho dos 120/70-15 M/C 56P Folga das velas | 0,80 - 0,90 mm IRC: Dianteiro Vela de ignição | (standard) | LMAR8L-9 (NGK) 120/70-15 M/C 56S Traseiro | 2,0 mm pi",
+        "pagina": "N/A",
+        "tipo": "folga",
+        "precisao": "exata"
+      },
+      {
+        "valor": 6,
+        "unidade": "mm",
+        "especificacao": "Folga",
+        "modelo": "Honda Forza 125",
+        "contexto": "3 Friday, November 6, 2020 4:53 PM --- Tabela de Especificações (Página 100) --- Tabela 1: Flange Folga 2 - 6 mm Folga no flange do punho do acelerador: concessionário. danificado, mande inspecionar o veículo no",
+        "pagina": "100",
+        "tipo": "folga",
+        "precisao": "exata"
+      },
+      {
+        "valor": 0,
+        "unidade": "mm",
+        "especificacao": "Folga",
+        "modelo": "Honda Forza 125",
+        "contexto": "6, 2020 4:53 PM --- Tabela de Especificações (Página 143) --- Tabela 1: Ralenti | 1700 ± 100 rpm Folga das velas | 0,80 - 0,90 mm Vela de ignição | (standard) | LMAR8L-9 (NGK) Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) dos pneus",
+        "pagina": "143",
+        "tipo": "folga",
+        "precisao": "exata"
+      },
+      {
+        "valor": 0,
+        "unidade": "mm",
+        "especificacao": "Folga",
+        "modelo": "Honda PCX 125",
+        "contexto": "98 Thursday, October 15, 2020 1:51 PM --- Tabela de Especificações (Página 118) --- Tabela 1: 115 Folga 10 - 20 mm Folga na ponta da manete do travão: fixador estão em bom estado. se move antes de o travão começar",
+        "pagina": "118",
+        "tipo": "folga",
+        "precisao": "exata"
+      },
+      {
+        "valor": 9,
+        "unidade": "mm",
+        "especificacao": "Folga",
+        "modelo": "Honda PCX 125",
+        "contexto": "day, October 15, 2020 1:51 PM --- Tabela de Especificações (Página 166) --- Tabela 1: recomendado Folga das velas | 0,8 - 0,9 mm refrigeração | Pro Honda HP Coolant Vela de ignição | (standard) | LMAR8L-9 (NGK) Líquido de passag",
+        "pagina": "166",
+        "tipo": "folga",
+        "precisao": "exata"
+      },
+      {
+        "valor": 9,
+        "unidade": "mm",
+        "especificacao": "Folga",
+        "modelo": "Honda SH 125",
+        "contexto": "e passageiro) | Profundidade | mínima do piso | (apenas | SH150AD/ | SH150AD2) | Vela de ignição | Folga das velas | Ralenti Dados de serviço *1 Dianteiro | Traseiro | Dianteiro | Traseiro | Normal | Especial | Neve | Ciclomotor | Dianteiro | Traseiro | Dianteiro | Traseiro | Dianteiro | Traseiro (standard) 100/80-16M/C 50P | 120/80-16M/C 60P | Não radiais, sem câmara de ar | IRC SS-530F | MICHELIN CITY GRIP | IRC SS-530R | MICHELIN CITY GRIP | Permitido | Não permitido | Não permitido | Não permitido | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 1,5 mm | 2,0 mm | 0,8 - 0,9 mm | 1.700 ± 100 rpm LMAR8L-9 (NGK) 2 | 2 | 2 | 2 ) | ) | ) | ) Óleo | recomendado | para o motor | Ca",
+        "pagina": "N/A",
+        "tipo": "folga",
+        "precisao": "exata"
+      },
+      {
+        "valor": 6,
+        "unidade": "mm",
+        "especificacao": "Folga",
+        "modelo": "Honda Vision 110",
+        "contexto": "ave de parafusos de fendas/Phillips --- Tabela de Especificações (Página 79) --- Tabela 1: Flange Folga 2 - 6 mm Folga na flange do punho do acelerador: concessionário. danificado, mande inspecionar a scooter no",
+        "pagina": "79",
+        "tipo": "folga",
+        "precisao": "exata"
+      }
+    ],
+    "pressao": [
+      {
+        "valor": 225,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda Forza 350",
+        "contexto": "ações (Página 153) --- Tabela 1: refrigeração sistema de | 1,01 L Capacidade do travões Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) pneus 2 o sistema de Pressão de ar dos Dianteiro | 200 kPa (2,00 kgf/cm |",
+        "pagina": "153",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 33,
+        "unidade": "psi",
+        "especificacao": "Pressão",
+        "modelo": "Honda Forza 350",
+        "contexto": "abela 1: refrigeração sistema de | 1,01 L Capacidade do travões Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) pneus 2 o sistema de Pressão de ar dos Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) Fluido Honda D",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 200,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda Forza 350",
+        "contexto": "vões Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) pneus 2 o sistema de Pressão de ar dos Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) Fluido Honda DOT 4 para travões 2 recomendado para Ciclomotor | Não permit",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 29,
+        "unidade": "psi",
+        "especificacao": "Pressão",
+        "modelo": "Honda Forza 350",
+        "contexto": "2,25 kgf/cm | , 33 psi) pneus 2 o sistema de Pressão de ar dos Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) Fluido Honda DOT 4 para travões 2 recomendado para Ciclomotor | Não permitido Fluido pneus Neve |",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 225,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda Forza 125",
+        "contexto": "± 100 rpm Folga das velas | 0,80 - 0,90 mm Vela de ignição | (standard) | LMAR8L-9 (NGK) Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) dos pneus 2 recomendado Pressão de ar Dianteiro | 200 kPa (2,00 kgf/cm | ,",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 33,
+        "unidade": "psi",
+        "especificacao": "Pressão",
+        "modelo": "Honda Forza 125",
+        "contexto": "| 0,80 - 0,90 mm Vela de ignição | (standard) | LMAR8L-9 (NGK) Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) dos pneus 2 recomendado Pressão de ar Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) refrigeração |",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 200,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda Forza 125",
+        "contexto": "(NGK) Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) dos pneus 2 recomendado Pressão de ar Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) refrigeração | Pro Honda HP Coolant 2 Líquido de Ciclomotor | Não permitid",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 29,
+        "unidade": "psi",
+        "especificacao": "Pressão",
+        "modelo": "Honda Forza 125",
+        "contexto": "(2,25 kgf/cm | , 33 psi) dos pneus 2 recomendado Pressão de ar Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) refrigeração | Pro Honda HP Coolant 2 Líquido de Ciclomotor | Não permitido pneus refrigeração Nev",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 108,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda PCX 125",
+        "contexto": "e Especificações (Página 10) --- Tabela 1: 7 A válvula de descarga da pressão começa a abrir aos | 108 kPa | . O líquido quente vai queimá-lo. NUNCA ABRIR QUANDO QUENTE. PERIGO AUTOCOLANTE DO TAMPÃO DO RADI",
+        "pagina": "10",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 250,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda PCX 125",
+        "contexto": "oolant Vela de ignição | (standard) | LMAR8L-9 (NGK) Líquido de passageiro) refrigeração Traseiro | 250 kPa (2,50 kgf/cm | , 36 psi) (Condutor e 2 sistema de | 0,50 L pneus Capacidade do Pressão do ar dos |",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 36,
+        "unidade": "psi",
+        "especificacao": "Pressão",
+        "modelo": "Honda PCX 125",
+        "contexto": "(standard) | LMAR8L-9 (NGK) Líquido de passageiro) refrigeração Traseiro | 250 kPa (2,50 kgf/cm | , 36 psi) (Condutor e 2 sistema de | 0,50 L pneus Capacidade do Pressão do ar dos | Dianteiro | 200 kPa (2,0",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 200,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda PCX 125",
+        "contexto": "m | , 36 psi) (Condutor e 2 sistema de | 0,50 L pneus Capacidade do Pressão do ar dos | Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) 2 de travões condutores) para o sistema Fluido de travões Honda DOT 3 ou D",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 29,
+        "unidade": "psi",
+        "especificacao": "Pressão",
+        "modelo": "Honda PCX 125",
+        "contexto": "2 sistema de | 0,50 L pneus Capacidade do Pressão do ar dos | Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) 2 de travões condutores) para o sistema Fluido de travões Honda DOT 3 ou DOT 4 Traseiro | 225 kPa",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 225,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda PCX 125",
+        "contexto": ", 29 psi) 2 de travões condutores) para o sistema Fluido de travões Honda DOT 3 ou DOT 4 Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) (Apenas 2 recomendado pneus Fluido Pressão do ar dos | Dianteiro | 200 kPa",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 33,
+        "unidade": "psi",
+        "especificacao": "Pressão",
+        "modelo": "Honda PCX 125",
+        "contexto": "ndutores) para o sistema Fluido de travões Honda DOT 3 ou DOT 4 Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) (Apenas 2 recomendado pneus Fluido Pressão do ar dos | Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 200,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda SH 125",
+        "contexto": "IP | IRC SS-530R | MICHELIN CITY GRIP | Permitido | Não permitido | Não permitido | Não permitido | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 1,5 mm | 2,0 mm",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 225,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda SH 125",
+        "contexto": "ELIN CITY GRIP | Permitido | Não permitido | Não permitido | Não permitido | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 1,5 mm | 2,0 mm | 0,8 - 0,9 mm | 1.700",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 225,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda Vision 110",
+        "contexto": "Tabela 1: vela 0,80 ‐ 0,90 mm Cachimbo da Vela | (standard) | MR8C‐9N (NGK) passageiro) Traseira | 225 kPa (2,25 kgf/cm | ) (Condutor e 2 pneus Pressão dos | Dianteira | 200 kPa (2,00 kgf/cm | ) 2 condutore",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 200,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda Vision 110",
+        "contexto": "(NGK) passageiro) Traseira | 225 kPa (2,25 kgf/cm | ) (Condutor e 2 pneus Pressão dos | Dianteira | 200 kPa (2,00 kgf/cm | ) 2 condutores) Traseira | 225 kPa (2,25 kgf/cm | ) (Apenas Especificações 2 pneus t",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      }
+    ],
+    "capacidade": [
+      {
+        "valor": 3,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda Forza 350",
+        "contexto": "11:21 AM --- Tabela de Especificações (Página 153) --- Tabela 1: refrigeração sistema de | 1,01 L Capacidade do travões Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) pneus 2 o sistema de Pressão de ar dos Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) Fluido Honda DOT 4 para travões 2 recomendado para Ciclomotor | Não permitido Fluido pneus Neve | Não permitido desmontagem transmissão utilização dos 0,20 L Especial | Não permitido Após a óleo da Categoria de Normal | Permitido Capacidade de Após drenar | 0,17 L IRC | SCT-004 desmontagem Traseiro 1,8 L PIRELLI | DIABLO SCOOTER Após a recomendados IRC | SS-560F D óleo do motor | óleo do motor Pneus Especificações Dianteiro Capacidade de | mudar o filtro do | 1,5 L FRONT PIRELLI Após drenar e DIABLO SCOOTER Após drenar | 1,3 L de ar) Tipo de pneu Não radiais, tubeless (sem câmara especificação SAE 10W-30, JASO T 903 standard",
+        "pagina": "153",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 1,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda Forza 350",
+        "contexto": "esource Conserving\" (Conservação de Energia) e com especificação SAE 10W-30, JASO T 903 standard MB Capacidade de óleo do motor Após drenar 1,3 L Após drenar e mudar o filtro do óleo do motor 1,5 L Após a desmontagem 1,8 L Capacidade de óleo da transmissão Após drenar 0,17 L Após a desmontagem 0,20 L Fluido recomendado para o sistema de travões Fluido Honda DOT 4 para travões Capacidade do sistema de refrigeração 1,01 L Líquido de refrigeração recomendado Líquido de refrigeração HONDA PRE-MIX COOLANT 3PK1BF000_PT.book",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 0,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda Forza 125",
+        "contexto": "ou de faixa de rodagem e recorrendo à buzina sempre que necessário. Nunca conduza excedendo as suas capacidades nem mais rápido do que as condições permitem. O cansaço e a falta de atenção podem prejudicar a sua capacidade de analisar corretamente as situações e de conduzir em segurança. O álcool ou as substâncias ilícitas e a condução não são compatíveis. Até mesmo uma só bebida alcoólica pode reduzir a sua capacidade de resposta à alteração das condições de condução e os seus tempos de reação pioram com cada bebida adicional. O mesmo se aplica ao consumo de substâncias ilícitas. Não conduza se beber ou consumir substâncias ilícitas, nem permita que os seus amigos o façam. É importante as manutenções do veículo estarem em dia e o veículo estar em condições de ser conduzido em segurança. Inspecione o veículo antes de conduzir e efetue todas as operações de manutenção recomendadas. Nunca exceda os limites de carga ( 2 P. 18), e não modifique o veículo nem instale acessórios que possam fazer com que o mesmo deixe de ser seguro ( 2 P. 17). A sua segurança pessoal é a principal prioridade. Se você ou alguém estiver ferido, disponha do tempo necessário para se inteirar da gravidade dos ferimentos e se é seguro continuar a condução. Se necessário, chame a assistência de emergência. Do mesmo modo, cumpra as leis e regulamentos aplicáveis se houver outra pessoa ou veículo envolvido no acidente. Torne-se facilmente visível Conduza dentro dos seus limites Se beber ou consumir substâncias ilícitas, não conduza Mantenha a sua Honda em bom estado Se se envolver num acidente 3PK40L300_PT.book Page 4 Friday, November 6, 2020 4:53 PM --- Tabela de Especificações (Página 8) --- Ta",
+        "pagina": "8",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 7,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda Forza 125",
+        "contexto": "HR)/7,4 Ah (20 HR) Bateria Distância mínima ao solo | 145 mm YTZ8V Distância entre eixos | 1505 mm Capacidade do depósito | 11,7 L elevada) Gasolinas com álcool | Até 10% de ETANOL (para-brisas na posição mais Altura total ou supe",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 9,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda Forza 125",
+        "contexto": "ração Neve | Não permitido utilização dos sistema de | 0,50 L Especial | Não permitido Categoria de Capacidade do Normal | Permitido travões PIRELLI | DIABLO SCOOTER para o sistema de Traseiro Fluido Honda DOT 4 para travões MICHELIN | CITY GRIP recomendado recomendados FRONT Fluido Pneus PIRELLI DIABLO SCOOTER Especificações Dianteiro desmontagem transmissão 0,14 L MICHELIN | CITY GRIP Após a óleo da Capacidade de (sem câmara de ar) Após drenar | 0,12 L Tipo de pneu Não radiais, tubeless desmontagem 0,9 L 140/70-14M/C 68S Após a PIRELLI: óleo do motor | filtro de rede Traseiro Capacidade de | limpar a r",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 8,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda Forza 125",
+        "contexto": "tubeless desmontagem 0,9 L 140/70-14M/C 68S Após a PIRELLI: óleo do motor | filtro de rede Traseiro Capacidade de | limpar a rede do | 0,8 L 140/70-14 M/C 68P Após drenar e MICHELIN: pneus Após drenar | 0,8 L Tamanho dos 120/70-15M/C 56S es",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 1,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda PCX 125",
+        "contexto": "al | 10 kg 12 V-7,0 Ah (10 HR) 13 kg Especificações GTZ8V Tipo KO | 160 kg carga *1 Tipo KO Bateria Capacidade máxima de Tipo ED | 180 kg 12 V-7,0 Ah (10 HR)/7,4 Ah (20 HR) Tara | 130 kg YTZ8V Tipo KO | 80 mm coluna da direção no solo Tipo ED Projeção do ângulo da Tipo ED | 79 mm Capacidade do depósito | 8,1 L Ângulo da coluna da direção | 26º 30’ Combustível com álcool | Até 10% de ETANOL Distância mínima a",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 8,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda PCX 125",
+        "contexto": "o) refrigeração Traseiro | 250 kPa (2,50 kgf/cm | , 36 psi) (Condutor e 2 sistema de | 0,50 L pneus Capacidade do Pressão do ar dos | Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) 2 de travões condutores) para o sistema Fluido de travões Honda DOT 3 ou DOT 4 Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) (Apenas 2 recomendado pneus Fluido Pressão do ar dos | Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) 2 Especificações desmontagem transmissão 0,14 L Ciclomotor | Não permitido Após a óleo da pneus *1 Neve | Não permitido Capacidade de Após drenar | 0,12 L utilização dos Especial | Não permitido desmontagem Categoria de 0,9 L Normal | Permitido Após a Traseiro | IRC SCT-007 óleo do motor | filtro de rede Tipo KO Capacidade de | limpar a rede do | 0,85 L Dianteiro | IRC SCT-006 recomendados Após drenar e Pneus Traseiro | MICHELIN CITY GRIP Tipo ED Após drenar | 0,8 L Dianteiro | MICHELIN CITY GRIP especificação SAE 10W-30, norma JASO T 903 MB Tipo de pneu | Não rad",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 0,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda PCX 125",
+        "contexto": "\"Resource Conserving\" (Conservação de Energia) e com especificação SAE 10W-30, norma JASO T 903 MB Capacidade de óleo do motor Após drenar 0,8 L Após drenar e limpar a rede do filtro de rede 0,85 L Após a desmontagem 0,9 L Capacidade de óleo da transmissão Após drenar 0,12 L Após a desmontagem 0,14 L Fluido recomendado para o sistema de travões Fluido de travões Honda DOT 3 ou DOT 4 Capacidade do sistema de refrigeração 0,50 L Líquido de refrigeração recomendado Pro Honda HP Coolant 3PK1YC000_PT.book Page 163 Thursday, Octob",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 7,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda SH 125",
+        "contexto": "“Resource Conserving” (Conservação de Energia) e com especificação SAE 10W-30, norma JASO T 903 MB Capacidade de óleo do motor Após drenar 0,8 L Após drenar e limpar a rede do filtro de rede 0,9 L Após a desmontagem 0,9 L Capacidade de óleo da transmissão Após drenar 0,12 L Após a desmontagem 0,14 L Fluido recomendado para o sistema de travões Fluido de travões Honda DOT 3 ou DOT 4 Capacidade do sistema de refrigeração 0,47 L Líquido de refrigeração recomendado Pro Honda HP Coolant 3PK0RA10_pt.book Page 144 Wednesday, Octob",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 4,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda Vision 110",
+        "contexto": "ndo à buzina sempre que necessário. Conduza dentro dos seus limites Nunca conduza excedendo as suas capacidades nem mais rápido do que as condições permitem. O cansaço e a falta de atenção podem prejudicar a sua capacidade de analisar corretamente as situações e de conduzir em segurança. Se conduzir, não beba O álcool e condução não são compatíveis. Até mesmo uma só bebida alcoólica pode reduzir a sua capacidade de resposta à alteração das condições de condução e os seus tempos de reação pioram com cada bebida adicional. Se tiver de conduzir, não beba e não permita que os seus amigos o façam. Mantenha a sua Honda em bom estado É importante conservar a sua scooter devidamente as- sistida e em condições de segurança. Inspecione a sua scooter antes de conduzir e efetue todas as operações de manutenção recomendadas. Nunca exceda os limites de carga ( 2 P. 17) e não modifique a sua scooter nem instale acessórios que a possam tornar insegura ( 2 P. 16). Se se envolver num acidente A sua segurança pessoal é a primeira prioridade. Se você ou alguém estiver ferido, disponha do tempo necessário para se inteirar da gravidade dos ferimentos e se é segu- ro continuar a condução. Se necessário, chame a assis- tência de emergência. Do mesmo modo, cumpra as leis e regulamentos aplicáveis se houver outra pessoa ou veí- culo envolvido no acidente. 20160927135141_3PK44L000_por_BOOK Page 7 Tuesday, September 27 2016 14:01:46 JST Conselhos de segurança Segurança da scoo",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 2,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda Vision 110",
+        "contexto": "(trail) | 70 mm 12 V‐5 Ah (10 HR)/5,3 Ah (20 HR) Bateria direção GTZ6V 27º 00’ Ângulo da coluna da Capacidade do depósito | 5,2 L Altura mínima ao solo | 160 mm superior Distância entre eixos | 1.290 mm Combustível | Recomendado:",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      }
+    ],
+    "dimensao": [
+      {
+        "valor": 90,
+        "unidade": "mm",
+        "especificacao": "Dimensão",
+        "modelo": "Honda Forza 350",
+        "contexto": "ço PIRELLI: pneus Ralenti | 1500 ± 100 rpm Tamanho dos 120/70-15 M/C 56P Folga das velas | 0,80 - 0,90 mm IRC: Dianteiro Vela de ignição | (standard) | LMAR8L-9 (NGK) 120/70-15 M/C 56S Traseiro | 2,0 mm pi",
+        "pagina": "N/A",
+        "tipo": "dimensao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 0,
+        "unidade": "mm",
+        "especificacao": "Dimensão",
+        "modelo": "Honda Forza 350",
+        "contexto": "0,90 mm IRC: Dianteiro Vela de ignição | (standard) | LMAR8L-9 (NGK) 120/70-15 M/C 56S Traseiro | 2,0 mm piso PIRELLI: Altura mínima do Dianteiro | 1,5 mm Dados de serviço ■ Especificações 3PK1BF000_PT.bo",
+        "pagina": "N/A",
+        "tipo": "dimensao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 5,
+        "unidade": "mm",
+        "especificacao": "Dimensão",
+        "modelo": "Honda Forza 350",
+        "contexto": ") | LMAR8L-9 (NGK) 120/70-15 M/C 56S Traseiro | 2,0 mm piso PIRELLI: Altura mínima do Dianteiro | 1,5 mm Dados de serviço ■ Especificações 3PK1BF000_PT.book Page 150 Tuesday, October 27, 2020 11:21 AM",
+        "pagina": "N/A",
+        "tipo": "dimensao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 90,
+        "unidade": "mm",
+        "especificacao": "Dimensão",
+        "modelo": "Honda Forza 125",
+        "contexto": "a de Especificações (Página 143) --- Tabela 1: Ralenti | 1700 ± 100 rpm Folga das velas | 0,80 - 0,90 mm Vela de ignição | (standard) | LMAR8L-9 (NGK) Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) dos pneus",
+        "pagina": "143",
+        "tipo": "dimensao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 9,
+        "unidade": "mm",
+        "especificacao": "Dimensão",
+        "modelo": "Honda PCX 125",
+        "contexto": "PM --- Tabela de Especificações (Página 166) --- Tabela 1: recomendado Folga das velas | 0,8 - 0,9 mm refrigeração | Pro Honda HP Coolant Vela de ignição | (standard) | LMAR8L-9 (NGK) Líquido de passag",
+        "pagina": "166",
+        "tipo": "dimensao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 5,
+        "unidade": "mm",
+        "especificacao": "Dimensão",
+        "modelo": "Honda SH 125",
+        "contexto": "ido | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 1,5 mm | 2,0 mm | 0,8 - 0,9 mm | 1.700 ± 100 rpm LMAR8L-9 (NGK) 2 | 2 | 2 | 2 ) | ) | ) | ) Óleo | recomen",
+        "pagina": "N/A",
+        "tipo": "dimensao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 0,
+        "unidade": "mm",
+        "especificacao": "Dimensão",
+        "modelo": "Honda SH 125",
+        "contexto": "kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 1,5 mm | 2,0 mm | 0,8 - 0,9 mm | 1.700 ± 100 rpm LMAR8L-9 (NGK) 2 | 2 | 2 | 2 ) | ) | ) | ) Óleo | recomendado | pa",
+        "pagina": "N/A",
+        "tipo": "dimensao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 9,
+        "unidade": "mm",
+        "especificacao": "Dimensão",
+        "modelo": "Honda SH 125",
+        "contexto": "cm | 225 kPa (2,25 kgf/cm | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 1,5 mm | 2,0 mm | 0,8 - 0,9 mm | 1.700 ± 100 rpm LMAR8L-9 (NGK) 2 | 2 | 2 | 2 ) | ) | ) | ) Óleo | recomendado | para o motor | Ca",
+        "pagina": "N/A",
+        "tipo": "dimensao",
+        "precisao": "exata"
+      }
+    ],
+    "torque": [
+      {
+        "valor": 4,
+        "unidade": "kgf·m",
+        "especificacao": "Torque",
+        "modelo": "Honda Vision 110",
+        "contexto": "V‐10 W × 2 Luz dos travões/Luz traseira | 12 V‐21/5 W | Bujão de dreno do óleo do motor | 24 N·m (2,4 kgf·m) Farol | 12 V‐35/35 W | Bujão do óleo | 20 N·m (2,0 kgf·m) ■ | Lâmpadas | ■ | Especificações de ape",
+        "pagina": "N/A",
+        "tipo": "torque",
+        "precisao": "exata"
+      },
+      {
+        "valor": 0,
+        "unidade": "kgf·m",
+        "especificacao": "Torque",
+        "modelo": "Honda Vision 110",
+        "contexto": "jão de dreno do óleo do motor | 24 N·m (2,4 kgf·m) Farol | 12 V‐35/35 W | Bujão do óleo | 20 N·m (2,0 kgf·m) ■ | Lâmpadas | ■ | Especificações de aperto Especificações 20160927135141_3PK44L000_por_BOOK Page",
+        "pagina": "N/A",
+        "tipo": "torque",
+        "precisao": "exata"
+      }
+    ]
+  },
+  "porEspecificacao": {
+    "Folga_mm": [
+      {
+        "valor": 6,
+        "unidade": "mm",
+        "especificacao": "Folga",
+        "modelo": "Honda Forza 350",
+        "contexto": "Tuesday, October 27, 2020 11:21 AM --- Tabela de Especificações (Página 107) --- Tabela 1: Flange Folga 2 - 6 mm Folga no flange do punho do acelerador: concessionário. danificado, mande inspecionar o veículo no",
+        "pagina": "107",
+        "tipo": "folga",
+        "precisao": "exata"
+      },
+      {
+        "valor": 0,
+        "unidade": "mm",
+        "especificacao": "Folga",
+        "modelo": "Honda Forza 350",
+        "contexto": "4 tempos, com Grau de Serviço PIRELLI: pneus Ralenti | 1500 ± 100 rpm Tamanho dos 120/70-15 M/C 56P Folga das velas | 0,80 - 0,90 mm IRC: Dianteiro Vela de ignição | (standard) | LMAR8L-9 (NGK) 120/70-15 M/C 56S Traseiro | 2,0 mm pi",
+        "pagina": "N/A",
+        "tipo": "folga",
+        "precisao": "exata"
+      },
+      {
+        "valor": 6,
+        "unidade": "mm",
+        "especificacao": "Folga",
+        "modelo": "Honda Forza 125",
+        "contexto": "3 Friday, November 6, 2020 4:53 PM --- Tabela de Especificações (Página 100) --- Tabela 1: Flange Folga 2 - 6 mm Folga no flange do punho do acelerador: concessionário. danificado, mande inspecionar o veículo no",
+        "pagina": "100",
+        "tipo": "folga",
+        "precisao": "exata"
+      },
+      {
+        "valor": 0,
+        "unidade": "mm",
+        "especificacao": "Folga",
+        "modelo": "Honda Forza 125",
+        "contexto": "6, 2020 4:53 PM --- Tabela de Especificações (Página 143) --- Tabela 1: Ralenti | 1700 ± 100 rpm Folga das velas | 0,80 - 0,90 mm Vela de ignição | (standard) | LMAR8L-9 (NGK) Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) dos pneus",
+        "pagina": "143",
+        "tipo": "folga",
+        "precisao": "exata"
+      },
+      {
+        "valor": 0,
+        "unidade": "mm",
+        "especificacao": "Folga",
+        "modelo": "Honda PCX 125",
+        "contexto": "98 Thursday, October 15, 2020 1:51 PM --- Tabela de Especificações (Página 118) --- Tabela 1: 115 Folga 10 - 20 mm Folga na ponta da manete do travão: fixador estão em bom estado. se move antes de o travão começar",
+        "pagina": "118",
+        "tipo": "folga",
+        "precisao": "exata"
+      },
+      {
+        "valor": 9,
+        "unidade": "mm",
+        "especificacao": "Folga",
+        "modelo": "Honda PCX 125",
+        "contexto": "day, October 15, 2020 1:51 PM --- Tabela de Especificações (Página 166) --- Tabela 1: recomendado Folga das velas | 0,8 - 0,9 mm refrigeração | Pro Honda HP Coolant Vela de ignição | (standard) | LMAR8L-9 (NGK) Líquido de passag",
+        "pagina": "166",
+        "tipo": "folga",
+        "precisao": "exata"
+      },
+      {
+        "valor": 9,
+        "unidade": "mm",
+        "especificacao": "Folga",
+        "modelo": "Honda SH 125",
+        "contexto": "e passageiro) | Profundidade | mínima do piso | (apenas | SH150AD/ | SH150AD2) | Vela de ignição | Folga das velas | Ralenti Dados de serviço *1 Dianteiro | Traseiro | Dianteiro | Traseiro | Normal | Especial | Neve | Ciclomotor | Dianteiro | Traseiro | Dianteiro | Traseiro | Dianteiro | Traseiro (standard) 100/80-16M/C 50P | 120/80-16M/C 60P | Não radiais, sem câmara de ar | IRC SS-530F | MICHELIN CITY GRIP | IRC SS-530R | MICHELIN CITY GRIP | Permitido | Não permitido | Não permitido | Não permitido | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 1,5 mm | 2,0 mm | 0,8 - 0,9 mm | 1.700 ± 100 rpm LMAR8L-9 (NGK) 2 | 2 | 2 | 2 ) | ) | ) | ) Óleo | recomendado | para o motor | Ca",
+        "pagina": "N/A",
+        "tipo": "folga",
+        "precisao": "exata"
+      },
+      {
+        "valor": 6,
+        "unidade": "mm",
+        "especificacao": "Folga",
+        "modelo": "Honda Vision 110",
+        "contexto": "ave de parafusos de fendas/Phillips --- Tabela de Especificações (Página 79) --- Tabela 1: Flange Folga 2 - 6 mm Folga na flange do punho do acelerador: concessionário. danificado, mande inspecionar a scooter no",
+        "pagina": "79",
+        "tipo": "folga",
+        "precisao": "exata"
+      }
+    ],
+    "Pressão_kPa": [
+      {
+        "valor": 225,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda Forza 350",
+        "contexto": "ações (Página 153) --- Tabela 1: refrigeração sistema de | 1,01 L Capacidade do travões Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) pneus 2 o sistema de Pressão de ar dos Dianteiro | 200 kPa (2,00 kgf/cm |",
+        "pagina": "153",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 200,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda Forza 350",
+        "contexto": "vões Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) pneus 2 o sistema de Pressão de ar dos Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) Fluido Honda DOT 4 para travões 2 recomendado para Ciclomotor | Não permit",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 225,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda Forza 125",
+        "contexto": "± 100 rpm Folga das velas | 0,80 - 0,90 mm Vela de ignição | (standard) | LMAR8L-9 (NGK) Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) dos pneus 2 recomendado Pressão de ar Dianteiro | 200 kPa (2,00 kgf/cm | ,",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 200,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda Forza 125",
+        "contexto": "(NGK) Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) dos pneus 2 recomendado Pressão de ar Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) refrigeração | Pro Honda HP Coolant 2 Líquido de Ciclomotor | Não permitid",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 108,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda PCX 125",
+        "contexto": "e Especificações (Página 10) --- Tabela 1: 7 A válvula de descarga da pressão começa a abrir aos | 108 kPa | . O líquido quente vai queimá-lo. NUNCA ABRIR QUANDO QUENTE. PERIGO AUTOCOLANTE DO TAMPÃO DO RADI",
+        "pagina": "10",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 250,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda PCX 125",
+        "contexto": "oolant Vela de ignição | (standard) | LMAR8L-9 (NGK) Líquido de passageiro) refrigeração Traseiro | 250 kPa (2,50 kgf/cm | , 36 psi) (Condutor e 2 sistema de | 0,50 L pneus Capacidade do Pressão do ar dos |",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 200,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda PCX 125",
+        "contexto": "m | , 36 psi) (Condutor e 2 sistema de | 0,50 L pneus Capacidade do Pressão do ar dos | Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) 2 de travões condutores) para o sistema Fluido de travões Honda DOT 3 ou D",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 225,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda PCX 125",
+        "contexto": ", 29 psi) 2 de travões condutores) para o sistema Fluido de travões Honda DOT 3 ou DOT 4 Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) (Apenas 2 recomendado pneus Fluido Pressão do ar dos | Dianteiro | 200 kPa",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 200,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda SH 125",
+        "contexto": "IP | IRC SS-530R | MICHELIN CITY GRIP | Permitido | Não permitido | Não permitido | Não permitido | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 1,5 mm | 2,0 mm",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 225,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda SH 125",
+        "contexto": "ELIN CITY GRIP | Permitido | Não permitido | Não permitido | Não permitido | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 1,5 mm | 2,0 mm | 0,8 - 0,9 mm | 1.700",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 225,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda Vision 110",
+        "contexto": "Tabela 1: vela 0,80 ‐ 0,90 mm Cachimbo da Vela | (standard) | MR8C‐9N (NGK) passageiro) Traseira | 225 kPa (2,25 kgf/cm | ) (Condutor e 2 pneus Pressão dos | Dianteira | 200 kPa (2,00 kgf/cm | ) 2 condutore",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 200,
+        "unidade": "kPa",
+        "especificacao": "Pressão",
+        "modelo": "Honda Vision 110",
+        "contexto": "(NGK) passageiro) Traseira | 225 kPa (2,25 kgf/cm | ) (Condutor e 2 pneus Pressão dos | Dianteira | 200 kPa (2,00 kgf/cm | ) 2 condutores) Traseira | 225 kPa (2,25 kgf/cm | ) (Apenas Especificações 2 pneus t",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      }
+    ],
+    "Pressão_psi": [
+      {
+        "valor": 33,
+        "unidade": "psi",
+        "especificacao": "Pressão",
+        "modelo": "Honda Forza 350",
+        "contexto": "abela 1: refrigeração sistema de | 1,01 L Capacidade do travões Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) pneus 2 o sistema de Pressão de ar dos Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) Fluido Honda D",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 29,
+        "unidade": "psi",
+        "especificacao": "Pressão",
+        "modelo": "Honda Forza 350",
+        "contexto": "2,25 kgf/cm | , 33 psi) pneus 2 o sistema de Pressão de ar dos Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) Fluido Honda DOT 4 para travões 2 recomendado para Ciclomotor | Não permitido Fluido pneus Neve |",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 33,
+        "unidade": "psi",
+        "especificacao": "Pressão",
+        "modelo": "Honda Forza 125",
+        "contexto": "| 0,80 - 0,90 mm Vela de ignição | (standard) | LMAR8L-9 (NGK) Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) dos pneus 2 recomendado Pressão de ar Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) refrigeração |",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 29,
+        "unidade": "psi",
+        "especificacao": "Pressão",
+        "modelo": "Honda Forza 125",
+        "contexto": "(2,25 kgf/cm | , 33 psi) dos pneus 2 recomendado Pressão de ar Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) refrigeração | Pro Honda HP Coolant 2 Líquido de Ciclomotor | Não permitido pneus refrigeração Nev",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 36,
+        "unidade": "psi",
+        "especificacao": "Pressão",
+        "modelo": "Honda PCX 125",
+        "contexto": "(standard) | LMAR8L-9 (NGK) Líquido de passageiro) refrigeração Traseiro | 250 kPa (2,50 kgf/cm | , 36 psi) (Condutor e 2 sistema de | 0,50 L pneus Capacidade do Pressão do ar dos | Dianteiro | 200 kPa (2,0",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 29,
+        "unidade": "psi",
+        "especificacao": "Pressão",
+        "modelo": "Honda PCX 125",
+        "contexto": "2 sistema de | 0,50 L pneus Capacidade do Pressão do ar dos | Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) 2 de travões condutores) para o sistema Fluido de travões Honda DOT 3 ou DOT 4 Traseiro | 225 kPa",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 33,
+        "unidade": "psi",
+        "especificacao": "Pressão",
+        "modelo": "Honda PCX 125",
+        "contexto": "ndutores) para o sistema Fluido de travões Honda DOT 3 ou DOT 4 Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) (Apenas 2 recomendado pneus Fluido Pressão do ar dos | Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi",
+        "pagina": "N/A",
+        "tipo": "pressao",
+        "precisao": "exata"
+      }
+    ],
+    "Capacidade_L": [
+      {
+        "valor": 3,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda Forza 350",
+        "contexto": "11:21 AM --- Tabela de Especificações (Página 153) --- Tabela 1: refrigeração sistema de | 1,01 L Capacidade do travões Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) pneus 2 o sistema de Pressão de ar dos Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) Fluido Honda DOT 4 para travões 2 recomendado para Ciclomotor | Não permitido Fluido pneus Neve | Não permitido desmontagem transmissão utilização dos 0,20 L Especial | Não permitido Após a óleo da Categoria de Normal | Permitido Capacidade de Após drenar | 0,17 L IRC | SCT-004 desmontagem Traseiro 1,8 L PIRELLI | DIABLO SCOOTER Após a recomendados IRC | SS-560F D óleo do motor | óleo do motor Pneus Especificações Dianteiro Capacidade de | mudar o filtro do | 1,5 L FRONT PIRELLI Após drenar e DIABLO SCOOTER Após drenar | 1,3 L de ar) Tipo de pneu Não radiais, tubeless (sem câmara especificação SAE 10W-30, JASO T 903 standard",
+        "pagina": "153",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 1,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda Forza 350",
+        "contexto": "esource Conserving\" (Conservação de Energia) e com especificação SAE 10W-30, JASO T 903 standard MB Capacidade de óleo do motor Após drenar 1,3 L Após drenar e mudar o filtro do óleo do motor 1,5 L Após a desmontagem 1,8 L Capacidade de óleo da transmissão Após drenar 0,17 L Após a desmontagem 0,20 L Fluido recomendado para o sistema de travões Fluido Honda DOT 4 para travões Capacidade do sistema de refrigeração 1,01 L Líquido de refrigeração recomendado Líquido de refrigeração HONDA PRE-MIX COOLANT 3PK1BF000_PT.book",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 0,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda Forza 125",
+        "contexto": "ou de faixa de rodagem e recorrendo à buzina sempre que necessário. Nunca conduza excedendo as suas capacidades nem mais rápido do que as condições permitem. O cansaço e a falta de atenção podem prejudicar a sua capacidade de analisar corretamente as situações e de conduzir em segurança. O álcool ou as substâncias ilícitas e a condução não são compatíveis. Até mesmo uma só bebida alcoólica pode reduzir a sua capacidade de resposta à alteração das condições de condução e os seus tempos de reação pioram com cada bebida adicional. O mesmo se aplica ao consumo de substâncias ilícitas. Não conduza se beber ou consumir substâncias ilícitas, nem permita que os seus amigos o façam. É importante as manutenções do veículo estarem em dia e o veículo estar em condições de ser conduzido em segurança. Inspecione o veículo antes de conduzir e efetue todas as operações de manutenção recomendadas. Nunca exceda os limites de carga ( 2 P. 18), e não modifique o veículo nem instale acessórios que possam fazer com que o mesmo deixe de ser seguro ( 2 P. 17). A sua segurança pessoal é a principal prioridade. Se você ou alguém estiver ferido, disponha do tempo necessário para se inteirar da gravidade dos ferimentos e se é seguro continuar a condução. Se necessário, chame a assistência de emergência. Do mesmo modo, cumpra as leis e regulamentos aplicáveis se houver outra pessoa ou veículo envolvido no acidente. Torne-se facilmente visível Conduza dentro dos seus limites Se beber ou consumir substâncias ilícitas, não conduza Mantenha a sua Honda em bom estado Se se envolver num acidente 3PK40L300_PT.book Page 4 Friday, November 6, 2020 4:53 PM --- Tabela de Especificações (Página 8) --- Ta",
+        "pagina": "8",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 7,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda Forza 125",
+        "contexto": "HR)/7,4 Ah (20 HR) Bateria Distância mínima ao solo | 145 mm YTZ8V Distância entre eixos | 1505 mm Capacidade do depósito | 11,7 L elevada) Gasolinas com álcool | Até 10% de ETANOL (para-brisas na posição mais Altura total ou supe",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 9,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda Forza 125",
+        "contexto": "ração Neve | Não permitido utilização dos sistema de | 0,50 L Especial | Não permitido Categoria de Capacidade do Normal | Permitido travões PIRELLI | DIABLO SCOOTER para o sistema de Traseiro Fluido Honda DOT 4 para travões MICHELIN | CITY GRIP recomendado recomendados FRONT Fluido Pneus PIRELLI DIABLO SCOOTER Especificações Dianteiro desmontagem transmissão 0,14 L MICHELIN | CITY GRIP Após a óleo da Capacidade de (sem câmara de ar) Após drenar | 0,12 L Tipo de pneu Não radiais, tubeless desmontagem 0,9 L 140/70-14M/C 68S Após a PIRELLI: óleo do motor | filtro de rede Traseiro Capacidade de | limpar a r",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 8,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda Forza 125",
+        "contexto": "tubeless desmontagem 0,9 L 140/70-14M/C 68S Após a PIRELLI: óleo do motor | filtro de rede Traseiro Capacidade de | limpar a rede do | 0,8 L 140/70-14 M/C 68P Após drenar e MICHELIN: pneus Após drenar | 0,8 L Tamanho dos 120/70-15M/C 56S es",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 1,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda PCX 125",
+        "contexto": "al | 10 kg 12 V-7,0 Ah (10 HR) 13 kg Especificações GTZ8V Tipo KO | 160 kg carga *1 Tipo KO Bateria Capacidade máxima de Tipo ED | 180 kg 12 V-7,0 Ah (10 HR)/7,4 Ah (20 HR) Tara | 130 kg YTZ8V Tipo KO | 80 mm coluna da direção no solo Tipo ED Projeção do ângulo da Tipo ED | 79 mm Capacidade do depósito | 8,1 L Ângulo da coluna da direção | 26º 30’ Combustível com álcool | Até 10% de ETANOL Distância mínima a",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 8,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda PCX 125",
+        "contexto": "o) refrigeração Traseiro | 250 kPa (2,50 kgf/cm | , 36 psi) (Condutor e 2 sistema de | 0,50 L pneus Capacidade do Pressão do ar dos | Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) 2 de travões condutores) para o sistema Fluido de travões Honda DOT 3 ou DOT 4 Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) (Apenas 2 recomendado pneus Fluido Pressão do ar dos | Dianteiro | 200 kPa (2,00 kgf/cm | , 29 psi) 2 Especificações desmontagem transmissão 0,14 L Ciclomotor | Não permitido Após a óleo da pneus *1 Neve | Não permitido Capacidade de Após drenar | 0,12 L utilização dos Especial | Não permitido desmontagem Categoria de 0,9 L Normal | Permitido Após a Traseiro | IRC SCT-007 óleo do motor | filtro de rede Tipo KO Capacidade de | limpar a rede do | 0,85 L Dianteiro | IRC SCT-006 recomendados Após drenar e Pneus Traseiro | MICHELIN CITY GRIP Tipo ED Após drenar | 0,8 L Dianteiro | MICHELIN CITY GRIP especificação SAE 10W-30, norma JASO T 903 MB Tipo de pneu | Não rad",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 0,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda PCX 125",
+        "contexto": "\"Resource Conserving\" (Conservação de Energia) e com especificação SAE 10W-30, norma JASO T 903 MB Capacidade de óleo do motor Após drenar 0,8 L Após drenar e limpar a rede do filtro de rede 0,85 L Após a desmontagem 0,9 L Capacidade de óleo da transmissão Após drenar 0,12 L Após a desmontagem 0,14 L Fluido recomendado para o sistema de travões Fluido de travões Honda DOT 3 ou DOT 4 Capacidade do sistema de refrigeração 0,50 L Líquido de refrigeração recomendado Pro Honda HP Coolant 3PK1YC000_PT.book Page 163 Thursday, Octob",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 7,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda SH 125",
+        "contexto": "“Resource Conserving” (Conservação de Energia) e com especificação SAE 10W-30, norma JASO T 903 MB Capacidade de óleo do motor Após drenar 0,8 L Após drenar e limpar a rede do filtro de rede 0,9 L Após a desmontagem 0,9 L Capacidade de óleo da transmissão Após drenar 0,12 L Após a desmontagem 0,14 L Fluido recomendado para o sistema de travões Fluido de travões Honda DOT 3 ou DOT 4 Capacidade do sistema de refrigeração 0,47 L Líquido de refrigeração recomendado Pro Honda HP Coolant 3PK0RA10_pt.book Page 144 Wednesday, Octob",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 4,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda Vision 110",
+        "contexto": "ndo à buzina sempre que necessário. Conduza dentro dos seus limites Nunca conduza excedendo as suas capacidades nem mais rápido do que as condições permitem. O cansaço e a falta de atenção podem prejudicar a sua capacidade de analisar corretamente as situações e de conduzir em segurança. Se conduzir, não beba O álcool e condução não são compatíveis. Até mesmo uma só bebida alcoólica pode reduzir a sua capacidade de resposta à alteração das condições de condução e os seus tempos de reação pioram com cada bebida adicional. Se tiver de conduzir, não beba e não permita que os seus amigos o façam. Mantenha a sua Honda em bom estado É importante conservar a sua scooter devidamente as- sistida e em condições de segurança. Inspecione a sua scooter antes de conduzir e efetue todas as operações de manutenção recomendadas. Nunca exceda os limites de carga ( 2 P. 17) e não modifique a sua scooter nem instale acessórios que a possam tornar insegura ( 2 P. 16). Se se envolver num acidente A sua segurança pessoal é a primeira prioridade. Se você ou alguém estiver ferido, disponha do tempo necessário para se inteirar da gravidade dos ferimentos e se é segu- ro continuar a condução. Se necessário, chame a assis- tência de emergência. Do mesmo modo, cumpra as leis e regulamentos aplicáveis se houver outra pessoa ou veí- culo envolvido no acidente. 20160927135141_3PK44L000_por_BOOK Page 7 Tuesday, September 27 2016 14:01:46 JST Conselhos de segurança Segurança da scoo",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      },
+      {
+        "valor": 2,
+        "unidade": "L",
+        "especificacao": "Capacidade",
+        "modelo": "Honda Vision 110",
+        "contexto": "(trail) | 70 mm 12 V‐5 Ah (10 HR)/5,3 Ah (20 HR) Bateria direção GTZ6V 27º 00’ Ângulo da coluna da Capacidade do depósito | 5,2 L Altura mínima ao solo | 160 mm superior Distância entre eixos | 1.290 mm Combustível | Recomendado:",
+        "pagina": "N/A",
+        "tipo": "capacidade",
+        "precisao": "exata"
+      }
+    ],
+    "Dimensão_mm": [
+      {
+        "valor": 90,
+        "unidade": "mm",
+        "especificacao": "Dimensão",
+        "modelo": "Honda Forza 350",
+        "contexto": "ço PIRELLI: pneus Ralenti | 1500 ± 100 rpm Tamanho dos 120/70-15 M/C 56P Folga das velas | 0,80 - 0,90 mm IRC: Dianteiro Vela de ignição | (standard) | LMAR8L-9 (NGK) 120/70-15 M/C 56S Traseiro | 2,0 mm pi",
+        "pagina": "N/A",
+        "tipo": "dimensao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 0,
+        "unidade": "mm",
+        "especificacao": "Dimensão",
+        "modelo": "Honda Forza 350",
+        "contexto": "0,90 mm IRC: Dianteiro Vela de ignição | (standard) | LMAR8L-9 (NGK) 120/70-15 M/C 56S Traseiro | 2,0 mm piso PIRELLI: Altura mínima do Dianteiro | 1,5 mm Dados de serviço ■ Especificações 3PK1BF000_PT.bo",
+        "pagina": "N/A",
+        "tipo": "dimensao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 5,
+        "unidade": "mm",
+        "especificacao": "Dimensão",
+        "modelo": "Honda Forza 350",
+        "contexto": ") | LMAR8L-9 (NGK) 120/70-15 M/C 56S Traseiro | 2,0 mm piso PIRELLI: Altura mínima do Dianteiro | 1,5 mm Dados de serviço ■ Especificações 3PK1BF000_PT.book Page 150 Tuesday, October 27, 2020 11:21 AM",
+        "pagina": "N/A",
+        "tipo": "dimensao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 90,
+        "unidade": "mm",
+        "especificacao": "Dimensão",
+        "modelo": "Honda Forza 125",
+        "contexto": "a de Especificações (Página 143) --- Tabela 1: Ralenti | 1700 ± 100 rpm Folga das velas | 0,80 - 0,90 mm Vela de ignição | (standard) | LMAR8L-9 (NGK) Traseiro | 225 kPa (2,25 kgf/cm | , 33 psi) dos pneus",
+        "pagina": "143",
+        "tipo": "dimensao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 9,
+        "unidade": "mm",
+        "especificacao": "Dimensão",
+        "modelo": "Honda PCX 125",
+        "contexto": "PM --- Tabela de Especificações (Página 166) --- Tabela 1: recomendado Folga das velas | 0,8 - 0,9 mm refrigeração | Pro Honda HP Coolant Vela de ignição | (standard) | LMAR8L-9 (NGK) Líquido de passag",
+        "pagina": "166",
+        "tipo": "dimensao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 5,
+        "unidade": "mm",
+        "especificacao": "Dimensão",
+        "modelo": "Honda SH 125",
+        "contexto": "ido | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 1,5 mm | 2,0 mm | 0,8 - 0,9 mm | 1.700 ± 100 rpm LMAR8L-9 (NGK) 2 | 2 | 2 | 2 ) | ) | ) | ) Óleo | recomen",
+        "pagina": "N/A",
+        "tipo": "dimensao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 0,
+        "unidade": "mm",
+        "especificacao": "Dimensão",
+        "modelo": "Honda SH 125",
+        "contexto": "kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 1,5 mm | 2,0 mm | 0,8 - 0,9 mm | 1.700 ± 100 rpm LMAR8L-9 (NGK) 2 | 2 | 2 | 2 ) | ) | ) | ) Óleo | recomendado | pa",
+        "pagina": "N/A",
+        "tipo": "dimensao",
+        "precisao": "exata"
+      },
+      {
+        "valor": 9,
+        "unidade": "mm",
+        "especificacao": "Dimensão",
+        "modelo": "Honda SH 125",
+        "contexto": "cm | 225 kPa (2,25 kgf/cm | 200 kPa (2,00 kgf/cm | 225 kPa (2,25 kgf/cm | 1,5 mm | 2,0 mm | 0,8 - 0,9 mm | 1.700 ± 100 rpm LMAR8L-9 (NGK) 2 | 2 | 2 | 2 ) | ) | ) | ) Óleo | recomendado | para o motor | Ca",
+        "pagina": "N/A",
+        "tipo": "dimensao",
+        "precisao": "exata"
+      }
+    ],
+    "Torque_kgf·m": [
+      {
+        "valor": 4,
+        "unidade": "kgf·m",
+        "especificacao": "Torque",
+        "modelo": "Honda Vision 110",
+        "contexto": "V‐10 W × 2 Luz dos travões/Luz traseira | 12 V‐21/5 W | Bujão de dreno do óleo do motor | 24 N·m (2,4 kgf·m) Farol | 12 V‐35/35 W | Bujão do óleo | 20 N·m (2,0 kgf·m) ■ | Lâmpadas | ■ | Especificações de ape",
+        "pagina": "N/A",
+        "tipo": "torque",
+        "precisao": "exata"
+      },
+      {
+        "valor": 0,
+        "unidade": "kgf·m",
+        "especificacao": "Torque",
+        "modelo": "Honda Vision 110",
+        "contexto": "jão de dreno do óleo do motor | 24 N·m (2,4 kgf·m) Farol | 12 V‐35/35 W | Bujão do óleo | 20 N·m (2,0 kgf·m) ■ | Lâmpadas | ■ | Especificações de aperto Especificações 20160927135141_3PK44L000_por_BOOK Page",
+        "pagina": "N/A",
+        "tipo": "torque",
+        "precisao": "exata"
+      }
+    ]
+  }
+}

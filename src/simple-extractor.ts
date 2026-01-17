@@ -47,6 +47,91 @@ export class SimpleExtractor {
       .trim();
   }
 
+  private async extractTextFromPage(page: any): Promise<string> {
+    const textContent = await page.getTextContent();
+    const textItems = textContent.items.map((item: any) => item.str);
+    return textItems.join(' ').replace(/\s+/g, ' ').trim();
+  }
+
+  private async extractTablesFromPage(page: any): Promise<string[]> {
+    try {
+      const textContent = await page.getTextContent();
+      const tables: string[] = [];
+      let currentTable: string[] = [];
+      let inTable = false;
+      
+      // Padrões que indicam o início de uma tabela de especificações
+      const tableStartPatterns = [
+        /especifica[çc][oõ]es? t[ée]cnicas?/i,
+        /dados t[ée]cnicos/i,
+        /torque|binário|aperto|folga|pressão|calibragem/i,
+        /[0-9]\s*(?:Nm|kgf·m|bar|psi|mm|cm|°C|km\/h|l|kg)\b/i
+      ];
+      
+      let lastY = -1;
+      const rows: {y: number, text: string}[] = [];
+      
+      // Coletar linhas com suas posições Y
+      for (const item of textContent.items as any[]) {
+        const text = item.str.trim();
+        if (text) {
+          rows.push({
+            y: Math.round(item.transform[5] * 10) / 10, // Posição Y arredondada
+            text: text
+          });
+        }
+      }
+      
+      // Agrupar linhas que estão na mesma posição Y
+      const yGroups = new Map<number, string[]>();
+      for (const row of rows) {
+        if (!yGroups.has(row.y)) {
+          yGroups.set(row.y, []);
+        }
+        yGroups.get(row.y)!.push(row.text);
+      }
+      
+      // Verificar se há padrões de tabela
+      let tableContent: string[] = [];
+      let tableStarted = false;
+      
+      // Ordenar as linhas por posição Y (de cima para baixo)
+      const sortedRows = Array.from(yGroups.entries())
+        .sort((a, b) => a[0] - b[0])
+        .map(([y, texts]) => texts.join(' | '));
+      
+      // Procurar por tabelas no conteúdo
+      for (let i = 0; i < sortedRows.length; i++) {
+        const row = sortedRows[i];
+        const nextRow = i < sortedRows.length - 1 ? sortedRows[i + 1] : '';
+        
+        // Verificar se a linha atual ou a próxima contêm padrões de tabela
+        const isTableRow = tableStartPatterns.some(pattern => 
+          pattern.test(row) || (nextRow && pattern.test(nextRow))
+        );
+        
+        if (isTableRow || tableStarted) {
+          tableContent.push(row);
+          tableStarted = true;
+          
+          // Verificar se a tabela terminou (linha em branco ou mudança de contexto)
+          if (!row.trim() || i === sortedRows.length - 1) {
+            if (tableContent.length > 2) { // Pelo menos 2 linhas de conteúdo
+              tables.push(tableContent.join('\n'));
+            }
+            tableContent = [];
+            tableStarted = false;
+          }
+        }
+      }
+      
+      return tables;
+    } catch (error) {
+      console.error('Erro ao extrair tabelas:', error);
+      return [];
+    }
+  }
+
   async extractKeyPages(filename: string): Promise<SimpleDocument | null> {
     try {
       const filePath = path.join(this.manualsPath, filename);
@@ -57,57 +142,86 @@ export class SimpleExtractor {
       const pdf = await loadingTask.promise;
       
       const numPages = pdf.numPages;
-      console.log(`📖 A processar ${filename} (${numPages} páginas)...`);
+      console.log(`📖 Processando ${filename} (${numPages} páginas)...`);
       
       let specificationsText = '';
       let featuresText = '';
+      let tablesFound = 0;
       
-      // Procurar páginas importantes (geralmente no final do manual)
-      const pagesToCheck = [
-        Math.max(1, numPages - 20), // Últimas 20 páginas
-        Math.max(1, Math.floor(numPages * 0.8)), // 80% do manual
-        Math.max(1, Math.floor(numPages * 0.7)), // 70% do manual
-      ];
+      // Estratégia de busca aprimorada:
+      // 1. Verificar índice ou sumário (geralmente nas primeiras páginas)
+      // 2. Verificar páginas finais (especificações técnicas)
+      // 3. Verificar seções específicas baseadas no modelo
       
-      // Também verificar algumas páginas do meio
-      for (let i = Math.floor(numPages * 0.3); i <= Math.floor(numPages * 0.5); i += 5) {
-        pagesToCheck.push(i);
+      // Páginas para verificar (priorizando início e fim do documento)
+      const pagesToCheck = new Set<number>();
+      
+      // Primeiras páginas (índice/sumário)
+      for (let i = 1; i <= Math.min(10, numPages); i++) {
+        pagesToCheck.add(i);
       }
       
-      const uniquePages = [...new Set(pagesToCheck)].sort((a, b) => a - b);
+      // Últimas páginas (especificações técnicas)
+      for (let i = Math.max(1, numPages - 30); i <= numPages; i++) {
+        pagesToCheck.add(i);
+      }
+      
+      // Amostrar páginas do meio (a cada 10% do documento)
+      for (let i = 1; i <= 10; i++) {
+        const pageNum = Math.floor((i / 10) * numPages);
+        if (pageNum > 0 && pageNum <= numPages) {
+          pagesToCheck.add(pageNum);
+        }
+      }
+      
+      const uniquePages = Array.from(pagesToCheck).sort((a, b) => a - b);
+      
+      // Procurar por tabelas de especificações
+      console.log(`🔍 Procurando por tabelas de especificações...`);
       
       for (const pageNum of uniquePages) {
         if (pageNum > numPages) continue;
         
         try {
           const page = await pdf.getPage(pageNum);
-          const textContent = await page.getTextContent();
           
-          const textItems = textContent.items as any[];
-          let pageText = '';
+          // Extrair texto da página para análise
+          const pageText = await this.extractTextFromPage(page);
           
-          for (const item of textItems) {
-            pageText += item.str + ' ';
-          }
+          // Verificar se a página contém termos relacionados a especificações
+          const hasSpecs = /(especifica[çc][oõ]es? t[ée]cnicas?|dados t[ée]cnicos|torque|binário|folga|pressão|calibragem|aperto|parafuso|cabeçote|motor|cilindrada|potência|consumo|velocidade|transmissão|suspensão|travão|pneu|roda|medida|válvula|comando|junta|vedação)/i.test(pageText);
           
-          pageText = this.cleanText(pageText);
+          // Verificar se a página contém termos relacionados a funcionalidades
+          const hasFeatures = /(equipamento|funcionalidade|tecnologia|sistema|display|painel|farol|led|abs|computador|bordo|keyless|modo|condução|controle|assistente|segurança|conforto)/i.test(pageText);
           
-          // Verificar se a página contém especificações
-          const hasSpecs = pageText.match(/(especificaç|dimens|peso|motor|cilindrada|potência|binário|capacidade|consumo|velocidade|transmiss|suspens|trav|pneu|roda|medida)/i);
-          const hasFeatures = pageText.match(/(equipamento|funcionalidade|tecnologia|sistema|display|painel|farol|led|abs|computador|bordo|keyless|modo|condução)/i);
-          
+          // Extrair tabelas se a página contiver especificações
           if (hasSpecs) {
-            specificationsText += `\n--- Página ${pageNum} ---\n${pageText}\n`;
-            console.log(`✅ Encontradas especificações na página ${pageNum}`);
+            const tables = await this.extractTablesFromPage(page);
+            
+            if (tables.length > 0) {
+              tablesFound += tables.length;
+              specificationsText += `\n--- Tabela de Especificações (Página ${pageNum}) ---\n`;
+              
+              for (let i = 0; i < tables.length; i++) {
+                specificationsText += `\nTabela ${i + 1}:\n${tables[i]}\n`;
+              }
+              
+              console.log(`✅ Encontradas ${tables.length} tabela(s) de especificações na página ${pageNum}`);
+            } else {
+              // Se não encontrou tabelas, adiciona o texto bruto
+              specificationsText += `\n--- Especificações (Página ${pageNum}) ---\n${pageText}\n`;
+              console.log(`ℹ️  Texto de especificações encontrado na página ${pageNum} (sem tabelas identificadas)`);
+            }
           }
           
+          // Extrair funcionalidades (sem tabelas)
           if (hasFeatures) {
-            featuresText += `\n--- Página ${pageNum} ---\n${pageText}\n`;
-            console.log(`✅ Encontradas funcionalidades na página ${pageNum}`);
+            featuresText += `\n--- Funcionalidades (Página ${pageNum}) ---\n${pageText}\n`;
+            console.log(`✅ Texto de funcionalidades encontrado na página ${pageNum}`);
           }
           
         } catch (error) {
-          console.log(`⚠️ Erro ao processar página ${pageNum}:`, error);
+          console.error(`⚠️ Erro ao processar página ${pageNum}:`, error);
         }
       }
 

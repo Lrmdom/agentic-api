@@ -51,7 +51,7 @@ const bq = new BigQuery(clientOptions);
 
 // 🌟 NOVA FUNÇÃO PARA RESOLVER O ERRO "is not a function" 🌟
 async function generateEmbeddings(text: string) {
-  const endpoint = `https://europe-southwest1-aiplatform.googleapis.com/v1/projects/${GOOGLE_CLOUD_PROJECT_ID}/locations/europe-southwest1/publishers/google/models/text-multilingual-embedding-002:predict`;
+  const endpoint = `https://europe-southwest1-aiplatform.googleapis.com/v1/projects/${GOOGLE_CLOUD_PROJECT_ID}/locations/europe-southwest1/publishers/google/models/text-embedding-004:predict`;
 
   // @ts-ignore
   const auth = new GoogleAuth({
